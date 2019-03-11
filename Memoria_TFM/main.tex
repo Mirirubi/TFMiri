@@ -1,0 +1,151 @@
+% Definiciones y constantes de estilo
+\include{definiciones}
+
+% Definiciones de comandos
+\newcommand{\nombreautor}{Miriam Rubio Lecuona}
+\newcommand{\nombretutor}{Itziar Uzqueda Esteban}
+\newcommand{\nombretrabajo}{Desarrollo de un sensor de ultrasonidos para la valoración ambulatoria de la marcha}
+\newcommand{\fecha}{Junio de 2017}
+\newcommand{\grado}{TODO: Grado}
+% Descomentar si tu trabajo tiene un ponente
+%\newcommand{\nombreponente}{TODO: Nombre del ponente}
+% Descomentar si tu trabajo está asociado a un grupo de investigación
+%\newcommand{\grupoInvestigacion}{TODO: Grupo de investigación}
+\newcommand{\departamento}{Departamento de Matemáticas}
+
+\newcommand{\universidad}{Universidad Pública de Navarra}
+\newcommand{\pieparizq}{TODO: Pie de página par}
+\newcommand{\pieparcen}{Trabajo de Fin de Máster}
+\newcommand{\logo}{Logo_Upna}
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+% Glosario y acrónimos
+\makeglossaries
+\input{src/glosario}
+
+% Rerefencias
+\bibliography{src/bibliografia}
+
+% Inicio del documento
+\begin{document}
+
+% Elección del idioma (español)
+\selectlanguage{spanish}
+
+%
+% Portada
+%
+\pagenumbering{gobble}
+\include{portada}
+\hypersetup{pageanchor=true}
+
+% Estilo de párrafo de los capítulos
+\setlength{\parskip}{0.75em}
+\renewcommand{\baselinestretch}{1.25}
+% Interlineado simple
+\spacing{1.5}
+
+%
+% Agradecimientos
+%
+\pagenumbering{Roman}
+\setcounter{page}{0}
+\include{src/agradecimientos}  
+
+%
+% Resumen
+%
+\include{src/resumen}
+
+%
+% Glosario
+%
+%\printglossary[title=Glosario,toctitle=Glosario]
+%\printglossary[title=Acrónimos,toctitle=Acrónimos,type=\acronymtype]
+
+% Estilo de párrafo de los índices
+\setlength{\parskip}{1pt}
+\renewcommand{\baselinestretch}{1}
+
+%
+% Tabla de contenidos
+%
+\tableofcontents
+\afterpage{\blankpage}
+\listoftables
+
+\listoffigures
+
+
+% Estilo de párrafo de los capítulos
+\setlength{\parskip}{0.75em}
+\renewcommand{\baselinestretch}{1.25}
+% Interlineado simple
+\spacing{1.5}
+% Numeración contenido
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+%
+% Introducción
+%
+
+\include{src/introduccion}
+\thispagestyle{empty}
+% Estado del arte
+%
+\include{src/estadoDelArte}
+\thispagestyle{empty}
+%
+% Diseño
+%
+\include{src/disenho}
+\thispagestyle{empty}
+
+%
+% Resultados
+%
+\include{src/resultados}
+
+\afterpage{\blankpage}
+\thispagestyle{empty}
+
+%
+% Conclusiones
+%
+\include{src/conclusiones} 
+
+%
+% Página en blanco
+%
+\afterpage{\blankpage}
+\thispagestyle{empty}
+%
+% Bibliografía
+%
+\printbibliography[heading=bibintoc]
+
+% No expandir elementos para llenar toda la página
+\raggedbottom
+
+%
+% Apéndices
+%
+%\appendix
+%\cleardoublepage
+%\addappheadtotoc
+%\appendixpage
+\newpage\null\thispagestyle{empty}
+%
+% TODO: Apéndices del TFM
+%
+%\include{src/apendiceEjemplos}
+
+% Fin del documento
+\end{document}
