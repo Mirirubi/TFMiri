@@ -1,0 +1,76 @@
+\chapter{Algoritmos empleados\label{sec:ejemplos}}
+
+%
+% Breve guía de comandos útiles para la memoria
+%
+
+
+
+% Citar un elemento del glosario
+Citamos el acrónimo \gls{FPGA}.
+
+% Citar un elemento del glosario (primera letra en may´usculas)
+\Gls{bitstream} es una secuencia de bits.
+
+% Insertar una imagen con pie de página
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.14\textwidth,clip=true]{escudo}
+  \caption{Logo de la Universidad Pública de Navarra.}
+  \label{fig:logo_upna}
+\end{figure} 
+
+% Referenciar una etiqueta (label)
+La figura~\ref{fig:logo_upna} se utiliza en la portada.
+
+% Nueva página
+\clearpage
+
+
+
+% Fórmula dentro de una línea de texto
+La ecuación de Euler ($e^{ \pm i\theta } = \cos \theta \pm i\sin \theta$) es citada frecuentemente como un ejemplo de belleza matemática.
+
+% Fórmula independiente
+\begin{equation}\label{eq:pythagoras}
+a^2 + b^2 = c^2
+\end{equation}
+
+
+	
+\section{Arduino}
+	
+		% Añadir código fuente sin líneas
+		\begin{lstlisting}[label=algoritmo:Arduino,language=C,frame=single,caption=Algortimo en Arduino para obtención de distancia sensor ultrasonido]
+	#include <SoftwareSerial.h> 
+			
+	SoftwareSerial BT(10,11);
+			
+	const int EchoPin = 5;
+	const int TriggerPin = 6;
+			
+	void setup() {
+		BT.begin(9600);
+		pinMode(TriggerPin, OUTPUT);
+		pinMode(EchoPin, INPUT);
+	}	
+	void loop() {
+		int cm = ping(TriggerPin, EchoPin);
+		BT.println(cm);
+		delay(60);
+	}
+			
+	int ping(int TriggerPin, int EchoPin) {
+		long  distancia;
+		long duration;
+		digitalWrite(TriggerPin, LOW);  
+		delayMicroseconds(4);
+		digitalWrite(TriggerPin, HIGH); 
+		delayMicroseconds(10);
+		digitalWrite(TriggerPin, LOW);		
+		duration = pulseIn(EchoPin, HIGH);  	
+		distancia = duration * 10 / 292 / 2;  
+		return distancia;			
+}
+		\end{lstlisting}
+	
