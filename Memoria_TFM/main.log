@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.21)  4 MAR 2019 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.21)  12 MAR 2019 17:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -1623,90 +1623,90 @@ otipo previamente
 <./img/PDMS.png, id=369, 632.3625pt x 400.49625pt>
 File: ./img/PDMS.png Graphic file (type png)
 <use ./img/PDMS.png>
-Package pdftex.def Info: ./img/PDMS.png  used on input line 34.
+Package pdftex.def Info: ./img/PDMS.png  used on input line 35.
 (pdftex.def)             Requested size: 339.7262pt x 215.16475pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 37.
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
+LaTeX Info: Redefining \sptext on input line 38.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
  [16]
 <./img/interfazSM.jpeg, id=376, 1606.0pt x 805.0075pt>
 File: ./img/interfazSM.jpeg Graphic file (type jpg)
 <use ./img/interfazSM.jpeg>
-Package pdftex.def Info: ./img/interfazSM.jpeg  used on input line 77.
+Package pdftex.def Info: ./img/interfazSM.jpeg  used on input line 78.
 (pdftex.def)             Requested size: 452.96826pt x 227.04654pt.
-LaTeX Info: Redefining \sptext on input line 81.
-LaTeX Info: Redefining \. on input line 81.
-LaTeX Info: Redefining \% on input line 81.
+LaTeX Info: Redefining \sptext on input line 82.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
 
 [17 <./img/PDMS.png>]
-LaTeX Info: Redefining \sptext on input line 101.
-LaTeX Info: Redefining \. on input line 101.
-LaTeX Info: Redefining \% on input line 101.
+LaTeX Info: Redefining \sptext on input line 102.
+LaTeX Info: Redefining \. on input line 102.
+LaTeX Info: Redefining \% on input line 102.
  [18 <./img/interfazSM.jpeg>]
-Overfull \hbox (8.65656pt too wide) in paragraph at lines 112--113
+Overfull \hbox (8.65656pt too wide) in paragraph at lines 113--114
 []\T1/ptm/m/n/12 --------------------------------------------------------------
 -------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
 
 
-Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.03174pt too wide) in paragraph at lines 113--114
 \T1/ptm/m/n/12 ----------------------------------------------------------------
 --------------------------------------------------
  []
@@ -1714,192 +1714,192 @@ Overfull \hbox (3.03174pt too wide) in paragraph at lines 112--113
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 132.
-LaTeX Info: Redefining \. on input line 132.
-LaTeX Info: Redefining \% on input line 132.
+LaTeX Info: Redefining \sptext on input line 133.
+LaTeX Info: Redefining \. on input line 133.
+LaTeX Info: Redefining \% on input line 133.
  [19]
 
-LaTeX Warning: Reference `fig:esquema' on page 20 undefined on input line 135.
+LaTeX Warning: Reference `fig:esquema' on page 20 undefined on input line 136.
 
 
 LaTeX Warning: Reference `fig:esquemaniveles' on page 20 undefined on input lin
-e 138.
+e 139.
 
-LaTeX Info: Redefining \sptext on input line 148.
-LaTeX Info: Redefining \. on input line 148.
-LaTeX Info: Redefining \% on input line 148.
+LaTeX Info: Redefining \sptext on input line 149.
+LaTeX Info: Redefining \. on input line 149.
+LaTeX Info: Redefining \% on input line 149.
 [20]
 
-LaTeX Warning: Reference `fig:Imu' on page 21 undefined on input line 155.
+LaTeX Warning: Reference `fig:Imu' on page 21 undefined on input line 156.
 
 
 LaTeX Warning: Reference `fig:sensor_XSENS' on page 21 undefined on input line 
-163.
+164.
 
-LaTeX Info: Redefining \sptext on input line 168.
-LaTeX Info: Redefining \. on input line 168.
-LaTeX Info: Redefining \% on input line 168.
+LaTeX Info: Redefining \sptext on input line 169.
+LaTeX Info: Redefining \. on input line 169.
+LaTeX Info: Redefining \% on input line 169.
 [21]
 
-LaTeX Warning: Reference `fig:protocolo' on page 22 undefined on input line 169
+LaTeX Warning: Reference `fig:protocolo' on page 22 undefined on input line 170
 .
 
 
-LaTeX Warning: Reference `fig:ultr' on page 22 undefined on input line 179.
+LaTeX Warning: Reference `fig:ultr' on page 22 undefined on input line 180.
 
-LaTeX Info: Redefining \sptext on input line 189.
-LaTeX Info: Redefining \. on input line 189.
-LaTeX Info: Redefining \% on input line 189.
+LaTeX Info: Redefining \sptext on input line 190.
+LaTeX Info: Redefining \. on input line 190.
+LaTeX Info: Redefining \% on input line 190.
 [22]
 <./graphics/sensor.jpg, id=418, 917.67844pt x 639.13782pt>
 File: ./graphics/sensor.jpg Graphic file (type jpg)
 <use ./graphics/sensor.jpg>
-Package pdftex.def Info: ./graphics/sensor.jpg  used on input line 197.
+Package pdftex.def Info: ./graphics/sensor.jpg  used on input line 198.
 (pdftex.def)             Requested size: 317.0764pt x 220.83437pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 200.
-LaTeX Info: Redefining \. on input line 200.
-LaTeX Info: Redefining \% on input line 200.
+LaTeX Info: Redefining \sptext on input line 201.
+LaTeX Info: Redefining \. on input line 201.
+LaTeX Info: Redefining \% on input line 201.
  [23]
 <./graphics/conexionado.png, id=426, 651.18282pt x 465.99094pt>
 File: ./graphics/conexionado.png Graphic file (type png)
 <use ./graphics/conexionado.png>
-Package pdftex.def Info: ./graphics/conexionado.png  used on input line 207.
+Package pdftex.def Info: ./graphics/conexionado.png  used on input line 208.
 (pdftex.def)             Requested size: 317.0764pt x 226.90836pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 210.
-LaTeX Info: Redefining \. on input line 210.
-LaTeX Info: Redefining \% on input line 210.
+LaTeX Info: Redefining \sptext on input line 211.
+LaTeX Info: Redefining \. on input line 211.
+LaTeX Info: Redefining \% on input line 211.
  [24 <./graphics/sensor.jpg>]
 <./graphics/bluetooth.jpg, id=433, 271.0125pt x 336.25626pt>
 File: ./graphics/bluetooth.jpg Graphic file (type jpg)
 <use ./graphics/bluetooth.jpg>
-Package pdftex.def Info: ./graphics/bluetooth.jpg  used on input line 220.
+Package pdftex.def Info: ./graphics/bluetooth.jpg  used on input line 221.
 (pdftex.def)             Requested size: 113.24207pt x 140.5032pt.
-LaTeX Info: Redefining \sptext on input line 225.
-LaTeX Info: Redefining \. on input line 225.
-LaTeX Info: Redefining \% on input line 225.
+LaTeX Info: Redefining \sptext on input line 226.
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
  [25 <./graphics/conexionado.png> <./graphics/bluetooth.jpg>]
 <./graphics/dongle.jpg, id=441, 161.10187pt x 240.9pt>
 File: ./graphics/dongle.jpg Graphic file (type jpg)
 <use ./graphics/dongle.jpg>
-Package pdftex.def Info: ./graphics/dongle.jpg  used on input line 229.
+Package pdftex.def Info: ./graphics/dongle.jpg  used on input line 230.
 (pdftex.def)             Requested size: 67.94247pt x 101.60002pt.
 
-LaTeX Warning: Reference `fig:software' on page 26 undefined on input line 235.
+LaTeX Warning: Reference `fig:software' on page 26 undefined on input line 236.
 
 
-LaTeX Info: Redefining \sptext on input line 251.
-LaTeX Info: Redefining \. on input line 251.
-LaTeX Info: Redefining \% on input line 251.
+LaTeX Info: Redefining \sptext on input line 252.
+LaTeX Info: Redefining \. on input line 252.
+LaTeX Info: Redefining \% on input line 252.
 [26 <./graphics/dongle.jpg>]
 <./graphics/setup_43.jpg, id=454, 307.90031pt x 279.29344pt>
 File: ./graphics/setup_43.jpg Graphic file (type jpg)
 <use ./graphics/setup_43.jpg>
-Package pdftex.def Info: ./graphics/setup_43.jpg  used on input line 254.
+Package pdftex.def Info: ./graphics/setup_43.jpg  used on input line 255.
 (pdftex.def)             Requested size: 249.13391pt x 225.99205pt.
 <./graphics/setup_80.jpg, id=455, 356.0803pt x 322.95656pt>
 File: ./graphics/setup_80.jpg Graphic file (type jpg)
 <use ./graphics/setup_80.jpg>
-Package pdftex.def Info: ./graphics/setup_80.jpg  used on input line 260.
+Package pdftex.def Info: ./graphics/setup_80.jpg  used on input line 261.
 (pdftex.def)             Requested size: 249.13391pt x 225.9547pt.
 <./graphics/Medida.jpeg, id=458, 1606.0pt x 1204.5pt>
 File: ./graphics/Medida.jpeg Graphic file (type jpg)
 <use ./graphics/Medida.jpeg>
-Package pdftex.def Info: ./graphics/Medida.jpeg  used on input line 267.
+Package pdftex.def Info: ./graphics/Medida.jpeg  used on input line 268.
 (pdftex.def)             Requested size: 249.13391pt x 186.8426pt.
-LaTeX Info: Redefining \sptext on input line 269.
-LaTeX Info: Redefining \. on input line 269.
-LaTeX Info: Redefining \% on input line 269.
+LaTeX Info: Redefining \sptext on input line 270.
+LaTeX Info: Redefining \. on input line 270.
+LaTeX Info: Redefining \% on input line 270.
  [27 <./graphics/setup_43.jpg> <./graphics/setup_80.jpg>]
 <./graphics/paso.jpeg, id=463, 1204.5pt x 903.375pt>
 File: ./graphics/paso.jpeg Graphic file (type jpg)
 <use ./graphics/paso.jpeg>
-Package pdftex.def Info: ./graphics/paso.jpeg  used on input line 272.
+Package pdftex.def Info: ./graphics/paso.jpeg  used on input line 273.
 (pdftex.def)             Requested size: 294.4266pt x 220.81189pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 280.
-LaTeX Info: Redefining \. on input line 280.
-LaTeX Info: Redefining \% on input line 280.
+LaTeX Info: Redefining \sptext on input line 281.
+LaTeX Info: Redefining \. on input line 281.
+LaTeX Info: Redefining \% on input line 281.
  [28 <./graphics/Medida.jpeg> <./graphics/paso.jpeg>]
-LaTeX Info: Redefining \sptext on input line 294.
-LaTeX Info: Redefining \. on input line 294.
-LaTeX Info: Redefining \% on input line 294.
+LaTeX Info: Redefining \sptext on input line 295.
+LaTeX Info: Redefining \. on input line 295.
+LaTeX Info: Redefining \% on input line 295.
  [29]
 <./graphics/vel_no_corr.jpg, id=473, 469.755pt x 297.36093pt>
 File: ./graphics/vel_no_corr.jpg Graphic file (type jpg)
 <use ./graphics/vel_no_corr.jpg>
-Package pdftex.def Info: ./graphics/vel_no_corr.jpg  used on input line 309.
+Package pdftex.def Info: ./graphics/vel_no_corr.jpg  used on input line 310.
 (pdftex.def)             Requested size: 366.90318pt x 232.25366pt.
-LaTeX Info: Redefining \sptext on input line 316.
-LaTeX Info: Redefining \. on input line 316.
-LaTeX Info: Redefining \% on input line 316.
+LaTeX Info: Redefining \sptext on input line 317.
+LaTeX Info: Redefining \. on input line 317.
+LaTeX Info: Redefining \% on input line 317.
  [30 <./graphics/vel_no_corr.jpg>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 324.
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 325.
 
 <./graphics/vel_no_corr_deriva.jpg, id=481, 469.755pt x 297.36093pt>
 File: ./graphics/vel_no_corr_deriva.jpg Graphic file (type jpg)
 <use ./graphics/vel_no_corr_deriva.jpg>
 Package pdftex.def Info: ./graphics/vel_no_corr_deriva.jpg  used on input line 
-335.
+336.
 (pdftex.def)             Requested size: 362.37598pt x 229.38605pt.
 <./graphics/corregida.jpg, id=483, 465.99094pt x 289.83281pt>
 File: ./graphics/corregida.jpg Graphic file (type jpg)
 <use ./graphics/corregida.jpg>
-Package pdftex.def Info: ./graphics/corregida.jpg  used on input line 344.
+Package pdftex.def Info: ./graphics/corregida.jpg  used on input line 345.
 (pdftex.def)             Requested size: 362.37598pt x 225.39645pt.
-LaTeX Info: Redefining \sptext on input line 347.
-LaTeX Info: Redefining \. on input line 347.
-LaTeX Info: Redefining \% on input line 347.
+LaTeX Info: Redefining \sptext on input line 348.
+LaTeX Info: Redefining \. on input line 348.
+LaTeX Info: Redefining \% on input line 348.
  [31 <./graphics/vel_no_corr_deriva.jpg>]
 <./graphics/posi.jpg, id=490, 560.8453pt x 206.27063pt>
 File: ./graphics/posi.jpg Graphic file (type jpg)
 <use ./graphics/posi.jpg>
-Package pdftex.def Info: ./graphics/posi.jpg  used on input line 355.
+Package pdftex.def Info: ./graphics/posi.jpg  used on input line 356.
 (pdftex.def)             Requested size: 452.96826pt x 166.59357pt.
-LaTeX Info: Redefining \sptext on input line 363.
-LaTeX Info: Redefining \. on input line 363.
-LaTeX Info: Redefining \% on input line 363.
+LaTeX Info: Redefining \sptext on input line 364.
+LaTeX Info: Redefining \. on input line 364.
+LaTeX Info: Redefining \% on input line 364.
  [32 <./graphics/corregida.jpg> <./graphics/posi.jpg>]
 <./graphics/ultrasonido.jpeg, id=499, 1204.5pt x 677.53125pt>
 File: ./graphics/ultrasonido.jpeg Graphic file (type jpg)
 <use ./graphics/ultrasonido.jpeg>
-Package pdftex.def Info: ./graphics/ultrasonido.jpeg  used on input line 389.
+Package pdftex.def Info: ./graphics/ultrasonido.jpeg  used on input line 390.
 (pdftex.def)             Requested size: 430.31847pt x 242.05017pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 392.
-LaTeX Info: Redefining \. on input line 392.
-LaTeX Info: Redefining \% on input line 392.
+LaTeX Info: Redefining \sptext on input line 393.
+LaTeX Info: Redefining \. on input line 393.
+LaTeX Info: Redefining \% on input line 393.
  [33]
 <./graphics/coloc_ultr.jpeg, id=509, 739.26187pt x 303.38344pt>
 File: ./graphics/coloc_ultr.jpeg Graphic file (type jpg)
 <use ./graphics/coloc_ultr.jpeg>
-Package pdftex.def Info: ./graphics/coloc_ultr.jpeg  used on input line 399.
+Package pdftex.def Info: ./graphics/coloc_ultr.jpeg  used on input line 400.
 (pdftex.def)             Requested size: 362.37598pt x 148.71472pt.
 <./graphics/sep.png, id=511, 381.67593pt x 400.49625pt>
 File: ./graphics/sep.png Graphic file (type png)
 <use ./graphics/sep.png>
-Package pdftex.def Info: ./graphics/sep.png  used on input line 409.
+Package pdftex.def Info: ./graphics/sep.png  used on input line 410.
 (pdftex.def)             Requested size: 362.37598pt x 380.2615pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 411.
-LaTeX Info: Redefining \. on input line 411.
-LaTeX Info: Redefining \% on input line 411.
+LaTeX Info: Redefining \sptext on input line 412.
+LaTeX Info: Redefining \. on input line 412.
+LaTeX Info: Redefining \% on input line 412.
  [34 <./graphics/ultrasonido.jpeg> <./graphics/coloc_ultr.jpeg>]
-LaTeX Info: Redefining \sptext on input line 418.
-LaTeX Info: Redefining \. on input line 418.
-LaTeX Info: Redefining \% on input line 418.
+LaTeX Info: Redefining \sptext on input line 419.
+LaTeX Info: Redefining \. on input line 419.
+LaTeX Info: Redefining \% on input line 419.
  [35 <./graphics/sep.png>])
 LaTeX Info: Redefining \sptext on input line 108.
 LaTeX Info: Redefining \. on input line 108.
@@ -2126,7 +2126,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
 ### bottom level 
 Here is how much of TeX's memory you used:
  25988 strings out of 492946
- 442770 string characters out of 3125822
+ 442420 string characters out of 3125822
  956979 words of memory out of 3000000
  29142 multiletter control sequences out of 15000+200000
  65128 words of font info for 86 fonts, out of 3000000 for 9000
