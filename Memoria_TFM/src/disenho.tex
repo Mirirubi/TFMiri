@@ -14,19 +14,51 @@ Es por ello que este capítulo se estructura en los dos puntos siguientes: senso
 \section{Sensores FBG}
 \label{sec:FBG3}
 
-Resumen fibras de Bragg
+Resumen fibras de Bragg 
+¿Qué es una fibra FBG?
+¿POrque se utilizan?
 
+El procesado de las señales resultantes se realiza mediante labview. 
 
 \subsection{Marco conceptual}
 \label{sec:mc3FBG}
-asdf
+
+Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño llevado a cabo.
+
+\begin{itemize}
+	\item \textbf{Fibra óptica}
+	
+	Cómo se propaga la luz en ella.
+	
+	partes de la fibra.
+	
+	Tipos de emisores (LED Laser).
+	
+	Receptores.
+	
+	Conectores.
+	
+		\item \textbf{Redes de difracción de Bragg}
+		
+	Funcionamiento y sensibilidad
+		\item \textbf{Polidimetilsiloxano (PDMS)}
+		
+	Material empleado para embeber las FBGs.
+	
+		
+\end{itemize}
+ 
+
+
+
 
 \subsection{Desarrollo del prototipo}
 \label{sec:prot3FBG}
-[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionar la en la bibliografía.]
+%[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionar la en la bibliografía.]
 
 El primer desarrollo realizado se basa en la mejora de un prototipo previamente desarrollado. El prototipo consiste en un prototipo técnico y funcional de un guante, con sensores de FBG embebidos en PDMS. \cite{SilviaTFM}
-
+ 
+ 
 
 
 \subsubsection{Materiales}
@@ -41,14 +73,15 @@ asdf
 
 \subsubsection{Elaboración/Proceso de fabricación}
 
-Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: , fabricación del guante y montaje de prototipo completo.
-
---------------------
+Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: modelado 3D, fabricación del guante y montaje de prototipo completo.
 
 \begin{itemize}
 	\item \textbf{Modelado 3D - Configuración 3D}
 	
-	Planteamiento del molde del guante y la caja contenedora del cableadoasdg	
+	Esta actividad comprende el diseño del molde con el que se fabrica el guante y de la caja contenedora de todo el cableado.	
+
+
+	
  
 	\item \textbf{Fabricación del guante}
 	
@@ -61,8 +94,9 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\item Se deposita el PDMS y se colocan las fibras en el molde
 		\item Se introduce en un horno de vacío para eliminar las burbujas durante 20 minutos, sin aplicar
 		temperatura.
-		\item Meter el molde en el horno (4h y media a 55 o ). Dejar un poco más.
+		\item Meter el molde en el horno (4h y media a $-55\,^{\circ}\mathrm{C}$). Dejar un poco más.
 		\item Desmoldar.
+
 	\end{enumerate}
 	
 	
@@ -76,8 +110,7 @@ asdf
 
 
 
-----------------------
-
+-------------------------------------------------------////
 \begin{table}[H]
 	\centering
 	\begin{tabular}[t]{|r|c|}
@@ -101,7 +134,30 @@ asdf
 	\caption{Tabla longitud de cada sensor FBG}
 	\label{tabla:medidas 80 cm}
 \end{table}
-
+-------------------------------------------------------////
+\begin{table}[H]
+	\centering
+	\begin{tabular}[t]{|r|c|}
+		\hline
+		& Longitud de onda del sensor\\
+		\hline
+		\hline
+		Dedo pulgar & 1532 nm \\
+		\hline
+		Dedo índice & 1548 nm \\
+		\hline
+		Dedo corazón & 1560 nm \\
+		\hline
+		Dedo anular & 1568 nm \\
+		\hline
+		Dedo meñique & 1576 nm \\
+		\hline
+		Muñeca & ---15?? nm--- \\
+		\hline
+	\end{tabular}
+	\caption{Tabla longitud de cada sensor FBG}
+	\label{tabla:medidas 80 cm}
+\end{table}
 
 Para determinar la valid
 
@@ -116,6 +172,7 @@ asdf
 	\label{fig:interfaz}
 \end{figure}
 
+%------IIIIIIMMMMMMUUUUUU------
 \section{IMU}
 \label{sec:IMU3}
 asdf
