@@ -64,63 +64,63 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Materiales}{17}{subsubsection*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Elaboraci\IeC {\'o}n/Proceso de fabricaci\IeC {\'o}n}{17}{subsubsection*.8}% 
+\contentsline {subsubsection}{Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{17}{subsubsection*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Funcionamiento}{19}{subsubsection*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}IMU}{19}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}IMU}{20}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Marco conceptual}{19}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.1}Marco conceptual}{20}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Desarrollo del prototipo}{19}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Desarrollo del prototipo}{20}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Materiales}{20}{subsubsection*.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Elaboraci\IeC {\'o}n/Proceso de fabricaci\IeC {\'o}n}{20}{subsubsection*.11}% 
+\contentsline {subsubsection}{Elaboraci\IeC {\'o}n/Proceso de fabricaci\IeC {\'o}n}{21}{subsubsection*.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Funcionamiento}{20}{subsubsection*.12}% 
+\contentsline {subsubsection}{Funcionamiento}{21}{subsubsection*.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}---------------}{20}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}---------------}{21}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}---------------}{21}{section.3.4}% 
+\contentsline {section}{\numberline {3.4}---------------}{22}{section.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Sistema de medida}{21}{section.3.5}% 
+\contentsline {section}{\numberline {3.5}Sistema de medida}{22}{section.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Sensores inerciales}{22}{section.3.6}% 
+\contentsline {section}{\numberline {3.6}Sensores inerciales}{23}{section.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.1}Principio de funcionamiento}{22}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {3.6.1}Principio de funcionamiento}{23}{subsection.3.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6.2}Sensores inerciales propuestos}{22}{subsection.3.6.2}% 
+\contentsline {subsection}{\numberline {3.6.2}Sensores inerciales propuestos}{23}{subsection.3.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Sensor de ultrasonido}{23}{section.3.7}% 
+\contentsline {section}{\numberline {3.7}Sensor de ultrasonido}{24}{section.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}Principio de funcionamiento}{23}{subsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.7.1}Principio de funcionamiento}{24}{subsection.3.7.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}Sensor de ultrasonido propuesto}{24}{subsection.3.7.2}% 
+\contentsline {subsection}{\numberline {3.7.2}Sensor de ultrasonido propuesto}{25}{subsection.3.7.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Conexionado del sensor}{25}{subsubsection*.13}% 
+\contentsline {subsubsection}{Conexionado del sensor}{26}{subsubsection*.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.3}Comunicaci\IeC {\'o}n del sensor}{26}{subsection.3.7.3}% 
+\contentsline {subsection}{\numberline {3.7.3}Comunicaci\IeC {\'o}n del sensor}{27}{subsection.3.7.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bluetooth}{26}{subsubsection*.14}% 
+\contentsline {subsubsection}{Bluetooth}{27}{subsubsection*.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Software de captura}{27}{subsubsection*.15}% 
+\contentsline {subsubsection}{Software de captura}{28}{subsubsection*.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Procedimiento de medida}{27}{section.3.8}% 
+\contentsline {section}{\numberline {3.8}Procedimiento de medida}{28}{section.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.1}Set-up de medida}{27}{subsection.3.8.1}% 
+\contentsline {subsection}{\numberline {3.8.1}Set-up de medida}{28}{subsection.3.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.2}Captura de datos}{30}{subsection.3.8.2}% 
+\contentsline {subsection}{\numberline {3.8.2}Captura de datos}{31}{subsection.3.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.3}Sincronizaci\IeC {\'o}n}{30}{subsection.3.8.3}% 
+\contentsline {subsection}{\numberline {3.8.3}Sincronizaci\IeC {\'o}n}{31}{subsection.3.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8.4}Obtenci\IeC {\'o}n de distancia}{30}{subsection.3.8.4}% 
+\contentsline {subsection}{\numberline {3.8.4}Obtenci\IeC {\'o}n de distancia}{31}{subsection.3.8.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensores inerciales}{31}{subsubsection*.16}% 
+\contentsline {subsubsection}{Sensores inerciales}{32}{subsubsection*.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensor de ultrasonido}{34}{subsubsection*.17}% 
+\contentsline {subsubsection}{Sensor de ultrasonido}{35}{subsubsection*.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Obtenci\IeC {\'o}n de distancia de separaci\IeC {\'o}n entre pasos}{36}{subsubsection*.18}% 
+\contentsline {subsubsection}{Obtenci\IeC {\'o}n de distancia de separaci\IeC {\'o}n entre pasos}{37}{subsubsection*.18}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Resultados y an\IeC {\'a}lisis}{39}{chapter.4}% 
 \defcounter {refsection}{0}\relax 

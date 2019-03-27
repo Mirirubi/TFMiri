@@ -1,7 +1,7 @@
 \chapter{Desarrollo del proyecto\label{sec:disenho}}
 
 Para la realización de este trabajo se han tomado dos  de las tecnologías expuestas en el capítulo anterior. %REFERENCIA CAPITULO ANTERIOR
-La finalidad de esto es poder trabajar en primera mano con dos tecnologías y una vez realizado todo el trabajo práctico proceder a evaluar las características de cada tecnología y la comparativa entre ellas.
+La finalidad de esto es poder trabajar experimentalmente/empíricamente con dos tecnologías y una vez realizado todo el trabajo práctico proceder a evaluar las características de cada tecnología y la comparativa entre ellas.
 
 Es por ello que este capítulo se estructura en los dos puntos siguientes: sensores de Bragg y sensores IMU. Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas.\cite{SilviaTFM}
 
@@ -10,9 +10,11 @@ Es por ello que este capítulo se estructura en los dos puntos siguientes: senso
 	\item {IMU}
 \end{itemize}
 
-
+%------FFFFFFBBBBBBGGGGGG------
 \section{Sensores FBG}
 \label{sec:FBG3}
+Introducción breve del guante, que tecnologias implica.
+
 
 Resumen fibras de Bragg 
 ¿Qué es una fibra FBG?
@@ -20,6 +22,7 @@ Resumen fibras de Bragg
 
 El procesado de las señales resultantes se realiza mediante labview. 
 
+%--Marco conceptual
 \subsection{Marco conceptual}
 \label{sec:mc3FBG}
 
@@ -48,21 +51,17 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 		
 \end{itemize}
  
-
-
-
-
+%--Desarrollo del prototipo
 \subsection{Desarrollo del prototipo}
 \label{sec:prot3FBG}
 %[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionar la en la bibliografía.]
 
-El primer desarrollo realizado se basa en la mejora de un prototipo previamente desarrollado. El prototipo consiste en un prototipo técnico y funcional de un guante, con sensores de FBG embebidos en PDMS. \cite{SilviaTFM}
- 
- 
+La realización del primer desarrollo se origina a partir de un trabajo realizado con anterioridad en el grupo de investigación de la universidad\cite{SilviaTFM}. Se mejora el soporte físico(hardware) y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo.
 
-
+El prototipo consiste en un prototipo técnico y funcional de un guante, con sensores de FBG embebidos en PDMS. 
+ 
 \subsubsection{Materiales}
-asdf
+En este apartado se disponen brevemente los componentes utilizados para el 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\textwidth]{./img/PDMS}
@@ -71,15 +70,20 @@ asdf
 
 
 
-\subsubsection{Elaboración/Proceso de fabricación}
-
+\subsubsection{Proceso de fabricación del soporte físico}
+%Elaboración
 Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: modelado 3D, fabricación del guante y montaje de prototipo completo.
 
 \begin{itemize}
 	\item \textbf{Modelado 3D - Configuración 3D}
 	
-	Esta actividad comprende el diseño del molde con el que se fabrica el guante y de la caja contenedora de todo el cableado.	
-
+	Esta actividad comprende el diseño del molde con el que se fabrica el guante y de la caja contenedora de todo el cableado.
+	Para poder producir el guante de PDMS es necesario tener un molde donde verter la disolución para darle la forma deseada. Gracias a las versatilidad de diseño que ofrece la impresión 3D se realiza con este proceso de manufactura el molde (véase figura \ref{fig:molde}). 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{./img/molde1}
+	\caption{Molde} \label{fig:molde}
+\end{figure}
 
 	
  
