@@ -1,27 +1,39 @@
 \chapter{Desarrollo del proyecto\label{sec:disenho}}
 
-Para la realización de este trabajo se han tomado dos  de las tecnologías expuestas en el capítulo anterior. %REFERENCIA CAPITULO ANTERIOR
-La finalidad de esto es poder trabajar experimentalmente/empíricamente con dos tecnologías y una vez realizado todo el trabajo práctico proceder a evaluar las características de cada tecnología y la comparativa entre ellas.
+Para la realización de este trabajo se han tomado dos de las tecnologías expuestas en el capítulo \ref{sec:estado_del_arte} y se han llevado a la práctica. De esta manera se puede trabajar empíricamente con dos tecnologías diferentes planteadas como solución para un mismo problema. Una vez realizado todo el trabajo experimental se puede proceder a evaluar las características prácticas de cada tecnología y compararlas entre ellas. 
 
-Es por ello que este capítulo se estructura en los dos puntos siguientes: sensores de Bragg y sensores IMU. Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas.\cite{SilviaTFM}
-
+En función de la tecnología en que la se apoya cada uno de las soluciones, %por un lado se estudian los sensores de fibra FBG, capítulo \ref{sec:FBG3}, y por otro lado, los sensores IMU, capítulo \ref{sec:IMU3}.  
+este capítulo se estructura de la siguiente manera: 
 \begin{itemize}
-	\item {Sensores de fibra FBG}
-	\item {IMU}
+	\item {\textbf{\ref{sec:FBG3}}    .- Solución con sensores de fibra FBG} 
+	\item {\textbf{\ref{sec:IMU3}}    .- Solución con sensores IMU}
 \end{itemize}
 
-%------FFFFFFBBBBBBGGGGGG------
+
+
+
+Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales empleados, el proceso de fabricación y el funcionamiento.  
+
+%------------------------------
+%------___SOLUCIÓN_FBG___------
+%------------------------------
 \section{Solución con sensores de fibra FBG}
 \label{sec:FBG3}
-\textit{
-Introducción breve del guante, que tecnologias implica.
-Resumen fibras de Bragg 
-¿Qué es una fibra FBG?
-¿Porque se utilizan?
-El procesado de las señales resultantes se realiza mediante labview.
+
+\textcolor{rositaoscuro}{
+	\textit{
+		\colorbox{yellow}{Introducción} breve del guante, que tecnologias implica.
+		Resumen fibras de Bragg 
+		¿Qué es una fibra FBG?
+		¿Porque se utilizan?
+		El procesado de las señales resultantes se realiza mediante Labview.
+	}
 }
 
- Como primer prototipo se ha estudiado y llevado a cabo un guante cuyo funcionamiento se basa en los sensores de fibra FBG. El prototipo consiste en una sección de PDMS con forma de huella de mano que tiene embebida una red en fibra de Bragg. 
+
+ Como primer prototipo se ha estudiado y llevado a cabo un guante cuyo funcionamiento se basa en los sensores de fibra FBG. 
+ 
+ El prototipo consiste en una sección de PDMS con forma de huella de mano que tiene embebida una red en fibra de Bragg. Para la obtención, procesado y visualización de los resultados medidos se emplea el entorno de desarrollo LabVIEW.
 
 
 %--Marco conceptual
@@ -31,26 +43,76 @@ El procesado de las señales resultantes se realiza mediante labview.
 Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño llevado a cabo. 
 
 \begin{itemize}
+%--FIBRA ÓPTICA
 	\item \textbf{Fibra óptica}
 	
-	Cómo se propaga la luz en ella.
-	
-	partes de la fibra.
-	
-	Tipos de emisores (LED Laser).
-	
-	Receptores.
-	
-	Conectores.
-	
-		\item \textbf{Redes de difracción de Bragg}
+	\textcolor{rositaoscuro}{
+		\textit{
+			Cómo se propaga la luz en ella.\\
+	 		Partes de la fibra.\\
+			Tipos de emisores (LED Laser).\\
+			Receptores.\\
+			Conectores.\\
+		}
+	}
+
+	La fibra óptica es una hebra de material dieléctrico, así cómo vidrio (sílice) o polímeros acrílicos. 
+	Se emplea como medio de propagación de señales luminosas, es decir, para transmitir ondas electromagnéticas del espectro óptico. 
+
+
+//------
+
+
+	 fibra óptica Filamento de material dieléctrico, como el vidrio o los polímeros acrílicos, capaz de conducir y transmitir impulsos luminosos de uno a otro de sus extremos; permite la transmisión de comunicaciones telefónicas, de televisión, etc., a gran velocidad y distancia, sin necesidad de utilizar señales eléctricas.
+
+// ------
+
+La fibra óptica es un medio de transmisión de señal luminosa. Concretamente, es una guía de
+ondas electromagnéticas constituida de material dieléctrico, como el vidrio (sílice), capaz de
+propagar ondas electromagnéticas en el rango del ultravioleta-visible al visible-infrarrojo de
+uno a otro de sus extremos.
+Un cable de fibra óptica estándar está compuesto por varias capas. De ellas, las dos primeras
+constituyen el medio de transmisión por el que se propaga la luz, mientras que el resto
+proporciona refuerzo y seguridad ante la presencia de incidencias externas. La más interna
+corresponde al núcleo. Típicamente fabricado a base de sílice, y que destaca por su alto índice
+de refracción. Rodeando al núcleo se encuentra la cubierta, de material similar, pero con un
+índice de refracción menor. Esta diferencia de índices de refracción es el fundamento físico
+que permite la propagación de la luz entre ambas capas a través del filamento de fibra óptica.
+Esta estructura base se refuerza con una chaqueta exterior de plástico (Fig. 3.1.).
+
+(véase figura \ref{fig:nucleoFibra})
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{./img/nucleo-fibra}
+		\caption{Núcleo y cubierta en una fibra óptica. Fuente: \cite{imgNucleoFibra}} \label{fig:nucleoFibra}
+	\end{figure}
+
+\textcolor{teal}{
+	Recubrimientos: http://apacoe.weebly.com/conocimiento/que-es-la-fibra-optica
+	Link:Conectores y empalmes
+	http://www.thefoa.org/ESP/Conectores.htm
+}
+
+%--REDES DE DIFRACCIÓN DE BRAGG	
+	\item \textbf{Redes de difracción de Bragg}
 		
 	Funcionamiento y sensibilidad
-		\item \textbf{Polidimetilsiloxano (PDMS)}
+	
+%-- POLIDIMETILSILOXANO - PDMS	
+	\item \textbf{Polidimetilsiloxano (PDMS)}
 		
 	Material empleado para embeber las FBGs.
 	
+%-- LABVIEW 	
+	\item \textbf{LabVIEW}
 		
+	LabVIEW es un software de ingeniería de sistemas que requiere pruebas, medidas y control con acceso rápido a hardware e información de datos. \cite{LabVIEWpage}
+
+
+
+
+
 \end{itemize}
  
 %--Desarrollo del prototipo
@@ -116,9 +178,17 @@ asdf
 
 
 
--------------------------------------------------------////
-\begin{table}[H]
+
+
+\begin{table}[H] %BORRAR
 	\centering
+	\begin{tabular}[t]{|c|}
+		\hline
+		\textbf{\textcolor{rositaoscuro}{BORRAR}} \\
+		\hline
+		longitudes de onda del guante de fibras cortas\\
+		\hline
+	\end{tabular}
 	\begin{tabular}[t]{|r|c|}
 		\hline
 		 & Longitud de onda del sensor\\
@@ -140,7 +210,9 @@ asdf
 	\caption{Tabla longitud de cada sensor FBG}
 	\label{tabla:medidas 80 cm}
 \end{table}
--------------------------------------------------------////
+%-- Hasta aquí borrar la tabla.
+
+
 \begin{table}[H]
 	\centering
 	\begin{tabular}[t]{|r|c|}
@@ -179,7 +251,7 @@ asdf
 \end{figure}
 
 %------IIIIIIMMMMMMUUUUUU------
-\section{IMU}
+\section{Solución con sensores IMU}
 \label{sec:IMU3}
 asdf
 
