@@ -56,7 +56,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{15}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Soluci\IeC {\'o}n con sensores FBG}{16}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Soluci\IeC {\'o}n con sensores de fibra FBG}{16}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.1.1}Marco conceptual}{16}{subsection.3.1.1}% 
 \defcounter {refsection}{0}\relax 
@@ -64,11 +64,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Materiales}{17}{subsubsection*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{17}{subsubsection*.8}% 
+\contentsline {subsubsection}{Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{18}{subsubsection*.8}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Funcionamiento}{19}{subsubsection*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}IMU}{20}{section.3.2}% 
+\contentsline {section}{\numberline {3.2}Soluci\IeC {\'o}n con sensores IMU}{20}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Marco conceptual}{20}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
