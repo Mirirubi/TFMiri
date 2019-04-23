@@ -226,6 +226,25 @@
     \endverb
   \endentry
 
+  \entry{imgNucleoFibra}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Núcleo fibra}
+    \verb{url}
+    \verb https://fusicom.es/normativa-ict/nucleo-fibra/
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{LabVIEWpage}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{¿Qué es LabVIEW?}
+    \verb{url}
+    \verb http://www.ni.com/es-es/shop/labview.html
+    \endverb
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{SilviaTFM}{unpublished}{}
     \name{author}{1}{}{%
       {{hash=SSC}{%
