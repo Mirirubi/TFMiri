@@ -65,7 +65,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 		\label{fig:espectroOptico}
 	\end{figure}
 
-	Cabe destacar que dentro del espectro óptico las longitudes de onda habituales para comunicación en fibra óptica están entre los 700nm y 1600nm. Estas se dividen en rangos con mejores características para la transmisión, denominadas ventanas de comunicación. Como se muestra en la figura \ref{fig:ventanaOptica}, son tres las ventanas más utilizadas:
+	Cabe destacar que dentro del espectro óptico las longitudes de onda habituales para comunicación en fibra óptica están entre los 700nm y 1600nm. Estas se dividen en rangos con mejores características para la transmisión, denominadas ventanas de comunicación. Como se muestra en la figura \ref{fig:ventanaOptica}, son tres las ventanas más utilizadas,\cite{ventanasFO}:
 %	\begin{itemize}
 %		\item \textbf{1ª ventana}\hspace{0.2cm} 800 a  900 nm tilizada  =  850nm
 %		\item \textbf{2ª ventana}\hspace{0.1cm}  1250 a 1350 nm   l utilizada  = 1310nm
@@ -86,32 +86,75 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	 \begin{figure}[H]
 	 	\centering
 	 	\includegraphics[width=0.5\textwidth]{./img/ventana}
-	 	\caption{Longitud de onda fibra óptica junto con el espectro visible}
+	 	\caption{Longitud de onda fibra óptica junto con el espectro visible. \cite{ventanasFO}}
 	 	\label{fig:ventanaOptica}
 	 \end{figure}
  
- En cuanto a las propiedades físicas de la fibra mayormente se obtienen de la extrusión del sílice. El grosor de las fibras ópticas no supera  por mucho al diámetro del cabello humano.
+ En cuanto a las propiedades físicas de la fibra óptica, son bastante delicadas ya que su grosor no supera por mucho al diámetro del cabello humano y se obtiene de la extrusión del sílice, SiO\textsubscript{2} , es decir, se trata de un filamento de vidrio muy fino. Es por ello que es la fibra óptica estándar está rodeada de una cubierta protectora. 
+ 
+  \begin{figure}[H]
+  	\centering
+  	\includegraphics[width=0.87\textwidth]{./img/capas-fibra2}
+  	\caption{Capas fibra óptica \cite{imgNucleoFibra,imgCapasFO}} 
+  	\label{fig:capasFibra}
+  \end{figure} 
+  
+  
+  
+ La fibra óptica estándar cuenta varias capas (figura \ref{fig:capasFibra}): núcleo, revestimiento y cubierta (o buffer).  Si la aplicación lo permite, conviene proteger la fibra con más capas externas. En la imagen anterior la fibra está además protegida por un material de refuerzo (fibra de aramido) y una envoltura (PVC).
+ 
+ Tanto el núcleo cómo el revestimiento forman el medio por el cual se propaga la luz. Estas dos capas son tan finas que forman un filamento flexible, pero muy delicado, puesto que es muy propenso a romperse ante dobleces u otras manipulaciones externas. Por ello el resto de las capas son tambien importantes por proporcionar a la fibra protección y haciendo posible su utilización es escenarios de despliegue.
+ 
+ La fabricación de la fibra óptica es un proceso de alta tecnología. Es importante mantener la pureza y la regularidad del núcleo. Esto es complejo, puesto que estamos hablando en algunos casos de núcleos de un grosor entorno a las 8 micras (en fibras monomodo). El grosor estándar de la fibra es de 125 micras(aproximadamente el doble que un cabello humano). Para conseguir este resultado el proceso de fabricación consiste en reproducir a escala macroscópica la estructura de la fibra que se quiere obtener. Esta reproducción a gran escala de la fibra deseada se le denomina preforma. Una vez se tiene la preforma, esta se va fundiendo y estirando hasta alcanzar el filamento del diámetro deseado. De una preforma se pueden sacar kilómetros de fibra. Para fabricar la preforma se parte de una barra de vidrio hueca (el vidrio que formará el recubrimiento) y se baña en un gas que contiene unas partículas (lo que formará el núcleo). Al calentar a mil grados, las partículas comienzan a fundirse hasta que el tubo colapsa y forma una vara maciza, que es la preforma. Para fundirla y estirarla esta se coloca verticalmente y se calienta. La complejidad de esta fase reside en mantener constante el flujo y el diámetro del hilo resultante. Además durante esta fase se aprovecha para crear una capa protectora sobre el vidrio (cubierta en la figura \ref{fig:capasFibra}). Finalmente los kilómetros de fibra óptica se enrollan en grandes bobinas. \cite{fabricacionFO}
+ 
+   \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.6\textwidth]{./img/MM-SM}
+ 	\caption{Relación grosor fibra multimodo (MM) y monomodo (SM) \cite{imgRadioModo} } 
+ 	\label{fig:modoMonoMulti}
+ \end{figure} 
+ 
+  Dependiendo de la relación de diámetro entre el núcleo y el revestimiento, la fibra fibra será monomodo o multimodo (figura \ref{fig:modoMonoMulti}). Esta diferencia afecta a la propagación de la luz dentro de la guía de onda. 
+ 
+ 
+ La diferencia de índices de refracción entre las capas centrales de la fibra son las que permiten la propagación de la luz a través de esta.
  
 
 
-//------
+  
+ //Centrándonos en las capas por las cuales se propaga la luz, el núcleo y el revestimiento y en su funcionamiento como guía de onda.
 
-Un cable de fibra óptica estándar está compuesto por varias capas. De ellas, las dos primeras
-constituyen el medio de transmisión por el que se propaga la luz, mientras que el resto
-proporciona refuerzo y seguridad ante la presencia de incidencias externas. La más interna
-corresponde al núcleo. Típicamente fabricado a base de sílice, y que destaca por su alto índice
-de refracción. Rodeando al núcleo se encuentra la cubierta, de material similar, pero con un
-índice de refracción menor. Esta diferencia de índices de refracción es el fundamento físico
-que permite la propagación de la luz entre ambas capas a través del filamento de fibra óptica.
+
+
+
+//------ 
+
+La más interna corresponde al núcleo. Típicamente fabricado a base de sílice, y que destaca por su alto índice de refracción. 
+
+Rodeando al núcleo se encuentra la cubierta, de material similar, pero con un
+índice de refracción menor. 
+
+Esta diferencia de índices de refracción es el fundamento físico que permite la propagación de la luz entre ambas capas a través del filamento de fibra óptica.
+
 Esta estructura base se refuerza con una chaqueta exterior de plástico (Fig. 3.1.).
 
 (véase figura \ref{fig:nucleoFibra})
 
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.5\textwidth]{./img/nucleo-fibra}
-		\caption{Núcleo y cubierta en una fibra óptica. Fuente: \cite{imgNucleoFibra}} \label{fig:nucleoFibra}
-	\end{figure}
+
+//--- \cite{ventanasFO}
+
+LASER
+
+Para poder transmitir en una de estas ventanas es necesaria una fuente de luz "coherente", es decir de una única frecuencia (o longitud de onda), la cual se consigue con un componente electrónico denominado LD ó diodo LASER (Light Amplification by Estimulated Emision of Radiation). Este componente es afectado por las variaciones de temperatura por lo que deben tener un circuito de realimentación para su control.
+
+También pueden usarse diodos LED.
+
+Detectores ópticos
+
+Como receptores ópticos se utilizan fotodiodos APD o diodos pin (PIN-PD) que posen alta sensibilidad y bajo tiempo de respuesta.
+
+El APD también requiere de un ajuste automático ante variaciones de temperatura.
+
 
 \textcolor{teal}{
 	Recubrimientos: http://apacoe.weebly.com/conocimiento/que-es-la-fibra-optica

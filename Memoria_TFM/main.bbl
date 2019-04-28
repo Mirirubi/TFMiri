@@ -226,6 +226,25 @@
     \endverb
   \endentry
 
+  \entry{ventanasFO}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=SS}{%
+         family={Schnitzler},
+         familyi={S\bibinitperiod},
+         given={Sergio},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SS1}
+    \strng{fullhash}{SS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fibras ópticas}
+    \verb{url}
+    \verb http://www.yio.com.ar/fo/ventanas.html
+    \endverb
+  \endentry
+
   \entry{imgNucleoFibra}{misc}{}
     \field{labeltitlesource}{title}
     \field{title}{Núcleo fibra}
@@ -233,6 +252,54 @@
     \verb https://fusicom.es/normativa-ict/nucleo-fibra/
     \endverb
     \field{year}{2018}
+  \endentry
+
+  \entry{imgCapasFO}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KJC}{%
+         family={K.},
+         familyi={K\bibinitperiod},
+         given={James\bibnamedelima Chen},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KJC1}
+    \strng{fullhash}{KJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{¿Qué es la "fibra óptica" ? y ¿ Porqué utilizarlas ?}
+    \verb{url}
+    \verb http://apacoe.weebly.com/conocimiento/que-es-la-fibra-optica
+    \endverb
+  \endentry
+
+  \entry{fabricacionFO}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MI}{%
+         family={MUNGUÍA},
+         familyi={M\bibinitperiod},
+         given={IGNACIO},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MI1}
+    \strng{fullhash}{MI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{¿Cómo se fabrica la fibra óptica?}
+    \verb{url}
+    \verb https://www.xatakaciencia.com/tecnologia/como-se-fabrica-la-fibra-opt
+    \verb ica
+    \endverb
+  \endentry
+
+  \entry{imgRadioModo}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Fundamentos de las Fibras Ópticas}
+    \verb{url}
+    \verb http://fibraoptica.blog.tartanga.eus/fundamentos-de-las-fibras-optica
+    \verb s/
+    \endverb
   \endentry
 
   \entry{LabVIEWpage}{online}{}
