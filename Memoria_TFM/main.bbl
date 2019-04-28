@@ -302,6 +302,26 @@
     \endverb
   \endentry
 
+  \entry{tutorialFOpaper}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HYN}{%
+         family={Harari},
+         familyi={H\bibinitperiod},
+         given={Yuval\bibnamedelima Noah},
+         giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HYN1}
+    \strng{fullhash}{HYN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{Sapiens: a brief history of humankind}}
+    \list{location}{1}{%
+      {Toronto}%
+    }
+    \field{year}{2014}
+  \endentry
+
   \entry{LabVIEWpage}{online}{}
     \field{labeltitlesource}{title}
     \field{title}{¿Qué es LabVIEW?}
