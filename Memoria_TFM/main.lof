@@ -20,62 +20,70 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Longitud de onda fibra \IeC {\'o}ptica junto con el espectro visible. \cite {ventanasFO}}}{18}{figure.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Capas fibra \IeC {\'o}ptica \cite {imgNucleoFibra,imgCapasFO}}}{18}{figure.3.3}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Atenuaci\IeC {\'o}n(dB/Km) frente a longitud de onda $\lambda $ (nm) \cite {imgRadioModo}}}{19}{figure.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Relaci\IeC {\'o}n grosor fibra multimodo (MM) y monomodo (SM) \cite {imgRadioModo} }}{20}{figure.3.4}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Capas fibra \IeC {\'o}ptica \cite {imgNucleoFibra,imgCapasFO}}}{19}{figure.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Gu\IeC {\'\i }a de un haz de luz en una fibra multimodo a trav\IeC {\'e}s de la reflexi\IeC {\'o}n interna total en la interfaz n\IeC {\'u}cleo-revestimiento. \cite {tutorialFOpaper} }}{20}{figure.3.5}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Relaci\IeC {\'o}n grosor fibra multimodo (MM) y monomodo (SM) \cite {imgRadioModo} }}{21}{figure.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Orientaci\IeC {\'o}n de la luz en una fibra monomodo. El perfil de intensidad dentro del n\IeC {\'u}cleo est\IeC {\'a} determinado \IeC {\'u}nicamente por el dise\IeC {\~n}o de la fibra. \cite {tutorialFOpaper} }}{21}{figure.3.6}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Corte transversal fibra multimodo en transmisi\IeC {\'o}n de luz. \cite {imgMonoMulti} }}{21}{figure.3.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces PDMS: Elast\IeC {\'o}mero y agente de cura.}}{24}{figure.3.7}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Corte transversal fibra monomodo en transmisi\IeC {\'o}n de luz. \cite {imgMonoMulti} }}{21}{figure.3.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Molde}}{25}{figure.3.8}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Corte transversal fibra monomodo en transmisi\IeC {\'o}n de luz. \cite {FOA} }}{22}{figure.3.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Interfaz del programa de labview.}}{27}{figure.3.9}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \IeC {\'A}ngulo cr\IeC {\'\i }tico y reflexi\IeC {\'o}n interna total. \cite {geometriaBasicaFP} }}{22}{figure.3.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Prototipo de sensor de ultrasonidos}}{33}{figure.3.10}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Transmisi\IeC {\'o}n punto a punto de se\IeC {\~n}ales a trav\IeC {\'e}s de fibra \IeC {\'o}ptica. \cite {txFO} }}{24}{figure.3.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Esquema de conexi\IeC {\'o}n del sensor de ultrasonido}}{34}{figure.3.11}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces PDMS: Elast\IeC {\'o}mero y agente de cura.}}{27}{figure.3.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces M\IeC {\'o}dulo Bluetooth HC-05}}{34}{figure.3.12}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Molde}}{28}{figure.3.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Dongle Bluetooth 4.0 WhiteLabel}}{35}{figure.3.13}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Interfaz del programa de labview.}}{30}{figure.3.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Set-up de medida de un paso de 43 cm}}{36}{figure.3.14}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Prototipo de sensor de ultrasonidos}}{36}{figure.3.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Set-up de medida de un paso de 80.5 cm}}{36}{figure.3.15}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Esquema de conexi\IeC {\'o}n del sensor de ultrasonido}}{37}{figure.3.15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Colocaci\IeC {\'o}n de los sensores para la medida}}{37}{figure.3.16}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces M\IeC {\'o}dulo Bluetooth HC-05}}{37}{figure.3.16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Ejemplo de paso para la medida}}{37}{figure.3.17}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Dongle Bluetooth 4.0 WhiteLabel}}{38}{figure.3.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Ejemplo de deriva en la se\IeC {\~n}al}}{39}{figure.3.18}% 
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Set-up de medida de un paso de 43 cm}}{39}{figure.3.18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Recta para la correcci\IeC {\'o}n de la deriva}}{40}{figure.3.19}% 
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Set-up de medida de un paso de 80.5 cm}}{39}{figure.3.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Ejemplo eliminaci\IeC {\'o}n de la deriva}}{41}{figure.3.20}% 
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Colocaci\IeC {\'o}n de los sensores para la medida}}{40}{figure.3.20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Ejemplo eliminaci\IeC {\'o}n de la deriva}}{41}{figure.3.21}% 
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Ejemplo de paso para la medida}}{40}{figure.3.21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Setup medida est\IeC {\'a}tica de sensor de ultrasonido}}{43}{figure.3.22}% 
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Ejemplo de deriva en la se\IeC {\~n}al}}{42}{figure.3.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Colocaci\IeC {\'o}n de sensor para medidas en din\IeC {\'a}mico}}{43}{figure.3.23}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Recta para la correcci\IeC {\'o}n de la deriva}}{43}{figure.3.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces C\IeC {\'a}lculo final de distancia de separaci\IeC {\'o}n entre pasos}}{44}{figure.3.24}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Ejemplo eliminaci\IeC {\'o}n de la deriva}}{44}{figure.3.24}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Ejemplo eliminaci\IeC {\'o}n de la deriva}}{44}{figure.3.25}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Setup medida est\IeC {\'a}tica de sensor de ultrasonido}}{46}{figure.3.26}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Colocaci\IeC {\'o}n de sensor para medidas en din\IeC {\'a}mico}}{46}{figure.3.27}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces C\IeC {\'a}lculo final de distancia de separaci\IeC {\'o}n entre pasos}}{47}{figure.3.28}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Medida de sensor de ultrasonido en est\IeC {\'a}tico.}}{48}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Medida de sensor de ultrasonido en est\IeC {\'a}tico.}}{50}{figure.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Medida de sensor de ultrasonido en est\IeC {\'a}tico.}}{49}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Medida de sensor de ultrasonido en est\IeC {\'a}tico.}}{51}{figure.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Medida de sensor de ultrasonido en est\IeC {\'a}tico.}}{49}{figure.4.3}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Medida de sensor de ultrasonido en est\IeC {\'a}tico.}}{51}{figure.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Medida sensor de ultrasonido en din\IeC {\'a}mico}}{50}{figure.4.4}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Medida sensor de ultrasonido en din\IeC {\'a}mico}}{52}{figure.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Medida sensor de ultrasonido en din\IeC {\'a}mico}}{51}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Medida sensor de ultrasonido en din\IeC {\'a}mico}}{53}{figure.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Validaci\IeC {\'o}n del sensor de ultrasonidos en din\IeC {\'a}mico}}{52}{figure.4.6}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Validaci\IeC {\'o}n del sensor de ultrasonidos en din\IeC {\'a}mico}}{54}{figure.4.6}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

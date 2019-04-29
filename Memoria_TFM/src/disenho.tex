@@ -48,42 +48,38 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	
 	\textcolor{rositaoscuro}{
 		\textit{
-			Cómo se propaga la luz en ella.\\
+			- -Cómo se propaga la luz en ella.\\
 	 		- -Partes de la fibra.\\
 			Tipos de emisores (LED Laser).\\
 			Receptores.\\
-			Conectores.\\
+			Conectores y soldaduras.\\
 			- -Fabricación.\\
-			Soldado.\\
 			- -Tipos de fibra.\\
 		}
 	}
 
+	%-- ¿Qué es la fibra óptica y la comunicación óptica?
 	La fibra óptica es una hebra de material dieléctrico, así cómo el vidrio (sílice) o el polímero acrílico. 
 	Se emplea como medio de propagación de señales luminosas. Es decir, para transmitir ondas electromagnéticas del espectro óptico: regiones espectrales de infrarrojo, luz visible y ultravioleta. En la siguiente imagen (figura \ref{fig:espectroOptico}) se puede observar dentro del espectro electromagnético dónde se sitúa el espectro óptico.	 
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.95\textwidth]{./img/espectrooptico}
 		\caption{Espectro electromagnético en frecuencia.}
 		\label{fig:espectroOptico}
 	\end{figure}
-
-	Cabe destacar que dentro del espectro óptico las longitudes de onda habituales para comunicación en fibra óptica están entre los 700nm y 1600nm. Estas se dividen en rangos con mejores características para la transmisión, denominadas ventanas de comunicación. Como se muestra en la figura \ref{fig:ventanaOptica}, son tres las ventanas más utilizadas,\cite{ventanasFO}:
-%	\begin{itemize}
-%		\item \textbf{1ª ventana}\hspace{0.2cm} 800 a  900 nm tilizada  =  850nm
-%		\item \textbf{2ª ventana}\hspace{0.1cm}  1250 a 1350 nm   l utilizada  = 1310nm
-%		\item \textbf{3ª ventana}\hspace{0.1cm}  1500 a 1600 nm   l utilizada  = 1550nm 
-%	\end{itemize}
 	
-	\begin{table}[H]
+	%--Ventanas de comunicación por FO
+	Cabe destacar que dentro del espectro óptico las longitudes de onda habituales para comunicación en fibra óptica están entre los 700nm y 1600nm. Estas se dividen en rangos con mejores características para la transmisión, denominadas ventanas de comunicación. Como se muestra en la figura \ref{fig:ventanaOptica}, son tres las ventanas más utilizadas,\cite{ventanasFO}:
+ 	\begin{table}[H]
 		%\centering
 		\hspace{2cm}
 		\renewcommand{\arraystretch}{2}
-		\begin{tabular}{rrr}
-			\textbf{1ª ventana}& 800 a  900 nm  & $\longmapsto$	longitud de onda utilizada = 850nm  \\
-			\textbf{2ª ventana}& 1250 a 1350 nm & $\longmapsto$ longitud de onda utilizada=1310nm  \\
-			\textbf{3ª ventana}& 1500 a 1600 nm & $\longmapsto$ longitud de onda utilizada=1550nm   \\ 
-		\end{tabular}
+		\begin{tabular}{rrl}
+			\textbf{1ª ventana}& 800 a  900 nm  & $\longmapsto$ $\,$ longitud de onda utilizada = 850nm  \\
+			\textbf{2ª ventana}& 1250 a 1350 nm & $\longmapsto$ $\,$ longitud de onda utilizada = 1310nm  \\
+			\textbf{3ª ventana}& 1500 a 1600 nm & $\longmapsto$ $\,$ longitud de onda utilizada = 1550nm   \\ 
+		\end{tabular} 
 	\end{table}
 
 	 \begin{figure}[H]
@@ -92,7 +88,16 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	 	\caption{Longitud de onda fibra óptica junto con el espectro visible. \cite{ventanasFO}}
 	 	\label{fig:ventanaOptica}
 	 \end{figure}
- 
+ 	La razón de que las ventanas de comunicación utilizadas se sitúen en las frecuencias indicadas reside en los diferentes comportamientos que tiene la atenuación de las señales en función de la longitud de onda (ver figura \ref{fig:perdidasFrec}). Existen algunas zonas dónde la atenuación es mínima, coincidiendo con la segunda y la tercera ventana. En cambio, en la zona correspondiente a la primera ventana las pérdidas no son mínimas, pero sí que se mantienen constantes. 	
+ 	
+ 	\begin{figure}[H]
+ 		\centering
+ 		\includegraphics[width=0.8\textwidth]{./img/perdidasFrec}
+ 		\caption{Atenuación(dB/Km) frente a longitud de onda  $\lambda$ (nm) \cite{imgRadioModo}}
+ 		\label{fig:perdidasFrec}
+ 	\end{figure}
+
+ %-- Características físicas de la fibra
  En cuanto a las propiedades físicas de la fibra óptica, son bastante delicadas ya que su grosor no supera por mucho al diámetro del cabello humano y se obtiene de la extrusión del sílice, SiO\textsubscript{2} , es decir, se trata de un filamento de vidrio muy fino. Es por ello que es la fibra óptica estándar está rodeada de una cubierta protectora. 
  
   \begin{figure}[H]
@@ -108,8 +113,10 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  
  Tanto el núcleo cómo el revestimiento forman el medio por el cual se propaga la luz. Estas dos capas son tan finas que forman un filamento flexible, pero muy delicado, puesto que es muy propenso a romperse ante dobleces u otras manipulaciones externas. Por ello el resto de las capas son tambien importantes por proporcionar a la fibra protección y haciendo posible su utilización es escenarios de despliegue.
  
+ %-- Fabricación FO
  La fabricación de la fibra óptica es un proceso de alta tecnología. Es importante mantener la pureza y la regularidad del núcleo. Esto es complejo, puesto que estamos hablando en algunos casos de núcleos de un grosor entorno a las 8 micras (en fibras monomodo). El grosor estándar de la fibra es de 125 micras(una micra equivale a una millonésima parte de un metro). Para conseguir este resultado el proceso de fabricación consiste en reproducir a escala macroscópica la estructura de la fibra que se quiere obtener. Esta reproducción a gran escala de la fibra deseada se le denomina preforma. Una vez se tiene la preforma, esta se va fundiendo y estirando hasta alcanzar el filamento del diámetro deseado. De una preforma se pueden sacar kilómetros de fibra. Para fabricar la preforma se parte de una barra de vidrio hueca (el vidrio que formará el recubrimiento) y se baña en un gas que contiene unas partículas (lo que formará el núcleo). Al calentar a mil grados, las partículas comienzan a fundirse hasta que el tubo colapsa y forma una vara maciza, que es la preforma. Para fundirla y estirarla esta se coloca verticalmente y se calienta. La complejidad de esta fase reside en mantener constante el flujo y el diámetro del hilo resultante. Además durante esta fase se aprovecha para crear una capa protectora sobre el vidrio (cubierta en la figura \ref{fig:capasFibra}). Finalmente los kilómetros de fibra óptica se enrollan en grandes bobinas. \cite{fabricacionFO}
  
+ %-- Fibra Monomodo y multimodo
   \begin{figure}[H]
  	\centering
  	\includegraphics[width=0.6\textwidth]{./img/MM-SM}
@@ -117,67 +124,108 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	\label{fig:modoMonoMulti}
  \end{figure} 
  
-  Dependiendo de la relación de diámetro entre el núcleo y el revestimiento, la fibra fibra será monomodo o multimodo (figura \ref{fig:modoMonoMulti}). Esta diferencia afecta a la propagación de la luz dentro de la guía de onda. Ya se ha comentado que el diámetro de la fibra es de aproximadamente 125 micras. En el caso de las fibras monomodo, el núcleo de estas tiene un diámetro tan pequeño (en torno a 8 micras) que la luz solo puede propagarse en un sólo modo (rayo). Sin embargo, en el caso de las fibras multimodo, al poseer un núcleo mayor (entre 50 o 62.5 micras) soportan la transmisión el múltiples modos, es decir, los rayos de luz viajan en muchas direcciones a través de este.  
-  \url{http://www.thefoa.org/ESP/Fibra_optica.htm}\\
-  
-  	\textcolor{rositaoscuro}{revisar:}
- 	\begin{figure}[H]
+  Dependiendo de la relación de diámetro entre el núcleo y el revestimiento, la fibra fibra será monomodo o multimodo (figura \ref{fig:modoMonoMulti}). Esta diferencia afecta a la propagación de la luz dentro de la guía de onda. Ya se ha comentado que el diámetro de la fibra es de aproximadamente 125 micras. En el caso de las fibras monomodo, el núcleo de estas tiene un diámetro tan pequeño (en torno a 8 micras) que la luz solo puede propagarse en un sólo modo (rayo). Sin embargo, en el caso de las fibras multimodo, al poseer un núcleo mayor (entre 50 o 62.5 micras) soportan la transmisión el múltiples modos, es decir, los rayos de luz viajan en muchas direcciones a través de este. \cite{FOA} 
+   
+   	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\textwidth]{./img/guiaMM}
-		\caption{Guía de un haz de luz en una fibra multimodo a través de la reflexión interna total en la interfaz núcleo-revestimiento. \cite{tutorialFOpaper} } 
+		\caption{Corte transversal fibra multimodo en transmisión de luz. \cite{imgMonoMulti} } 
 		\label{fig:guiaMM}
 	\end{figure} 
   	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\textwidth]{./img/guiaSM}
-		\caption{Orientación de la luz en una fibra monomodo. El perfil de intensidad dentro del núcleo está determinado únicamente por el diseño de la fibra. \cite{tutorialFOpaper} } 
+		\caption{Corte transversal fibra monomodo en transmisión de luz. \cite{imgMonoMulti} } 
 		\label{fig:guiaSM}
 	\end{figure}  
  	
- 	\textcolor{rositaoscuro}{
- 	\textit{Si veo que tal puedo extenderme con relacionar las \underline{ventanas con monomodo y multimodo}. Y además concretar mas las \underline{características de cada ventana} (grafica de interferencias esta)}\\
- 	\\
-	Generalmente, la fibra multimodo se utiliza con fuentes LED en longitudes de onda de 850 y 1300 nm (ver debajo) para redes de área local (LAN) más lentas y con fuentes láser a 850 nm (VCSEL) y 1310 nm (láser Fabry-Perroy) para redes que operan a velocidades de gigabits por segundo o mayores. \\
-	La fibra monomodo se utiliza para telefonía y para televisión por cable (CATV) con fuentes de luz láser a 1300 y 1550 nm ya que tiene poca pérdida y un ancho de banda prácticamente infinito.\\
-	Existen otros tipos de fibras opticas: POF - PCS y HCS (imagen ejemlo de diametros)\\
-	\url{http://www.thefoa.org/ESP/Fibra_optica.htm}\\
-}
+ 	%-- Relación monomodo y multimodo con las longitudes de onda
+ 	Relacionando los tipos de fibras ópticas con las ventanas en las que trabajan, las fibras multimodo suelen trabajar en primera y segunda ventana, mientras que las fibras monomodo en segunda y tercera. 
 
- La diferencia de índices de refracción entre las capas centrales de la fibra son las que permiten la propagación de la luz a través de esta. El índice de refracción del núcleo es mayor que el del revestimiento.
+//----------------------------- 	
+ 	%-- Otros tipos de FO
+ 	Además existen otros tipos de fibras menos comunes:
+ 	
+ 	\url{http://www.thefoa.org/ESP/Fibra_optica.htm}
+ 	En la figura \ref{fig:otrosTiposFO} se representan las diferentes relaciones de tamaños entre los cinco tipos de fibra vistos. 
+ 	 	
+ 	 \begin{figure}[H]
+ 	 	\centering
+ 	 	\includegraphics[width=0.7\textwidth]{./img/tiposFO}
+ 	 	\caption{Relación tamaños fibras ópticas. \cite{FOA} } 
+ 	 	\label{fig:otrosTiposFO}
+ 	 \end{figure} 	
+ 	 	
+ 	\textcolor{rositaoscuro}{\textit{Si veo que tal puedo extenderme\\Existen otros tipos de fibras opticas: POF - PCS y HCS (imagen ejemplo de diámetros).}}
+-------------//
+ La diferencia de índices de refracción entre las capas centrales de la fibra son las que permiten la propagación de la luz a través de esta. El núcleo tiene un mayor indice de refracción que el revestimiento, lo que genera que los rayos de luz se curven a medida que pasan del núcleo al revestimiento, generando una "reflexión interna total" en la fibra. La siguiente imagen (figura \ref{fig:TIR}) sirve para explicar claramente este concepto:
  
- Puesto que en la solución con estudiada en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre fibras multimodo.
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.66\textwidth]{./img/TIR}
+ 	\caption{Ángulo crítico y reflexión interna total. \cite{geometriaBasicaFP} } 
+ 	\label{fig:TIR}
+ \end{figure}
+ 
+ %Reflexión interna total
+ En la figura \ref{fig:TIR} se ilustran cuatro rayos que se originan en el puno 0, lo que sería el núcleo de la fibra óptica (dónde el indice de refracción \textit{n\textsubscript{i}} es mayor). Entre los cuatro rayos varía el ángulo con el que estos inciden sobre el revestimiento (de menor índice de refracción\textit{n\textsubscript{r}}). Se observa cómo en el rayo número 1 incide con $90\,^{\circ}$ (incidencia normal), no habiendo reflexión y siguiendo el rayo en la misma dirección. En el rayo número 2 incide con un ángulo \textit{i}, y se refracta con \textit{r}. El rayo número 3 incide con el ángulo crítico \textit{i\textsubscript{c}}, suficientemente grande para que el rayo reflejado se propague a lo largo de la interfaz entre los dos medios, quedando atrapado. Por último, el rayo número 4 incide con un ángulo \textit{i} superior al ángulo crítico (ecuación \ref{eq:angCritico}), \textit{i\textsubscript{c}}, consiguiendo que se refleje totalmente en el mismo medio del que incide. Este rayo obedece a la ley de reflexión, siendo su ángulo de reflexión exactamente igual a su ángulo de incidencia. Este fenómeno se denomina \textit{"Reflexión interna total"}, necesario para que suceda la transmisión de señales lumínicas en la fibra óptica. 
 
-//--
-Antes de la etapa de propagación en la fibra óptica, cualquier señal eléctrica, analógica o
-digital, se convierte en señal óptica en el emisor o fuente de luz situado en el extremo inicial.
-Una vez realizada la conversión, la señal se transmite a lo largo del cable de fibra óptica hasta
-llegar al extremo final donde sufre el proceso inverso, efectuado por un detector. A
-continuación, se presenta un esquema simplificado del sistema de comunicación mediante
-fibra óptica (Fig. 3.2.).
+	\begin{equation}
+		\label{eq:angCritico}
+		\hat{i}\textsubscript{c} =  \sin^{-1}\left(\dfrac{n\textsubscript{r}}{n\textsubscript{i}}\right)
+	\end{equation}
 
+ La reflexión interna total atrapa la luz hasta cierto ángulo en el núcleo, definiendo la apertura numérica a la que hay que asegurarse de penetrar la luz para que se de el fenómeno de reflexión interna total. Así se fuerza a que la mayoría de los rayos de luz incidan sobre el interfaz y se reflejen, permitiendo la transmisión de la señal lumínica. 
+ 
 
-La propagación de la luz desde el punto inicial hasta el extremo final se debe al fenómeno de
-reflexión total interna [20] de la luz. Este hecho tiene lugar cuando un haz de luz trata de
-pasar de un medio de mayor índice de refracción, n1, a uno de menor índice de refracción, n2,
-y con un ángulo determinado (Fig. 3.3.). El ángulo de incidencia debe superar el valor crítico.
-Cuando se dan estas condiciones, el rayo de luz incidente se refleja completamente, no
-pudiendo atravesar la frontera que separa ambos medios y volviendo nuevamente hacia el
-medio origen, con un ángulo de reflexión igual al ángulo de incidencia.
+ %No vamos a hablar más de multimodo
+ (Puesto que en la solución llevada a cabo en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre la transmisión en fibras multimodo.)
+ 
+ %Sistemas de propagación
+ Los sistemas de propagación de señales luminosas a través de la fibra óptica componen un medio de transmisión de datos rápido y fiable. Previa a la propagación a través de un medio óptico de una señal eléctrica (analógica o digital) es necesario realizar una conversión de esta a señal óptica. Esto genera una señal óptica a partir de una señal eléctrica en el emisor o fuente de luz situado en el extremo inicial de la comunicación. Realizada la conversión, la señal es transmitida a lo largo de la fibra óptica. Según las características del escenario puede haber una o varias uniones entre fibras a lo largo del canal. Estás pueden realizarse empalmando o utilizando conectores. Una vez la señal óptica atraviesa todo el canal, llega al detector, dónde sucede el proceso inverso al ocurrido en el emisor y a la salida del sistema completo se tiene la señal eléctrica. Esta corresponde a la señal introducida al sistema con una pequeña posibilidad de haber sufrido pérdidas o atenuación debido a la impureza de la fibra, la distancia, las conexiones entre elementos del sistema o cualquier otro evento ajeno al este. Estas modificaciones de la señal de entrada pueden ser contrarrestadas o solventadas en recepción sin suponer un impedimento a una comunicación exitosa. (figura \ref{fig:TxFOp2p})
+ 
+   \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[width=0.75\textwidth]{./img/TxFOp2p}
+ 	\caption{Transmisión punto a punto de señales a través de fibra óptica. \cite{txFO} } 
+ 	\label{fig:TxFOp2p}
+ 	\end{figure} 
 
-
-En una fibra óptica, para provocar el fenómeno de reflexión total interna, se asegura que la luz
-penetra con una determinada apertura numérica, que es el ángulo necesario para forzar a la
-mayoría de los rayos de luz a incidir sobre la superficie de separación entre el núcleo y la
-cubierta. En estas condiciones, y de acuerdo con las leyes de Snell, los rayos de luz incidentes
-a esta interfaz de separación superan el ángulo crítico, pudiendo así reflejarse prácticamente
-en su totalidad a lo largo de toda la estructura.
-
-
-El sistema de propagación de la señal luminosa a través de la fibra óptica constituye un medio
-de transmisión de datos rápido y fiable. No obstante, para que esta forma de propagación
-funcione correctamente, los materiales presentes en la estructura del núcleo y de la cubierta
-necesitan ser extremadamente puros, es decir, no deben contener un elevado número de
-impurezas, pues ello origina pérdidas y atenuación de la señal transmitida.
+ Veamos por separado los elementos dibujados en la figura \ref{fig:TxFOp2p}:
+ 	\begin{itemize}
+ 		\item \textit{\textbf{Emisores (Transmisión)}}	
+ 		% \hspace{0.2cm} 
+ 		
+ 		//--Los emisores de luz son los responsables de la conversión de la señal eléctrica en señal luminosa antes de su propagación a través de la fibra. Un emisor se puede dividir en dos partes.
+ 		//--En primer lugar, se considera la propia fuente de luz y, en segundo lugar, el dispositivo que controla la potencia de la fuente de emisión. Según la forma de generar los fotones, las fuentes más empleadas para la emisión de luz son los diodos LED y los láseres.
+ 		
+ 		//---LED
+ 		//Los diodos emisores de luz conocidos como LED (Light Emitting Diodes), son las fuentes más simples y baratas para la emisión de luz en el interior de la fibra óptica. Son un elemento semiconductor que emite luz en un espectro reducido cuando se polariza y se le hace circular corriente eléctrica. Las longitudes de onda de emisión de un diodo LED pueden variar desde el ultravioleta hasta el infrarrojo, dependiendo del material semiconductor con el que se fabrique.
+ 		//Entre sus principales ventajas destacan la baja potencia de alimentación, gran tiempo de vida y la posibilidad de fabricar un elevado número de dispositivos [22]. Estas ventajas reducen su coste y permiten configurar elementos de menor tamaño. Además, posee un espectro de emisión más amplio que los diodos láser (Fig. 3.4.). Sin embargo, es de gran dimensión	respecto a la relación de tamaño con la fibra, por tanto, solo lo hacen adecuado para las fibras en régimen multimodo.
+ 		//---Láser
+ 		//Los láseres (Light Amplification by Stimulated Emission of Radiation) son las fuentes ópticas con mayor capacidad de transmisión de la luz a lo largo de la fibra. Estos emisores concentran la luz en forma de haces muy pequeños pero potentes, de forma que su radiación es muy direccionada e intensa (Fig. 3.4.). Esto origina un espectro más estrecho con una gran potencia óptica de emisión [23].
+ 		
+ 		///---
+ 		//LASER
+ 		
+ 		//Para poder transmitir en una de estas ventanas es necesaria una fuente de luz "coherente", es decir de una única frecuencia (o longitud de onda), la cual se consigue con un componente electrónico denominado LD ó diodo LASER (Light Amplification by Estimulated Emision of Radiation). Este componente es afectado por las variaciones de temperatura por lo que deben tener un circuito de realimentación para su control.
+ 		
+ 		//También pueden usarse diodos LED.
+ 		
+ 		//Detectores ópticos
+ 		
+ 		//Como receptores ópticos se utilizan fotodiodos APD o diodos pin (PIN-PD) que posen alta sensibilidad y bajo tiempo de respuesta.
+ 		
+ 		//El APD también requiere de un ajuste automático ante variaciones de temperatura.
+ 		
+ 		
+ 		
+ 		\item \textit{\textbf{Detectores (Recepción)}}
+ 			
+ 			
+ 		\item \textit{\textbf{Conectores y empalmes}}
+ 		
+ 	 \end{itemize}					
 
 
 ---
@@ -185,18 +233,7 @@ impurezas, pues ello origina pérdidas y atenuación de la señal transmitida.
 TIPOS DE EMISORES
 
 
-///---
-LASER
-
-Para poder transmitir en una de estas ventanas es necesaria una fuente de luz "coherente", es decir de una única frecuencia (o longitud de onda), la cual se consigue con un componente electrónico denominado LD ó diodo LASER (Light Amplification by Estimulated Emision of Radiation). Este componente es afectado por las variaciones de temperatura por lo que deben tener un circuito de realimentación para su control.
-
-También pueden usarse diodos LED.
-
-Detectores ópticos
-
-Como receptores ópticos se utilizan fotodiodos APD o diodos pin (PIN-PD) que posen alta sensibilidad y bajo tiempo de respuesta.
-
-El APD también requiere de un ajuste automático ante variaciones de temperatura.
+					
 
 
 \textcolor{teal}{
@@ -205,7 +242,7 @@ El APD también requiere de un ajuste automático ante variaciones de temperatur
 	http://www.thefoa.org/ESP/Conectores.htm
 }
 
-%--REDES DE DIFRACCIÓN DE BRAGG	
+%-- REDES DE DIFRACCIÓN DE BRAGG	
 	\item \textbf{Redes de difracción de Bragg}
 		
 	Funcionamiento y sensibilidad
