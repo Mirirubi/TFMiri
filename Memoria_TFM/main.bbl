@@ -276,9 +276,9 @@
   \entry{fabricacionFO}{misc}{}
     \name{author}{1}{}{%
       {{hash=MI}{%
-         family={MUNGUÍA},
+         family={Mungía},
          familyi={M\bibinitperiod},
-         given={IGNACIO},
+         given={Ignacio},
          giveni={I\bibinitperiod},
       }}%
     }
@@ -302,24 +302,73 @@
     \endverb
   \endentry
 
-  \entry{tutorialFOpaper}{book}{}
+  \entry{imgMonoMulti}{article}{}
     \name{author}{1}{}{%
-      {{hash=HYN}{%
-         family={Harari},
-         familyi={H\bibinitperiod},
-         given={Yuval\bibnamedelima Noah},
-         giveni={Y\bibinitperiod\bibinitdelim N\bibinitperiod},
+      {{hash=PR}{%
+         family={Paschotta},
+         familyi={P\bibinitperiod},
+         given={Rüdiger},
+         giveni={R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HYN1}
-    \strng{fullhash}{HYN1}
+    \strng{namehash}{PR1}
+    \strng{fullhash}{PR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{{Sapiens: a brief history of humankind}}
-    \list{location}{1}{%
-      {Toronto}%
+    \field{number}{2}
+    \field{pages}{52\bibrangedash 55}
+    \field{title}{{Optical Fiber Technology - Physical Principles and
+  Applications of Different Types of Optical Fibers}}
+    \field{journaltitle}{Optik & Photonik}
+    \field{year}{2008}
+  \endentry
+
+  \entry{geometriaBasicaFP}{book}{}
+    \name{author}{2}{}{%
+      {{hash=RC}{%
+         family={Roychoudhuri},
+         familyi={R\bibinitperiod},
+         given={Chandrasekhar},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Pedrotti},
+         familyi={P\bibinitperiod},
+         given={Leno},
+         giveni={L\bibinitperiod},
+      }}%
     }
-    \field{year}{2014}
+    \strng{namehash}{RCPL1}
+    \strng{fullhash}{RCPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Fundamentals of Photonics}
+    \verb{doi}
+    \verb 10.1117/3.784938.ch3
+    \endverb
+    \field{isbn}{6095736250}
+    \field{pages}{73\bibrangedash 116}
+    \field{title}{{Basic Geometrical Optics}}
+    \field{year}{2009}
+  \endentry
+
+  \entry{txFO}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Mariana},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fibra óptica: ¿Qué es?, tipos, características y
+  ventajas.(Infografía)}
+    \verb{url}
+    \verb https://www.pandaancha.mx/noticias/fibra-optica-caracteristicas-venta
+    \verb jas.html
+    \endverb
   \endentry
 
   \entry{LabVIEWpage}{online}{}
