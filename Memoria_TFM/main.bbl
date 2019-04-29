@@ -302,7 +302,27 @@
     \endverb
   \endentry
 
-  \entry{imgMonoMulti}{article}{}
+  \entry{FOA}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TFOAI}{%
+         family={The Fiber Optic\bibnamedelima Association},
+         familyi={T\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  O\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Inc},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TFOAI1}
+    \strng{fullhash}{TFOAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Fibra óptica - Tipos de fibra}
+    \verb{url}
+    \verb http://www.thefoa.org/ESP/Fibra_optica.htm
+    \endverb
+  \endentry
+
+  \entry{imgMonoMulti}{standard}{}
     \name{author}{1}{}{%
       {{hash=PR}{%
          family={Paschotta},
@@ -319,11 +339,11 @@
     \field{pages}{52\bibrangedash 55}
     \field{title}{{Optical Fiber Technology - Physical Principles and
   Applications of Different Types of Optical Fibers}}
-    \field{journaltitle}{Optik & Photonik}
+    \field{journaltitle}{Optik and Photonik}
     \field{year}{2008}
   \endentry
 
-  \entry{geometriaBasicaFP}{book}{}
+  \entry{geometriaBasicaFP}{misc}{}
     \name{author}{2}{}{%
       {{hash=RC}{%
          family={Roychoudhuri},
