@@ -124,11 +124,11 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	\label{fig:modoMonoMulti}
  \end{figure} 
  
-  Dependiendo de la relación de diámetro entre el núcleo y el revestimiento, la fibra fibra será monomodo o multimodo (figura \ref{fig:modoMonoMulti}). Esta diferencia afecta a la propagación de la luz dentro de la guía de onda. Ya se ha comentado que el diámetro de la fibra es de aproximadamente 125 micras. En el caso de las fibras monomodo, el núcleo de estas tiene un diámetro tan pequeño (en torno a 8 micras) que la luz solo puede propagarse en un sólo modo (rayo). Sin embargo, en el caso de las fibras multimodo, al poseer un núcleo mayor (entre 50 o 62.5 micras) soportan la transmisión el múltiples modos, es decir, los rayos de luz viajan en muchas direcciones a través de este. \cite{FOA} 
+  Dependiendo de la relación de diámetro entre el núcleo y el revestimiento, la fibra fibra será monomodo o multimodo (figura \ref{fig:modoMonoMulti}). Esta diferencia afecta a la propagación de la luz dentro de la guía de onda (figuras \ref{fig:guiaMM}, \ref{fig:guiaSM}, \ref{fig:indiceMultimodo}). Ya se ha comentado que el diámetro de la fibra es de aproximadamente 125 micras. En el caso de las fibras monomodo, el núcleo de estas tiene un diámetro tan pequeño (en torno a 8 micras) que la luz solo puede propagarse en un sólo modo (rayo). Sin embargo, en el caso de las fibras multimodo, al poseer un núcleo mayor (entre 50 o 62.5 micras) soportan la transmisión el múltiples modos, es decir, los rayos de luz viajan en muchas direcciones a través de este. \cite{FOA} 
    
    	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\textwidth]{./img/guiaMM}
+		\includegraphics[width=0.7\textwidth]{./img/guiaMM}
 		\caption{Corte transversal fibra multimodo en transmisión de luz. \cite{imgMonoMulti} } 
 		\label{fig:guiaMM}
 	\end{figure} 
@@ -142,12 +142,15 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	%-- Relación monomodo y multimodo con las longitudes de onda
  	Relacionando los tipos de fibras ópticas con las ventanas en las que trabajan, las fibras multimodo suelen trabajar en primera y segunda ventana, mientras que las fibras monomodo en segunda y tercera. 
 
-//----------------------------- 	
+	  	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{./img/transFO-esc-grad}
+		\caption{Disposición rayos. Multimodo (indice escalonado y gradual) y monomodo. \cite{FOA} } 
+		\label{fig:indiceMultimodo}
+		\end{figure}
+	
  	%-- Otros tipos de FO
- 	Además existen otros tipos de fibras menos comunes:
- 	
- 	\url{http://www.thefoa.org/ESP/Fibra_optica.htm}
- 	En la figura \ref{fig:otrosTiposFO} se representan las diferentes relaciones de tamaños entre los cinco tipos de fibra vistos. 
+ 	Además existen otros tipos de fibras menos comunes: la fibra de plástico (POF) y la fibra de sílice con revestimiento de plástico (HCS/PCS). La primera tiene un núcleo de gran diámetro ($1mm$ aproximadamente), puede utilizarse para redes de distancia corta y de baja velocidad. Las fibras de sílice con revestimiento de plástico tienen un núcleo más pequeño ($200\mu m$ aproximadamente) que las fibras de plástico. Estos dos últimos tipos de fibra multimodo generalmente son de índice escalonado, mientras que el resto de fibras multimodo suelen ser de índice gradual. En la figura \ref{fig:indiceMultimodo} se observa como es la diferencia en la distribución de los rayos en un caso y en el otro. En cuanto al tamaño de las fibras, la figura \ref{fig:otrosTiposFO} se representan las diferentes relaciones de tamaños entre los cinco tipos de fibra vistos. \cite{FOA}
  	 	
  	 \begin{figure}[H]
  	 	\centering
@@ -155,9 +158,9 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	 	\caption{Relación tamaños fibras ópticas. \cite{FOA} } 
  	 	\label{fig:otrosTiposFO}
  	 \end{figure} 	
- 	 	
- 	\textcolor{rositaoscuro}{\textit{Si veo que tal puedo extenderme\\Existen otros tipos de fibras opticas: POF - PCS y HCS (imagen ejemplo de diámetros).}}
--------------//
+  	
+ %-- PROPAGACIÓN DE LA LUZ	
+ %-- Diferenci de indices de refracción
  La diferencia de índices de refracción entre las capas centrales de la fibra son las que permiten la propagación de la luz a través de esta. El núcleo tiene un mayor indice de refracción que el revestimiento, lo que genera que los rayos de luz se curven a medida que pasan del núcleo al revestimiento, generando una "reflexión interna total" en la fibra. La siguiente imagen (figura \ref{fig:TIR}) sirve para explicar claramente este concepto:
  
  \begin{figure}[H]
@@ -177,20 +180,24 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
  La reflexión interna total atrapa la luz hasta cierto ángulo en el núcleo, definiendo la apertura numérica a la que hay que asegurarse de penetrar la luz para que se de el fenómeno de reflexión interna total. Así se fuerza a que la mayoría de los rayos de luz incidan sobre el interfaz y se reflejen, permitiendo la transmisión de la señal lumínica. 
  
-
+ 
+ 
+ \textcolor{rositaoscuro}{//----------------------------------------------------------------------- }\\ 
  %No vamos a hablar más de multimodo
- (Puesto que en la solución llevada a cabo en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre la transmisión en fibras multimodo.)
+ (\\Puesto que en la solución llevada a cabo en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre la transmisión en fibras multimodo.\\)\\
+ \textcolor{rositaoscuro}{-------------------------------------------------------------------------//}\\
+ 
  
  %Sistemas de propagación
- Los sistemas de propagación de señales luminosas a través de la fibra óptica componen un medio de transmisión de datos rápido y fiable. Previa a la propagación a través de un medio óptico de una señal eléctrica (analógica o digital) es necesario realizar una conversión de esta a señal óptica. Esto genera una señal óptica a partir de una señal eléctrica en el emisor o fuente de luz situado en el extremo inicial de la comunicación. Realizada la conversión, la señal es transmitida a lo largo de la fibra óptica. Según las características del escenario puede haber una o varias uniones entre fibras a lo largo del canal. Estás pueden realizarse empalmando o utilizando conectores. Una vez la señal óptica atraviesa todo el canal, llega al detector, dónde sucede el proceso inverso al ocurrido en el emisor y a la salida del sistema completo se tiene la señal eléctrica. Esta corresponde a la señal introducida al sistema con una pequeña posibilidad de haber sufrido pérdidas o atenuación debido a la impureza de la fibra, la distancia, las conexiones entre elementos del sistema o cualquier otro evento ajeno al este. Estas modificaciones de la señal de entrada pueden ser contrarrestadas o solventadas en recepción sin suponer un impedimento a una comunicación exitosa. (figura \ref{fig:TxFOp2p})
- 
    \begin{figure}[H]
  	\centering
- 	\includegraphics[width=0.75\textwidth]{./img/TxFOp2p}
+ 	\includegraphics[width=1\textwidth]{./img/TxFOp2p}
  	\caption{Transmisión punto a punto de señales a través de fibra óptica. \cite{txFO} } 
  	\label{fig:TxFOp2p}
- 	\end{figure} 
-
+ \end{figure} 
+ 
+ Los sistemas de propagación de señales luminosas a través de la fibra óptica componen un medio de transmisión de datos rápido y fiable. En la figura \ref{fig:TxFOp2p} se plasma el procedimiento que sigue la transmisión de datos en un sistema óptico y los elementos que lo componen. Previa a la propagación a través de un medio óptico de una señal eléctrica (analógica o digital) es necesario realizar una conversión de esta a señal óptica. Esto genera una señal óptica a partir de una señal eléctrica en el emisor o fuente de luz situado en el extremo inicial de la comunicación. Realizada la conversión, la señal es transmitida a lo largo de la fibra óptica. Según las características del escenario puede haber una o varias uniones entre fibras a lo largo del canal. Estás pueden realizarse empalmando o utilizando conectores. Una vez la señal óptica atraviesa todo el canal, llega al detector, dónde sucede el proceso inverso al ocurrido en el emisor y a la salida del sistema completo se tiene la señal eléctrica. Esta corresponde a la señal introducida al sistema con una pequeña posibilidad de haber sufrido pérdidas o atenuación debido a la impureza de la fibra, la distancia, las conexiones entre elementos del sistema o cualquier otro evento ajeno al este. Estas modificaciones de la señal de entrada pueden ser contrarrestadas o solventadas en recepción sin suponer un impedimento a una comunicación exitosa.    
+  
  Veamos por separado los elementos dibujados en la figura \ref{fig:TxFOp2p}:
  	\begin{itemize}
  		\item \textit{\textbf{Emisores (Transmisión)}}	
