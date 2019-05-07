@@ -200,6 +200,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
   
  Veamos por separado los elementos dibujados en la figura \ref{fig:TxFOp2p}:
  	\begin{itemize}
+ 	%-Emisores (Transmisión)
  		\item \textit{\textbf{Emisores (Transmisión)}}	
  		% \hspace{0.2cm} 
  		Los emisores de luz forman un papel imprescindible en la transmisión de señales a través de la fibra óptica. Se encargan de convertir la señal eléctrica a señal luminosa, para que esta se pueda propagar por el canal óptico según lo esperado. Principalmente hay dos tipos de fuentes de luz: diodos LED o diodos láser. Dentro de los de tipo láser se distinguen otros tres tipos: láser fabry-perot (\textit{FP}), láser de retroalimentación distribuida (\textit{(DFB)}) y láser de cavidad vertical y emisión superficial (\textit{VCSEL}). Unas de las condiciones más importantes que deben cumplir las fuentes de luz son que operen en la longitud de onda adecuada, se puedan de modular lo suficientemente rápido para transmitir datos y poder acoplarse de forma eficiente a la fibra. \cite{TransRecepFO}
@@ -258,14 +259,15 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
   		\caption{Tabla características fuentes de ópticas}
   		\label{tabla:caractFuentes}
   		\end{table}
-  				
+  	
+   	%-Detectores (Recepción)		
  		\item \textit{\textbf{Detectores (Recepción)}}
  			
  		En cuanto al proceso de recepción, consiste en que la señal llega al final del canal y se tiene que dar el proceso inverso que en transmisión. Los detectores tienen la función de convertir las señales ópticas a señales eléctricas para recuperar la información. Son diodos semiconductores encargados de polarizar inversamente la polarización realizada en el diodo emisor.  Al igual que pasaba en la transmisión, existe detección coherente o incoherente(detección directa). El componente del receptor que realiza la conversión óptico-eléctrica es el fotodetector. Se distinguen varios tipos, los más comunes son: los fotodidos PIN y los fotodiodos de efecto de avalancha (\textit{APD}). Aunque merece la pena mencionar los fotoespectrómetros, formados por células CCD integradas y una estructurá optica tan precisa que es capaz de detectar la potencia que la luz recibida proporciona en cada longitud de onda. Volviendo a los receptores PIN y APD, además del fotodetector, el detector puede estar compuesto por un pre-amplificador óptico, pero casi siempre tendrá un pre-amplificador eléctrico para amplificar la señal eléctrica obtenida del fotodiodo, de muy baja corriente. El receptor lo podrá formar también (figura \ref{fig:diagRX}) un filtro óptico, para tomar solo en cuenta las frecuencias de interés. Posterior a la pre-amplificación eléctrica, los elementos de procesado de la señal que se incluyan dependerán del si las señales empleadas por el sistema eléctrico son analógicas o digitales.
  		
 	 	\begin{figure}[H]
 	 		\centering
-	 		\includegraphics[width=0.55\textwidth]{./img/diagRX}
+	 		\includegraphics[width=0.65\textwidth]{./img/diagRX}
 	 		\caption{Diagrama de bloque receptor} 
 	 		\label{fig:diagRX}
 	 	\end{figure} 
@@ -274,39 +276,125 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  		
  		\textcolor{rositaoscuro}{//---------------------------------------------------Puedo añadir si eso lo que pone en el siguiente link:}
  		\url{http://www.thefoa.org/tech/ref/appln/transceiver.html}
- 			
- 		\item \textit{\textbf{Conectores y empalmes}}
+ 	
+ 	%-Conectores y empalmes
+ 		\item \textit{\textbf{Conectores y empalmes}}\\
+
+ 		Cabe hablar también de los conectores ópticos y empalmes utilizados para unir fibra óptica a fibra óptica u otros elementos del sistema. Teniendo una fibra óptica terminada en algún tipo de conector esta se puede unir a elementos como emisores, receptores, multiplexores y otros elementos, incluso se puede unir a otra fibra terminada en conector con un adaptador macho a macho. Además, para unir dos trozos de fibra es posible realizar una fusión que empalme ambas terminaciones de la fibra. La principal diferencia entre estos dos tipos de uniones es que los conectores unen de manera no permanente, mientras que los empalmes son uniones permanentes. 
  		
+ 		\begin{figure}[H]
+ 			\centering
+ 			\includegraphics[width=0.95\textwidth]{./img/tiposConect2}
+ 			\caption{Tipos de conectores de fibra óptica. \cite{TipConectoresFO}} 
+ 			\label{fig:tiposConect}
+ 		\end{figure} 
  		
- 		\url{https://sites.google.com/site/stigestionydesarrollo/recuperacion/desarrollo-1/tema11/8---propiedades-y-tipos-de-conectores-de-fibra-optica}
- 		\textcolor{rositaoscuro}{//--------------------------------------------------------\\
- 		Conectores\\
- 		Generalmente, las conexiones entre emisor, detector y fibra, se realizan mediante conectores ópticos, que son elementos no permanentes. Estos conectores, deben garantizar que la unión pueda hacerse y deshacerse sin perder la calidad de transmisión. Son considerados el enlace más débil, por tanto, para proporcionar dicha calidad, los conectores deben garantizar bajas pérdidas en la conectividad durante todo el proceso, así como presentar inmunidad contra factores externos (temperatura, polvo, etc.). Además, deben ser fáciles de conectar y de bajo costo. A continuación, se muestran algunos de los conectores más empleados en fibra óptica (Fig. 3.5.). En el ámbito de este proyecto se emplean los FC (Ferule Connector ó Conector Férula).}
+ 		Es importante que las uniones no afecten a la calidad de la transmisión, es decir, deben garantizar bajas pérdidas de conectividad. En la figura \ref{fig:tiposConect} se muestra algunos de los conectores más empleados, cada uno de ellos suelen utilizarse en diferentes aplicaciones según sus características. Por ejemplo los utilizados en este trabajo, los conectores FC (\textit{Ferule Connector}) se suelen utiliza tanto en montaje de laboratorio como de campo y sirven en fibras monomodo y multimodo. Además tienen unas pérdidas de inserción IL < 0.34 dB en fibras multimodo y IL < 0.15 dB en fibras monomodo. \cite{TipConectoresFO}\\
+ 		\begin{figure}[H]
+	 		\centering
+	 		\includegraphics[width=0.85\textwidth]{./img/perdidasOpticas}
+	 		\caption{Causas de pérdida óptica en las uniones. \cite{FOAconect}} 
+	 		\label{fig:conectLoss}
+ 		\end{figure}
+ 		Las pérdidas se pueden reducir cuando los núcleos de las dos fibras son idénticos, están alineados de manera perfecta y se tocan entre sí, los conectores y los empalmes se realizaron adecuadamente y no hay suciedad en la unión. En la figura \ref{fig:conectLoss} se pueden observar diferentes causas de pérdidas en las conexiones de fibra óptica. Además, los conectores pueden tener diferentes formas de férulas (o terminaciones), diferentes tipos de pulidos en el extremo de la fibra donde se realiza la unión (figura \ref{fig:tiposPulidos}), lo que afecta también a las pérdidas resultantes. El extermo de la fibra tiene que estar debidamente limpio y pulido para reducir al máximo ñas pérdidas, ya que una superficie aspera puede dispersar o absorber luz.		
+   		\begin{figure}[H]
+   			\centering
+   			\includegraphics[width=0.55\textwidth]{./img/conectoresPulido}
+   			\caption{Tipos de conectores según su pulido. \cite{TipConectoresFO}} 
+   			\label{fig:tiposPulidos}
+   		\end{figure}
+
+ 		En cuanto a los empalmes, que crean una unión permanente entre dos fibras, hay dos tipos: por fusión y mecánicos. En la figura \ref{fig:empalmeTipo} se observa en primer lugar un empalme por fusión y los demás son mecánicos. Los más realizados son los empalmes por fusión por la fiabilidad y la robustez de la unión, así como por brindar pérdidas y reflectancias menores.
  		
+ 		\begin{figure}[H]
+ 			\centering
+ 			\includegraphics[width=0.5\textwidth]{./img/tiposEmpalme}
+ 			\caption{Tipos de empalmes. \cite{FOAconect}} 
+ 			\label{fig:empalmeTipo}
+ 		\end{figure} 
+ 	
+ 		 
+ 		
+ 		El proceso de fusión (Figura \ref{fig:procFusion}) consiste en primero pelar, limpiar y cortar los extremos de las fibras que se desee unir. Una vez se dispone en los extremos de la fibra desnuda, cortada con la cortadora de precisión y limpia con un paño adecuado y alcohol, se deben colocar cada una en las guías de la fusionadora. Después se ejecuta el programa de fusión adecuado, según sea la fibra. Por último, se le coloca a la fusión un manguito protector termocontraible o una protección tipo mordaza para que la fusión no se desprenda ante alguna adversidad.
+ 		
+ 		\begin{figure}[H]
+ 			\centering
+ 			\includegraphics[width=0.85\textwidth]{./img/procesoFusion}
+ 			\caption{Proceso de empalme por fusión. \cite{FOAconect}} 
+ 			\label{fig:procFusion}
+ 		\end{figure}
+
  	 \end{itemize}					
 
-
-
-\textcolor{teal}{
-	Recubrimientos: http://apacoe.weebly.com/conocimiento/que-es-la-fibra-optica
-	Link:Conectores y empalmes
-	http://www.thefoa.org/ESP/Conectores.htm
-}
-
 %-- REDES DE DIFRACCIÓN DE BRAGG	
-	\item \textbf{Redes de difracción de Bragg}
+	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\
 		
 	Funcionamiento y sensibilidad
 	
+	
+	
+	///--- SC
+	Redes de difracción de Bragg sobre fibra óptica (FBGs)\\	
+	
+	En las últimas décadas, la popularización de la fibra óptica como método de transmisión de datos ha originado un gran desarrollo de sensores asociados. En este contexto adquiere
+	protagonismo el sensor de fibra óptica basado en redes de difracción de Bragg o fibre Bragg gratings, en inglés (en adelante FBG).\\
+		
+	Respecto a la fibra óptica, las FBG se destacan por sus propiedades ópticas y estructurales puesto que no son sensibles a las fluctuaciones de la amplitud de la fuente óptica, ya que el
+	mecanismo de lectura se basa en la longitud de onda en detrimento de la intensidad de la luz.\\
+	
+	En líneas generales, un sensor FBG consiste en una rejilla tipo Bragg (Fig. 3.6.) generada sobre un segmento reducido de fibra óptica monomodo, que origina un cambio periódico en
+	el índice de refracción del núcleo de la fibra óptica [27].\\
+	
+	Este proceso tiene lugar en la parte interna de la fibra óptica y se debe a la capacidad de introducir cambios periódicos permanentes en el índice de refracción del núcleo cuando
+	propaga una señal luminosa. Las FBG se fabrican practicando una inscripción en su núcleo mediante láser ultravioleta o infrarrojo, dependiendo de la técnica, obteniendo una variación
+	cíclica de su índice de refracción. Como consecuencia, en las estructuras de Bragg, cuando la luz incide en la zona modificada, determinadas longitudes de onda se reflejan, mientras que el resto se siguen propagando (Fig. 3.7.). Con ello, una FBG, también puede emplearse como un filtro selectivo en longitud de onda.\\
+	
+	La ecuación que describe la longitud de onda reflejada en función del patrón de variación cíclica del índice en el nucleo de la fibra es:\\
+						asdfasf\\
+	donde:
+	Longitud de onda característica de la FBG\\
+	Índice de refracción efectivo\\
+	Período de la red Bragg (distancia de repetición del patrón)\\
+	
+	Cuando una FBG sufre una deformación (por tensión, temperatura, etc), se origina un cambio en la distancia entre los puntos de reflexión y, por consiguiente, una alteración del índice	refractivo obteniéndose una LABNDA distinta a la detectada inicialmente. Así se pueden determinan variaciones en la longitud de onda de Bragg.\\
+	
+	Las características y funcionalidades de las FBG las han convertido en una tecnología muy importante en diversos ámbitos profesionales. Entre otras de sus ventajas, destacan sus
+	reducidas dimensiones, bajo coste y la ya citada sensibilidad respecto a las variaciones de tensión y temperatura. Este aspecto es de gran utilidad para su monitorización mediante los
+	dispositivos interrogadores.\\
+	Habitualmente, estos sensores se encapsulan en materiales como policluro de vinilo (PVC), polidimetilsiloxano (PDMS), etc, para garantizarles cierta protección. Precisamente, en este
+	trabajo, se ha elegido el material PDMS como material protector.\\
+	
+	\textcolor{rositaoscuro}{Del siguiente link me quedo con algunas figuras que he apuntado en el block de notas, de la pagina 308, 310 y así. Al final expone un ejemplo con un puente}\\
 	\url{http://www.polaritech.ir/wp-content/uploads/2016/07/Francis_T.S._Yu_Shizhuo_Yin_Fiber_Optic_SensorsBookFi.pdf}
 	
+	\textcolor{rositaoscuro}{asdf}
+	\textcolor{teal}{sdffsd}
+	
 %-- POLIDIMETILSILOXANO - PDMS	
-	\item \textbf{Polidimetilsiloxano (PDMS)}
+	\item \textbf{Polidimetilsiloxano (PDMS)}\\
 		
 	Material empleado para embeber las FBGs.
 	
+	
+	//--- SC
+	En este proyecto, se consideró el PDMS como el material más adecuado para el desarrollo del	sensor de fibras ópticas debido a que se adapta flexiblemente al comportamiento de la mano,
+	es elástico, maleable, se puede desmoldar fácilmente y se puede regular su rigidez empleando distintas proporciones.\\
+	
+	El polidimetilsiloxano, es un polímero orgánico basado en silicio, perteneciente al grupo de compuestos orgánicos que comúnmente se referencian siliconas. También se le conoce como
+	dimeticona, un tipo de aceite de silicona.\\
+	
+	Su fórmula química es: (H3C)3SiO[Si(CH3)2O]nSi(CH3)3, donde n es el número de unidades repetitivas del monómero [SiO(CH3)2] [30]. Es decir, n es el índice que indica el tamaño de su
+	cadena principal. La consistencia del PDMS varía en función de n (tamaño de la cadena). Por tanto, si n es un valor bajo, el PDMS puede ser prácticamente líquido. En cambio, cuando n
+	adopta un valor elevado, el material es sólido.\\
+	
+	Habitualmente, el PDMS se adquiere en estado líquido, siendo necesario un agente de cura para endurecerlo. Dicho agente de cura también se adquiere en estado líquido. La mezcla de
+	este elemento junto con el polímero es lo que confiere la cualidad sólida al PDMS resultante. En este trabajo se ha empleado una proporción para la mezcla de 10:1, es decir, una proporción de agente de curado y diez del polímero, ratio sugerido por el proveedor. Posteriormente es común exponer esta mezcla a un tratamiento térmico con el fin de disminuir el tiempo de solidificación. En la figura 3.8. se muestra el PDMS en su estado líquido y sólido.\\
+	
+	El PDMS tiene una serie de propiedades que lo caracterizan. Por ejemplo, es visualmente transparente, no resulta tóxico, no es inflamable y es inerte. En el ámbito de este trabajo con
+	FBG, este material destaca por sus cualidades respecto a su elevada elasticidad y flexibilidad, alta tolerancia al calor, bajo coste y simplicidad en su preparación.\\
+	
 %-- LABVIEW 	
-	\item \textbf{LabVIEW}
+	\item \textbf{LabVIEW}\\
 		
 	LabVIEW es un software de ingeniería de sistemas que requiere pruebas, medidas y control con acceso rápido a hardware e información de datos. \cite{LabVIEWpage}
 
@@ -367,6 +455,15 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\item Desmoldar.
 
 	\end{enumerate}
+	
+	\textcolor{rositaoscuro}{Las siguientes figuras la puedo poner por separado, en la explicacin del procesado de emapalmar.}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.95\textwidth]{./img/fusionFOpractica}
+		\caption{Colocación de la fibra en la fusionadora y proceso por pantalla. \cite{FOAconect}} 
+		\label{fig:fusionadora}
+	\end{figure}  
+	
 	
 	
 	\item \textbf{Montaje completo}
