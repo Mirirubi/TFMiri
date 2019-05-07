@@ -327,10 +327,44 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	 \end{itemize}					
 
 %-- REDES DE DIFRACCIÓN DE BRAGG	
-	\item \textbf{Redes de difracción de Bragg}\\
+	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\
 		
 	Funcionamiento y sensibilidad
 	
+	
+	
+	///--- SC
+	Redes de difracción de Bragg sobre fibra óptica (FBGs)\\	
+	
+	En las últimas décadas, la popularización de la fibra óptica como método de transmisión de datos ha originado un gran desarrollo de sensores asociados. En este contexto adquiere
+	protagonismo el sensor de fibra óptica basado en redes de difracción de Bragg o fibre Bragg gratings, en inglés (en adelante FBG).\\
+		
+	Respecto a la fibra óptica, las FBG se destacan por sus propiedades ópticas y estructurales puesto que no son sensibles a las fluctuaciones de la amplitud de la fuente óptica, ya que el
+	mecanismo de lectura se basa en la longitud de onda en detrimento de la intensidad de la luz.\\
+	
+	En líneas generales, un sensor FBG consiste en una rejilla tipo Bragg (Fig. 3.6.) generada sobre un segmento reducido de fibra óptica monomodo, que origina un cambio periódico en
+	el índice de refracción del núcleo de la fibra óptica [27].\\
+	
+	Este proceso tiene lugar en la parte interna de la fibra óptica y se debe a la capacidad de introducir cambios periódicos permanentes en el índice de refracción del núcleo cuando
+	propaga una señal luminosa. Las FBG se fabrican practicando una inscripción en su núcleo mediante láser ultravioleta o infrarrojo, dependiendo de la técnica, obteniendo una variación
+	cíclica de su índice de refracción. Como consecuencia, en las estructuras de Bragg, cuando la luz incide en la zona modificada, determinadas longitudes de onda se reflejan, mientras que el resto se siguen propagando (Fig. 3.7.). Con ello, una FBG, también puede emplearse como un filtro selectivo en longitud de onda.\\
+	
+	La ecuación que describe la longitud de onda reflejada en función del patrón de variación cíclica del índice en el nucleo de la fibra es:\\
+						asdfasf\\
+	donde:
+	Longitud de onda característica de la FBG\\
+	Índice de refracción efectivo\\
+	Período de la red Bragg (distancia de repetición del patrón)\\
+	
+	Cuando una FBG sufre una deformación (por tensión, temperatura, etc), se origina un cambio en la distancia entre los puntos de reflexión y, por consiguiente, una alteración del índice	refractivo obteniéndose una LABNDA distinta a la detectada inicialmente. Así se pueden determinan variaciones en la longitud de onda de Bragg.\\
+	
+	Las características y funcionalidades de las FBG las han convertido en una tecnología muy importante en diversos ámbitos profesionales. Entre otras de sus ventajas, destacan sus
+	reducidas dimensiones, bajo coste y la ya citada sensibilidad respecto a las variaciones de tensión y temperatura. Este aspecto es de gran utilidad para su monitorización mediante los
+	dispositivos interrogadores.\\
+	Habitualmente, estos sensores se encapsulan en materiales como policluro de vinilo (PVC), polidimetilsiloxano (PDMS), etc, para garantizarles cierta protección. Precisamente, en este
+	trabajo, se ha elegido el material PDMS como material protector.\\
+	
+	\textcolor{rositaoscuro}{Del siguiente link me quedo con algunas figuras que he apuntado en el block de notas, de la pagina 308, 310 y así. Al final expone un ejemplo con un puente}\\
 	\url{http://www.polaritech.ir/wp-content/uploads/2016/07/Francis_T.S._Yu_Shizhuo_Yin_Fiber_Optic_SensorsBookFi.pdf}
 	
 	\textcolor{rositaoscuro}{asdf}
@@ -340,6 +374,24 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	\item \textbf{Polidimetilsiloxano (PDMS)}\\
 		
 	Material empleado para embeber las FBGs.
+	
+	
+	//--- SC
+	En este proyecto, se consideró el PDMS como el material más adecuado para el desarrollo del	sensor de fibras ópticas debido a que se adapta flexiblemente al comportamiento de la mano,
+	es elástico, maleable, se puede desmoldar fácilmente y se puede regular su rigidez empleando distintas proporciones.\\
+	
+	El polidimetilsiloxano, es un polímero orgánico basado en silicio, perteneciente al grupo de compuestos orgánicos que comúnmente se referencian siliconas. También se le conoce como
+	dimeticona, un tipo de aceite de silicona.\\
+	
+	Su fórmula química es: (H3C)3SiO[Si(CH3)2O]nSi(CH3)3, donde n es el número de unidades repetitivas del monómero [SiO(CH3)2] [30]. Es decir, n es el índice que indica el tamaño de su
+	cadena principal. La consistencia del PDMS varía en función de n (tamaño de la cadena). Por tanto, si n es un valor bajo, el PDMS puede ser prácticamente líquido. En cambio, cuando n
+	adopta un valor elevado, el material es sólido.\\
+	
+	Habitualmente, el PDMS se adquiere en estado líquido, siendo necesario un agente de cura para endurecerlo. Dicho agente de cura también se adquiere en estado líquido. La mezcla de
+	este elemento junto con el polímero es lo que confiere la cualidad sólida al PDMS resultante. En este trabajo se ha empleado una proporción para la mezcla de 10:1, es decir, una proporción de agente de curado y diez del polímero, ratio sugerido por el proveedor. Posteriormente es común exponer esta mezcla a un tratamiento térmico con el fin de disminuir el tiempo de solidificación. En la figura 3.8. se muestra el PDMS en su estado líquido y sólido.\\
+	
+	El PDMS tiene una serie de propiedades que lo caracterizan. Por ejemplo, es visualmente transparente, no resulta tóxico, no es inflamable y es inerte. En el ámbito de este trabajo con
+	FBG, este material destaca por sus cualidades respecto a su elevada elasticidad y flexibilidad, alta tolerancia al calor, bajo coste y simplicidad en su preparación.\\
 	
 %-- LABVIEW 	
 	\item \textbf{LabVIEW}\\
@@ -404,7 +456,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 
 	\end{enumerate}
 	
-	
+	\textcolor{rositaoscuro}{Las siguientes figuras la puedo poner por separado, en la explicacin del procesado de emapalmar.}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.95\textwidth]{./img/fusionFOpractica}
