@@ -400,6 +400,35 @@
     \endverb
   \endentry
 
+  \entry{TipConectoresFO}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Tipos de conectores y usos}
+    \verb{url}
+    \verb https://sites.google.com/site/stigestionydesarrollo/recuperacion/desa
+    \verb rrollo-1/tema11/8---propiedades-y-tipos-de-conectores-de-fibra-optica
+    \endverb
+  \endentry
+
+  \entry{FOAconect}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TFOAI}{%
+         family={The Fiber Optic\bibnamedelima Association},
+         familyi={T\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  O\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Inc},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TFOAI1}
+    \strng{fullhash}{TFOAI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Conectores y empalmes}
+    \verb{url}
+    \verb http://www.thefoa.org/ESP/Conectores.htm
+    \endverb
+  \endentry
+
   \entry{LabVIEWpage}{online}{}
     \field{labeltitlesource}{title}
     \field{title}{¿Qué es LabVIEW?}
