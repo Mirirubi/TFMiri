@@ -202,45 +202,89 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	\begin{itemize}
  		\item \textit{\textbf{Emisores (Transmisión)}}	
  		% \hspace{0.2cm} 
+ 		Los emisores de luz forman un papel imprescindible en la transmisión de señales a través de la fibra óptica. Se encargan de convertir la señal eléctrica a señal luminosa, para que esta se pueda propagar por el canal óptico según lo esperado. Principalmente hay dos tipos de fuentes de luz: diodos LED o diodos láser. Dentro de los de tipo láser se distinguen otros tres tipos: láser fabry-perot (\textit{FP}), láser de retroalimentación distribuida (\textit{(DFB)}) y láser de cavidad vertical y emisión superficial (\textit{VCSEL}). Unas de las condiciones más importantes que deben cumplir las fuentes de luz son que operen en la longitud de onda adecuada, se puedan de modular lo suficientemente rápido para transmitir datos y poder acoplarse de forma eficiente a la fibra. \cite{TransRecepFO}
  		
- 		//--Los emisores de luz son los responsables de la conversión de la señal eléctrica en señal luminosa antes de su propagación a través de la fibra. Un emisor se puede dividir en dos partes.
- 		//--En primer lugar, se considera la propia fuente de luz y, en segundo lugar, el dispositivo que controla la potencia de la fuente de emisión. Según la forma de generar los fotones, las fuentes más empleadas para la emisión de luz son los diodos LED y los láseres.
+ 		 \begin{figure}[H]
+ 			\centering
+ 			\includegraphics[width=0.35\textwidth]{./img/led-laser}
+ 			\caption{Relación entre potencia y longitud de onda diodo LED frente a diodo láser. \cite{FOA} } 
+ 			\label{fig:ledVsLaser}
+ 		\end{figure} 
+ 	 	\begin{figure}[H]
+ 			\centering
+ 			\includegraphics[width=0.55\textwidth]{./img/led-laserEMISION}
+ 			\caption{Corte transversal de fibra con emisión desde diodo LED frente a diodo láser. \cite{FOA} } 
+ 			\label{fig:corteledVsLaser}
+ 		\end{figure} 
  		
- 		//---LED
- 		//Los diodos emisores de luz conocidos como LED (Light Emitting Diodes), son las fuentes más simples y baratas para la emisión de luz en el interior de la fibra óptica. Son un elemento semiconductor que emite luz en un espectro reducido cuando se polariza y se le hace circular corriente eléctrica. Las longitudes de onda de emisión de un diodo LED pueden variar desde el ultravioleta hasta el infrarrojo, dependiendo del material semiconductor con el que se fabrique.
- 		//Entre sus principales ventajas destacan la baja potencia de alimentación, gran tiempo de vida y la posibilidad de fabricar un elevado número de dispositivos [22]. Estas ventajas reducen su coste y permiten configurar elementos de menor tamaño. Además, posee un espectro de emisión más amplio que los diodos láser (Fig. 3.4.). Sin embargo, es de gran dimensión	respecto a la relación de tamaño con la fibra, por tanto, solo lo hacen adecuado para las fibras en régimen multimodo.
- 		//---Láser
- 		//Los láseres (Light Amplification by Stimulated Emission of Radiation) son las fuentes ópticas con mayor capacidad de transmisión de la luz a lo largo de la fibra. Estos emisores concentran la luz en forma de haces muy pequeños pero potentes, de forma que su radiación es muy direccionada e intensa (Fig. 3.4.). Esto origina un espectro más estrecho con una gran potencia óptica de emisión [23].
- 		
- 		///---
- 		//LASER
- 		
- 		//Para poder transmitir en una de estas ventanas es necesaria una fuente de luz "coherente", es decir de una única frecuencia (o longitud de onda), la cual se consigue con un componente electrónico denominado LD ó diodo LASER (Light Amplification by Estimulated Emision of Radiation). Este componente es afectado por las variaciones de temperatura por lo que deben tener un circuito de realimentación para su control.
- 		
- 		//También pueden usarse diodos LED.
- 		
- 		//Detectores ópticos
- 		
- 		//Como receptores ópticos se utilizan fotodiodos APD o diodos pin (PIN-PD) que posen alta sensibilidad y bajo tiempo de respuesta.
- 		
- 		//El APD también requiere de un ajuste automático ante variaciones de temperatura.
- 		
- 		
- 		
+ 		\begin{itemize}
+ 			\item \textbf{LED} - \textit{Light Emitting Diodes}\\
+ 			Consiste en una fuente de luz incoherente. Es una fuente de luz de mayor ancho de banda de operación que en el caso de los diodos láser (véase figura \ref{fig:ledVsLaser} y \ref{fig:corteledVsLaser}). Tiene un espectro de emisión entre los 30-100 nm. En función del material semiconductor con el que se fabrique se pueden emitir desde luz ultravioleta hasta infrarrojos. Para conseguir emitir en un espectro reducido, es necesario polarizarlo y hacerle circular corriente eléctrica. Pueden ser modulados sin dificultad hasta velocidades de 100-200 Mb/s y en algunos casos hasta velocidades de 1 Gb/s. 
+ 			
+ 			Además, tienen un comportamiento simple, de fácil fabricación y tienen un coste bajo en comparación a otras fuentes. Su circuitería de alimentación y control es muy sencilla, debido a los bajos niveles de corriente que son necesarios para que funcione el dispositivo y a su relativa inmunidad frente a variaciones de la temperatura. Necesitan baja potencia de alimentación. Su geometría y patrón de radiación es de alta divergencia, el acoplo de luz a la fibra óptica monomodo es difícil, especialmente en los LED de emisión superficial. Son dispositivos fiables, ya que no sufren la degradación de tipo catastrófico y son menos sensibles que los diodos láser a la degradación por envejecimiento. \\
+ 			
+ 					\textcolor{rositaoscuro}{//-Resumen: Los LED se basan en emisión espontánea. Por sus características (baja coherencia, divergencia alta, baja potencia óptica de salida, circuitos electrónicos sencillos,...) se emplean habitualmente en combinación con fibras multimodo para enlaces de distancias cortas y velocidades bajas.}
+ 			
+ 			\item \textbf{Láser} - \textit{Light Amplification by Stimulated Emission of Radiation}\\
+ 			Consiste en un tipo de fuente de luz coherente. Tienen mayor capacidad de transmisión de luz, concentran la luz en forma de haces estrechos pero potentes, es decir, emiten de manera direccional e intensa. Es por ello que se suele advertir que mirar con los ojos directamente a este tipo de emisiones es peligroso para la vista. (Véanse figuras \ref{fig:ledVsLaser} y \ref{fig:corteledVsLaser}). Pueden ser modulados en frecuencia y a gran velocidad. Su geometría y patrón de radiación es de relativamente baja divergencia, el acoplo de luz a la fibra óptica monomodo es bastante eficiente. Su composición es más compleja que la del diodo LED. Para conseguir dicha directividad y potencia, internamente la fuente tiene cavidades que combinan medio activo y espejos. Por ejemplo, necesita tener un circuito de realimentación para su control, debido a que se ve afectado por las variaciones de temperaturay a las reflexiones que pueda provocar la potencia óptica incidente en su salida. Debido a ello, son complejos y costosos de fabricar. 
+ 			
+ 					\textcolor{rositaoscuro}{//- Resumen Los láseres se basan en emisión estimulada, conseguida formando cavidades que combinan medio activo y espejos para la realimentación. Son de mayores prestaciones que los LED (mayor coherencia, más directivos, mayor potencia de salida,...), pero más complejos y caros. Se pueden usar en fibras monomodo. Los hay de dos tipos, básicamente:\\
+ 					--Láseres multimodo (Fabry-Perot) que se usan en enlaces de velocidades medias/bajas para distancias medias/cortas\\
+ 					-- Láseres monomodo (DFB,DBR) que se usan en enlaces de alta capacidad –alta velocidad, distancias largas- y en sistemas WDM}
+ 			
+ 			
+ 		\end{itemize}
+  		
+  		La tabla \ref{tabla:caractFuentes} compara las características de las diferentes fuentes mencionadas, permitiendo ver también las diferencias entre los diferentes tipos de diodos láser citados.
+  		
+  		
+  		\begin{table}[H]
+  			\begin{tabular}{l|c|c|c|c|}
+  				\cline{2-5}
+  				& \cellcolor[HTML]{EFEFEF}\textbf{LED} & \cellcolor[HTML]{EFEFEF}\textbf{LD F-P} & \cellcolor[HTML]{EFEFEF}\textbf{LD\_DFB} & \cellcolor[HTML]{EFEFEF}\textbf{VCSEL} \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Espectro emisión}                 & Ancho                                & Medio                                   & \multicolumn{2}{c|}{Estrecho}                                                     \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Directividad}                     & Muy divergente                       & \multicolumn{3}{c|}{Directivo}                                                                                              \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Potencia}                         & Baja                                 & \multicolumn{3}{c|}{Alta}                                                                                                   \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Velocidad / BW modulación}        & Varios cientos de MHz                & \multicolumn{3}{c|}{Varias decenas de GHz}                                                                                  \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Acoplo a la fibra}                & MMF                                  & \multicolumn{2}{c|}{SMF}                                                           & MMF                                    \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Curva I-P}                        & Sin $I_{umbral}$; baja pendiente          & \multicolumn{3}{c|}{Con $I_{umbral}$; alta pendiente}                                                                            \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Dependencia con temperatura}      & Baja                                 & \multicolumn{3}{c|}{Alta}                                                                                                   \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Circuitos electrónicos asociados} & Sencillos                            & \multicolumn{3}{c|}{Complejos}                                                                                              \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Seguridad para la vista}          & No peligroso                         & \multicolumn{3}{c|}{Potencialmente dañino}                                                                                  \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Tiempo vida útil}                 & Alto                                 & \multicolumn{3}{c|}{Medio (suficiente)}                                                                                     \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Coste}                            & Bajo                                 & Medio                                   & Alto                                     & Bajo                                   \\ \hline
+  				\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Ventana operación}                & 1ª, 2ª                               & \multicolumn{2}{c|}{2ª, 3ª}                                                        & 1ª, 2ª                                 \\ \hline
+  			\end{tabular}
+  		\caption{Tabla características fuentes de ópticas}
+  		\label{tabla:caractFuentes}
+  		\end{table}
+  				
  		\item \textit{\textbf{Detectores (Recepción)}}
  			
+ 		En cuanto al proceso de recepción, consiste en que la señal llega al final del canal y se tiene que dar el proceso inverso que en transmisión. Los detectores tienen la función de convertir las señales ópticas a señales eléctricas para recuperar la información. Son diodos semiconductores encargados de polarizar inversamente la polarización realizada en el diodo emisor.  Al igual que pasaba en la transmisión, existe detección coherente o incoherente(detección directa). El componente del receptor que realiza la conversión óptico-eléctrica es el fotodetector. Se distinguen varios tipos, los más comunes son: los fotodidos PIN y los fotodiodos de efecto de avalancha (\textit{APD}). Aunque merece la pena mencionar los fotoespectrómetros, formados por células CCD integradas y una estructurá optica tan precisa que es capaz de detectar la potencia que la luz recibida proporciona en cada longitud de onda. Volviendo a los receptores PIN y APD, además del fotodetector, el detector puede estar compuesto por un pre-amplificador óptico, pero casi siempre tendrá un pre-amplificador eléctrico para amplificar la señal eléctrica obtenida del fotodiodo, de muy baja corriente. El receptor lo podrá formar también (figura \ref{fig:diagRX}) un filtro óptico, para tomar solo en cuenta las frecuencias de interés. Posterior a la pre-amplificación eléctrica, los elementos de procesado de la señal que se incluyan dependerán del si las señales empleadas por el sistema eléctrico son analógicas o digitales.
+ 		
+	 	\begin{figure}[H]
+	 		\centering
+	 		\includegraphics[width=0.55\textwidth]{./img/diagRX}
+	 		\caption{Diagrama de bloque receptor} 
+	 		\label{fig:diagRX}
+	 	\end{figure} 
+ 	
+ 		Idealmente los fotodetectores deberián ser altamente sensibles, con alta velocidad de respuesta, poco ruidosos, compactos, robustos y de respuesta lineal. En la práctica es complicado conseguir todos estos atributos en conjunto. Por ejemplo, los APD requieren menor potencia óptica para funcionar que los diodos PIN, pero cuatro veces mayor voltaje de alimentación.
+ 		
+ 		\textcolor{rositaoscuro}{//---------------------------------------------------Puedo añadir si eso lo que pone en el siguiente link:}
+ 		\url{http://www.thefoa.org/tech/ref/appln/transceiver.html}
  			
  		\item \textit{\textbf{Conectores y empalmes}}
  		
+ 		
+ 		\url{https://sites.google.com/site/stigestionydesarrollo/recuperacion/desarrollo-1/tema11/8---propiedades-y-tipos-de-conectores-de-fibra-optica}
+ 		\textcolor{rositaoscuro}{//--------------------------------------------------------\\
+ 		Conectores\\
+ 		Generalmente, las conexiones entre emisor, detector y fibra, se realizan mediante conectores ópticos, que son elementos no permanentes. Estos conectores, deben garantizar que la unión pueda hacerse y deshacerse sin perder la calidad de transmisión. Son considerados el enlace más débil, por tanto, para proporcionar dicha calidad, los conectores deben garantizar bajas pérdidas en la conectividad durante todo el proceso, así como presentar inmunidad contra factores externos (temperatura, polvo, etc.). Además, deben ser fáciles de conectar y de bajo costo. A continuación, se muestran algunos de los conectores más empleados en fibra óptica (Fig. 3.5.). En el ámbito de este proyecto se emplean los FC (Ferule Connector ó Conector Férula).}
+ 		
  	 \end{itemize}					
 
-
----
-
-TIPOS DE EMISORES
-
-
-					
 
 
 \textcolor{teal}{
@@ -253,6 +297,8 @@ TIPOS DE EMISORES
 	\item \textbf{Redes de difracción de Bragg}
 		
 	Funcionamiento y sensibilidad
+	
+	\url{http://www.polaritech.ir/wp-content/uploads/2016/07/Francis_T.S._Yu_Shizhuo_Yin_Fiber_Optic_SensorsBookFi.pdf}
 	
 %-- POLIDIMETILSILOXANO - PDMS	
 	\item \textbf{Polidimetilsiloxano (PDMS)}
@@ -363,7 +409,7 @@ asdf
 		\hline
 	\end{tabular}
 	\caption{Tabla longitud de cada sensor FBG}
-	\label{tabla:medidas 80 cm}
+	\label{tabla:hmedidas 80 cm}
 \end{table}
 %-- Hasta aquí borrar la tabla.
 

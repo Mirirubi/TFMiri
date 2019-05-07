@@ -391,6 +391,15 @@
     \endverb
   \endentry
 
+  \entry{TransRecepFO}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Emisores y receptores de fibra optica}
+    \verb{url}
+    \verb https://servestandarwanpppoe.wordpress.com/2015/07/31/emisores-y-rece
+    \verb ptores-de-fibra-optica/
+    \endverb
+  \endentry
+
   \entry{LabVIEWpage}{online}{}
     \field{labeltitlesource}{title}
     \field{title}{¿Qué es LabVIEW?}
