@@ -327,48 +327,78 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	 \end{itemize}					
 
 %-- REDES DE DIFRACCIÓN DE BRAGG	
-	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\
+%--	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\	
+	
+	\item \textbf{Sensores de ópticos}\\
 		
-	Funcionamiento y sensibilidad
+		Existen en el mercado diversos tipos de sensores ópticos. Estos se pueden clasificar atendiendo a diversos aspectos. A continuación se exponen dos clasificaciones básicas\cite{sensoresOpticos}: 
+
+			\begin{itemize}
+				\item[$\cdot$] \underline{En función de la naturaleza del parámetro a cuantificar}
+				\begin{itemize}
+					\item Sensores químicos: Sirven para detectar variación de cantidad de ciertos componentes químicos. Además en este grupo se incluyen los biosensores.
+					\item Sensores físicos: Utilizados para medir parámetros físicos (temperatura, presión, espesor, etc.)
+				\end{itemize}
+				\item[$\cdot$] \underline{En función de la naturaleza de la propiedad óptica medida}
+				\begin{itemize}
+					\item Sensores de absorbancia
+					\item Sensores de reflectancia
+					\item Sensores se luminiscencia (fluorescencia, quimioluminiscencia y bioluminiscencia)
+					\item Sensores de dispersión Raman
+					\item Sensores de índice de refracción
+					\item etc.
+				\end{itemize}
+				\end{itemize}
+			
+			
+				En este trabajo se van a utilizar sensores de difracción de Bragg, que son sensores que cuantifican parámetros físicos a través de mediciones ópticas del índice de refracción.
+		
+	\begin{itemize}
+		%-Emisores (Transmisión)
+		\item \textit{\textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}}	
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.85\textwidth]{./img/operacionFBG}
+			\caption{Funcionamiento de un sensor de fibra óptica FBG \cite{funcionamientoFBG}} 
+			\label{fig:funcionamientoFBG}
+		\end{figure}		
+		
+		Los sensores de fibra óptica basados en redes de difracción de Bragg (\textit{Fibre Brag Gratings}), también denominadas FBGs, están diseñados para reflejar longitudes de onda determinadas (según el diseño) de la luz y transmitir el resto (Figura \ref{fig:funcionamientoFBG}). Para ello se crea en el núcleo de la fibra una variación periódica del índice de refracción, conocido cómo rejilla tipo Bragg. Esta variación sólo afecta a la transmisión de cierta longitud de onda, la que refleja. Este tipo de fenómeno se puede utilizar cómo filtro bloqueador de una longitud de onda, además de para medir parámetros físicos cómo la deformación o la temperatura. Por ejemplo, es muy común su uso para la monitorización de estructuras como puentes \cite{FOSensorFrancis}. 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\textwidth]{./img/FBGmanufactur}
+			\caption{Proceso de generación del sensor de Bragg en la fibra. \cite{tesisUPMmalte}} 
+			\label{fig:manufacturaBragg}
+		\end{figure}
+		
+		 Para conseguir en el núcleo la variación permanente del índice de refracción se utiliza una fuente de luz ultravioleta (UV). De esta manera se inscribe una rejilla tipo Bragg en una fibra monomodo (figura \ref{fig:manufacturaBragg}). Comúnmente se utiliza fibra de sílice dopada con germanio, por su fotosensibilidad (capacidad de cambio del índice de refracción del núcleo con la exposición a la luz UV). En función de la intensidad y la duración de la exposición y de la fotosensibilidad de la fibra se consigue una variación del índice de refracción mayor o menor. 
+		
+		En resumen, los sensores de fibra de Bragg consisten en una fibra óptica monomodo, dónde, en un segmento reducido de esta, se encuentra una rejilla tipo Bragg. Siendo esta la que genera en el núcleo de la fibra el cambio periódico de índice de refracción \cite{defFBG}.\\
+		
+		Existe una relación matemática entre la longitud característica de la FBG o longitud de la onda reflejada ($\lambda\textsubscript{B}$), el índice de refracción efectivo ($\eta\textsubscript{eff}$) y el periodo de la red de Bragg ($\Lambda$), como se puede ver en la ecuación \ref{eq:condicBragg}, dónde se define la longittud de la onda reflejada, $\lambda\textsubscript{B}$: 
+			\begin{equation}
+				\label{eq:condicBragg}
+				\lambda=\lambda\textsubscript{B} = 2\eta\textsubscript{eff}\Lambda	
+			\end{equation}
+		
+		
+		A partir de estos conocimientos se deduce cómo, cuando se genere una deformación de la fibra a la altura de la rejilla de Bragg		
 	
-	Condición de Bragg:
-	Sólo se refleja esta longitud de onda (y un cierto rango en torno a ella)
+------------------------------------------------------
 	
-	 en la ecuación \ref{eq:condicBragg}
-	
-	\begin{equation}
-		\label{eq:condicBragg}
-		\lambda=\lambda\textsubscript{B} = 2n\textsubscript{eff}\Lambda	
-		\end{equation}
-	
-	\url{https://books.google.es/books?id=hYuxdtJUJ4UC&printsec=frontcover&hl=es#v=onepage&q&f=false}
-	\url{https://eprints.ucm.es/8888/1/T28507.pdf}
-	\url{http://oa.upm.es/459/1/MALTE_FROVEL.pdf}
-	
-	
-	
+		Condición de Bragg:
+		Sólo se refleja esta longitud de onda (y un cierto rango en torno a ella)
+			
+		como se utiliza
+				
+		como funciona
+		
+		posibilidad de ponerlo en serie
+		
 	///--- SC
-	Redes de difracción de Bragg sobre fibra óptica (FBGs)\\	
-	
-	En las últimas décadas, la popularización de la fibra óptica como método de transmisión de datos ha originado un gran desarrollo de sensores asociados. En este contexto adquiere
-	protagonismo el sensor de fibra óptica basado en redes de difracción de Bragg o fibre Bragg gratings, en inglés (en adelante FBG).\\
-		
-	Respecto a la fibra óptica, las FBG se destacan por sus propiedades ópticas y estructurales puesto que no son sensibles a las fluctuaciones de la amplitud de la fuente óptica, ya que el
-	mecanismo de lectura se basa en la longitud de onda en detrimento de la intensidad de la luz.\\
-	
-	En líneas generales, un sensor FBG consiste en una rejilla tipo Bragg (Fig. 3.6.) generada sobre un segmento reducido de fibra óptica monomodo, que origina un cambio periódico en
-	el índice de refracción del núcleo de la fibra óptica [27].\\
-	
-	Este proceso tiene lugar en la parte interna de la fibra óptica y se debe a la capacidad de introducir cambios periódicos permanentes en el índice de refracción del núcleo cuando
-	propaga una señal luminosa. Las FBG se fabrican practicando una inscripción en su núcleo mediante láser ultravioleta o infrarrojo, dependiendo de la técnica, obteniendo una variación
-	cíclica de su índice de refracción. Como consecuencia, en las estructuras de Bragg, cuando la luz incide en la zona modificada, determinadas longitudes de onda se reflejan, mientras que el resto se siguen propagando (Fig. 3.7.). Con ello, una FBG, también puede emplearse como un filtro selectivo en longitud de onda.\\
-	
-	La ecuación que describe la longitud de onda reflejada en función del patrón de variación cíclica del índice en el nucleo de la fibra es:\\
-						asdfasf\\
-	donde:
-	Longitud de onda característica de la FBG\\
-	Índice de refracción efectivo\\
-	Período de la red Bragg (distancia de repetición del patrón)\\
+
 	
 	Cuando una FBG sufre una deformación (por tensión, temperatura, etc), se origina un cambio en la distancia entre los puntos de reflexión y, por consiguiente, una alteración del índice	refractivo obteniéndose una LABNDA distinta a la detectada inicialmente. Así se pueden determinan variaciones en la longitud de onda de Bragg.\\
 	
@@ -381,8 +411,42 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	\textcolor{rositaoscuro}{Del siguiente link me quedo con algunas figuras que he apuntado en el block de notas, de la pagina 308, 310 y así. Al final expone un ejemplo con un puente}\\
 	\url{http://www.polaritech.ir/wp-content/uploads/2016/07/Francis_T.S._Yu_Shizhuo_Yin_Fiber_Optic_SensorsBookFi.pdf}
 	
+	
+
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./img/reflexBragg}
+		\caption{Representación esquemática de la reflexión de una frecuencia determinada de la luz viajando en la fibra óptica en una red de Braggs. \cite{tesisUPMmalte}} 
+		\label{fig:reflexBragg}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./img/medicBragg2}
+		\caption{asdffdsfdsf. \cite{FOSensorFrancis}} 
+		\label{fig:reflexBragg2}
+	\end{figure}
+
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./img/medicBragg}
+		\caption{Representación esquemática de un sistema de  medición de deformaciones mediante fibras ópticas con redes de Bragg y analizador espectral óptico. \cite{tesisUPMmalte}} 
+		\label{fig:medicBragg}
+	\end{figure}
+	
+	
+\end{itemize}
+
+
+	
+	
 	\textcolor{rositaoscuro}{asdf}
 	\textcolor{teal}{sdffsd}
+	
+	
 	
 %-- POLIDIMETILSILOXANO - PDMS	
 	\item \textbf{Polidimetilsiloxano (PDMS)}\\
