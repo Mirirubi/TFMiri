@@ -429,6 +429,119 @@
     \endverb
   \endentry
 
+  \entry{sensoresOpticos}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=CCP}{%
+         family={COnde},
+         familyi={C\bibinitperiod},
+         given={Concepción\bibnamedelima Pérez},
+         giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CCP1}
+    \strng{fullhash}{CCP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Sensores ópticos}
+    \field{year}{1996}
+  \endentry
+
+  \entry{funcionamientoFBG}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NhF}{%
+         family={Navarro-henr{\'{i}}quez},
+         familyi={N\bibinithyphendelim h\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{fbg,interrogador {\'{o}}ptico,monitoreo de salud estructural,rejilla
+  de fibra bragg,sensores de fibra {\'{o}}ptica,sensores fbg de esfuerzo,y
+  vibraci{\'{o}}n}
+    \strng{namehash}{NhF1}
+    \strng{fullhash}{NhF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{506}
+    \field{pages}{3\bibrangedash 13}
+    \field{title}{{Sensores de fibra {\'{o}}ptica FBG para el monitoreo de la
+  salud estructural de los puentes Structural Health Monitoring of Bridges with
+  Fiber Bragg Grating Sensors}}
+    \field{volume}{27}
+    \field{year}{2014}
+  \endentry
+
+  \entry{FOSensorFrancis}{book}{}
+    \name{author}{1}{}{%
+      {{hash=FTSYSY}{%
+         family={Francis T. S.\bibnamedelima Yu},
+         familyi={F\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+         given={Shizhuo\bibnamedelima Yin},
+         giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FTSYSY1}
+    \strng{fullhash}{FTSYSY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{082470732X}
+    \field{title}{{Fiber Optic Sensors}}
+    \list{location}{1}{%
+      {The Pennsylvania State University}%
+    }
+    \field{year}{2002}
+  \endentry
+
+  \entry{tesisUPMmalte}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Frovel},
+         familyi={F\bibinitperiod},
+         given={Malte},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Sensores de fibra óptica tipo redes de Bragg embebidos en
+  material compuesto para medir deformaciones y temperaturas criogénicas}
+    \list{location}{1}{%
+      {Escuela técnica superior de ingenieros aeronáuticos, Universidad
+  Politécnica de Madrid}%
+    }
+    \field{year}{2006}
+  \endentry
+
+  \entry{defFBG}{article}{}
+    \name{author}{1}{}{%
+      {{hash=ADKHJPMLKPKMAD}{%
+         family={Alan D.\bibnamedelima Kersey},
+         familyi={A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+         suffix={Michael A.\bibnamedelima Davis},
+         suffixi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+         given={Heather J. Patrick Michel LeBlanc K. P.\bibnamedelima Koo},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  P\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ADKMADHJPMLKPK1}
+    \strng{fullhash}{ADKMADHJPMLKPK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{8}
+    \field{pages}{1442\bibrangedash 1463}
+    \field{title}{Fiber Grating Sensors}
+    \field{volume}{15}
+    \field{year}{1997}
+  \endentry
+
   \entry{LabVIEWpage}{online}{}
     \field{labeltitlesource}{title}
     \field{title}{¿Qué es LabVIEW?}
