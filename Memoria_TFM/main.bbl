@@ -542,6 +542,34 @@
     \field{year}{1997}
   \endentry
 
+  \entry{termoDeformFBG}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{¿Qué es una red de Bragg en fibra?}
+    \verb{url}
+    \verb https://www.hbm.com/es/4596/que-es-una-red-de-bragg-en-fibra/
+    \endverb
+  \endentry
+
+  \entry{flexibleFBG}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DP}{%
+         family={Dubruel},
+         familyi={D\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DP1}
+    \strng{fullhash}{DP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Flexible sensing skin with embedded fibre Bragg gratings}
+    \verb{url}
+    \verb https://www.hbm.com/es/4596/que-es-una-red-de-bragg-en-fibra/
+    \endverb
+    \field{year}{2010}
+  \endentry
+
   \entry{LabVIEWpage}{online}{}
     \field{labeltitlesource}{title}
     \field{title}{¿Qué es LabVIEW?}

@@ -382,61 +382,26 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 				\label{eq:condicBragg}
 				\lambda=\lambda\textsubscript{B} = 2\eta\textsubscript{eff}\Lambda	
 			\end{equation}
-		
-		
-		A partir de estos conocimientos se deduce cómo, cuando se genere una deformación de la fibra a la altura de la rejilla de Bragg		
-	
-------------------------------------------------------
-	
-		Condición de Bragg:
-		Sólo se refleja esta longitud de onda (y un cierto rango en torno a ella)
-			
-		como se utiliza
 				
-		como funciona
+		A partir de estos conocimientos se deduce cómo funciona la medición de deformaciones. Cuando se genera una deformación de la fibra y cambia la distancia entre las rejillas de Bragg, se genera una variación del índice de refracción al variar el periodo de la red de Bragg. Es decir, al deformarse la FBG se tiene una $\Lambda$ diferente respecto a la de reposo, cuando no se genera ninguna deformación. En el caso de las variaciones de temperatura generan un cambio de índice de refracción del silicio, debido al efecto termoóptico \cite{termoDeformFBG}. 
 		
-		posibilidad de ponerlo en serie
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.85\textwidth]{./img/medicBragg}
+			\caption{Representación esquemática de un sistema de  medición de deformaciones mediante fibras ópticas con redes de Bragg y analizador espectral óptico. \cite{tesisUPMmalte}} 
+			\label{fig:medicBragg}
+		\end{figure}
 		
-	///--- SC
-
+		Para utilizar las FBGs cómo sensores se puede construir una distribución como la de la figura \ref{fig:medicBragg}. En primer lugar, se manda un pulso a través de la fibra, y se pone un analizador de espectros para anotar las variaciones en la longitud de onda de Bragg ($\lambda\textsubscript{B}$). Según sea el escenario a sensar pueden ser necesarias más de una FBG. Para ello se puede realizar una configuración en serie (empalmando FBGs) o en paralelo (utilizando multiplexores). 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\textwidth]{./img/flexibleFBG}
+			\caption{FBG embebida en un material flexible. \cite{flexibleFBG}} 
+			\label{fig:flexibleFBG}
+		\end{figure}
 	
-	Cuando una FBG sufre una deformación (por tensión, temperatura, etc), se origina un cambio en la distancia entre los puntos de reflexión y, por consiguiente, una alteración del índice	refractivo obteniéndose una LABNDA distinta a la detectada inicialmente. Así se pueden determinan variaciones en la longitud de onda de Bragg.\\
-	
-	Las características y funcionalidades de las FBG las han convertido en una tecnología muy importante en diversos ámbitos profesionales. Entre otras de sus ventajas, destacan sus
-	reducidas dimensiones, bajo coste y la ya citada sensibilidad respecto a las variaciones de tensión y temperatura. Este aspecto es de gran utilidad para su monitorización mediante los
-	dispositivos interrogadores.\\
-	Habitualmente, estos sensores se encapsulan en materiales como policluro de vinilo (PVC), polidimetilsiloxano (PDMS), etc, para garantizarles cierta protección. Precisamente, en este
-	trabajo, se ha elegido el material PDMS como material protector.\\
-	
-	\textcolor{rositaoscuro}{Del siguiente link me quedo con algunas figuras que he apuntado en el block de notas, de la pagina 308, 310 y así. Al final expone un ejemplo con un puente}\\
-	\url{http://www.polaritech.ir/wp-content/uploads/2016/07/Francis_T.S._Yu_Shizhuo_Yin_Fiber_Optic_SensorsBookFi.pdf}
-	
-	
-
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{./img/reflexBragg}
-		\caption{Representación esquemática de la reflexión de una frecuencia determinada de la luz viajando en la fibra óptica en una red de Braggs. \cite{tesisUPMmalte}} 
-		\label{fig:reflexBragg}
-	\end{figure}
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{./img/medicBragg2}
-		\caption{asdffdsfdsf. \cite{FOSensorFrancis}} 
-		\label{fig:reflexBragg2}
-	\end{figure}
-
-	
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{./img/medicBragg}
-		\caption{Representación esquemática de un sistema de  medición de deformaciones mediante fibras ópticas con redes de Bragg y analizador espectral óptico. \cite{tesisUPMmalte}} 
-		\label{fig:medicBragg}
-	\end{figure}
-	
+		Además, para proteger la FBG es conveniente cubrirla con un material flexible (figura \ref{fig:flexibleFBG}), como por ejemplo el policloruro de vinilo (PVC) o el polidimetilsiloxano (PDMS). En este trabajo se utiliza como material protector y estructura del guante el PDMS, expuetso en el siguiente punto.
 	
 \end{itemize}
 
@@ -454,7 +419,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	Material empleado para embeber las FBGs.
 	
 	
-	//--- SC
+	//--- 
 	En este proyecto, se consideró el PDMS como el material más adecuado para el desarrollo del	sensor de fibras ópticas debido a que se adapta flexiblemente al comportamiento de la mano,
 	es elástico, maleable, se puede desmoldar fácilmente y se puede regular su rigidez empleando distintas proporciones.\\
 	
