@@ -683,10 +683,53 @@
     \field{labeltitlesource}{title}
     \field{title}{¿Qué es LabVIEW?}
     \verb{url}
-    \verb http://www.ni.com/es-es/shop/labview.html
+    \verb LabVIEWyt
     \endverb
     \warn{\item Invalid format of field 'date' \item Invalid format of field
   'date'}
+  \endentry
+
+  \entry{LabVIEWyt}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Barreiro},
+         familyi={B\bibinitperiod},
+         given={Jhon},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Ejemplo Básico en LabVIEW}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=YhKzN65oryI
+    \endverb
+    \field{year}{2016}
+  \endentry
+
+  \entry{LabVIEWbook}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JRLVJPS}{%
+         family={José Rafel Lajara\bibnamedelima Vizcaíno},
+         familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={José Pelegrí\bibnamedelima Sebastiá},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRLVJPS1}
+    \strng{fullhash}{JRLVJPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9788426716965}
+    \field{title}{LabVIEW - Entorno gráfico de programación}
+    \list{location}{1}{%
+      {The Pennsylvania State University}%
+    }
+    \field{year}{2011}
   \endentry
 
   \entry{SilviaTFM}{unpublished}{}

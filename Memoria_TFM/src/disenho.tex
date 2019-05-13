@@ -326,9 +326,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
  	 \end{itemize}					
 
-%-- REDES DE DIFRACCIÓN DE BRAGG	
-%--	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\	
-	
+%-- SENSORES ÓPTICOS	
 	\item \textbf{Sensores ópticos}\\
 		
 		Existen en el mercado diversos tipos de sensores ópticos. Estos se pueden clasificar atendiendo a diversos aspectos. A continuación se exponen dos clasificaciones básicas\cite{sensoresOpticos}: 
@@ -453,14 +451,30 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	
 		
 %-- LABVIEW 	
-	\item \textbf{LabVIEW}\\
-		
-	LabVIEW es un software de ingeniería de sistemas que requiere pruebas, medidas y control con acceso rápido a hardware e información de datos. \cite{LabVIEWpage}
+	\item \textbf{LabVIEW} \textit{(\textbf{Lab}oratory \textbf{V}irtual \textbf{I}nstrument \textbf{E}ngineering \textbf{W}orkbech)}\\
 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\textwidth]{./img/LabVIEWicon}
+		\caption{Logo LabVIEW. }
+		\label{fig:LabVIEWicon}
+	\end{figure}
 
+	LabVIEW es un software de National Instruments de ingeniería que pretende simplificar el diseño de sistemas software distribuidos de pruebas, medidas y control \cite{LabVIEWpage}. Es un lenguaje y un entorno de programación gráfica desarrollado por National Instruments. 
+	
+	En sus inicios LabVIEW estaba orientado únicamente a aplicaciones de control de equipos electrónicos utilizados para el desarrollo de sistemas de instrumentación. Tiene dos ventanas principales: el \textbf{Panel frontal} y el \textbf{Diagrama de bloques}, como se ve en la figura \ref{fig:ejLabVIEW}. El panel frontal alberga los botones, pantallas, etc. con el que el usuario interactúa una vez está desarrollado el software, interfaz de usuario. Mientras que el diagrama de bloques corresponde a la circuitería interna del programa, dónde se interconectan los elementos del panel frontal para operar con ellos, dando lugar a la programación del backend del software \cite{LabVIEWbook}. 
+	
+  	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.95\textwidth]{./img/LabVIEWej}
+		\\\hspace{2.5cm}(a)\hspace{6.5cm}(b)
+		\caption{(Ejemplo sencillo de LabVIEW: (a) Frontend; (b) Backend}\cite{LabVIEWyt} 
+		\label{fig:ejLabVIEW}
+	\end{figure}
 
-
-
+	En LabVIEW la programación se realiza en el Diagrama de bloques. Los programas están compuestos por los siguientes elementos: controles, funciones e indicadores. Estos elementos se conectan mediante "cables". De esta manera se genera el programa, definiendo la "circulación" de los datos.  
+	
+	
 \end{itemize}
  
 %--Desarrollo del prototipo

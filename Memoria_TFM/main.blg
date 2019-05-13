@@ -10,23 +10,23 @@ A level-1 auxiliary file: src/resultados.aux
 A level-1 auxiliary file: src/conclusiones.aux
 Database file #1: main-blx.bib
 Database file #2: src/bibliografia.bib
-I was expecting a `,' or a `}'---line 43 of file src/bibliografia.bib
+I was expecting a `,' or a `}'---line 35 of file src/bibliografia.bib
  :  
  :  year = {2015},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 50 of file src/bibliografia.bib
+I was expecting a `,' or a `}'---line 42 of file src/bibliografia.bib
  :  
  :  year = {2010},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 70 of file src/bibliografia.bib
+I was expecting a `,' or a `}'---line 62 of file src/bibliografia.bib
  :  
  :  year = {2015},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "geometriaBasicaFP" isn't style-file defined
---line 79 of file src/bibliografia.bib
+--line 71 of file src/bibliografia.bib
 Biblatex version: 3.11
 Too many commas in name 1 of "R Di Marco, S Rossi, F Patanè, P Cappa" for entry opt
 while executing---line 2658 of file biblatex.bst
