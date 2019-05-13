@@ -329,7 +329,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 %-- REDES DE DIFRACCIÓN DE BRAGG	
 %--	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\	
 	
-	\item \textbf{Sensores de ópticos}\\
+	\item \textbf{Sensores ópticos}\\
 		
 		Existen en el mercado diversos tipos de sensores ópticos. Estos se pueden clasificar atendiendo a diversos aspectos. A continuación se exponen dos clasificaciones básicas\cite{sensoresOpticos}: 
 
@@ -354,7 +354,6 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 				En este trabajo se van a utilizar sensores de difracción de Bragg, que son sensores que cuantifican parámetros físicos a través de mediciones ópticas del índice de refracción.
 		
 	\begin{itemize}
-		%-Emisores (Transmisión)
 		\item \textit{\textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}}	
 		
 		\begin{figure}[H]
@@ -396,8 +395,8 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.75\textwidth]{./img/flexibleFBG}
-			\caption{FBG embebida en un material flexible. \cite{flexibleFBG}} 
+			\includegraphics[width=0.65\textwidth]{./img/flexibleFBG}
+			\caption{FBG embebida en un material flexible. \cite{nedomaPDMS}} 
 			\label{fig:flexibleFBG}
 		\end{figure}
 	
@@ -406,36 +405,53 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 \end{itemize}
 
 
+%-- POLIDIMETILSILOXANO - PDMS	
+	\item \textbf{Polidimetilsiloxano (PDMS)}\\
 	
+	Dentro de la familia de los polímeros orgánicos basados en silicio se encuentra el polidimetilsiloxano, también conocido como PDMS. Otro término por el que se le conoce es dimeticona, un tipo de aceite de silicona. Para abreviar, a partir de este punto en el documento se referirá a él como PDMS. El polidimetilsiloxano es un material cristalino, flexible y fácil de modelar \cite{propPDMS}.
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\textwidth]{./img/compPDMS}
+		\caption{Composición química del PDMS. \cite{nedomaPDMS}} 
+		\label{fig:compFBG}
+	\end{figure}
+	
+	Su formulación química es $(H_{3}C)_{3}SiO[Si(CH_{3})_{2}O]_{n}Si(CH_{3})_{3}$ (figura \ref{fig:compFBG}), siendo $[Si(CH_{3})_{2}O]_{n}$ el monómero presente n veces en la molécula del PDMS según la proporción de este con el agente de curación \cite{propPDMS}.  	
+ 
+ 	Para su fabricación se mezcla el monómero con el agente de curación siguiendo una proporción n:1, en función de la consistencia con la que se desee el elastómero resultante. Cuanto mayor sea la n, mayor será la solidez del PDMS. Una vez hecha la mezcla es necesario que esta cure, ya sea a temperatura ambiente o aplicándole calor para que cure más rápidamente.
+  
+ 	\begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.49\textwidth]{./img/liquidoPDMS}
+	 	\includegraphics[width=0.49\textwidth]{./img/solidoPDMS} 
+	 	\\(a)\hspace{7cm}(b)
+	 	\caption{(a) PDMS en estado líquido \cite{liquidoPDMS} (b) PDMS en estado sólido, trás la curación \cite{solidoPDMS}} 
+	 	\label{fig:slPDSM}
+	 \end{figure}
+ 
+  	\begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.49\textwidth]{./img/liquidPDMS}
+	 	\includegraphics[width=0.49\textwidth]{./img/solidPDMS} 
+	 	\\(a)\hspace{7cm}(b)
+	 	\caption{(a) PDMS en estado líquido \cite{liquidoPDMS} (b) PDMS en estado sólido, trás la curación \cite{solidoPDMS}} 
+	 	\label{fig:slPDSM2}
+	 \end{figure}
+ 
+ 	\url{https://www.elveflow.com/microfluidic-tutorials/soft-lithography-reviews-and-tutorials/introduction-in-soft-lithography/pdms-softlithography-replication/}
+ 
+	\url{https://www.instructables.com/id/Making-a-PDMS-Microfluidic-Device-With-Maskless-Mo/}
+	
+  	 La utilización de este elastómero en el ámbito de este trabajo es una buena opción ya que es inofensivo, no tóxico, no inflamable y eléctricamente no conductor.\cite{nedomaPDMS}
+
+	% Material empleado para embeber las FBGs.
+
+
 	\textcolor{rositaoscuro}{asdf}
 	\textcolor{teal}{sdffsd}
 	
-	
-	
-%-- POLIDIMETILSILOXANO - PDMS	
-	\item \textbf{Polidimetilsiloxano (PDMS)}\\
 		
-	Material empleado para embeber las FBGs.
-	
-	
-	//--- 
-	En este proyecto, se consideró el PDMS como el material más adecuado para el desarrollo del	sensor de fibras ópticas debido a que se adapta flexiblemente al comportamiento de la mano,
-	es elástico, maleable, se puede desmoldar fácilmente y se puede regular su rigidez empleando distintas proporciones.\\
-	
-	El polidimetilsiloxano, es un polímero orgánico basado en silicio, perteneciente al grupo de compuestos orgánicos que comúnmente se referencian siliconas. También se le conoce como
-	dimeticona, un tipo de aceite de silicona.\\
-	
-	Su fórmula química es: (H3C)3SiO[Si(CH3)2O]nSi(CH3)3, donde n es el número de unidades repetitivas del monómero [SiO(CH3)2] [30]. Es decir, n es el índice que indica el tamaño de su
-	cadena principal. La consistencia del PDMS varía en función de n (tamaño de la cadena). Por tanto, si n es un valor bajo, el PDMS puede ser prácticamente líquido. En cambio, cuando n
-	adopta un valor elevado, el material es sólido.\\
-	
-	Habitualmente, el PDMS se adquiere en estado líquido, siendo necesario un agente de cura para endurecerlo. Dicho agente de cura también se adquiere en estado líquido. La mezcla de
-	este elemento junto con el polímero es lo que confiere la cualidad sólida al PDMS resultante. En este trabajo se ha empleado una proporción para la mezcla de 10:1, es decir, una proporción de agente de curado y diez del polímero, ratio sugerido por el proveedor. Posteriormente es común exponer esta mezcla a un tratamiento térmico con el fin de disminuir el tiempo de solidificación. En la figura 3.8. se muestra el PDMS en su estado líquido y sólido.\\
-	
-	El PDMS tiene una serie de propiedades que lo caracterizan. Por ejemplo, es visualmente transparente, no resulta tóxico, no es inflamable y es inerte. En el ámbito de este trabajo con
-	FBG, este material destaca por sus cualidades respecto a su elevada elasticidad y flexibilidad, alta tolerancia al calor, bajo coste y simplicidad en su preparación.\\
-	
 %-- LABVIEW 	
 	\item \textbf{LabVIEW}\\
 		

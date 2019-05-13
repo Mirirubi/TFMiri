@@ -550,24 +550,133 @@
     \endverb
   \endentry
 
-  \entry{flexibleFBG}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=DP}{%
-         family={Dubruel},
-         familyi={D\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
+  \entry{nedomaPDMS}{article}{}
+    \name{author}{6}{}{%
+      {{hash=NJ}{%
+         family={Nedoma},
+         familyi={N\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Fajkus},
+         familyi={F\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bednarek},
+         familyi={B\bibinitperiod},
+         given={Lukas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Frnda},
+         familyi={F\bibinitperiod},
+         given={Jaroslav},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zavadil},
+         familyi={Z\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=VV}{%
+         family={Vasinek},
+         familyi={V\bibinitperiod},
+         given={Vladimir},
+         giveni={V\bibinitperiod},
       }}%
     }
-    \strng{namehash}{DP1}
-    \strng{fullhash}{DP1}
+    \keyw{Encapsulated,Fiber Brag grating,Polydimethylsiloxane,Spectral
+  characteristic,Temperature sensitivity}
+    \strng{namehash}{NJ+1}
+    \strng{fullhash}{NJFMBLFJZJVV1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Flexible sensing skin with embedded fibre Bragg gratings}
-    \verb{url}
-    \verb https://www.hbm.com/es/4596/que-es-una-red-de-bragg-en-fibra/
+    \verb{doi}
+    \verb 10.15598/aeee.v14i4.1786
     \endverb
-    \field{year}{2010}
+    \field{issn}{18043119}
+    \field{number}{4 Special Issue}
+    \field{pages}{460\bibrangedash 466}
+    \field{title}{{Encapsulation of FBG sensor into the PDMS and its effect on
+  spectral and temperature characteristics}}
+    \field{volume}{14}
+    \field{journaltitle}{Advances in Electrical and Electronic Engineering}
+    \field{year}{2016}
+  \endentry
+
+  \entry{propPDMS}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SAA}{%
+         family={Santiago-Alvarado},
+         familyi={S\bibinithyphendelim A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VMS}{%
+         family={V{\'{a}}squez-Montiel},
+         familyi={V\bibinithyphendelim M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SAAVMS1}
+    \strng{fullhash}{SAAVMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{61\bibrangedash 66}
+    \field{title}{{Propiedades f{\'{i}}sico-qu{\'{i}}micas de membranas PDMS
+  empleadas en lentes l{\'{i}}quidas}}
+    \verb{url}
+    \verb http://smcsyv.fis.cinvestav.mx/supyvac/22{\_}3/SV2236109.pdf
+    \endverb
+    \field{volume}{22}
+    \field{journaltitle}{Superficies y Vacio}
+    \field{year}{2009}
+  \endentry
+
+  \entry{liquidoPDMS}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BF}{%
+         family={Burgoyne},
+         familyi={B\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BF1}
+    \strng{fullhash}{BF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Degas PDMS in two minutes}
+    \verb{url}
+    \verb http://blogs.rsc.org/chipsandtips/2010/08/17/degas-pdms-in-two-minute
+    \verb s/?doing_wp_cron=1520125055.0960030555725097656250
+    \endverb
+  \endentry
+
+  \entry{solidoPDMS}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BF}{%
+         family={Burgoyne},
+         familyi={B\bibinitperiod},
+         given={Francesca},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BF1}
+    \strng{fullhash}{BF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A simple and economical holder for casting PDMS chips}
+    \verb{url}
+    \verb http://blogs.rsc.org/chipsandtips/2009/11/20/a-simple-and-economical-
+    \verb holder-for-casting-pdms-chips/
+    \endverb
   \endentry
 
   \entry{LabVIEWpage}{online}{}
