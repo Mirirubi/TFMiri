@@ -181,11 +181,10 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  La reflexión interna total atrapa la luz hasta cierto ángulo en el núcleo, definiendo la apertura numérica a la que hay que asegurarse de penetrar la luz para que se de el fenómeno de reflexión interna total. Así se fuerza a que la mayoría de los rayos de luz incidan sobre el interfaz y se reflejen, permitiendo la transmisión de la señal lumínica. 
  
  
- 
  \textcolor{rositaoscuro}{//----------------------------------------------------------------------- }\\ 
  %No vamos a hablar más de multimodo
- (\\Puesto que en la solución llevada a cabo en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre la transmisión en fibras multimodo.\\)\\
- \textcolor{rositaoscuro}{-------------------------------------------------------------------------//}\\
+ \textcolor{teal}{(\\Puesto que en la solución llevada a cabo en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre la transmisión en fibras multimodo.\\)\\
+ \textcolor{rositaoscuro}{-------------------------------------------------------------------------//}\\}
  
  
  %Sistemas de propagación
@@ -326,10 +325,8 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
  	 \end{itemize}					
 
-%-- REDES DE DIFRACCIÓN DE BRAGG	
-%--	\item \textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}\\	
-	
-	\item \textbf{Sensores de ópticos}\\
+%-- SENSORES ÓPTICOS	
+	\item \textbf{Sensores ópticos}\\
 		
 		Existen en el mercado diversos tipos de sensores ópticos. Estos se pueden clasificar atendiendo a diversos aspectos. A continuación se exponen dos clasificaciones básicas\cite{sensoresOpticos}: 
 
@@ -354,7 +351,6 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 				En este trabajo se van a utilizar sensores de difracción de Bragg, que son sensores que cuantifican parámetros físicos a través de mediciones ópticas del índice de refracción.
 		
 	\begin{itemize}
-		%-Emisores (Transmisión)
 		\item \textit{\textbf{Redes de difracción de Bragg \textit{(FBG - Fiber Bragg Grating)}}}	
 		
 		\begin{figure}[H]
@@ -382,106 +378,102 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 				\label{eq:condicBragg}
 				\lambda=\lambda\textsubscript{B} = 2\eta\textsubscript{eff}\Lambda	
 			\end{equation}
-		
-		
-		A partir de estos conocimientos se deduce cómo, cuando se genere una deformación de la fibra a la altura de la rejilla de Bragg		
-	
-------------------------------------------------------
-	
-		Condición de Bragg:
-		Sólo se refleja esta longitud de onda (y un cierto rango en torno a ella)
-			
-		como se utiliza
 				
-		como funciona
+		A partir de estos conocimientos se deduce cómo funciona la medición de deformaciones. Cuando se genera una deformación de la fibra y cambia la distancia entre las rejillas de Bragg, se genera una variación del índice de refracción al variar el periodo de la red de Bragg. Es decir, al deformarse la FBG se tiene una $\Lambda$ diferente respecto a la de reposo, cuando no se genera ninguna deformación. En el caso de las variaciones de temperatura generan un cambio de índice de refracción del silicio, debido al efecto termoóptico \cite{termoDeformFBG}. 
 		
-		posibilidad de ponerlo en serie
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.85\textwidth]{./img/medicBragg}
+			\caption{Representación esquemática de un sistema de  medición de deformaciones mediante fibras ópticas con redes de Bragg y analizador espectral óptico. \cite{tesisUPMmalte}} 
+			\label{fig:medicBragg}
+		\end{figure}
 		
-	///--- SC
-
+		Para utilizar las FBGs cómo sensores se puede construir una distribución como la de la figura \ref{fig:medicBragg}. En primer lugar, se manda un pulso a través de la fibra, y se pone un analizador de espectros para anotar las variaciones en la longitud de onda de Bragg ($\lambda\textsubscript{B}$). Según sea el escenario a sensar pueden ser necesarias más de una FBG. Para ello se puede realizar una configuración en serie (empalmando FBGs) o en paralelo (utilizando multiplexores). 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.65\textwidth]{./img/flexibleFBG}
+			\caption{FBG embebida en un material flexible. \cite{nedomaPDMS}} 
+			\label{fig:flexibleFBG}
+		\end{figure}
 	
-	Cuando una FBG sufre una deformación (por tensión, temperatura, etc), se origina un cambio en la distancia entre los puntos de reflexión y, por consiguiente, una alteración del índice	refractivo obteniéndose una LABNDA distinta a la detectada inicialmente. Así se pueden determinan variaciones en la longitud de onda de Bragg.\\
-	
-	Las características y funcionalidades de las FBG las han convertido en una tecnología muy importante en diversos ámbitos profesionales. Entre otras de sus ventajas, destacan sus
-	reducidas dimensiones, bajo coste y la ya citada sensibilidad respecto a las variaciones de tensión y temperatura. Este aspecto es de gran utilidad para su monitorización mediante los
-	dispositivos interrogadores.\\
-	Habitualmente, estos sensores se encapsulan en materiales como policluro de vinilo (PVC), polidimetilsiloxano (PDMS), etc, para garantizarles cierta protección. Precisamente, en este
-	trabajo, se ha elegido el material PDMS como material protector.\\
-	
-	\textcolor{rositaoscuro}{Del siguiente link me quedo con algunas figuras que he apuntado en el block de notas, de la pagina 308, 310 y así. Al final expone un ejemplo con un puente}\\
-	\url{http://www.polaritech.ir/wp-content/uploads/2016/07/Francis_T.S._Yu_Shizhuo_Yin_Fiber_Optic_SensorsBookFi.pdf}
-	
-	
-
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{./img/reflexBragg}
-		\caption{Representación esquemática de la reflexión de una frecuencia determinada de la luz viajando en la fibra óptica en una red de Braggs. \cite{tesisUPMmalte}} 
-		\label{fig:reflexBragg}
-	\end{figure}
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{./img/medicBragg2}
-		\caption{asdffdsfdsf. \cite{FOSensorFrancis}} 
-		\label{fig:reflexBragg2}
-	\end{figure}
-
-	
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.75\textwidth]{./img/medicBragg}
-		\caption{Representación esquemática de un sistema de  medición de deformaciones mediante fibras ópticas con redes de Bragg y analizador espectral óptico. \cite{tesisUPMmalte}} 
-		\label{fig:medicBragg}
-	\end{figure}
-	
+		Además, para proteger la FBG es conveniente cubrirla con un material flexible (figura \ref{fig:flexibleFBG}), como por ejemplo el policloruro de vinilo (PVC) o el polidimetilsiloxano (PDMS). En este trabajo se utiliza como material protector y estructura del guante el PDMS, expuetso en el siguiente punto.
 	
 \end{itemize}
 
 
-	
-	
-	\textcolor{rositaoscuro}{asdf}
-	\textcolor{teal}{sdffsd}
-	
-	
-	
 %-- POLIDIMETILSILOXANO - PDMS	
 	\item \textbf{Polidimetilsiloxano (PDMS)}\\
-		
-	Material empleado para embeber las FBGs.
 	
+	Dentro de la familia de los polímeros orgánicos basados en silicio se encuentra el polidimetilsiloxano, también conocido como PDMS. Otro término por el que se le conoce es dimeticona, un tipo de aceite de silicona. Para abreviar, a partir de este punto en el documento se referirá a él como PDMS. El polidimetilsiloxano es un material cristalino, flexible y fácil de modelar \cite{propPDMS}.
 	
-	//--- SC
-	En este proyecto, se consideró el PDMS como el material más adecuado para el desarrollo del	sensor de fibras ópticas debido a que se adapta flexiblemente al comportamiento de la mano,
-	es elástico, maleable, se puede desmoldar fácilmente y se puede regular su rigidez empleando distintas proporciones.\\
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\textwidth]{./img/compPDMS}
+		\caption{Composición química del PDMS. \cite{nedomaPDMS}} 
+		\label{fig:compFBG}
+	\end{figure}
 	
-	El polidimetilsiloxano, es un polímero orgánico basado en silicio, perteneciente al grupo de compuestos orgánicos que comúnmente se referencian siliconas. También se le conoce como
-	dimeticona, un tipo de aceite de silicona.\\
-	
-	Su fórmula química es: (H3C)3SiO[Si(CH3)2O]nSi(CH3)3, donde n es el número de unidades repetitivas del monómero [SiO(CH3)2] [30]. Es decir, n es el índice que indica el tamaño de su
-	cadena principal. La consistencia del PDMS varía en función de n (tamaño de la cadena). Por tanto, si n es un valor bajo, el PDMS puede ser prácticamente líquido. En cambio, cuando n
-	adopta un valor elevado, el material es sólido.\\
-	
-	Habitualmente, el PDMS se adquiere en estado líquido, siendo necesario un agente de cura para endurecerlo. Dicho agente de cura también se adquiere en estado líquido. La mezcla de
-	este elemento junto con el polímero es lo que confiere la cualidad sólida al PDMS resultante. En este trabajo se ha empleado una proporción para la mezcla de 10:1, es decir, una proporción de agente de curado y diez del polímero, ratio sugerido por el proveedor. Posteriormente es común exponer esta mezcla a un tratamiento térmico con el fin de disminuir el tiempo de solidificación. En la figura 3.8. se muestra el PDMS en su estado líquido y sólido.\\
-	
-	El PDMS tiene una serie de propiedades que lo caracterizan. Por ejemplo, es visualmente transparente, no resulta tóxico, no es inflamable y es inerte. En el ámbito de este trabajo con
-	FBG, este material destaca por sus cualidades respecto a su elevada elasticidad y flexibilidad, alta tolerancia al calor, bajo coste y simplicidad en su preparación.\\
-	
-%-- LABVIEW 	
-	\item \textbf{LabVIEW}\\
-		
-	LabVIEW es un software de ingeniería de sistemas que requiere pruebas, medidas y control con acceso rápido a hardware e información de datos. \cite{LabVIEWpage}
-
-
-
-
-
-\end{itemize}
+	Su formulación química es $(H_{3}C)_{3}SiO[Si(CH_{3})_{2}O]_{n}Si(CH_{3})_{3}$ (figura \ref{fig:compFBG}), siendo $[Si(CH_{3})_{2}O]_{n}$ el monómero presente n veces en la molécula del PDMS según la proporción de este con el agente de curación \cite{propPDMS}.  	
  
+ 	Para su fabricación se mezcla el monómero con el agente de curación siguiendo una proporción n:1, en función de la consistencia con la que se desee el elastómero resultante. Cuanto mayor sea la n, mayor será la solidez del PDMS. Una vez hecha la mezcla es necesario que esta cure, ya sea a temperatura ambiente o aplicándole calor para que cure más rápidamente.
+  
+ 	\begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.49\textwidth]{./img/liquidoPDMS}
+	 	\includegraphics[width=0.49\textwidth]{./img/solidoPDMS} 
+	 	\\(a)\hspace{7cm}(b)
+	 	\caption{(a) PDMS en estado líquido \cite{liquidoPDMS} (b) PDMS en estado sólido, trás la curación \cite{solidoPDMS}} 
+	 	\label{fig:slPDSM}
+	 \end{figure}
+  \textcolor{teal}{TENGO QUE ELEGIR ENTRE UNA PAREJA DE IMAGENES U OTRA, O UNA DE CADA. Debajo dejo los links de las de abajo por si necesito ponerlos en la bibliografia.\\}
+  	\begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.49\textwidth]{./img/liquidPDMS}
+	 	\includegraphics[width=0.49\textwidth]{./img/solidPDMS} 
+	 	\\(a)\hspace{7cm}(b)
+	 	\caption{(a) PDMS en estado líquido \cite{liquidoPDMS} (b) PDMS en estado sólido, trás la curación \cite{solidoPDMS}} 
+	 	\label{fig:slPDSM2}
+	 \end{figure}
+ 
+ 	\url{https://www.elveflow.com/microfluidic-tutorials/soft-lithography-reviews-and-tutorials/introduction-in-soft-lithography/pdms-softlithography-replication/}
+ 
+	\url{https://www.instructables.com/id/Making-a-PDMS-Microfluidic-Device-With-Maskless-Mo/}
+	
+  	 La utilización de este elastómero en el ámbito de este trabajo es una buena opción ya que es inofensivo, no tóxico, no inflamable y eléctricamente no conductor.\cite{nedomaPDMS}
+
+	% Material empleado para embeber las FBGs.
+
+
+		
+%-- LABVIEW 	
+	\item \textbf{LabVIEW} \textit{(\textbf{Lab}oratory \textbf{V}irtual \textbf{I}nstrument \textbf{E}ngineering \textbf{W}orkbech)}\\
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\textwidth]{./img/LabVIEWicon}
+		\caption{Logo LabVIEW. }
+		\label{fig:LabVIEWicon}
+	\end{figure}
+
+	LabVIEW es un software de National Instruments de ingeniería que pretende simplificar el diseño de sistemas software distribuidos de pruebas, medidas y control \cite{LabVIEWpage}. Es un lenguaje y un entorno de programación gráfica desarrollado por National Instruments. 
+	
+	En sus inicios LabVIEW estaba orientado únicamente a aplicaciones de control de equipos electrónicos utilizados para el desarrollo de sistemas de instrumentación. Tiene dos ventanas principales: el \textbf{Panel frontal} y el \textbf{Diagrama de bloques}, como se ve en la figura \ref{fig:ejLabVIEW}. El panel frontal alberga los botones, pantallas, etc. con el que el usuario interactúa una vez está desarrollado el software, interfaz de usuario. Mientras que el diagrama de bloques corresponde a la circuitería interna del programa, dónde se interconectan los elementos del panel frontal para operar con ellos, dando lugar a la programación del backend del software \cite{LabVIEWbook}. 
+	
+  	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.95\textwidth]{./img/LabVIEWej}
+		\\\hspace{2.5cm}(a)\hspace{6.5cm}(b)
+		\caption{(Ejemplo sencillo de LabVIEW: (a) Frontend; (b) Backend}\cite{LabVIEWyt} 
+		\label{fig:ejLabVIEW}
+	\end{figure}
+
+	En LabVIEW la programación se realiza en el Diagrama de bloques. Los programas están compuestos por los siguientes elementos: controles, funciones e indicadores. Estos elementos se conectan mediante "cables". De esta manera se genera el programa, definiendo la "circulación" de los datos.  
+	
+	
+\end{itemize}
+ \textcolor{rositaoscuro}{asdf}
+ \textcolor{teal}{sdffsd}
 %--Desarrollo del prototipo
 \subsection{Desarrollo del prototipo}
 \label{sec:prot3FBG}
@@ -663,36 +655,6 @@ ME PLENTEO LA POSIBILIDAD DE DIVIDIR EL CAPITULO 3 EN CAPITULO 3 Y 4.
 \section{---------------}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-En este capítulo se detalla la metodología empleada para el diseño del sistema adaptado al contexto en el que se aplica. Se describe cada uno de los componentes que forman parte del sistema de medición así como el procesado posterior de los datos para obtener la distancia entre pasos(Matlab\textsuperscript{\textregistered}). En el diseño intervienen sensores inerciales (Xsens Technologies B.V, The Netherlands) y se propone el diseño de un sensor de ultrasonido de bajo coste basado en la tecnología Arduino. 
-
-
-\section{Sistema de medida}
-En la Figura \ref{fig:esquema} aparece representado un esquema general de la metodología empleada. Mediante el sensor de ultrasonidos se obtiene la distancia D1 y con los sensores inerciales se obtiene la distancia D2 aplicando a cada una de las señales el procesado que se detallará en posteriores apartados.
-
-
-Por tanto, el diseño del sistema puede descomponerse en dos niveles de jerarquía  (ver Figura \ref{fig:esquemaniveles}). El primero de ellos, a más bajo nivel, es el diseño del sensor de ultrasonidos y la obtención de las señales necesarias para el cálculo de cada una de las distancias de ambos sensores. El segundo de los niveles es el correspondiente al de la sincronizcación y post-procesado de los datos para determinar la distancia entre pasos.
-
- Con el  post-procesado de las señales obtenidas por cada uno de los sensores se obtendrán las distancias D1 y D2 que permitirán el cálculo de la distancia objetivo mediante la ecuación \ref{eq:distancia} (Teorema de Pitágoras).
-
-\begin{equation}\label{eq:distancia}
-Dist.sep.pasos = \sqrt{D1^2 + D2^2}
-\end{equation}
-
-
-En los siguientes apartados se especifican cada uno de los componentes que intervienen en el sistema. 
 \section{Sensores inerciales}
 \subsection{Principio de funcionamiento}
 
@@ -716,240 +678,12 @@ Su tamaño es de 47 x 30 x 13mm y 16g de peso por lo que puede definirse como un
 
 Además, se incluye un software de captura que resultará útil para obtener las señales para su posterior procesado. La comunicación de los sensores con el software emplea un protocolo propietario que aparece representado en la Figura \ref{fig:protocolo}.
 
-	
-\section{Sensor de ultrasonido}
-
-\subsection{Principio de funcionamiento}
-Un sistema de ultrasonidos tiene como principio de funcionamiento el fenómeno físico por el cual recibe ese nombre, las ondas de ultrasonidos.
-
-Se envía un pulso de 40 KHz que incide sobre un obstáculo y se recibe con un retardo que se corresponde con el tiempo que tarda la onda desde que se envía hasta que se recibe, es decir el Time of Flight" (ToF). Por tanto, puede hallarse la distancia mediante la 
-
-	 En la Figura \ref{fig:ultr} se observa dicho funcionamiento.
-
-La distancia entre dos puntos puede hallarse mediante la ecuación \ref{eq:dis_ult}
-	\begin{equation}\label{eq:dis_ult}
-	D = (ToF/2)V_{sonido}
-	\end{equation}
-	
-Una alternativa al sistema de ultrasonidos es usar la tecnología de infrarrojos. Su principal ventaja es su rápida respuesta y por ello resulta beneficioso para aplicaciones en tiempo real como pueden ser los sensores de proximidad. La principal desventaja es que presentan no linealidades procedentes de su dependencia con la superficie de reflexión. Es necesario un conocimiento a priori de las características de dispersión, absorción etc. del material sobre el que incide la onda emitida para poder realizar una medida de distancia correcta. 
-
-Teniendo en cuenta las características de ambos sensores, se decidió que el sensor más apropiado para la aplicación clínica de este trabajo es el sensor de ultrasonidos, ya que su coste no es elevado y su resolución y su latencia son aceptables. Se ha descartado el uso de un sensor de infrarrojos, por un lado, porque la velocidad no es un factor crítico y por otro lado, realizar una medida de distancia con este tipo de sensores supone la necesidad de conocer a priori el material del calzado de cada paciente o añadir una superficie con un material concreto en uno de los zapatos del paciente lo cual hace que el diseño resulte menos ergonómico. Finalmente añadir que aunque existen sensores de infrarrojo basados en la medida de desfase que podrían utilizarse como sensores de distancia, su precio es realmente elevado para las características necesarias en este trabajo \cite{infra}
-	
-
-\subsection{Sensor de ultrasonido propuesto}\label{su}
-
-	El principal objetivo en el diseño del sensor es optimizar el compromiso entre bajo coste y precisión. En la Figura \ref{fig:sensor_ultrasonido} puede verse el prototipo del sensor. Este primer prototipo está compuesto por un sensor de ultrasonidos HC-SR04 (1), un módulo Bluetooth (2) para el envío de datos a un PC, una placa Arduino UNO (3) para el procesado de la información del sensor, y la alimentación mediante una pila recargable de 9V (4) para dotar de autonomía al sistema.
-
- \begin{figure}[H]
- 	\centering
- 	\includegraphics[width=0.7\textwidth]{./graphics/sensor}
- 	\caption{Prototipo de sensor de ultrasonidos} \label{fig:sensor_ultrasonido}
- \end{figure}
-
-	\subsubsection{Conexionado del sensor}
-		El conexionado del prototipo (apartado \ref{su}), aparece representado de manera esquemática en la Figura \ref{fig:conexionado} con el fin de clarificar las conexiones. En un futuro diseño más compacto, la placa utilizada, así como algunos de los componentes, serán modificados manteniendo el enfoque de bajo coste, ergonomía y precisión. Por ello las conexiones podrán ser modificadas según sea necesario.
-		
-		 
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.7\textwidth]{./graphics/conexionado}
-			\caption{Esquema de conexión del sensor de ultrasonido} \label{fig:conexionado}
-		\end{figure}
-		
-	\subsection{Comunicación del sensor}
-	
-		\subsubsection{Bluetooth}
-		
-		Para el envío de la información de distancia desde la placa Arduino hasta el PC donde se van a procesar los datos, se ha elegido el módulo comercial Bluetooth H-05 que aparece representado en la Figura \ref{fig:bluetooth}.
-		
-	
-			 \begin{figure}[H]
-			 	\centering
-			 	\includegraphics[width=0.25\textwidth]{./graphics/bluetooth}
-			 	\caption{Módulo Bluetooth HC-05} \label{fig:bluetooth}
-			 \end{figure}
-			 
-		Dicho módulo se comunicará con un dongle USB 4.0 en el PC ya que éste no dispone de interfaz Bluetooth de serie (ver Figura \ref{fig:dongle}). Además es compatible con estándares anteriores (2.0, 3.0) por lo que resulta apropiado para el diseño.
-		
-		
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.15\textwidth]{./graphics/dongle}
-			\caption{Dongle Bluetooth 4.0 WhiteLabel} \label{fig:dongle}
-		\end{figure}
-			
-		\subsubsection{Software de captura}
-		
-		En este trabajo se ha diseñado un software de captura (Figura \ref{fig:software}) para la obtención de los datos de distancia suministrados por el sensor.
-		
-
-		Las funcionalidades principales de este software son:
-		\begin{enumerate}
-				\item Creación del interfaz Bluetooth para la comunicación con Matlab. 
-				\item Representación de los datos recogidos en tiempo real.
-				\item Posibilidad de guardar los datos en un archivo.
-				\item Posibilidad de cargar un archivo y representarlo offline.
-		\end{enumerate}
-	
-		
-\section{Procedimiento de medida}		
-
-\subsection{Set-up de medida}
-Para demostrar la viabilidad del sistema en cuanto a su capacidad para medir la distancia de separación entre pasos,se proponen dos set-ups que consisten en establecer unas marcas en el suelo a una distancia conocida para así, una vez realizado el procesado de las señales, poder determinar si los resultados son correctos. El primer set-up consta de una medida de paso de 43 cm (ver Figura \ref{fig:setup_43}) y el segundo para una de 80.5 cm (ver Figura  \ref{fig:setup_80} ). 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.55\textwidth]{./graphics/setup_43}
-	\caption{Set-up de medida de un paso de 43 cm} \label{fig:setup_43}
-\end{figure}
-
-\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.55\textwidth]{./graphics/setup_80}
-		\caption{Set-up de medida de un paso de 80.5 cm} \label{fig:setup_80}
-\end{figure}
-	
-Este montaje permitirá el poder medir un la distancia de un paso para verificar que el tanto el funcionamiento como el procesado con correctos. Se dejará como línea futura el poder realizar el procesado de forma automática y para varios pasos. Para realizar las medidas se ha colocado un sensor inercial en cada pie y el sensor de ultrasonidos en el tobillo según se representa en la Figura \ref{fig:colocar} y \ref{fig:paso}. 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.55\textwidth]{./graphics/Medida}
-	\caption{Colocación de los sensores para la medida} \label{fig:colocar}
-\end{figure}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.65\textwidth]{./graphics/paso}
-	\caption{Ejemplo de paso para la medida} \label{fig:paso}
-\end{figure}
-
-
-\subsection{Captura de datos}
-
-Para llevar a cabo la medida se colocará un sensor inercial en cada pie y el sensor de ultrasonidos en uno de ellos. A continuación, se capturarán los datos de los sensores inerciales mediante el software específico MTManager de Xsens y los datos del sensor de ultrasonido mediante el software realizado con MATLAB\textsuperscript{\textregistered} 
-
-
-\subsection{Sincronización}
-Una de las etapas clave del diseño del sistema a tiempo real es el de la sincronización de ambos sensores. En este trabajo, para una demostración de funcionamiento, el procesado de las señales de ambos sensores se realizará por separado de forma que se pueda demostrar el funcionamiento del sistema y se dejará como línea futura de investigación la sincronización. 
-
-Se pretende conseguir una lectura de los datos del sensor de ultrasonido en el PC con un tiempo de muestreo constante. En este punto del trabajo se encuentran dificultades con la forma en que Matlab lee los datos. Los datos enviados por el sensor son constantes pero la lectura hace ese tiempo variable. Si se consigue un tiempo constante, mediante procesados como la interpolación podría sincronizarse con los sensores inerciales. Además, debido a que se utilizan dos programas de captura, es necesario establecer un inicio que se considere como principio tanto para las señales de los sensores inerciales como el de ultrasonidos. 
-
-
-\subsection{Obtención de distancia}
-Para la obtención de la distancia de separación entre pasos existen tres scripts realizados con la herramienta software Matlab\textsuperscript{\textregistered}
-
-Mediante un software en Matlab\textsuperscript{\textregistered} se cargan las señales y se realiza el post-procesado para obtener cada una de las distancias que van a permitir la obtención de la distancia de separación entre pasos.
-
-Se procesará el cálculo de las distancias deseadas de los sensores inerciales y del de ultrasonido y dichas informaciones se utilizarán para la obtención de la distancia de separación entre pasos.
-
 \subsubsection{Sensores inerciales}
 
 	
 	Para la obtención del dato de distancia a partir de las señales proporcionados por los sensores inerciales es necesario tener en cuenta que la distancia se recorre en el plano en el que se produce el avance, que es este caso es el plano XY.
 
 Para obtener la posición en este plano a partir de la aceleración en los tres ejes XYZ proporcionada por los sensores inerciales, es necesaria una doble integración.Posteriormente se elimina la deriva existente en las señales debido a esta integración. A continuación se describen los cálculos realizados
-
-\begin{itemize}
-	
-	\item{\textbf{Obtención de la velocidad}}
-	
-		Se realiza una primera integración de la aceleración en el eje X y en el eje Y de donde se obtiene la velocidad tal y como aparece en la Figura \ref{fig:vel_no_corr}
-	 \begin{figure}[H]
-	 	\centering
-	 	\includegraphics[width=0.81\textwidth]{./graphics/vel_no_corr}
-	 	\caption{Ejemplo de deriva en la señal} \label{fig:vel_no_corr}
-	 	
-	 \end{figure}
- 
-	\item{\textbf{Obtención de la velocidad sin deriva}}	
-	
-En el instante de inicio y fin del paso, cuando el pie permanece apoyado, la velocidad debe ser cero.. Para lograr eliminar la deriva en la señal se propone utilizar la ecuación de la recta (color morado) que aparece en la Figura  \ref{fig:vel_no_corr_rect} . Dicha recta entre dos puntos A(a1, a2) y B(b1,b2) se difine mediante la ecuación \ref{eq:recta}
-	
-	\begin{equation}\label{eq:recta}
-	y = (\frac{b_{2}-b_{1}}{a_{2}-a_{1}})*(x-a_{1})+b_{1}
-	\end{equation}
-	
-	;donde:
-	\begin{itemize}
-		\item b2: coordenada y del último punto escogido (B)
-		\item b1: coordenada x del último punto escogido (B)
-		\item a2: coordenada x del primer punto escogido (A)
-		\item a1: coordenada y del primer punto escogido (A)
-
-	
-	\end{itemize}
-
-
-		 \begin{figure}[H]
-		 	\centering
-		 	\includegraphics[width=0.8\textwidth]{./graphics/vel_no_corr_deriva}
-		 	\caption{Recta para la corrección de la deriva} \label{fig:vel_no_corr_rect}
-		 	
-		 \end{figure}
-De esta forma restando a la señal de velocidad la recta calculada, el resultado es el que aparece en la Figura \ref{fig:corregida} donde se representa la velocidad sin deriva.
-
-	
-		 \begin{figure}[H]
-		 	\centering
-		 	\includegraphics[width=0.8\textwidth]{./graphics/corregida}
-		 	\caption{Ejemplo eliminación de la deriva} \label{fig:corregida}
-		 \end{figure}
-
-
-	\item{\textbf{Obtención de distancia D2 de sensores inerciales}}
-
-	
-	Una vez corregida la deriva en las velocidades X e Y de los sensores izquierdo y derecho en necesaria una segunda integración para hallar la posición en cada uno de los ejes. A continuación se representa la posición en el eje X con respecto al eje Y para calcular la distancia total en el plano XY (ver Figura \ref{fig:posi})
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1\textwidth]{./graphics/posi}
-		\caption{Ejemplo eliminación de la deriva} \label{fig:posi}
-		
-	\end{figure}
-	
-	Para el cálculo de la distancia será necesario la eliminación de la deriva en la posición.
-	
-	La distancia (D2) ahora será la distancia entre los puntos inicial y final de la Figura \ref{fig:posi}, una vez corregida la deriva, que se calculará mediante la ecuación \ref{eq:pos}
-		\begin{equation}\label{eq:pos}
-		Distancia = \sqrt{(b_{1}-a_{1})^{2}+(b_{2}-a_{2})^{2}}
-		\end{equation}
-		\begin{equation}\label{eq:punto2}
-			B = [b_{1},b_{2}]	
-		\end{equation}
-		\begin{equation}\label{eq:puntos1}
-			A = [a_{1},a_{2}]
-		\end{equation}
-		;donde:
-		\begin{itemize}
-		\item b2: coordenada y del último punto escogido (B)
-		\item b1: coordenada x del último punto escogido (B)
-		\item a2: coordenada x del primer punto escogido (A)
-		\item a1: coordenada y del primer punto escogido (A)
-		\end{itemize}
-\end{itemize}
-
-
-
-\subsubsection{Sensor de ultrasonido}
-
-	Previamente a la obtención de la distancia que se desea obtener usando el sensor de ultrasonido, se realiza una comprobación del correcto funcionamiento tanto del dispositivo como del envío de datos al PC vía Bluetooth. Inicialmente se realizan medidas con el sensor en estático. Para ello se propone el set-up de medida que aparece representado en la Figura  \ref{fig:ultrasonido}.
-		
-		 \begin{figure}[H]
-		 	\centering
-		 	\includegraphics[width=0.95\textwidth]{./graphics/ultrasonido}
-		 	\caption{Setup medida estática de sensor de ultrasonido}\label{fig:ultrasonido}
-		 \end{figure}
-
-Para estimar la precisión y el correcto funcionamiento del sensor se ha calculado el error absoluto y relativo de cada una de las medidas realizadas.
-
-Una vez hecha dicha comprobación en estático, se añade al sistema de medida completo. Para ello se coloca el sensor en el tobillo y con el sensor orientado hacia la otra pierna (ver Figura \ref{fig:ultracoloc}).
-		
-	 \begin{figure}[H]
-	 	\centering
-	 	\includegraphics[width=0.8\textwidth]{./graphics/coloc_ultr}
-	 	\caption{Colocación de sensor para medidas en dinámico} \label{fig:ultracoloc}
-	 \end{figure}
-				
-		
-\subsubsection{Obtención de distancia de separación entre pasos}
 
 Una vez calculadas las distancias necesarias, se procede al cálculo de la distancia de separación entre pasos. En la Figura \ref{fig:sep} se representa dicho cálculo. La distancia D2 es la correspondiente al cálculo de la distancia con el sensor inercial izquierdo en este caso, la distancia D1 es la distancia calculada mediante el sensor de ultrasonido.
 \begin{figure}[H]
