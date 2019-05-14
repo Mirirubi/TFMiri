@@ -16,102 +16,102 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.4}Descripci\IeC {\'o}n de los apartados del trabajo}{4}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}---------------}{4}{section.1.5}% 
+\contentsline {section}{\numberline {1.5}---------------}{5}{section.1.5}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.6}Objetivo}{6}{section.1.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}Estructura del documento}{6}{section.1.7}% 
+\contentsline {section}{\numberline {1.7}Estructura del documento}{7}{section.1.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Estado del Arte}{7}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Estado del Arte}{9}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Dolencias m\IeC {\'e}dicas que afectan a las manos}{8}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}Dolencias m\IeC {\'e}dicas que afectan a las manos}{10}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Enfermedades neuronales}{8}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Enfermedades neuronales}{10}{subsection.2.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Rehabilitaci\IeC {\'o}n de las manos}{8}{section.2.2}% 
+\contentsline {section}{\numberline {2.2}Rehabilitaci\IeC {\'o}n de las manos}{10}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Fundamentos de las manos}{8}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.1}Fundamentos de las manos}{10}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Din\IeC {\'a}mica de la rehabilitaci\IeC {\'o}n}{9}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Din\IeC {\'a}mica de la rehabilitaci\IeC {\'o}n}{11}{subsection.2.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Captura del movimiento}{9}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.3}Captura del movimiento}{11}{subsection.2.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as para la medida del movimiento}{9}{section.2.3}% 
+\contentsline {section}{\numberline {2.3}Tecnolog\IeC {\'\i }as para la medida del movimiento}{11}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}C\IeC {\'a}maras}{10}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.1}C\IeC {\'a}maras}{12}{subsection.2.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}FBG}{10}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.2}FBG}{12}{subsection.2.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}IMU}{10}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.3}IMU}{12}{subsection.2.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Sensores capacitivos}{10}{subsection.2.3.4}% 
+\contentsline {subsection}{\numberline {2.3.4}Sensores capacitivos}{12}{subsection.2.3.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Sensores mioel\IeC {\'e}ctricos}{10}{subsection.2.3.5}% 
+\contentsline {subsection}{\numberline {2.3.5}Sensores mioel\IeC {\'e}ctricos}{12}{subsection.2.3.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}---------------}{10}{section.2.4}% 
+\contentsline {section}{\numberline {2.4}---------------}{12}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}---------------}{11}{section.2.5}% 
+\contentsline {section}{\numberline {2.5}---------------}{13}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Sistemas de medida de distancia entre pasos}{11}{section.2.6}% 
+\contentsline {section}{\numberline {2.6}Sistemas de medida de distancia entre pasos}{13}{section.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Observaci\IeC {\'o}n cl\IeC {\'\i }nica}{11}{subsection.2.6.1}% 
+\contentsline {subsection}{\numberline {2.6.1}Observaci\IeC {\'o}n cl\IeC {\'\i }nica}{13}{subsection.2.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Videoc\IeC {\'a}maras}{11}{subsection.2.6.2}% 
+\contentsline {subsection}{\numberline {2.6.2}Videoc\IeC {\'a}maras}{13}{subsection.2.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.3}Sistemas optoelectr\IeC {\'o}nicos}{12}{subsection.2.6.3}% 
+\contentsline {subsection}{\numberline {2.6.3}Sistemas optoelectr\IeC {\'o}nicos}{14}{subsection.2.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.4}Tapices instrumentados}{13}{subsection.2.6.4}% 
+\contentsline {subsection}{\numberline {2.6.4}Tapices instrumentados}{15}{subsection.2.6.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.5}Zapatos instrumentados}{14}{subsection.2.6.5}% 
+\contentsline {subsection}{\numberline {2.6.5}Zapatos instrumentados}{16}{subsection.2.6.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Desarrollo del proyecto}{17}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Soluci\IeC {\'o}n con sensores de fibra FBG}{19}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Soluci\IeC {\'o}n con sensores de fibra FBG}{18}{section.3.1}% 
+\contentsline {section}{\numberline {3.1}Marco conceptual}{20}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Marco conceptual}{18}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Fibra \IeC {\'o}ptica}{20}{subsection.3.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}Desarrollo del prototipo}{41}{subsection.3.1.2}% 
+\contentsline {subsection}{\numberline {3.1.2}Sensores \IeC {\'o}pticos}{35}{subsection.3.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Materiales}{42}{subsubsection*.7}% 
+\contentsline {subsection}{\numberline {3.1.3}Polidimetilsiloxano (\textit {PDMS})}{39}{subsection.3.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{42}{subsubsection*.8}% 
+\contentsline {subsection}{\numberline {3.1.4}LabVIEW (\textit {\relax $\@@underline {\hbox {Lab}}\mathsurround \z@ $\relax oratory \relax $\@@underline {\hbox {V}}\mathsurround \z@ $\relax irtual \relax $\@@underline {\hbox {I}}\mathsurround \z@ $\relax nstrument \relax $\@@underline {\hbox {E}}\mathsurround \z@ $\relax ngineering \relax $\@@underline {\hbox {W}}\mathsurround \z@ $\relax orkbech})}{40}{subsection.3.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Funcionamiento}{45}{subsubsection*.9}% 
+\contentsline {section}{\numberline {3.2}Desarrollo del prototipo}{42}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Soluci\IeC {\'o}n con sensores IMU}{45}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Materiales}{42}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Marco conceptual}{45}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{42}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Desarrollo del prototipo}{46}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Funcionamiento}{45}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Materiales}{46}{subsubsection*.10}% 
+\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{45}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Elaboraci\IeC {\'o}n/Proceso de fabricaci\IeC {\'o}n}{46}{subsubsection*.11}% 
+\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{47}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Funcionamiento}{46}{subsubsection*.12}% 
+\contentsline {section}{\numberline {4.1}Marco conceptual}{47}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}---------------}{46}{section.3.3}% 
+\contentsline {subsection}{\numberline {4.1.1}asdf}{48}{subsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}---------------}{47}{section.3.4}% 
+\contentsline {section}{\numberline {4.2}Desarrollo del prototipo}{48}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Sensores inerciales}{47}{section.3.5}% 
+\contentsline {subsection}{\numberline {4.2.1}Materiales}{48}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.1}Principio de funcionamiento}{47}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{48}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5.2}Sensores inerciales propuestos}{48}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {4.2.3}Funcionamiento}{48}{subsection.4.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensores inerciales}{48}{subsubsection*.13}% 
+\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{48}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Resultados y an\IeC {\'a}lisis}{51}{chapter.4}% 
+\contentsline {section}{\numberline {4.4}---------------}{48}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Resultados}{52}{section.4.1}% 
+\contentsline {section}{\numberline {4.5}Sensores inerciales}{48}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Medidas en est\IeC {\'a}tico}{52}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.5.1}Principio de funcionamiento}{48}{subsection.4.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Medidas en din\IeC {\'a}mico}{54}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.5.2}Sensores inerciales propuestos}{49}{subsection.4.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}An\IeC {\'a}lisis de resultados}{55}{section.4.2}% 
+\contentsline {subsubsection}{Sensores inerciales}{49}{subsubsection*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{57}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{53}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{59}{chapter*.14}% 
+\contentsline {chapter}{Bibliograf\'{\i }a}{55}{chapter*.8}% 
