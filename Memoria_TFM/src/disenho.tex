@@ -1,23 +1,8 @@
-\chapter{Desarrollo del proyecto\label{sec:disenho}}
-
-Para la realización de este trabajo se han tomado dos de las tecnologías expuestas en el capítulo \ref{sec:estado_del_arte} y se han llevado a la práctica. De esta manera se puede trabajar empíricamente con dos tecnologías diferentes planteadas como solución para un mismo problema. Una vez realizado todo el trabajo experimental se puede proceder a evaluar las características prácticas de cada tecnología y compararlas entre ellas. 
-
-En función de la tecnología en que la se apoya cada uno de las soluciones, %por un lado se estudian los sensores de fibra FBG, capítulo \ref{sec:FBG3}, y por otro lado, los sensores IMU, capítulo \ref{sec:IMU3}.  
-este capítulo se estructura de la siguiente manera: 
-\begin{itemize}
-	\item {\textbf{\ref{sec:FBG3}}    .- Solución con sensores de fibra FBG} 
-	\item {\textbf{\ref{sec:IMU3}}    .- Solución con sensores IMU}
-\end{itemize}
-
-
-
-
-Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales empleados, el proceso de fabricación y el funcionamiento.  
-
+\chapter{Solución con sensores de fibra FBG\label{sec:FBG}}
 %------------------------------
 %------___SOLUCIÓN_FBG___------
 %------------------------------
-\section{Solución con sensores de fibra FBG}
+
 \label{sec:FBG3}
 
 \textcolor{rositaoscuro}{
@@ -37,15 +22,15 @@ Dentro de cada punto se detalla toda la información necesaria para la implement
 
 
 %--Marco conceptual
-\subsection{Marco conceptual}
-\label{sec:mc3FBG}
+\section{Marco conceptual}
+\label{sec:marco3}
 
 Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño llevado a cabo. 
 
-\begin{itemize}
+
 %--FIBRA ÓPTICA
-	\item \textbf{Fibra óptica}
-	
+\subsection{Fibra óptica}
+\label{sec:fibra3}
 	\textcolor{rositaoscuro}{
 		\textit{
 			- -Cómo se propaga la luz en ella.\\
@@ -326,7 +311,9 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	 \end{itemize}					
 
 %-- SENSORES ÓPTICOS	
-	\item \textbf{Sensores ópticos}\\
+\subsection{Sensores ópticos} %Tipos de sensores ópticos
+\label{sec:sensores3}
+
 		
 		Existen en el mercado diversos tipos de sensores ópticos. Estos se pueden clasificar atendiendo a diversos aspectos. A continuación se exponen dos clasificaciones básicas\cite{sensoresOpticos}: 
 
@@ -403,7 +390,8 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
 
 %-- POLIDIMETILSILOXANO - PDMS	
-	\item \textbf{Polidimetilsiloxano (PDMS)}\\
+\subsection{Polidimetilsiloxano (\textit{PDMS})}
+\label{sec:pdms3}
 	
 	Dentro de la familia de los polímeros orgánicos basados en silicio se encuentra el polidimetilsiloxano, también conocido como PDMS. Otro término por el que se le conoce es dimeticona, un tipo de aceite de silicona. Para abreviar, a partir de este punto en el documento se referirá a él como PDMS. El polidimetilsiloxano es un material cristalino, flexible y fácil de modelar \cite{propPDMS}.
 	
@@ -447,7 +435,11 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
 		
 %-- LABVIEW 	
-	\item \textbf{LabVIEW} \textit{(\textbf{Lab}oratory \textbf{V}irtual \textbf{I}nstrument \textbf{E}ngineering \textbf{W}orkbech)}\\
+\subsection{LabVIEW (\textit{\underline{Lab}oratory \underline{V}irtual \underline{I}nstrument \underline{E}ngineering \underline{W}orkbech})}
+
+\label{sec:labview3}
+
+
 
 	\begin{figure}[H]
 		\centering
@@ -470,20 +462,23 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
 	En LabVIEW la programación se realiza en el Diagrama de bloques. Los programas están compuestos por los siguientes elementos: controles, funciones e indicadores. Estos elementos se conectan mediante "cables". De esta manera se genera el programa, definiendo la "circulación" de los datos.  
 	
-	
-\end{itemize}
+
  \textcolor{rositaoscuro}{asdf}
  \textcolor{teal}{sdffsd}
 %--Desarrollo del prototipo
-\subsection{Desarrollo del prototipo}
-\label{sec:prot3FBG}
+
+
+
+\section{Desarrollo del prototipo}
+\label{sec:prototipo3}
 %[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionar la en la bibliografía.]
 
 La realización del primer desarrollo se origina a partir de un trabajo realizado con anterioridad en el grupo de investigación de la universidad\cite{SilviaTFM}. Se mejora el soporte físico(hardware) y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo.
 
 El prototipo consiste en un prototipo técnico y funcional de un guante, con sensores de FBG embebidos en PDMS. 
  
-\subsubsection{Materiales}
+\subsection{Materiales}
+\label{sec:materiales3}
 En este apartado se disponen brevemente los componentes utilizados para el 
 \begin{figure}[H]
 	\centering
@@ -492,8 +487,8 @@ En este apartado se disponen brevemente los componentes utilizados para el
 \end{figure}
 
 
-
-\subsubsection{Proceso de fabricación del soporte físico}
+\subsection{Proceso de fabricación del soporte físico}
+\label{sec:proceso3}
 %Elaboración
 Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: modelado 3D, fabricación del guante y montaje de prototipo completo.
 
@@ -543,9 +538,6 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 \end{itemize}
 
 asdf
-
-
-
 
 
 \begin{table}[H] %BORRAR
@@ -602,13 +594,14 @@ asdf
 		\hline
 	\end{tabular}
 	\caption{Tabla longitud de cada sensor FBG}
-	\label{tabla:medidas 80 cm}
+	\label{tabla:mmedidas 80 cm}
 \end{table}
 
 Para determinar la valid
 
 
-\subsubsection{Funcionamiento}
+\subsection{Funcionamiento}
+\label{sec:funcionamiento3}
 asdf
 
 \begin{figure}[H]
@@ -619,6 +612,14 @@ asdf
 \end{figure}
 
 %------IIIIIIMMMMMMUUUUUU------
+
+
+
+
+
+\section{Resultados y análisis}
+\label{sec:resultados3}
+
 \section{Solución con sensores IMU}
 \label{sec:IMU3}
 asdf
@@ -646,7 +647,7 @@ asdf
 
 \section{---------------}
 
-ME PLENTEO LA POSIBILIDAD DE DIVIDIR EL CAPITULO 3 EN CAPITULO 3 Y 4.
+ME PLANTEO LA POSIBILIDAD DE DIVIDIR EL CAPITULO 3 EN CAPITULO 3 Y 4.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

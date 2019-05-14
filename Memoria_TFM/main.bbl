@@ -689,26 +689,6 @@
   'date'}
   \endentry
 
-  \entry{LabVIEWyt}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=BJ}{%
-         family={Barreiro},
-         familyi={B\bibinitperiod},
-         given={Jhon},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BJ1}
-    \strng{fullhash}{BJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Ejemplo Básico en LabVIEW}
-    \verb{url}
-    \verb https://www.youtube.com/watch?v=YhKzN65oryI
-    \endverb
-    \field{year}{2016}
-  \endentry
-
   \entry{LabVIEWbook}{book}{}
     \name{author}{1}{}{%
       {{hash=JRLVJPS}{%
@@ -732,6 +712,26 @@
     \field{year}{2011}
   \endentry
 
+  \entry{LabVIEWyt}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Barreiro},
+         familyi={B\bibinitperiod},
+         given={Jhon},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Ejemplo Básico en LabVIEW}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=YhKzN65oryI
+    \endverb
+    \field{year}{2016}
+  \endentry
+
   \entry{SilviaTFM}{unpublished}{}
     \name{author}{1}{}{%
       {{hash=SSC}{%
@@ -749,30 +749,6 @@
   personas con movilidad reducida}
     \field{year}{2018}
     \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{infra}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=GBJSPPFB}{%
-         family={G.\bibnamedelima Benet},
-         familyi={G\bibinitperiod\bibinitdelim B\bibinitperiod},
-         suffix={F.\bibnamedelima Blanes},
-         suffixi={F\bibinitperiod\bibinitdelim B\bibinitperiod},
-         given={J.E. Simó P.\bibnamedelima Pérez},
-         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
-  P\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GBFBJSPP1}
-    \strng{fullhash}{GBFBJSPP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Using infrared sensors for distance measurement in mobile
-  robots.}
-    \verb{url}
-    \verb https://pdfs.semanticscholar.org/79ce/8e7294c2125749da28c85cdfa28f5c8
-    \verb 02f02.pdf
-    \endverb
   \endentry
 \enddatalist
 \endinput
