@@ -1,0 +1,84 @@
+% Definiciones y constantes de estilo
+\include{definiciones}
+
+% Definiciones de comandos
+\newcommand{\nombreautor}{Itziar Uzqueda Esteban}
+\newcommand{\nombretrabajo}{Prácticas curriculares en Movalsys S.L}
+\newcommand{\fecha}{Junio de 2017}
+\newcommand{\grado}{TODO: Grado}
+
+\newcommand{\universidad}{Universidad Pública de Navarra}
+\newcommand{\pieparizq}{TODO: Pie de página par}
+\newcommand{\pieparcen}{Prácticas curriculares en Movalsys S.L}
+\newcommand{\logo}{graphics/logo_movalsys}
+
+
+% Inicio del documento
+\begin{document}
+
+% Elección del idioma (español)
+\selectlanguage{spanish}
+
+%
+% Portada
+%
+\pagenumbering{gobble}
+\include{portada}
+\hypersetup{pageanchor=true}
+
+% Estilo de párrafo de los capítulos
+\setlength{\parskip}{0.75em}
+\renewcommand{\baselinestretch}{1.25}
+% Interlineado simple
+\spacing{1.5}
+
+
+
+% Estilo de párrafo de los índices
+\setlength{\parskip}{1pt}
+\renewcommand{\baselinestretch}{1}
+
+%
+% Tabla de contenidos
+%
+\tableofcontents
+\cleardoublepage
+
+% Estilo de párrafo de los capítulos
+\setlength{\parskip}{0.75em}
+\renewcommand{\baselinestretch}{1.25}
+% Interlineado 1.5
+\spacing{1.5}
+% Numeración contenido
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+
+
+%
+% Introducción
+%
+
+\include{src/sobre_la_empresa}
+
+% Estado del arte
+%
+\include{src/mi_experiencia}
+
+
+%
+% Conclusiones
+%
+\include{src/conclusiones} 
+
+
+
+
+% No expandir elementos para llenar toda la página
+\raggedbottom
+
+
+
+
+% Fin del documento
+\end{document}
