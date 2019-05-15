@@ -1,0 +1,47 @@
+%
+% Portada
+%
+
+
+% Primera página
+\pagenumbering{Alph}
+\thispagestyle{empty}
+
+\begin{flushleft}
+	\begin{scriptsize}
+	\end{scriptsize}\end{flushleft}
+
+	\thispagestyle{empty}
+	\begin{center}
+		
+		% Nombre del trabajo
+		\textbf{\begin{large}
+				\MakeUppercase{\nombretrabajo}\\*
+			\end{large}}
+			\vspace*{2cm}
+			\begin{figure}[hbtp]
+				\centering
+				\includegraphics[scale=1.2]{\logo}
+			
+			\end{figure}
+			\vspace{3cm}
+			
+			% Nombre del autor y del tutor
+			\large \nombreautor \\*
+			\vspace{1cm}
+		
+		
+			
+			% Grupo de investigación, departamento, facultad, universidad y fecha
+			\ifcsname grupoInvestigacion\endcsname
+			\grupoInvestigacion \\
+			\fi
+		
+			\universidad \\
+			\vspace{1cm}
+			\fecha \\
+			
+			\clearpage
+			
+		\end{center}
+		\normalsize
