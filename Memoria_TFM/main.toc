@@ -80,11 +80,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Materiales}{42}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{42}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{44}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Funcionamiento}{45}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Funcionamiento}{46}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{45}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{46}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{47}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
