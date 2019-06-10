@@ -522,43 +522,75 @@ Las fibras de rejilla de Bragg (FBG) empleadas son de la empresa Micron Optics (
 	\label{tabla:mmedidas 80 cm}
 \end{table}
 
-Puesto que las fibras de Bragg resultan muy sensibles ante roturas y la aplicación del prototipo precisamente consiste en contorsionar las fibras es necesario embeber las fibras en un material moldeable pero rigido. Para ello se emplea PMDS, cuyas caracerísticas ya se citan con anterioridad en este documento. En los siguientes apartados se expone con más detalle la fabricación del guante en PDMS. 
+Puesto que las fibras de Bragg resultan muy sensibles ante roturas y la aplicación del prototipo precisamente consiste en contorsionar las fibras es necesario embeber las fibras en un material moldeable pero rígido. Para ello se emplea PMDS, cuyas características ya se citan con anterioridad en este documento. En los siguientes apartados se expone con más detalle la fabricación del guante en PDMS. 
 
 El conexionado entre el guante y los demás elementos que componen el prototipo se realiza con cables de fibra óptica monomodo unidos a través de conectores o empalmes. Los empalmes se han realizado mediante fusión con protección termocontraible. Los conectores utilizados para la fibra son los de Férula (\textit{Ferule Connector - FC}).
 
+Para que llegue el pulso transmitido a cada una de las fibras de Bragg hace falta un dispositivo que se capaz de dejar pasar la luz de una sola fibra a varias y combinar en el sentido inverso los pulsos de luz que retornen. Esta función la cumple un divisor de fibra óptica. Se ha empleado un splitter de PLC de una entrada y ocho salidas terminadas en conectores de férula, de las cuales sólo serán necesarias seis (ver figura \ref{fig:splitter}).
 
-Para replicar la señal
-Multiplexor
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{./img/splitter1a8}
+	\caption{Splitter de PLC de 1:8} \label{fig:splitter}
+\end{figure}
 
-Interrogador
+En cuanto a la transmisión de la luz y su posterior recepción se necesita una fuente y un interrogador. 
 
-Fuente
+La fuente es un emisor de luz de banda ancha que puede provenir de un diodo superluminiscente (SLED) o de emisión espontánea amplificada (ASE).  La fuente integrada en el prototipo es la fuente de diodo superluminiscente (SLED) DL-BP1-1501A de Ibsen Photonics (ver figura \ref{fig:FuenteInterrogador}). Esta fuente es comunmente utilizada para sistemas que utilizan FBGs. Emite pulsos de 70nm de ancho de banda en el rango de los 1550nm. La versión empleada dispone de una interfaz de LabView que permite configurar sus parámetros de emisión cuando fuera necesario. La fuente necesita ser configurada una vez y funciona según su última configuración la próxima vez que se encienda. 
+
+El interrogador es el dispositivo que detecta la señal de luz proveniente de la fibra y, en este escenario, la transmite al ordenador. En este proyecto se trabaja con el interrogador USB I–MON 256/512 del proveedor Ibsen Photonics, al igual que la fuente (ver figura \ref{fig:FuenteInterrogador}). Este interrogador incluye un software implementado en LabView que sirve de herramienta para el usuario para visualizar la detección de luz desde el ordenador a través del puerto USB en tiempo real.  Este software sirve de base para la realización del interfaz de este proyecto. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{./img/fuente}
+	\includegraphics[width=0.49\textwidth]{./img/interrogador} 
+	\\(a)\hspace{7cm}(b)
+	\caption{(a) Fuente \cite{fuente} (b) Interrogador \cite{interrogador}} 
+	\label{fig:FuenteInterrogador}
+\end{figure}
 
 
 
 Para el desarrollo del software se utiliza un portátil \textcolor{rositaoscuro}{con XXXXXX GB de RAM blablabla}. 
 
+Además se han diseñado y fabricado el molde para fabricar el molde y  un armazón para almacenar de manera organizada y segura el cableado de las fibras junto con el splitter.
 
 \subsection{Instrumental}
 \label{sec:instrumental3}
-Debido a la 
+Este prototipo conlleva el uso de una variada instrumentación. A continuación se mencionan algunos de los instrumentos físicos más notables empleados.  
 
-Impresora 3D
+Para la manufacturación del molde y del armazón se ha empleado tecnología de impresión 3D en material plástico PLA. Se han utilizado dos modelos de impresora debido a la disponibilidad de estas en la universidad, la impresora Hephestos de BQ y Witwox de BQ también (ver figura \ref{fig:impresoras3D}). Son muchos los materiales con los que se pueden realizar impresiones en 3D a partir de un diseño, en este caso se ha escogido el PLA por ser barato y suficiente para las características necesarias en el prototipo.
+    
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.49\textwidth]{./img/hephestos}
+	\includegraphics[width=0.49\textwidth]{./img/witbox} 
+	\\(a)\hspace{7cm}(b)
+	\caption{(a) Hephestos (b) Witbox} 
+	\label{fig:impresoras3D}
+\end{figure}
 
-Molde guante
+Molde guante??? \textcolor{rositaoscuro}{Esto no voy a ponerlo aquí puesto que ya es un instrumento fabricado por nosotros}. 
 
-Báscula
-
-Horno de calor
-
-Empalmadora de fibra 
-
+Para la fabricación del guante de PDMS se han empleado herramientas qu ha simple vista pueden parecer de aplicación tan dispares como una báscula, un horno y una empalmadora de fibra (ver figura \ref{fig:herramientas}; \ref{fig:empalmadora}). La báscula utilizada es la disponible en el laboratorio de la universidad tiene ua precisión de miligramos y en este proyecto se utiliza para utilizar con exactitud la proporción del monómero y el agente de cura en la disolución de PDMS. El horno se emplea para conseguir que el PDMS se cure con ayuda del calor en menos tiempo.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.75\textwidth]{./img/PDMS}
-	\caption{PDMS: Elastómero y agente de cura.} \label{fig:pdms}
+	\includegraphics[width=0.3\textwidth]{./img/bascula}
+	\includegraphics[width=0.3\textwidth]{./img/horno} 
+	\\(a)\hspace{4cm}(b)
+	\caption{(a) Báscula (b) Horno } 
+	\label{fig:herramientas}
 \end{figure}
+
+Para empalmar los sensores de FBG con el resto del prototipo se emplea una empalmadora de fibra. La empalmadora utilizada tiene la ventaja de incluir un apartado para fundir los protectores termocontraibles de empalmes. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\textwidth]{./img/empalmadora}
+	\caption{Empalmadora de fibra} \label{fig:empalmadora}
+\end{figure}
+
 
 
 \subsection{Proceso de fabricación del soporte físico}
@@ -589,6 +621,19 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	\item \textbf{Fabricación del guante}
 	
 	Para el proceso de fabricación del guante se necesitan ..................
+	
+	La base de la fabricación del guante es la mezcla a realizar para la obtención de la densidad del PDMS requerida. Si se toma una disolución muy diluida el guante será demasiado  
+	
+	hace falta mezclar blablabla y blavla
+	 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./img/PDMS}
+		\caption{PDMS: Elastómero y agente de cura.} \label{fig:pdms}
+	\end{figure}
+	
+	
 	
 	
 	\begin{figure}[H]
