@@ -80,38 +80,40 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Materiales}{42}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{44}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Instrumental}{44}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Funcionamiento}{46}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{45}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{46}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Funcionamiento}{49}{subsection.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{47}{chapter.4}% 
+\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{50}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Marco conceptual}{47}{section.4.1}% 
+\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{51}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}asdf}{48}{subsection.4.1.1}% 
+\contentsline {section}{\numberline {4.1}Marco conceptual}{51}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Desarrollo del prototipo}{48}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.1.1}asdf}{52}{subsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Materiales}{48}{subsection.4.2.1}% 
+\contentsline {section}{\numberline {4.2}Desarrollo del prototipo}{52}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{48}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Materiales}{52}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Funcionamiento}{48}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{52}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{48}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.2.3}Funcionamiento}{52}{subsection.4.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}---------------}{48}{section.4.4}% 
+\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{52}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Sensores inerciales}{48}{section.4.5}% 
+\contentsline {section}{\numberline {4.4}---------------}{52}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Principio de funcionamiento}{48}{subsection.4.5.1}% 
+\contentsline {section}{\numberline {4.5}Sensores inerciales}{52}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Sensores inerciales propuestos}{49}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.1}Principio de funcionamiento}{52}{subsection.4.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensores inerciales}{49}{subsubsection*.7}% 
+\contentsline {subsection}{\numberline {4.5.2}Sensores inerciales propuestos}{53}{subsection.4.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{53}{chapter.5}% 
+\contentsline {subsubsection}{Sensores inerciales}{53}{subsubsection*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{55}{chapter*.8}% 
+\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{57}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'{\i }a}{59}{chapter*.8}% 
