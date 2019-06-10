@@ -750,5 +750,42 @@
     \field{year}{2018}
     \warn{\item Invalid format of field 'month'}
   \endentry
+
+  \entry{fuente}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={Ibsen},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{DL-BP1-1501A SLED - Superluminescent LED with integrated
+  optical circulator}
+    \verb{url}
+    \verb https://ibsen.com/products/interrogation-monitors/light-sources/dl-bp
+    \verb 1-1501a-sled/
+    \endverb
+  \endentry
+
+  \entry{interrogador}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={Ibsen},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{I-MON 256 USB / 512 USB}
+    \verb{url}
+    \verb https://ibsen.com/products/interrogation-monitors/i-mon-usb/i-mon-256
+    \verb -512-usb/
+    \endverb
+  \endentry
 \enddatalist
 \endinput
