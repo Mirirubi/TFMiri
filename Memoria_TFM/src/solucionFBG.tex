@@ -472,27 +472,86 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
 \section{Desarrollo del prototipo}
 \label{sec:prototipo3}
-%[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionar la en la bibliografía.]
+%[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionarla en la bibliografía.]
 
-La realización del primer desarrollo se origina a partir de un trabajo realizado con anterioridad en el grupo de investigación de la universidad\cite{SilviaTFM}. Se mejora el soporte físico(hardware) y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo.
+La realización del primer desarrollo se origina a partir de un trabajo realizado con anterioridad en el grupo de investigación de la universidad\cite{SilviaTFM}. Se mejora el soporte físico (hardware) y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo.
+El prototipo consiste en un prototipo técnico y funcional de un guante sensorizado para medir los ángulos de flexión de los nudillos y la muñeca.
 
-El prototipo consiste en un prototipo técnico y funcional de un guante, con sensores de FBG embebidos en PDMS. 
+ \textcolor{rositaoscuro}{Tengo que sacar una foto mejor que esta donde se vean además el interrogador y la fuente.!!!}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.85\textwidth]{./img/prototipo}
+		\caption{Prototipo con Sensores de fibra FBG.} \label{fig:prototipoFBG}
+	\end{figure}
+
+
  
 \subsection{Materiales}
 \label{sec:materiales3}
 En este apartado se disponen brevemente los componentes utilizados para el desarrollo del prototipo. 
 
-Para el desarrollo del software se utiliza un portatil \textcolor{rositaoscuro}{con XXXXXX GB de RAM blablabla}.
-
-El guante que se coloca en la mano a medir está compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El PDMS forma la forma de la huella de una palma hasta la muñeca. Desde lo que sería esta, salen las seis fibras de Bragg hasta unirse con el multiplexor 
-
-en la figura \ref{fig:diagramaFBG}
-
 \begin{figure}[H]
-\centering
-\includegraphics[width=1\textwidth]{./img/diagramaFBG}
-\caption{Diagrama de conexiones de elementos del prototipo.} \label{fig:diagramaFBG}
+	\centering
+	\includegraphics[width=0.60\textwidth]{./img/fibraBraggpaquete2}
+	\caption{FBG de longitud de onda de 1536nm en su envoltura de compra.} \label{fig:FBGpaquete}
 \end{figure}
+
+Las fibras de rejilla de Bragg (FBG) empleadas son de la empresa Micron Optics (ver figura \ref{fig:FBGpaquete}). Consisten en un FBG centrado en una óptica recubierta don poliimida de dos metros de longitud. Se emplean las siguientes longitudes de onda para cada FBG según la flexión a medir:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}[t]{|r|c|}
+		\hline
+		& Longitud de onda del sensor\\
+		\hline
+		\hline
+		Dedo pulgar & 1532 nm \\
+		\hline
+		Dedo índice & 1548 nm \\
+		\hline
+		Dedo corazón & 1576 nm \\
+		\hline
+		Dedo anular & 1568 nm \\
+		\hline
+		Dedo meñique & 1560 nm \\
+		\hline
+		Muñeca & 1541.26 nm \\
+		\hline
+	\end{tabular}
+	\caption{Tabla longitud de cada sensor FBG}
+	\label{tabla:mmedidas 80 cm}
+\end{table}
+
+Puesto que las fibras de Bragg resultan muy sensibles ante roturas y la aplicación del prototipo precisamente consiste en contorsionar las fibras es necesario embeber las fibras en un material moldeable pero rigido. Para ello se emplea PMDS, cuyas caracerísticas ya se citan con anterioridad en este documento. En los siguientes apartados se expone con más detalle la fabricación del guante en PDMS. 
+
+El conexionado entre el guante y los demás elementos que componen el prototipo se realiza con cables de fibra óptica monomodo unidos a través de conectores o empalmes. Los empalmes se han realizado mediante fusión con protección termocontraible. Los conectores utilizados para la fibra son los de Férula (\textit{Ferule Connector - FC}).
+
+
+Para replicar la señal
+Multiplexor
+
+Interrogador
+
+Fuente
+
+
+
+Para el desarrollo del software se utiliza un portátil \textcolor{rositaoscuro}{con XXXXXX GB de RAM blablabla}. 
+
+
+\subsection{Instrumental}
+\label{sec:instrumental3}
+Debido a la 
+
+Impresora 3D
+
+Molde guante
+
+Báscula
+
+Horno de calor
+
+Empalmadora de fibra 
 
 
 \begin{figure}[H]
@@ -521,11 +580,22 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	\caption{Molde} \label{fig:molde}
 \end{figure}
 
-	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/molde2}
+		\caption{Molde} \label{fig:molde2}
+	\end{figure}
  
 	\item \textbf{Fabricación del guante}
 	
 	Para el proceso de fabricación del guante se necesitan ..................
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.35\textwidth]{./img/diagramaMano}
+		\caption{Disposición del guante sensado.} \label{fig:manoFBG}
+	\end{figure}
 	
 	\begin{enumerate}
 		\item Preparar mezcla PDMS (55g de polímero y 5.5g de agente de curación). Primero el
@@ -553,67 +623,24 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	asdf
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{./img/diagramaFBG}
+		\caption{Diagrama de conexiones de elementos del prototipo.} \label{fig:diagramaFBG}
+	\end{figure}
+	
+	
+	Como se representa en la figura \ref{fig:diagramaFBG}, el guante que se coloca en la mano a medir está compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El PDMS tiene la forma de la huella de una mano, hasta la muñeca. Desde dónde salen las seis fibras de Bragg hasta empalmarse con fibra óptica monomodo (en amarillo), estas fibras se unen mediante conectores al multiplexor (dejando dos fibras del multiplexor sin darle uso). El multiplexor va conectado a la fuente alimentada por la red eléctrica. La fuente está a su vez conectada mediante fibra óptica al interrogador, conectado al ordenador por cable eléctrico.
+	
+	
+	
+	
 \end{itemize}
 
 asdf
 
 
-\begin{table}[H] %BORRAR
-	\centering
-	\begin{tabular}[t]{|c|}
-		\hline
-		\textbf{\textcolor{rositaoscuro}{BORRAR}} \\
-		\hline
-		longitudes de onda del guante de fibras cortas\\
-		\hline
-	\end{tabular}
-	\begin{tabular}[t]{|r|c|}
-		\hline
-		 & Longitud de onda del sensor\\
-		\hline
-		\hline
-		Dedo pulgar & 1512 nm \\
-		\hline
-		Dedo índice & 1520 nm \\
-		\hline
-		Dedo corazón & 1528 nm \\
-		\hline
-		Dedo anular & 1536 nm \\
-		\hline
-		Dedo meñique & 1544 nm \\
-		\hline
-		Muñeca & 1556 nm \\
-		\hline
-	\end{tabular}
-	\caption{Tabla longitud de cada sensor FBG}
-	\label{tabla:hmedidas 80 cm}
-\end{table}
-%-- Hasta aquí borrar la tabla.
 
-
-\begin{table}[H]
-	\centering
-	\begin{tabular}[t]{|r|c|}
-		\hline
-		& Longitud de onda del sensor\\
-		\hline
-		\hline
-		Dedo pulgar & 1532 nm \\
-		\hline
-		Dedo índice & 1548 nm \\
-		\hline
-		Dedo corazón & 1576 nm \\
-		\hline
-		Dedo anular & 1568 nm \\
-		\hline
-		Dedo meñique & 1560 nm \\
-		\hline
-		Muñeca & 1541.26 nm \\
-		\hline
-	\end{tabular}
-	\caption{Tabla longitud de cada sensor FBG}
-	\label{tabla:mmedidas 80 cm}
-\end{table}
 
 Para determinar la valid
 
@@ -621,6 +648,22 @@ Para determinar la valid
 \subsection{Funcionamiento}
 \label{sec:funcionamiento3}
 asdf
+
+En cuanto al funcionamiento físico del prototipo la fuente  (alimentada por una red de corriente alterna, de $\sim$230V a 50Hz) el interrogador emite un pulso de luz. 
+
+
+
+En este, en un sentido de la propagación la señal se multiplexa de una a ocho fibras y en el otro combina los pulsos de retorno de las seis fibras de FBG (dos fibras del multiplexor no se utilizan). 
+
+Ver figura \ref{fig:diagramaFBGfuncionamiento}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{./img/diagramaFBGfuncionamiento}
+	\caption{Diagrama de funcionamiento del prototipo.} \label{fig:diagramaFBGfuncionamiento}
+\end{figure}
+
+
 
 \begin{figure}[H]
 	\centering
