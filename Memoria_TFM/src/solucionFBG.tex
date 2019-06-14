@@ -551,7 +551,7 @@ El interrogador es el dispositivo que detecta la señal de luz proveniente de la
 
 
 
-Para el desarrollo del software se utiliza un portátil \textcolor{rositaoscuro}{con XXXXXX GB de RAM blablabla}. 
+Para el desarrollo del software se utiliza un portátil Asus GL502VSK con 32,0 GB de memoria física (RAM) y un procesador Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz.  
 
 Además se han diseñado y fabricado el molde para fabricar el molde y  un armazón para almacenar de manera organizada y segura el cableado de las fibras junto con el splitter.
 
@@ -570,9 +570,7 @@ Para la manufacturación del molde y del armazón se ha empleado tecnología de 
 	\label{fig:impresoras3D}
 \end{figure}
 
-Molde guante??? \textcolor{rositaoscuro}{Esto no voy a ponerlo aquí puesto que ya es un instrumento fabricado por nosotros}. 
-
-Para la fabricación del guante de PDMS se han empleado herramientas qu ha simple vista pueden parecer de aplicación tan dispares como una báscula, un horno y una empalmadora de fibra (ver figura \ref{fig:herramientas}; \ref{fig:empalmadora}). La báscula utilizada es la disponible en el laboratorio de la universidad tiene ua precisión de miligramos y en este proyecto se utiliza para utilizar con exactitud la proporción del monómero y el agente de cura en la disolución de PDMS. El horno se emplea para conseguir que el PDMS se cure con ayuda del calor en menos tiempo.
+Para la fabricación del guante de PDMS se han empleado herramientas que ha simple vista pueden parecer de aplicación tan dispares como una báscula, un horno y una empalmadora de fibra (ver figura \ref{fig:herramientas}; \ref{fig:empalmadora}). La báscula utilizada es la disponible en el laboratorio de la universidad tiene ua precisión de miligramos y en este proyecto se utiliza para utilizar con exactitud la proporción del monómero y el agente de cura en la disolución de PDMS. El horno se emplea para conseguir que el PDMS se cure con la ayuda del calor en menos tiempo.
 
 \begin{figure}[H]
 	\centering
@@ -596,26 +594,42 @@ Para empalmar los sensores de FBG con el resto del prototipo se emplea una empal
 \label{sec:proceso3}
 %Elaboración
 
-Elaboración/Proceso de fabricación
+ \textcolor{rositaoscuro}{Elaboración/Proceso de fabricación}
 
-Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: modelado 3D, fabricación del guante y montaje de prototipo completo.
+Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: modelado 3D, fabricación del guante y montaje del prototipo completo.
 
 \begin{itemize}
 	\item \textbf{Modelado 3D - Configuración 3D}
 	
-	Esta actividad comprende el diseño del molde con el que se fabrica el guante y de la caja contenedora de todo el cableado.
+	Esta parte comprende el diseño del molde con el que se fabrica el guante y de la caja contenedora de todo el cableado. El software utilizado para el modelado 3D ha sido la versión de escritorio de SketchUp \cite{SketchUp}.
+	
 	Para poder producir el guante de PDMS es necesario tener un molde donde verter la disolución para darle la forma deseada. Gracias a las versatilidad de diseño que ofrece la impresión 3D se realiza con este proceso de manufactura el molde (véase figura \ref{fig:molde}). 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{./img/molde1}
-	\caption{Molde} \label{fig:molde}
-\end{figure}
 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{./img/molde2}
-		\caption{Molde} \label{fig:molde2}
+		\includegraphics[width=0.6\textwidth]{./img/molde}
+		\caption{Molde} \label{fig:molde}
 	\end{figure}
+ 
+ 	El diseño 3D del molde se ha realizado a partir de la silueta de la huella de la mano. El recipiente con forma de mano necesita seis franjas a la altura de la muñeca para conducir por ellas las fibras de Bragg hasta el resto del prototipo. También tiene unas pequeñas muescas que sirven de guía para cuando se introduzcan la fibras en el PDMS.
+ 	 	
+ 	En cuanto al diseño de la caja se realiza con la finalidad de contener en ella todos los cables de fibra óptica para tener un prototipo más ordenado y compacto. En la figura \ref{fig:ordenCaja} se observa la mejora que aporta el uso de esta caja, pasando de tener todas las fibras desordenadas y ocupando un espacio considerable a tenerlo todo ordenado. Además, esto protege el cableado ante roturas en traslados u otras situaciones. 
+ 	
+	\begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.6\textwidth]{./img/ordenCaja}
+	 	\caption{Antes y después de tener la caja} \label{fig:ordenCaja}
+	\end{figure}
+ 	
+ 	El diseño se ha dividido en cuatro partes, ya que no cabía todo el diseño en las impresoras 3D disponibles. \textcolor{rositaoscuro}{Las medidas completas son de $31.5\times15.5\times9$ cm}. Tres de estas partes forman la base de la caja y una cuarta parte sirve de tapa protectora del compartimento de los conectores. La base de se divide en el compartimento para los cables de fibra procedentes del guante, el compartimento para los conectores  y el del splitter. Las cuatro partes se encajan entre ellas gracias a unas ranuras incluidas en el diseño para este fin. Todo esto se puede observar en la figura \ref{fig:caja}.
+ 
+  	\begin{figure}[H]
+		\centering
+	 	\includegraphics[width=0.6\textwidth]{./img/caja}
+	 	\caption{Diseño 3D de la caja} \label{fig:caja}
+	\end{figure}
+ 
+ 	Ambos diseños se imprimen en PLA...
  
 	\item \textbf{Fabricación del guante}
 	
@@ -634,8 +648,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	
 	
-	
-	\begin{figure}[H]
+	*	\begin{figure}[H]**
 		\centering
 		\includegraphics[width=0.35\textwidth]{./img/diagramaMano}
 		\caption{Disposición del guante sensado.} \label{fig:manoFBG}

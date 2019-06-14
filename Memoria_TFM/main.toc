@@ -78,15 +78,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Desarrollo del prototipo}{42}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Materiales}{42}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.1}Materiales}{43}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.2}Instrumental}{45}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{47}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Funcionamiento}{52}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.4}Funcionamiento}{53}{subsection.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{53}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{54}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{55}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
