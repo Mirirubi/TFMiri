@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.25)  13 JUN 2019 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.25)  14 JUN 2019 20:45
 entering extended mode
 **./main.tex
 (main.tex
@@ -2192,142 +2192,127 @@ LaTeX Info: Redefining \% on input line 600.
 <./img/molde.jpg, id=764, 2743.24875pt x 1854.93pt>
 File: ./img/molde.jpg Graphic file (type jpg)
 <use ./img/molde.jpg>
-Package pdftex.def Info: ./img/molde.jpg  used on input line 610.
+Package pdftex.def Info: ./img/molde.jpg  used on input line 613.
 (pdftex.def)             Requested size: 271.7837pt x 183.74902pt.
-
-
-! LaTeX Error: File `./img/ordenCaja' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.620 ...ics[width=0.6\textwidth]{./img/ordenCaja}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.jpeg,.jpg,.png,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Info: Redefining \sptext on input line 622.
-LaTeX Info: Redefining \. on input line 622.
-LaTeX Info: Redefining \% on input line 622.
-[48 <./img/molde.jpg>]
-
-! LaTeX Error: File `./img/caja' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.628 ...graphics[width=0.6\textwidth]{./img/caja}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.jpeg,.jpg,.png,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<./img/PDMS.png, id=772, 632.3625pt x 400.49625pt>
+<./img/ordenCaja.png, id=766, 793.7655pt x 187.29974pt>
+File: ./img/ordenCaja.png Graphic file (type png)
+<use ./img/ordenCaja.png>
+Package pdftex.def Info: ./img/ordenCaja.png  used on input line 623.
+(pdftex.def)             Requested size: 452.96826pt x 106.88484pt.
+LaTeX Info: Redefining \sptext on input line 625.
+LaTeX Info: Redefining \. on input line 625.
+LaTeX Info: Redefining \% on input line 625.
+ [48 <./img/molde.jpg>]
+<./img/caja.png, id=773, 971.42924pt x 484.81125pt>
+File: ./img/caja.png Graphic file (type png)
+<use ./img/caja.png>
+Package pdftex.def Info: ./img/caja.png  used on input line 631.
+(pdftex.def)             Requested size: 362.37598pt x 180.84947pt.
+LaTeX Info: Redefining \sptext on input line 636.
+LaTeX Info: Redefining \. on input line 636.
+LaTeX Info: Redefining \% on input line 636.
+ [49 <./img/ordenCaja.png> <./img/caja.png>]
+<./img/PDMS.png, id=783, 632.3625pt x 400.49625pt>
 File: ./img/PDMS.png Graphic file (type png)
 <use ./img/PDMS.png>
-Package pdftex.def Info: ./img/PDMS.png  used on input line 645.
+Package pdftex.def Info: ./img/PDMS.png  used on input line 652.
 (pdftex.def)             Requested size: 339.7262pt x 215.16475pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \sptext on input line 648.
-LaTeX Info: Redefining \. on input line 648.
-LaTeX Info: Redefining \% on input line 648.
- [49]
-<./img/diagramaMano.png, id=779, 296.307pt x 346.29375pt>
+<./img/diagramaMano.png, id=784, 296.307pt x 346.29375pt>
 File: ./img/diagramaMano.png Graphic file (type png)
 <use ./img/diagramaMano.png>
-Package pdftex.def Info: ./img/diagramaMano.png  used on input line 653.
+Package pdftex.def Info: ./img/diagramaMano.png  used on input line 660.
 (pdftex.def)             Requested size: 158.54164pt x 185.2891pt.
-LaTeX Info: Redefining \sptext on input line 664.
-LaTeX Info: Redefining \. on input line 664.
-LaTeX Info: Redefining \% on input line 664.
 
-[50 <./img/PDMS.png> <./img/diagramaMano.png>]
-<./img/fusionFOpractica.jpg, id=789, 949.74825pt x 365.56575pt>
+Underfull \vbox (badness 6063) has occurred while \output is active []
+
+LaTeX Info: Redefining \sptext on input line 663.
+LaTeX Info: Redefining \. on input line 663.
+LaTeX Info: Redefining \% on input line 663.
+ [50 <./img/PDMS.png>]
+<./img/fusionFOpractica.jpg, id=791, 949.74825pt x 365.56575pt>
 File: ./img/fusionFOpractica.jpg Graphic file (type jpg)
 <use ./img/fusionFOpractica.jpg>
-Package pdftex.def Info: ./img/fusionFOpractica.jpg  used on input line 672.
+Package pdftex.def Info: ./img/fusionFOpractica.jpg  used on input line 679.
 (pdftex.def)             Requested size: 430.31847pt x 165.6354pt.
-<./img/diagramaFBG.png, id=791, 832.3095pt x 501.67426pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \sptext on input line 683.
+LaTeX Info: Redefining \. on input line 683.
+LaTeX Info: Redefining \% on input line 683.
+ [51 <./img/diagramaMano.png>]
+<./img/diagramaFBG.png, id=804, 832.3095pt x 501.67426pt>
 File: ./img/diagramaFBG.png Graphic file (type png)
 <use ./img/diagramaFBG.png>
-Package pdftex.def Info: ./img/diagramaFBG.png  used on input line 685.
+Package pdftex.def Info: ./img/diagramaFBG.png  used on input line 692.
 (pdftex.def)             Requested size: 452.96826pt x 273.02812pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \sptext on input line 688.
-LaTeX Info: Redefining \. on input line 688.
-LaTeX Info: Redefining \% on input line 688.
- [51 <./img/fusionFOpractica.jpg>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \sptext on input line 709.
-LaTeX Info: Redefining \. on input line 709.
-LaTeX Info: Redefining \% on input line 709.
- [52 <./img/diagramaFBG.png>]
-<./img/diagramaFBGfuncionamiento.png, id=806, 787.14075pt x 519.1395pt>
+LaTeX Info: Redefining \sptext on input line 698.
+LaTeX Info: Redefining \. on input line 698.
+LaTeX Info: Redefining \% on input line 698.
+ [52 <./img/fusionFOpractica.jpg> <./img/diagramaFBG.png>]
+<./img/diagramaFBGfuncionamiento.png, id=812, 787.14075pt x 519.1395pt>
 File: ./img/diagramaFBGfuncionamiento.png Graphic file (type png)
 <use ./img/diagramaFBGfuncionamiento.png>
 Package pdftex.def Info: ./img/diagramaFBGfuncionamiento.png  used on input lin
-e 719.
+e 726.
 (pdftex.def)             Requested size: 452.96826pt x 298.74844pt.
-<./img/interfazSM.jpeg, id=807, 1606.0pt x 805.0075pt>
-File: ./img/interfazSM.jpeg Graphic file (type jpg)
-<use ./img/interfazSM.jpeg>
-Package pdftex.def Info: ./img/interfazSM.jpeg  used on input line 727.
-(pdftex.def)             Requested size: 452.96826pt x 227.04654pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 731.
-LaTeX Info: Redefining \. on input line 731.
-LaTeX Info: Redefining \% on input line 731.
- [53 <./img/diagramaFBGfuncionamiento.png>])
+LaTeX Info: Redefining \sptext on input line 729.
+LaTeX Info: Redefining \. on input line 729.
+LaTeX Info: Redefining \% on input line 729.
+ [53]
+<./img/interfazSM.jpeg, id=817, 1606.0pt x 805.0075pt>
+File: ./img/interfazSM.jpeg Graphic file (type jpg)
+<use ./img/interfazSM.jpeg>
+Package pdftex.def Info: ./img/interfazSM.jpeg  used on input line 734.
+(pdftex.def)             Requested size: 452.96826pt x 227.04654pt.
+)
+Underfull \vbox (badness 5077) has occurred while \output is active []
+
 LaTeX Info: Redefining \sptext on input line 114.
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
- [54 <./img/interfazSM.jpeg>]
+ [54 <./img/diagramaFBGfuncionamiento.png> <./img/interfazSM.jpeg>]
+LaTeX Info: Redefining \sptext on input line 114.
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+ [55]
 \openout2 = `src/solucionIMU.aux'.
 
 
-(src/solucionIMU.tex
-Cap\'{\i }tulo 4.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55
+(src/solucionIMU.tex [56
 
 
 
 ]
+Cap\'{\i }tulo 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
 LaTeX Info: Redefining \sptext on input line 58.
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
 
-[56]
+[58]
 
-LaTeX Warning: Reference `fig:Imu' on page 57 undefined on input line 58.
+LaTeX Warning: Reference `fig:Imu' on page 59 undefined on input line 58.
 
 
-LaTeX Warning: Reference `fig:sensor_XSENS' on page 57 undefined on input line 
+LaTeX Warning: Reference `fig:sensor_XSENS' on page 59 undefined on input line 
 66.
 
 
-LaTeX Warning: Reference `fig:protocolo' on page 57 undefined on input line 72.
+LaTeX Warning: Reference `fig:protocolo' on page 59 undefined on input line 72.
 
 
 LaTeX Info: Redefining \sptext on input line 80.
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
-[57]
-<./graphics/sep.png, id=833, 381.67593pt x 400.49625pt>
+[59]
+<./graphics/sep.png, id=847, 381.67593pt x 400.49625pt>
 File: ./graphics/sep.png Graphic file (type png)
 <use ./graphics/sep.png>
 Package pdftex.def Info: ./graphics/sep.png  used on input line 84.
@@ -2338,14 +2323,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \sptext on input line 91.
 LaTeX Info: Redefining \. on input line 91.
 LaTeX Info: Redefining \% on input line 91.
- [58 <./graphics/sep.png>])
+ [60 <./graphics/sep.png>])
 LaTeX Info: Redefining \sptext on input line 120.
 LaTeX Info: Redefining \. on input line 120.
 LaTeX Info: Redefining \% on input line 120.
- [59]
+ [61]
 \openout2 = `src/conclusiones.aux'.
 
- (src/conclusiones.tex [60
+ (src/conclusiones.tex [62
 
 
 
@@ -2354,17 +2339,17 @@ Cap\'{\i }tulo 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61])
+ [63])
 LaTeX Info: Redefining \sptext on input line 135.
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
 
-[62]pdfTeX warning (ext4): destination with the same identifier (name{page.62})
+[64]pdfTeX warning (ext4): destination with the same identifier (name{page.64})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.145 \printbibliography[heading=bibintoc]
-                                           [62
+                                           [64
 
 
 ]
@@ -2400,7 +2385,7 @@ Package biblatex Warning: No driver for entry type 'standard'.
 Package biblatex Warning: No driver for entry type 'standard'.
 (biblatex)                Using fallback driver on input line 145.
 
-[63]
+[65]
 
 Package biblatex Warning: No driver for entry type 'standard'.
 (biblatex)                Using fallback driver on input line 145.
@@ -2427,7 +2412,7 @@ Package biblatex Warning: No driver for entry type 'standard'.
 LaTeX Info: Redefining \sptext on input line 145.
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
-[64]
+[66]
 Underfull \hbox (badness 1275) in paragraph at lines 145--145
 []\T1/ptm/m/it/12 Tipos de conectores y usos\T1/ptm/m/n/12 . \T1/ptm/m/sc/12 ur
 l\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / sites . google . com / site /
@@ -2443,18 +2428,18 @@ Underfull \hbox (badness 1845) in paragraph at lines 145--145
 LaTeX Info: Redefining \sptext on input line 145.
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
-[65]
+[67]
 LaTeX Info: Redefining \sptext on input line 157.
 LaTeX Info: Redefining \. on input line 157.
 LaTeX Info: Redefining \% on input line 157.
- [66]
+ [68]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-[67]
+[69]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (main.aux (portada.aux)
 LaTeX Info: Redefining \sptext on input line 36.
@@ -2483,10 +2468,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
 ### semi simple group (level 1) entered at line 50 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26316 strings out of 492946
- 449655 string characters out of 3125822
- 960093 words of memory out of 3000000
- 29381 multiletter control sequences out of 15000+200000
+ 26328 strings out of 492946
+ 449934 string characters out of 3125822
+ 961093 words of memory out of 3000000
+ 29391 multiletter control sequences out of 15000+200000
  80433 words of font info for 109 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,18n,69p,2019b,3873s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2504,9 +2489,9 @@ mes/utmb8a.pfb><C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/times/utmbi8a.pfb><C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (86 pages, 8131668 bytes).
+Output written on main.pdf (88 pages, 9144704 bytes).
 PDF statistics:
- 1207 PDF objects out of 1440 (max. 8388607)
- 251 named destinations out of 1000 (max. 500000)
- 742 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1225 PDF objects out of 1440 (max. 8388607)
+ 254 named destinations out of 1000 (max. 500000)
+ 752 words of extra memory for PDF output out of 10000 (max. 10000000)
 
