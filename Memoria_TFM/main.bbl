@@ -795,5 +795,27 @@
     \verb https://www.sketchup.com/es
     \endverb
   \endentry
+
+  \entry{bioPLA}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=dFT}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Frutos},
+         familyi={F\bibinitperiod},
+         given={Toni},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FTd1}
+    \strng{fullhash}{FTd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Filamento Biodegradable}
+    \verb{url}
+    \verb https://www.hwlibre.com/filamento-biodegradable-mejor-filamento-ecofr
+    \verb iendly/
+    \endverb
+  \endentry
 \enddatalist
 \endinput
