@@ -606,6 +606,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	Esta parte comprende el diseño del molde con el que se fabrica el guante y de la caja contenedora de todo el cableado. El software utilizado para el modelado 3D ha sido la versión de escritorio de SketchUp \cite{SketchUp}.
 	
+	
 	Para poder producir el guante de PDMS es necesario tener un molde donde verter la disolución para darle la forma deseada. Gracias a las versatilidad de diseño que ofrece la impresión 3D se realiza con este proceso de manufactura el molde (véase figura \ref{fig:molde}). 
 
 	\begin{figure}[H]
@@ -615,6 +616,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	\end{figure}
  
  	El diseño 3D del molde se ha realizado a partir de la silueta de la huella de la mano. El recipiente con forma de mano necesita seis franjas a la altura de la muñeca para conducir por ellas las fibras de Bragg hasta el resto del prototipo. También tiene unas pequeñas muescas que sirven de guía para cuando se introduzcan la fibras en el PDMS.
+ 	 	
  	 	
  	En cuanto al diseño de la caja se realiza con la finalidad de contener en ella todos los cables de fibra óptica para tener un prototipo más ordenado y compacto. En la figura \ref{fig:ordenCaja} se observa la mejora que aporta el uso de esta caja, pasando de tener todas las fibras desordenadas y ocupando un espacio considerable a tenerlo todo ordenado. Además, esto protege el cableado ante roturas en traslados u otras situaciones. 
  	
@@ -634,58 +636,122 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
  
  	Ambos diseños se imprimen en PLA por ser biodegrable. Se trata e un polímero constituido por moléculas de ácido láctico, obtenido generalmente de tratar almidón de maíz, yuca o caña de azúcar. Además tiene precio y características adecuadas para las necesidades del proyecto. \cite{bioPLA}
  	
- 	al estar compuesto de caña de azúcar. Además, ya que tiene un precio adecuado y es más que su
 
 % _ Fabricación del guante:
  
 	\item \textbf{Fabricación del guante}
-	
-	Para el proceso de fabricación del guante se necesitan ..................
-	
-	La base de la fabricación del guante es la mezcla a realizar para la obtención de la densidad del PDMS requerida. Si se toma una disolución muy diluida el guante será demasiado  
-	
-	hace falta mezclar blablabla y blavla
-	 
-	
+
+	Para el proceso de fabricación del guante se necesita el elastómero y el agente de cura que componen el PDMS. El PDMS utilizado corresponde a PDMS SYLGARD$^{\textregistered}$ 184 de Dow Corning (figura \ref{fig:pdms}).
+			
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{./img/PDMS}
+		\includegraphics[width=0.5\textwidth]{./img/PDMS}
 		\caption{PDMS: Elastómero y agente de cura.} \label{fig:pdms}
-	\end{figure}
+	\end{figure}	
+
+	Además es necesario el molde presentado en el apartado anterior y las fibras de Bragg. En este apartado se utilizan diversas herramientas del laboratorio: capsula petri, báscula, vaso de precipitados, pipeta de plástico, espátula y  horno. 
 	
-	
-	
-	*	\begin{figure}[H]**
-		\centering
-		\includegraphics[width=0.35\textwidth]{./img/diagramaMano}
-		\caption{Disposición del guante sensado.} \label{fig:manoFBG}
-	\end{figure}
-	
+
+	A continuación, se procede a describir por pasos el proceso de fabricación del guante:
 	\begin{enumerate}
-		\item Preparar mezcla PDMS (55g de polímero y 5.5g de agente de curación). Primero el
-		elastómeto y después agente de curación.
-		\item Revolver la mezcla durante al menos 4 minutos.
-		\item Se deposita el PDMS y se colocan las fibras en el molde
-		\item Se introduce en un horno de vacío para eliminar las burbujas durante 20 minutos, sin aplicar
-		temperatura.
-		\item Meter el molde en el horno (4h y media a $-55\,^{\circ}\mathrm{C}$). Dejar un poco más.
-		\item Desmoldar.
+		\item \underline{Moldeado PDMS}
+		
+		La base de la fabricación del guante es la mezcla a realizar para la obtención de la densidad del PDMS requerida. Si se tomase una disolución muy diluida el guante no sería lo suficientemente consistente. 
+		
+		
+		En la figura \ref{fig:fabricacionGuante} que acompaña al paso de modelado PDMS está referenciada cada foto por una letra A-D que se utiliza en el parágrafo contiguo.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{./img/fabricacionGuante}
+			\caption{Proceso de manufactura del guante.} \label{fig:fabricacionGuante}
+		\end{figure}
+		
+		La mezcla de PDMS realiza tiene una relación agente-polímero de 1:10. Se coloca capsula petri sobre la báscula y se vierte en ella desde el vaso de precipitados 55g de elastómero [A]. Una vez se tiene la cantidad necesaria de polímero, se tabula la báscula y se toma el agente de curación desde el bote con ayuda de una pipeta de plástico [B]. Se añade al elastómero 5.5g de agente de curación. Una vez se tienen las cantidades expuestas, se mezclan durante cuatro minutos con la ayuda de la espátula [C]. Después de este paso en algunas ocasiones se generan burbujas de aire, que se pueden eliminar en un horno de vacío en pasos posteriores. En esta ocasión no ha sido necesario. Cuando se tiene una mezcla homogénea (se ha removido durante cuatro minutos correctamente) se vierte el PDMS en el molde del guante [D].  	
+		
+		
+		Conviene recordar que tras este proceso es importante limpiar todas las herramientas utilizadas, siendo el PDMS un compuesto engorroso de limpiar. 
+	
+		
+		\item \underline{Colocación de los sensores FBG}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.65\textwidth]{./img/diagramaMano2}
+			\caption{Disposición del guante sensorizado.} \label{fig:manoFBG}
+		\end{figure}
+		
+		En este paso se colocan las fibras dentro del PDMS. En la figura \ref{fig:manoFBG} está representada la distribución de las fibras de Bragg en el PDMS frente a la colocación que se ha realizado. Aprovechando las franjas de la pared del molde y las guías de la base se han colocado las fibras dentro de la mezcla. Para que el trozo de fibra que contiene las rejillas esté en los ejes de giro de la mano (los vértices de los ángulos a medir) ha sido necesario cortar las fibras ya que el extremo superior no era necesario conectarlo posteriormente a nada. El otro extremo de la fibra se ha conducido por las franjas del molde hacia el exterior de este de manera ordenada.
+		
+	
+		\item \underline{Curación PDMS} 
+		
+		Si fuera necesario quitar burbujas de aire al PDMS (como se hace refenrecia en el paso primero), sería antes de este paso cuando debería hacerse.
+		
+		
+		Para que el PDMS se cure una opción es dejarlo al aire libre durante un par de días. Aunque es aconsejable que para que la curación sea más rápida y completa se realice en el horno. Esta afirmación se solventa en la experiencia ya que durante la realización del proyecto ha habido que dejar el PDMS curándose al aire libre, y después de tres días aún estaba el PDMS sin curar del todo. Además, cuando el PDMS estuvo curado tenía una textura más pegajosa que al utilizar el horno. Es por ello que se ha metido el molde con el PDMS y las fibras de Bragg en el horno durante cinco horas y media a $-55\,^{\circ}\mathrm{C}$). Una vez pasado ese tiempo se deja reposar una hora dentro del horno apagado. 
+		
+		
+		\item \underline{Desmoldar}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.75\textwidth]{./img/fabricacionGuante2}
+			\caption{Desmoldado del guante.} \label{fig:fabricacionGuante2}
+		\end{figure}
+	
+		Para finalizar el proceso de moldeado del PDMS hace falta retirar el PDMS con los sensores embebidos del molde. Este paso hay que realizarlo con mucha paciencia y cuidado. El PDMS está adherido al molde. Para ello se ha necesitado la ayuda de la espátula. En la figura \ref{fig:fabricacionGuante2} se puede representa este paso.
+		
 
 	\end{enumerate}
+	
+\underline{\textit{Nota:}} Cabe mencionar que durante la realización del proyecto este proceso ha sido necesario realizarse varias veces debido a los errores que han sucedido. Se detalla mejor en el apartado de resultados y conclusiones.
+		
+
+	
+	
+	
+
+	
+% _ Montaje completo:	
+	
+	\item \textbf{Montaje completo}
+	
+	En este punto se tiene la estructura del guante fabricada. Hace falta proceder al acoplo de este al sistema copleto.
+	
+	
+		Además es necesario el molde presentado en el apartado anterior y las fibras de Bragg. En este apartado se utilizan diversas herramientas del laboratorio: capsula petri, báscula, vaso de precipitados, pipeta de plástico, espátula y  horno. , cortadora de precisión, alcohol, servilletas específicas para limpiar fibra, empalmadora, mechero y empalmes por fusión.
+	
+	
+	
+	-----------
+	
+	
+	Empalmar
 	
 	\textcolor{rositaoscuro}{Las siguientes figuras la puedo poner por separado, en la explicacin del procesado de emapalmar.}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.95\textwidth]{./img/fusionFOpractica}
-		\caption{Colocación de la fibra en la fusionadora y proceso por pantalla. \cite{FOAconect}} 
+		\caption{Colocación de la fibra en la fusionadora y proceso por pantalla.} 
 		\label{fig:fusionadora}
 	\end{figure}  
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/colocacionFibra}
+		\caption{Colocación de la fibra en la fusionadora y proceso por pantalla. }
+		\label{fig:colocacionFibra}
+	\end{figure}  
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\textwidth]{./img/procesoPantalla}
+		\caption{Colocación de la fibra en la fusionadora y proceso por pantalla. } 
+		\label{fig:procesoPantalla}
+	\end{figure}  
 	
-	\item \textbf{Montaje completo}
-	
-	asdf
+	-----------
 	
 	\begin{figure}[H]
 		\centering
