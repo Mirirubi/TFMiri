@@ -84,9 +84,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{47}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Funcionamiento}{57}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.4}Programaci\IeC {\'o}n del software}{57}{subsection.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{59}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.2.5}Funcionamiento}{57}{subsection.3.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{60}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{61}{chapter.4}% 
 \defcounter {refsection}{0}\relax 

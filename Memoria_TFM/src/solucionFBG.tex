@@ -700,7 +700,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 			\caption{Desmoldado del guante.} \label{fig:fabricacionGuante2}
 		\end{figure}
 	
-		Para finalizar el proceso de moldeado del PDMS hace falta retirar el PDMS con los sensores embebidos del molde. Este paso hay que realizarlo con mucha paciencia y cuidado, ya que el PDMS está adherido al molde y las fibras de FBG son muy delicadas. Para ello se ha empleado la ayuda de la espátula. En la figura \ref{fig:fabricacionGuante2} se puede representa este paso.
+		Para finalizar el proceso de moldeado del PDMS, hace falta retirar del molde el PDMS con los sensores embebidos. Este paso hay que realizarlo con mucha paciencia y cuidado, ya que el PDMS está adherido al molde y las fibras de FBG son muy delicadas. Para ello se ha empleado la ayuda de la espátula. En la figura \ref{fig:fabricacionGuante2} se puede representa este paso.
 		
 
 	\end{enumerate}
@@ -769,63 +769,49 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\label{fig:CajaOrden}
 	\end{figure}  
 	
-	Estas uniones se colocan en la caja (ver figura \ref{fig:CajaOrden}. Por un extremo de la caja se insertan las seis fibras monomodo al primer apartamento, almacena el cableado sobrante en el segundo apartamento se colocan las conexiones al splitter. 
+	Estas uniones se colocan en la caja (ver figura \ref{fig:CajaOrden}. Por un extremo de la caja se insertan las seis fibras monomodo al primer apartamento, almacena el cableado sobrante y en el segundo apartamento se colocan las conexiones al splitter. Además, estas conexiones están protegidas por la tapa de dicho apartamento. Por último, en el tercer apartamento se recogen las ocho fibras del splitter salientes de las conexiones hasta llegar al mecanismo del splitter que reposa sobre la sección diseñada para ello. Desde este se accede a la perforación establecida en la pared, dando salida a la fibra aislada del splitter.
 
 	
-	Se han etiquetado debidamente todas las fibras para una mejor organización.
+	Para una mejor organización, se han etiquetado debidamente todas las fibras. Lo que facilita posibles modificaciones futuras que vaya a ser necesario realizar al conexionado. De esta manera es más inmediato el reconocimiento de la relación entre la parte a medir y la fibra que contiene la información de esta.
+		
 	
+	\item \underline{Conexión de la fuente y del interrogador}
 	
-	\item \underline{Colocación en la caja}
+	Completando el conexionado del prototipo la fibra aislada del splitter es conectada a la fuente, conectada a su vez a la red de corriente alterna. Además, la fuente se une al interrogador a través de una fibra monomodo y el interrogador al ordenador. 
 	
+	En este apartado se tienen dos conexiones ópticas y dos eléctricas. Las conexiones eléctricas sirven en este escenario para alimentar la fuente y como medio de conexión entre el sistema óptico y el usuario a través del ordenador. 
 	
-	
-	
-	
-	\item \underline{Conexión de la fuente}
-	
-	
-	
-	
-	
-	\item \underline{Conexión del interrogador}
-	
-	
- 
-	
-	
-	
+		
 	\end{enumerate}
 	 
 	
-	
-	
-
-	
-	
-
-	
-	
-	
-	
 \end{itemize}
 
-asdf
+En este punto de la memoria se encuentran todos los elementos del prototipo dispuestos para su funcionamiento. Cabe mencionar que en la práctica, este proceso a tomado mucho más tiempo del esperado. Por ello dentro de la línea temporal el desarrollo hardware del prototipo se ha coordinado con el desarrollo software de este. Este aspecto se valora en más extensión en puntos posteriores del documento. 
 
 
 
+\subsection{Programación del software}
+\label{sec:programacion}
 
-Para determinar la valid
+En este apartado se presentan el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$
+
 
 
 \subsection{Funcionamiento}
 \label{sec:funcionamiento3}
-asdf
 
-En cuanto al funcionamiento físico del prototipo la fuente  (alimentada por una red de corriente alterna, de $\sim$230V a 50Hz) el interrogador emite un pulso de luz. 
+
+Este apartado expone como se coordina la configuración del soporte físico con el software programado, es decir, como funciona el prototipo en su plenitud.
+
+En cuanto al funcionamiento físico del prototipo, la fuente  (alimentada por una red de corriente alterna, de $\sim$230V a 50Hz) el interrogador emite un pulso de luz. 
 
 
 
 En este, en un sentido de la propagación la señal se multiplexa de una a ocho fibras y en el otro combina los pulsos de retorno de las seis fibras de FBG (dos fibras del multiplexor no se utilizan). 
+
+La fuente se configura con el software 
+El interrogador
 
 
 APARTADO ANTERIOR: 	Como se representa en la figura \ref{fig:diagramaFBG}, el guante que se coloca en la mano a medir está compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El PDMS tiene la forma de la huella de una mano, hasta la muñeca. Desde dónde salen las seis fibras de Bragg hasta empalmarse con fibra óptica monomodo (en amarillo), estas fibras se unen mediante conectores al multiplexor (dejando dos fibras del multiplexor sin darle uso). El multiplexor va conectado a la fuente alimentada por la red eléctrica. La fuente está a su vez conectada mediante fibra óptica al interrogador, conectado al ordenador por cable eléctrico.

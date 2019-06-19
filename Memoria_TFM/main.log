@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.25)  17 JUN 2019 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.25)  18 JUN 2019 11:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -1583,7 +1583,7 @@ LaTeX Info: Redefining \sptext on input line 96.
 LaTeX Info: Redefining \. on input line 96.
 LaTeX Info: Redefining \% on input line 96.
  [12]
-<./graphics/camera.jpg, id=445, 440.64626pt x 200.75pt>
+<./graphics/camera.jpg, id=447, 440.64626pt x 200.75pt>
 File: ./graphics/camera.jpg Graphic file (type jpg)
 <use ./graphics/camera.jpg>
 Package pdftex.def Info: ./graphics/camera.jpg  used on input line 105.
@@ -1595,7 +1595,7 @@ LaTeX Info: Redefining \sptext on input line 108.
 LaTeX Info: Redefining \. on input line 108.
 LaTeX Info: Redefining \% on input line 108.
  [13]
-<./graphics/opt.jpg, id=457, 1273.75874pt x 630.355pt>
+<./graphics/opt.jpg, id=459, 1273.75874pt x 630.355pt>
 File: ./graphics/opt.jpg Graphic file (type jpg)
 <use ./graphics/opt.jpg>
 Package pdftex.def Info: ./graphics/opt.jpg  used on input line 114.
@@ -1607,7 +1607,7 @@ LaTeX Info: Redefining \sptext on input line 117.
 LaTeX Info: Redefining \. on input line 117.
 LaTeX Info: Redefining \% on input line 117.
  [14 <./graphics/camera.jpg>]
-<./graphics/GaitRite.jpg, id=467, 1856.9375pt x 1800.7275pt>
+<./graphics/GaitRite.jpg, id=469, 1856.9375pt x 1800.7275pt>
 File: ./graphics/GaitRite.jpg Graphic file (type jpg)
 <use ./graphics/GaitRite.jpg>
 Package pdftex.def Info: ./graphics/GaitRite.jpg  used on input line 126.
@@ -1619,7 +1619,7 @@ LaTeX Info: Redefining \sptext on input line 129.
 LaTeX Info: Redefining \. on input line 129.
 LaTeX Info: Redefining \% on input line 129.
  [15 <./graphics/opt.jpg>]
-<./graphics/shoes.png, id=475, 451.6875pt x 231.11343pt>
+<./graphics/shoes.png, id=477, 451.6875pt x 231.11343pt>
 File: ./graphics/shoes.png Graphic file (type png)
 <use ./graphics/shoes.png>
 Package pdftex.def Info: ./graphics/shoes.png  used on input line 136.
@@ -1645,7 +1645,7 @@ Cap\'{\i }tulo 3.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-<./img/espectrooptico.png, id=496, 983.17313pt x 316.93407pt>
+<./img/espectrooptico.png, id=498, 983.17313pt x 316.93407pt>
 File: ./img/espectrooptico.png Graphic file (type png)
 <use ./img/espectrooptico.png>
 Package pdftex.def Info: ./img/espectrooptico.png  used on input line 53.
@@ -1657,12 +1657,12 @@ LaTeX Info: Redefining \. on input line 69.
 LaTeX Info: Redefining \% on input line 69.
 
 [20 <./img/espectrooptico.png>]
-<./img/ventana.png, id=503, 302.93175pt x 334.851pt>
+<./img/ventana.png, id=505, 302.93175pt x 334.851pt>
 File: ./img/ventana.png Graphic file (type png)
 <use ./img/ventana.png>
 Package pdftex.def Info: ./img/ventana.png  used on input line 73.
 (pdftex.def)             Requested size: 226.48413pt x 250.35077pt.
-<./img/perdidasFrec.jpg, id=507, 425.33907pt x 242.40562pt>
+<./img/perdidasFrec.jpg, id=509, 425.33907pt x 242.40562pt>
 File: ./img/perdidasFrec.jpg Graphic file (type jpg)
 <use ./img/perdidasFrec.jpg>
 Package pdftex.def Info: ./img/perdidasFrec.jpg  used on input line 81.
@@ -1671,7 +1671,7 @@ LaTeX Info: Redefining \sptext on input line 85.
 LaTeX Info: Redefining \. on input line 85.
 LaTeX Info: Redefining \% on input line 85.
  [21 <./img/ventana.png>]
-<./img/capas-fibra2.jpg, id=514, 814.242pt x 272.81924pt>
+<./img/capas-fibra2.jpg, id=516, 814.242pt x 272.81924pt>
 File: ./img/capas-fibra2.jpg Graphic file (type jpg)
 <use ./img/capas-fibra2.jpg>
 Package pdftex.def Info: ./img/capas-fibra2.jpg  used on input line 91.
@@ -1680,7 +1680,7 @@ LaTeX Info: Redefining \sptext on input line 101.
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
  [22 <./img/perdidasFrec.jpg> <./img/capas-fibra2.jpg>]
-<./img/MM-SM.jpg, id=524, 551.05875pt x 266.1945pt>
+<./img/MM-SM.jpg, id=526, 551.05875pt x 266.1945pt>
 File: ./img/MM-SM.jpg Graphic file (type jpg)
 <use ./img/MM-SM.jpg>
 Package pdftex.def Info: ./img/MM-SM.jpg  used on input line 108.
@@ -1689,17 +1689,17 @@ LaTeX Info: Redefining \sptext on input line 114.
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
  [23 <./img/MM-SM.jpg>]
-<./img/guiaMM.jpg, id=536, 567.3195pt x 209.583pt>
+<./img/guiaMM.jpg, id=538, 567.3195pt x 209.583pt>
 File: ./img/guiaMM.jpg Graphic file (type jpg)
 <use ./img/guiaMM.jpg>
 Package pdftex.def Info: ./img/guiaMM.jpg  used on input line 117.
 (pdftex.def)             Requested size: 317.0764pt x 117.1354pt.
-<./img/guiaSM.jpg, id=538, 569.7285pt x 154.77824pt>
+<./img/guiaSM.jpg, id=540, 569.7285pt x 154.77824pt>
 File: ./img/guiaSM.jpg Graphic file (type jpg)
 <use ./img/guiaSM.jpg>
 Package pdftex.def Info: ./img/guiaSM.jpg  used on input line 123.
 (pdftex.def)             Requested size: 317.0764pt x 86.1391pt.
-<./img/transFO-esc-grad.png, id=540, 361.95226pt x 319.79475pt>
+<./img/transFO-esc-grad.png, id=542, 361.95226pt x 319.79475pt>
 File: ./img/transFO-esc-grad.png Graphic file (type png)
 <use ./img/transFO-esc-grad.png>
 Package pdftex.def Info: ./img/transFO-esc-grad.png  used on input line 133.
@@ -1711,7 +1711,7 @@ LaTeX Info: Redefining \sptext on input line 137.
 LaTeX Info: Redefining \. on input line 137.
 LaTeX Info: Redefining \% on input line 137.
  [24 <./img/guiaMM.jpg> <./img/guiaSM.jpg>]
-<./img/tiposFO.jpg, id=549, 522.15076pt x 155.3805pt>
+<./img/tiposFO.jpg, id=551, 522.15076pt x 155.3805pt>
 File: ./img/tiposFO.jpg Graphic file (type jpg)
 <use ./img/tiposFO.jpg>
 Package pdftex.def Info: ./img/tiposFO.jpg  used on input line 143.
@@ -1720,7 +1720,7 @@ LaTeX Info: Redefining \sptext on input line 151.
 LaTeX Info: Redefining \. on input line 151.
 LaTeX Info: Redefining \% on input line 151.
  [25 <./img/transFO-esc-grad.png> <./img/tiposFO.jpg>]
-<./img/TIR.jpg, id=558, 514.92375pt x 270.41025pt>
+<./img/TIR.jpg, id=560, 514.92375pt x 270.41025pt>
 File: ./img/TIR.jpg Graphic file (type jpg)
 <use ./img/TIR.jpg>
 Package pdftex.def Info: ./img/TIR.jpg  used on input line 154.
@@ -1732,7 +1732,7 @@ LaTeX Info: Redefining \sptext on input line 168.
 LaTeX Info: Redefining \. on input line 168.
 LaTeX Info: Redefining \% on input line 168.
  [26 <./img/TIR.jpg>]
-<./img/TxFOp2p.jpg, id=569, 513.117pt x 148.1535pt>
+<./img/TxFOp2p.jpg, id=571, 513.117pt x 148.1535pt>
 File: ./img/TxFOp2p.jpg Graphic file (type jpg)
 <use ./img/TxFOp2p.jpg>
 Package pdftex.def Info: ./img/TxFOp2p.jpg  used on input line 179.
@@ -1741,12 +1741,12 @@ LaTeX Info: Redefining \sptext on input line 185.
 LaTeX Info: Redefining \. on input line 185.
 LaTeX Info: Redefining \% on input line 185.
  [27 <./img/TxFOp2p.jpg>]
-<./img/led-laser.jpg, id=578, 401.5pt x 243.91125pt>
+<./img/led-laser.jpg, id=580, 401.5pt x 243.91125pt>
 File: ./img/led-laser.jpg Graphic file (type jpg)
 <use ./img/led-laser.jpg>
 Package pdftex.def Info: ./img/led-laser.jpg  used on input line 195.
 (pdftex.def)             Requested size: 158.54164pt x 96.31596pt.
-<./img/led-laserEMISION.jpg, id=580, 401.5pt x 306.14375pt>
+<./img/led-laserEMISION.jpg, id=582, 401.5pt x 306.14375pt>
 File: ./img/led-laserEMISION.jpg Graphic file (type jpg)
 <use ./img/led-laserEMISION.jpg>
 Package pdftex.def Info: ./img/led-laserEMISION.jpg  used on input line 201.
@@ -1787,7 +1787,7 @@ LaTeX Info: Redefining \sptext on input line 247.
 LaTeX Info: Redefining \. on input line 247.
 LaTeX Info: Redefining \% on input line 247.
 [30]
-<./img/diagRX.jpg, id=602, 736.55174pt x 279.444pt>
+<./img/diagRX.jpg, id=604, 736.55174pt x 279.444pt>
 File: ./img/diagRX.jpg Graphic file (type jpg)
 <use ./img/diagRX.jpg>
 Package pdftex.def Info: ./img/diagRX.jpg  used on input line 255.
@@ -1806,7 +1806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<./img/tiposConect2.jpg, id=609, 938.90775pt x 206.57175pt>
+<./img/tiposConect2.jpg, id=611, 938.90775pt x 206.57175pt>
 File: ./img/tiposConect2.jpg Graphic file (type jpg)
 <use ./img/tiposConect2.jpg>
 Package pdftex.def Info: ./img/tiposConect2.jpg  used on input line 272.
@@ -1818,7 +1818,7 @@ LaTeX Info: Redefining \sptext on input line 276.
 LaTeX Info: Redefining \. on input line 276.
 LaTeX Info: Redefining \% on input line 276.
  [32 <./img/diagRX.jpg>]
-<./img/perdidasOpticas.jpg, id=618, 783.52725pt x 258.9675pt>
+<./img/perdidasOpticas.jpg, id=620, 783.52725pt x 258.9675pt>
 File: ./img/perdidasOpticas.jpg Graphic file (type jpg)
 <use ./img/perdidasOpticas.jpg>
 Package pdftex.def Info: ./img/perdidasOpticas.jpg  used on input line 280.
@@ -1828,7 +1828,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--283
 
  []
 
-<./img/conectoresPulido.jpg, id=622, 414.348pt x 106.59825pt>
+<./img/conectoresPulido.jpg, id=624, 414.348pt x 106.59825pt>
 File: ./img/conectoresPulido.jpg Graphic file (type jpg)
 <use ./img/conectoresPulido.jpg>
 Package pdftex.def Info: ./img/conectoresPulido.jpg  used on input line 287.
@@ -1837,12 +1837,12 @@ LaTeX Info: Redefining \sptext on input line 290.
 LaTeX Info: Redefining \. on input line 290.
 LaTeX Info: Redefining \% on input line 290.
 [33 <./img/tiposConect2.jpg> <./img/perdidasOpticas.jpg>]
-<./img/tiposEmpalme.jpg, id=629, 345.08925pt x 124.66576pt>
+<./img/tiposEmpalme.jpg, id=631, 345.08925pt x 124.66576pt>
 File: ./img/tiposEmpalme.jpg Graphic file (type jpg)
 <use ./img/tiposEmpalme.jpg>
 Package pdftex.def Info: ./img/tiposEmpalme.jpg  used on input line 296.
 (pdftex.def)             Requested size: 226.48413pt x 81.8212pt.
-<./img/procesoFusion.jpg, id=632, 809.424pt x 136.1085pt>
+<./img/procesoFusion.jpg, id=634, 809.424pt x 136.1085pt>
 File: ./img/procesoFusion.jpg Graphic file (type jpg)
 <use ./img/procesoFusion.jpg>
 Package pdftex.def Info: ./img/procesoFusion.jpg  used on input line 307.
@@ -1854,7 +1854,7 @@ LaTeX Info: Redefining \sptext on input line 311.
 LaTeX Info: Redefining \. on input line 311.
 LaTeX Info: Redefining \% on input line 311.
  [34 <./img/conectoresPulido.jpg> <./img/tiposEmpalme.jpg>]
-<./img/operacionFBG.jpg, id=639, 1025.0295pt x 458.31226pt>
+<./img/operacionFBG.jpg, id=641, 1025.0295pt x 458.31226pt>
 File: ./img/operacionFBG.jpg Graphic file (type jpg)
 <use ./img/operacionFBG.jpg>
 Package pdftex.def Info: ./img/operacionFBG.jpg  used on input line 346.
@@ -1863,7 +1863,7 @@ LaTeX Info: Redefining \sptext on input line 350.
 LaTeX Info: Redefining \. on input line 350.
 LaTeX Info: Redefining \% on input line 350.
  [35 <./img/procesoFusion.jpg>]
-<./img/FBGmanufactur.jpg, id=648, 638.385pt x 279.444pt>
+<./img/FBGmanufactur.jpg, id=650, 638.385pt x 279.444pt>
 File: ./img/FBGmanufactur.jpg Graphic file (type jpg)
 <use ./img/FBGmanufactur.jpg>
 Package pdftex.def Info: ./img/FBGmanufactur.jpg  used on input line 355.
@@ -1877,7 +1877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
-<./img/medicBragg.jpg, id=659, 790.152pt x 306.54526pt>
+<./img/medicBragg.jpg, id=661, 790.152pt x 306.54526pt>
 File: ./img/medicBragg.jpg Graphic file (type jpg)
 <use ./img/medicBragg.jpg>
 Package pdftex.def Info: ./img/medicBragg.jpg  used on input line 374.
@@ -1889,7 +1889,7 @@ LaTeX Info: Redefining \sptext on input line 378.
 LaTeX Info: Redefining \. on input line 378.
 LaTeX Info: Redefining \% on input line 378.
  [37]
-<./img/flexibleFBG.jpg, id=671, 561.297pt x 215.6055pt>
+<./img/flexibleFBG.jpg, id=673, 561.297pt x 215.6055pt>
 File: ./img/flexibleFBG.jpg Graphic file (type jpg)
 <use ./img/flexibleFBG.jpg>
 Package pdftex.def Info: ./img/flexibleFBG.jpg  used on input line 383.
@@ -1901,7 +1901,7 @@ LaTeX Info: Redefining \. on input line 398.
 LaTeX Info: Redefining \% on input line 398.
 
 [38 <./img/medicBragg.jpg> <./img/flexibleFBG.jpg>]
-<./img/compPDMS.jpg, id=679, 386.6445pt x 115.02975pt>
+<./img/compPDMS.jpg, id=681, 386.6445pt x 115.02975pt>
 File: ./img/compPDMS.jpg Graphic file (type jpg)
 <use ./img/compPDMS.jpg>
 Package pdftex.def Info: ./img/compPDMS.jpg  used on input line 401.
@@ -1918,22 +1918,22 @@ ML/ptmcm/m/it/12 CH[]\OT1/ptmcm/m/n/12 )[]\OML/ptmcm/m/it/12 O\OT1/ptmcm/m/n/12
  ][]$
  []
 
-<./img/liquidoPDMS.jpg, id=683, 225.09094pt x 150.5625pt>
+<./img/liquidoPDMS.jpg, id=685, 225.09094pt x 150.5625pt>
 File: ./img/liquidoPDMS.jpg Graphic file (type jpg)
 <use ./img/liquidoPDMS.jpg>
 Package pdftex.def Info: ./img/liquidoPDMS.jpg  used on input line 412.
 (pdftex.def)             Requested size: 221.95692pt x 148.47379pt.
-<./img/solidoPDMS.jpg, id=684, 225.09094pt x 150.5625pt>
+<./img/solidoPDMS.jpg, id=686, 225.09094pt x 150.5625pt>
 File: ./img/solidoPDMS.jpg Graphic file (type jpg)
 <use ./img/solidoPDMS.jpg>
 Package pdftex.def Info: ./img/solidoPDMS.jpg  used on input line 413.
 (pdftex.def)             Requested size: 221.95692pt x 148.47379pt.
-<./img/liquidPDMS.png, id=689, 237.13594pt x 158.84344pt>
+<./img/liquidPDMS.png, id=691, 237.13594pt x 158.84344pt>
 File: ./img/liquidPDMS.png Graphic file (type png)
 <use ./img/liquidPDMS.png>
 Package pdftex.def Info: ./img/liquidPDMS.png  used on input line 421.
 (pdftex.def)             Requested size: 221.95692pt x 148.68025pt.
-<./img/solidPDMS.jpg, id=690, 746.79pt x 497.86pt>
+<./img/solidPDMS.jpg, id=692, 746.79pt x 497.86pt>
 File: ./img/solidPDMS.jpg Graphic file (type jpg)
 <use ./img/solidPDMS.jpg>
 Package pdftex.def Info: ./img/solidPDMS.jpg  used on input line 422.
@@ -2079,7 +2079,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 439.
 
-<./img/LabVIEWicon.jpg, id=703, 311.9655pt x 67.452pt>
+<./img/LabVIEWicon.jpg, id=705, 311.9655pt x 67.452pt>
 File: ./img/LabVIEWicon.jpg Graphic file (type jpg)
 <use ./img/LabVIEWicon.jpg>
 Package pdftex.def Info: ./img/LabVIEWicon.jpg  used on input line 447.
@@ -2088,7 +2088,7 @@ LaTeX Info: Redefining \sptext on input line 455.
 LaTeX Info: Redefining \. on input line 455.
 LaTeX Info: Redefining \% on input line 455.
 [40 <./img/liquidPDMS.png> <./img/solidPDMS.jpg> <./img/LabVIEWicon.jpg>]
-<./img/LabVIEWej.jpg, id=713, 977.45175pt x 413.74574pt>
+<./img/LabVIEWej.jpg, id=715, 977.45175pt x 413.74574pt>
 File: ./img/LabVIEWej.jpg Graphic file (type jpg)
 <use ./img/LabVIEWej.jpg>
 Package pdftex.def Info: ./img/LabVIEWej.jpg  used on input line 458.
@@ -2100,12 +2100,12 @@ LaTeX Info: Redefining \sptext on input line 479.
 LaTeX Info: Redefining \. on input line 479.
 LaTeX Info: Redefining \% on input line 479.
  [41 <./img/LabVIEWej.jpg>]
-<./img/prototipo.jpg, id=722, 1946.27126pt x 1799.72375pt>
+<./img/prototipo.jpg, id=724, 1946.27126pt x 1799.72375pt>
 File: ./img/prototipo.jpg Graphic file (type jpg)
 <use ./img/prototipo.jpg>
 Package pdftex.def Info: ./img/prototipo.jpg  used on input line 483.
 (pdftex.def)             Requested size: 385.02577pt x 356.01137pt.
-<./img/fibraBraggpaquete2.jpg, id=723, 1200.73593pt x 483.30562pt>
+<./img/fibraBraggpaquete2.jpg, id=725, 1200.73593pt x 483.30562pt>
 File: ./img/fibraBraggpaquete2.jpg Graphic file (type jpg)
 <use ./img/fibraBraggpaquete2.jpg>
 Package pdftex.def Info: ./img/fibraBraggpaquete2.jpg  used on input line 495.
@@ -2121,7 +2121,7 @@ LaTeX Info: Redefining \sptext on input line 528.
 LaTeX Info: Redefining \. on input line 528.
 LaTeX Info: Redefining \% on input line 528.
  [43 <./img/fibraBraggpaquete2.jpg>]
-<./img/splitter1a8.png, id=736, 281.853pt x 46.9755pt>
+<./img/splitter1a8.png, id=738, 281.853pt x 46.9755pt>
 File: ./img/splitter1a8.png Graphic file (type png)
 <use ./img/splitter1a8.png>
 Package pdftex.def Info: ./img/splitter1a8.png  used on input line 533.
@@ -2132,12 +2132,12 @@ Underfull \hbox (badness 1215) in paragraph at lines 539--540
 r de un diodo
  []
 
-<./img/fuente.jpg, id=739, 450.9347pt x 301.125pt>
+<./img/fuente.jpg, id=741, 450.9347pt x 301.125pt>
 File: ./img/fuente.jpg Graphic file (type jpg)
 <use ./img/fuente.jpg>
 Package pdftex.def Info: ./img/fuente.jpg  used on input line 545.
 (pdftex.def)             Requested size: 221.95692pt x 148.21878pt.
-<./img/interrogador.jpg, id=740, 1027.84pt x 684.5575pt>
+<./img/interrogador.jpg, id=742, 1027.84pt x 684.5575pt>
 File: ./img/interrogador.jpg Graphic file (type jpg)
 <use ./img/interrogador.jpg>
 Package pdftex.def Info: ./img/interrogador.jpg  used on input line 546.
@@ -2146,12 +2146,12 @@ LaTeX Info: Redefining \sptext on input line 551.
 LaTeX Info: Redefining \. on input line 551.
 LaTeX Info: Redefining \% on input line 551.
 [44 <./img/splitter1a8.png>]
-<./img/hephestos.jpg, id=749, 501.875pt x 501.875pt>
+<./img/hephestos.jpg, id=751, 501.875pt x 501.875pt>
 File: ./img/hephestos.jpg Graphic file (type jpg)
 <use ./img/hephestos.jpg>
 Package pdftex.def Info: ./img/hephestos.jpg  used on input line 566.
 (pdftex.def)             Requested size: 221.95692pt x 221.95906pt.
-<./img/witbox.jpg, id=750, 514.92375pt x 386.19281pt>
+<./img/witbox.jpg, id=752, 514.92375pt x 386.19281pt>
 File: ./img/witbox.jpg Graphic file (type jpg)
 <use ./img/witbox.jpg>
 Package pdftex.def Info: ./img/witbox.jpg  used on input line 567.
@@ -2163,12 +2163,12 @@ LaTeX Info: Redefining \sptext on input line 572.
 LaTeX Info: Redefining \. on input line 572.
 LaTeX Info: Redefining \% on input line 572.
  [45 <./img/fuente.jpg> <./img/interrogador.jpg>]
-<./img/bascula.png, id=757, 198.14024pt x 249.3315pt>
+<./img/bascula.png, id=759, 198.14024pt x 249.3315pt>
 File: ./img/bascula.png Graphic file (type png)
 <use ./img/bascula.png>
 Package pdftex.def Info: ./img/bascula.png  used on input line 577.
 (pdftex.def)             Requested size: 135.89185pt x 171.01169pt.
-<./img/horno.png, id=758, 224.037pt x 280.04625pt>
+<./img/horno.png, id=760, 224.037pt x 280.04625pt>
 File: ./img/horno.png Graphic file (type png)
 <use ./img/horno.png>
 Package pdftex.def Info: ./img/horno.png  used on input line 578.
@@ -2180,7 +2180,7 @@ LaTeX Info: Redefining \sptext on input line 583.
 LaTeX Info: Redefining \. on input line 583.
 LaTeX Info: Redefining \% on input line 583.
  [46 <./img/hephestos.jpg> <./img/witbox.jpg>]
-<./img/empalmadora.png, id=763, 311.36325pt x 435.42674pt>
+<./img/empalmadora.png, id=765, 311.36325pt x 435.42674pt>
 File: ./img/empalmadora.png Graphic file (type png)
 <use ./img/empalmadora.png>
 Package pdftex.def Info: ./img/empalmadora.png  used on input line 588.
@@ -2189,12 +2189,12 @@ LaTeX Info: Redefining \sptext on input line 600.
 LaTeX Info: Redefining \. on input line 600.
 LaTeX Info: Redefining \% on input line 600.
  [47 <./img/bascula.png> <./img/horno.png> <./img/empalmadora.png>]
-<./img/molde.jpg, id=773, 2743.24875pt x 1854.93pt>
+<./img/molde.jpg, id=775, 2743.24875pt x 1854.93pt>
 File: ./img/molde.jpg Graphic file (type jpg)
 <use ./img/molde.jpg>
 Package pdftex.def Info: ./img/molde.jpg  used on input line 614.
 (pdftex.def)             Requested size: 271.7837pt x 183.74902pt.
-<./img/ordenCaja.png, id=775, 793.7655pt x 187.29974pt>
+<./img/ordenCaja.png, id=777, 793.7655pt x 187.29974pt>
 File: ./img/ordenCaja.png Graphic file (type png)
 <use ./img/ordenCaja.png>
 Package pdftex.def Info: ./img/ordenCaja.png  used on input line 625.
@@ -2203,7 +2203,7 @@ LaTeX Info: Redefining \sptext on input line 627.
 LaTeX Info: Redefining \. on input line 627.
 LaTeX Info: Redefining \% on input line 627.
  [48 <./img/molde.jpg>]
-<./img/caja.png, id=782, 971.42924pt x 484.81125pt>
+<./img/caja.png, id=784, 971.42924pt x 484.81125pt>
 File: ./img/caja.png Graphic file (type png)
 <use ./img/caja.png>
 Package pdftex.def Info: ./img/caja.png  used on input line 633.
@@ -2221,12 +2221,12 @@ LaTeX Warning: Command \textcircled invalid in math mode on input line 644.
 
 LaTeX Warning: Command \textcircled invalid in math mode on input line 644.
 
-<./img/PDMS.png, id=793, 632.3625pt x 400.49625pt>
+<./img/PDMS.png, id=795, 632.3625pt x 400.49625pt>
 File: ./img/PDMS.png Graphic file (type png)
 <use ./img/PDMS.png>
 Package pdftex.def Info: ./img/PDMS.png  used on input line 648.
 (pdftex.def)             Requested size: 226.48413pt x 143.43909pt.
-<./img/fabricacionGuante.png, id=795, 1079.83424pt x 270.41025pt>
+<./img/fabricacionGuante.png, id=797, 1079.83424pt x 270.41025pt>
 File: ./img/fabricacionGuante.png Graphic file (type png)
 <use ./img/fabricacionGuante.png>
 Package pdftex.def Info: ./img/fabricacionGuante.png  used on input line 666.
@@ -2235,7 +2235,7 @@ LaTeX Info: Redefining \sptext on input line 669.
 LaTeX Info: Redefining \. on input line 669.
 LaTeX Info: Redefining \% on input line 669.
 [50 <./img/PDMS.png>]
-<./img/diagramaMano2.png, id=803, 730.52925pt x 451.08525pt>
+<./img/diagramaMano2.png, id=805, 730.52925pt x 451.08525pt>
 File: ./img/diagramaMano2.png Graphic file (type png)
 <use ./img/diagramaMano2.png>
 Package pdftex.def Info: ./img/diagramaMano2.png  used on input line 680.
@@ -2251,12 +2251,12 @@ LaTeX Info: Redefining \sptext on input line 693.
 LaTeX Info: Redefining \. on input line 693.
 LaTeX Info: Redefining \% on input line 693.
  [52 <./img/diagramaMano2.png>]
-<./img/fabricacionGuante2.png, id=817, 864.22874pt x 277.035pt>
+<./img/fabricacionGuante2.png, id=819, 864.22874pt x 277.035pt>
 File: ./img/fabricacionGuante2.png Graphic file (type png)
 <use ./img/fabricacionGuante2.png>
 Package pdftex.def Info: ./img/fabricacionGuante2.png  used on input line 699.
 (pdftex.def)             Requested size: 339.7262pt x 108.90134pt.
-<./img/diagramaFBG.png, id=819, 832.3095pt x 501.67426pt>
+<./img/diagramaFBG.png, id=821, 832.3095pt x 501.67426pt>
 File: ./img/diagramaFBG.png Graphic file (type png)
 <use ./img/diagramaFBG.png>
 Package pdftex.def Info: ./img/diagramaFBG.png  used on input line 722.
@@ -2272,12 +2272,12 @@ LaTeX Info: Redefining \sptext on input line 733.
 LaTeX Info: Redefining \. on input line 733.
 LaTeX Info: Redefining \% on input line 733.
  [54 <./img/diagramaFBG.png>]
-<./img/union1.png, id=833, 619.56468pt x 71.51718pt>
+<./img/union1.png, id=835, 619.56468pt x 71.51718pt>
 File: ./img/union1.png Graphic file (type png)
 <use ./img/union1.png>
 Package pdftex.def Info: ./img/union1.png  used on input line 737.
 (pdftex.def)             Requested size: 226.48413pt x 26.14337pt.
-<./img/fusionFOpractica.jpg, id=834, 949.74825pt x 365.56575pt>
+<./img/fusionFOpractica.jpg, id=836, 949.74825pt x 365.56575pt>
 File: ./img/fusionFOpractica.jpg Graphic file (type jpg)
 <use ./img/fusionFOpractica.jpg>
 Package pdftex.def Info: ./img/fusionFOpractica.jpg  used on input line 746.
@@ -2286,37 +2286,58 @@ LaTeX Info: Redefining \sptext on input line 752.
 LaTeX Info: Redefining \. on input line 752.
 LaTeX Info: Redefining \% on input line 752.
  [55 <./img/union1.png> <./img/fusionFOpractica.jpg>]
-<./img/union2.png, id=843, 644.4075pt x 74.52844pt>
+<./img/union2.png, id=845, 644.4075pt x 74.52844pt>
 File: ./img/union2.png Graphic file (type png)
 <use ./img/union2.png>
 Package pdftex.def Info: ./img/union2.png  used on input line 758.
 (pdftex.def)             Requested size: 226.48413pt x 26.19337pt.
-<./img/cajaOrden.jpg, id=844, 2533.465pt x 1237.62375pt>
+<./img/cajaOrden.jpg, id=846, 2533.465pt x 1237.62375pt>
 File: ./img/cajaOrden.jpg Graphic file (type jpg)
 <use ./img/cajaOrden.jpg>
 Package pdftex.def Info: ./img/cajaOrden.jpg  used on input line 767.
 (pdftex.def)             Requested size: 385.02577pt x 188.09055pt.
-LaTeX Info: Redefining \sptext on input line 820.
-LaTeX Info: Redefining \. on input line 820.
-LaTeX Info: Redefining \% on input line 820.
+LaTeX Info: Redefining \sptext on input line 776.
+LaTeX Info: Redefining \. on input line 776.
+LaTeX Info: Redefining \% on input line 776.
  [56 <./img/union2.png> <./img/cajaOrden.jpg>]
-<./img/diagramaFBGfuncionamiento.png, id=857, 787.14075pt x 519.1395pt>
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 797.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 797.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 797.
+
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 797.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 797.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 797.
+LaTeX Info: Redefining \sptext on input line 812.
+LaTeX Info: Redefining \. on input line 812.
+LaTeX Info: Redefining \% on input line 812.
+[57]
+<./img/diagramaFBGfuncionamiento.png, id=861, 787.14075pt x 519.1395pt>
 File: ./img/diagramaFBGfuncionamiento.png Graphic file (type png)
 <use ./img/diagramaFBGfuncionamiento.png>
 Package pdftex.def Info: ./img/diagramaFBGfuncionamiento.png  used on input lin
-e 837.
+e 823.
 (pdftex.def)             Requested size: 452.96826pt x 298.74844pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \sptext on input line 840.
-LaTeX Info: Redefining \. on input line 840.
-LaTeX Info: Redefining \% on input line 840.
- [57]
-<./img/interfazSM.jpeg, id=862, 1606.0pt x 805.0075pt>
+LaTeX Info: Redefining \sptext on input line 826.
+LaTeX Info: Redefining \. on input line 826.
+LaTeX Info: Redefining \% on input line 826.
+ [58]
+<./img/interfazSM.jpeg, id=866, 1606.0pt x 805.0075pt>
 File: ./img/interfazSM.jpeg Graphic file (type jpg)
 <use ./img/interfazSM.jpeg>
-Package pdftex.def Info: ./img/interfazSM.jpeg  used on input line 845.
+Package pdftex.def Info: ./img/interfazSM.jpeg  used on input line 831.
 (pdftex.def)             Requested size: 452.96826pt x 227.04654pt.
 )
 Underfull \vbox (badness 5077) has occurred while \output is active []
@@ -2324,24 +2345,24 @@ Underfull \vbox (badness 5077) has occurred while \output is active []
 LaTeX Info: Redefining \sptext on input line 114.
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
- [58 <./img/diagramaFBGfuncionamiento.png> <./img/interfazSM.jpeg>]
+ [59 <./img/diagramaFBGfuncionamiento.png> <./img/interfazSM.jpeg>]
 LaTeX Info: Redefining \sptext on input line 114.
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
- [59]
+ [60]
 \openout2 = `src/solucionIMU.aux'.
 
 
-(src/solucionIMU.tex [60
-
-
-
-]
+(src/solucionIMU.tex
 Cap\'{\i }tulo 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [61
+
+
+
+]
 LaTeX Info: Redefining \sptext on input line 58.
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
@@ -2518,11 +2539,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
 ### semi simple group (level 1) entered at line 50 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26370 strings out of 492946
- 450721 string characters out of 3125822
- 960093 words of memory out of 3000000
- 29416 multiletter control sequences out of 15000+200000
- 80433 words of font info for 109 fonts, out of 3000000 for 9000
+ 26385 strings out of 492946
+ 450913 string characters out of 3125822
+ 961093 words of memory out of 3000000
+ 29427 multiletter control sequences out of 15000+200000
+ 88350 words of font info for 121 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,18n,69p,2019b,3873s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dv
@@ -2539,9 +2560,9 @@ mes/utmb8a.pfb><C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/times/utmbi8a.pfb><C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Users/Miriam/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (92 pages, 13511922 bytes).
+Output written on main.pdf (92 pages, 13514187 bytes).
 PDF statistics:
- 1272 PDF objects out of 1440 (max. 8388607)
- 266 named destinations out of 1000 (max. 500000)
- 777 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1275 PDF objects out of 1440 (max. 8388607)
+ 265 named destinations out of 1000 (max. 500000)
+ 785 words of extra memory for PDF output out of 10000 (max. 10000000)
 
