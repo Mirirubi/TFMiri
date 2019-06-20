@@ -781,7 +781,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	En este apartado se tienen dos conexiones ópticas y dos eléctricas. Las conexiones eléctricas sirven en este escenario para alimentar la fuente y como medio de conexión entre el sistema óptico y el usuario a través del ordenador. 
 	
-	Tanto el interrogador como la fuente disponen de un software en LabVIEW$^{\textregistered}$. El software de la fuente tiene como funcionalidad configurar la señal óptica que ha de emitir la fuente. Basta con configurar una vez la fuente cargándole el software y configurando los parámetros deseados. 
+	Tanto el interrogador como la fuente disponen de un software en LabVIEW$^{\textregistered}$. El software de la fuente tiene como funcionalidad configurar la señal óptica que ha de emitir la fuente. Basta con configurar una vez la fuente cargándole el software y configurando los parámetros deseados. Cuando la fuente se apaga y se vuelve a encender mantiene los últimos valores configurados. Por otro lado, el software del interrogador sirve para interpretar la señal recibida en este.
 	
 		
 	\end{enumerate}
@@ -796,9 +796,79 @@ En este punto de la memoria se encuentran todos los elementos del prototipo disp
 \subsection{Programación del software}
 \label{sec:programacion}
 
-En este apartado se presentan el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$ ya que el software parte del programa del interrogador como base de programación.
+En este apartado se presentan el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$ ya que el software parte del programa del interrogador como base de programación, y este está desarrollado en este lenguaje. Por lo tanto se divide el desarrollo del software en diversos hitos:
 
-Por un lado 
+\begin{itemize} [label=]
+	\item \textbf{Hito 1:} \textit{\textbf{Familiarización con el programa}}
+	
+	Puesto que se tiene el programa del interrogador que sirve para analizar la respuesta del sistema se ha de partir por entender el funcionamiento del software. De esta manera se identifican los puntos de la programación en los que se han de realizar los cambios o añadidos. 
+	
+	El programa de tiene una considerable complejidad si se tiene en cuenta la cantidad de archivos VI dependientes entre ellos que lo componen. Una vez identificado el archivo VI a modificar, se muestra en la figura \ref{fig:hierarchy} los VIs con los que tiene dependencia (el circulo rojo rodea el VI de la interfaz del software y las lineas azules corresponden a las dependencias directas).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./img/hierarchyLV}
+		\caption{Árbol jerárquico de VI del proyecto.} 
+		\label{fig:hierarchy}
+	\end{figure}  
+	
+	Partiendo de este programa se han a tomado los necesarios en el software de este proyecto y se han añadido los convenientes. Pero la cuestión es que hace falta determinar, una vez se comprenden las posibilidades del software, el protocolo que se va a seguir en la toma de medidas para desarrollar el software del prototipo. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\textwidth]{./img/negroBorrar}
+		\caption{Interfaz del programa del interrogador.} 
+		\label{fig:interrogadorPantalla}
+	\end{figure}
+	La figura \ref{fig:interrogadorPantalla} muestra las cuatro ventanas que compone el VI sobre el que se ha trabajado (previa a su manipulación). Se puede observar como este tipo de interfaz es muy útil para analizar cualquier escenario que se desee desde el interrogador. Pero no resulta una buena opción para el tipo de escenario en el que se pretende utilizar este prototipo ya que se trata de un escenario muy concreto, con unos parámetros a medir específicos y para un usuario con nulo conocimiento técnico de este tipo de tecnologías.
+	
+	
+	\item \textbf{Hito 2:} \textit{\textbf{Establecimiento del protocolo de medida}}
+	
+	Por un lado se ha tomado la decisión de mantener los parámetros de configuración del interrogador constantes con los siguientes valores:
+	
+	\begin{table}[H]
+			\centering
+		\begin{tabular}{|
+				>{\columncolor[HTML]{EFEFEF}}l |c|}
+			\hline
+			asdf                  	& 		asdf					\\ \hline
+			adf						& 		asdf					\\ \hline
+		\end{tabular}
+			\caption{Valores fijos de configuración del interrogador}
+	\label{tabla:configuracionInterrogador}
+	\end{table}	
+	
+	
+	De esta manera se simplifica el ejercicio de configuración al usuario final.
+	
+	
+	
+	
+	\item \textbf{Hito 3:} \textit{}
+	
+	
+	
+	\item \textbf{Hito 4:} \textit{Representación-Interfaz de usuario}
+	
+	
+	
+	\item \textbf{Hito 5:} \textit{Generación de informes-Guardado}
+	
+	
+	
+	\item \textbf{Hito 6:} \textit{Acoplo con el hardware/Interpretación de los datos obtenidos}
+	
+	
+	
+	
+\end{itemize}
+
+
+
+
+
+
 
 dependencia de otros programas
 
