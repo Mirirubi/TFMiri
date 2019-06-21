@@ -86,36 +86,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.4}Programaci\IeC {\'o}n del software}{57}{subsection.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Funcionamiento}{60}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {3.2.5}Funcionamiento}{65}{subsection.3.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{62}{section.3.3}% 
+\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{66}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{63}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{67}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Marco conceptual}{63}{section.4.1}% 
+\contentsline {section}{\numberline {4.1}Marco conceptual}{67}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}asdf}{64}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.1}asdf}{68}{subsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Desarrollo del prototipo}{64}{section.4.2}% 
+\contentsline {section}{\numberline {4.2}Desarrollo del prototipo}{68}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Materiales}{64}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.1}Materiales}{68}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{64}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.2}Proceso de fabricaci\IeC {\'o}n del soporte f\IeC {\'\i }sico}{68}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Funcionamiento}{64}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.3}Funcionamiento}{68}{subsection.4.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{64}{section.4.3}% 
+\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{68}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}---------------}{64}{section.4.4}% 
+\contentsline {section}{\numberline {4.4}---------------}{68}{section.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Sensores inerciales}{64}{section.4.5}% 
+\contentsline {section}{\numberline {4.5}Sensores inerciales}{68}{section.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Principio de funcionamiento}{64}{subsection.4.5.1}% 
+\contentsline {subsection}{\numberline {4.5.1}Principio de funcionamiento}{68}{subsection.4.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Sensores inerciales propuestos}{65}{subsection.4.5.2}% 
+\contentsline {subsection}{\numberline {4.5.2}Sensores inerciales propuestos}{69}{subsection.4.5.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensores inerciales}{65}{subsubsection*.7}% 
+\contentsline {subsubsection}{Sensores inerciales}{69}{subsubsection*.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{69}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{73}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{71}{chapter*.8}% 
+\contentsline {chapter}{Bibliograf\'{\i }a}{75}{chapter*.8}% 
