@@ -803,7 +803,7 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 	
 	Puesto que se tiene el programa del interrogador que sirve para analizar la respuesta del sistema se ha de partir por entender el funcionamiento del software. De esta manera se identifican los puntos de la programación en los que se han de realizar los cambios o añadidos. 
 	
-	El programa de tiene una considerable complejidad si se tiene en cuenta la cantidad de archivos VI dependientes entre ellos que lo componen. Una vez identificado el archivo VI a modificar, se muestra en la figura \ref{fig:hierarchy} los VIs con los que tiene dependencia (el circulo rojo rodea el VI de la interfaz del software y las lineas azules corresponden a las dependencias directas).
+	El programa de tiene una considerable complejidad si se tiene en cuenta la cantidad de archivos VI dependientes entre ellos que lo componen, un total de cuarenta y cinco. Una vez identificado el archivo VI a modificar, se muestra en la figura \ref{fig:hierarchy} los VIs con los que tienen dependencia (el circulo rojo rodea el VI de la interfaz del software y las lineas azules corresponden a las dependencias directas).
 	
 	\begin{figure}[H]
 		\centering
@@ -816,50 +816,139 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{./img/negroBorrar}
+		\includegraphics[width=0.85\textwidth]{./img/softwareInterrogador2}
 		\caption{Interfaz del programa del interrogador.} 
 		\label{fig:interrogadorPantalla}
 	\end{figure}
-	La figura \ref{fig:interrogadorPantalla} muestra las cuatro ventanas que compone el VI sobre el que se ha trabajado (previa a su manipulación). Se puede observar como este tipo de interfaz es muy útil para analizar cualquier escenario que se desee desde el interrogador. Pero no resulta una buena opción para el tipo de escenario en el que se pretende utilizar este prototipo ya que se trata de un escenario muy concreto, con unos parámetros a medir específicos y para un usuario con nulo conocimiento técnico de este tipo de tecnologías.
+	La figura \ref{fig:interrogadorPantalla} muestra las cuatro ventanas que compone el VI sobre el que se ha trabajado (previa a su manipulación). Estas cuatro ventanas corresponden a las ventanas de: gráfica de espectro, gráfica de longitud de onda, gráfica de FFT y configruación. Además, ofrece la posibilidad de guardar las medidas en tres formatos de guardado diferentes. Se puede observar como este tipo de interfaz es muy útil para analizar cualquier escenario que se desee desde el interrogador. Pero no resulta una buena opción para el tipo de escenario en el que se pretende utilizar este prototipo ya que se trata de un escenario muy concreto, con unos parámetros a medir específicos y para un usuario con nulo conocimiento técnico de este tipo de tecnologías.
 	
-	
-	\item \textbf{Hito 2:} \textit{\textbf{Establecimiento del protocolo de medida}}
-	
-	Por un lado se ha tomado la decisión de mantener los parámetros de configuración del interrogador constantes con los siguientes valores:
+		Después de probar con diferentes valores, se ha tomado la decisión de mantener los parámetros de configuración del interrogador constantes con los siguientes valores:
 	
 	\begin{table}[H]
-			\centering
+		\centering
 		\begin{tabular}{|
 				>{\columncolor[HTML]{EFEFEF}}l |c|}
 			\hline
-			asdf                  	& 		asdf					\\ \hline
-			adf						& 		asdf					\\ \hline
+			Frecuencia de muestreo máximo			& 		$1000\; Hz$			\\ \hline
+			Unidad de medida del eje x				& 		$nm$				\\ \hline
+			Tiempo de exposición 					& 		$80\;\mu m$			\\ \hline
+			Compensación por temperatura 			& 		$Desactivado$		\\ \hline
+			Threshold								& 		$4\;\%$				\\ \hline
+			``Fit type'' 							& 		$Gauss$				\\ \hline
+			``Max number of FBG's'' 				& 		$6$					\\ \hline
+			``Circular sample buffer length''       & 		$501$				\\ \hline
+			``Wavelength/FFT graph buffer length''	& 		$501$				\\ \hline
+			``N$^{\circ}$ of lines unified''		& 		$10$				\\ \hline		
 		\end{tabular}
-			\caption{Valores fijos de configuración del interrogador}
-	\label{tabla:configuracionInterrogador}
+		\caption{Valores fijos de configuración del interrogador}
+		\label{tabla:configuracionInterrogador}
 	\end{table}	
 	
+	De esta manera se simplifica el ejercicio de configuración al usuario final. Pero no es suficiente con fijar la configuración del interrogador. Es necesario generar un nuevo interfaz de usuario dónde se plasmen de manera intuitiva el significado físico de los valores obtenidos gracias al prototipo. Es por esta razón que ha sido necesario establecer un protocolo de medida.
 	
-	De esta manera se simplifica el ejercicio de configuración al usuario final.
+	\item \textbf{Hito 2:} \textit{\textbf{Establecimiento del protocolo de medida}}
+		
+	El protocolo de medida está limitado por varias cuestiones. Ha sido necesario realizar un interfaz de usuario debidamente intuitivo para un profesional fisioterapeuta, cuyo conocimiento sobre la tecnología empleada y su funcionamiento es limitado. 
+	
+	Un condicionamiento importante es la fisionomía del guante. Por ejemplo, para conseguir caracterizar el comportamiento de las FBGs con los ángulos de apertura es necesario que siempre se coloque el guante de tal forma que el vértice del ángulo coincida en el mismo punto. Esto no va a suceder, ya que aunque la forma de huella de mano marque donde están los nudillos, la forma de las diferentes manos de las personas hace que no sea posible una caracterización cómo la citada. La decisión tomada para solucionar esta dificultad encontrada es realizar las mediciones con la finalidad de evaluar el rango de movimiento y velocidad dentro de una misma sesión de rehabilitación. Con esta decisión se pierde la información frente a una referencia global del movimiento, pero se sigue ofreciendo al usuario una experiencia satisfactoria pese a no cumplir con la plenitud de los objetivos marcados.
+	
+	A partir de estas restricciones se refleja en el software el procedimiento de medida que permitirá que el software se ajuste a las necesidades físicas del guante. Se decide generar el siguiente protocolo de medida que será reflejado en el software:
+	
+		\hspace{1cm}\textbf{INICIALIZACIÓN:}
+	\begin{enumerate}
+		\item Iniciar el programa de SensMov.
+		\item Pulsar el botón \textit{\underline{INICIAR}}
+	\end{enumerate}	 
+		\hspace{1cm}\textbf{CALIBRACIÓN:} 
+	\begin{enumerate}
+		\setcounter{enumi}{2}
+		\item Colocar el guante sobre una superficie plana para que le software pueda tomar la referencia global del guante cuando está en plano.
+		\item Pulsar el botón \underline{\textit{MEDIR - Sobre la superficie plana}}
+		\item Colocar el guante sobre la mano del paciente. Posicionar esta en posición de reposo, esta será referencia de partida que tome el software de la mano del paciente. 
+		\item Pulsar el botón \underline{\textit{MEDIR - Sobre la mano del paciente}}
+		\item Acompañar la mano del paciente hasta la posición de extensión que se vaya a tomar en la sesión como máximo de movimiento y mantenerla en este punto mientras se realiza el siguiente paso. 
+		\item Pulsar el botón \underline{\textit{MEDIR - Extensión}}
+		\item Repetir el paso nº7 con el movimiento de flexión.
+		\item Pulsar el botón \underline{\textit{MEDIR - Flexión}}
+		\item Dejar la mano del paciente en posición de reposo.
+	\end{enumerate}
+		\hspace{1cm}\textbf{MEDICIÓN DEL MOVIMIENTO:}
+	\begin{enumerate}
+		\setcounter{enumi}{11}
+		\item Pulsar el botón \underline{\textit{MEDIR - Medición del movimiento}}
+		\item Mover el interruptor a \underline{\textit{GUARDAR}} para almacenar los datos de los movimientos que se realicen a partir de la activación del interruptor. Se puede mover e interruptor entre \underline{\textit{GUARDAR}} y \underline{\textit{DESCARTAR}} siempre que se desee mientras la medición del movimiento este activa.  	
+		\item Realizar los ejercicio de rehabilitación con normalidad
+		\item Pulsar el botón \underline{\textit{PAUSAR}}
+	\end{enumerate}
+		\hspace{1cm}\textbf{FINALIZACIÓN:}
+	\begin{enumerate}
+		\setcounter{enumi}{16}
+		\item Pulsar el botón \underline{\textit{ARCHIVAR RESULTADOS}}
+		\item Pulsar el botón \underline{\textit{SALIR}}
+		\item Elegir en la pestaña emergente el nombre de archivo y carpeta para el informe de la sesión.
+	\end{enumerate}
+
+	\textit{\underline{Nota:}} Otro contratiempo encontrado en este prototipo son los problemas que da el software del interrogador, saltando alertas que no permiten seguir con la ejecución o tomando mal la señal óptica. Durante el desarrollo del proyecto se ha conseguido intuir el procedimiento en el que dichas alertas saltan con menos frecuencia y de ello surgen ciertos pasos del protocolo de medida. Por ejemplo, cuando se conecta el splitter a la fuente una vez que ya está en funcionamiento el software se reduce el número de veces en el que emergen las alertas.
+	
+	\textcolor{rositaoscuro}{Esto me parece importante comentarlo, el problema que da el software al iniciarlo. Tengo apuntadas las descripciones de los fallos, pero creo que igual es demasiado }
+	
+	\item \textbf{Hito 3:} \textit{Interfaz de usuario}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{./img/interfazSMinicio}
+		\caption{Interfaz del programa SENSMOV en LabVIEW.}
+		\label{fig:interfazinicio}
+	\end{figure}
+	 
+	Uno de los retos de este proyecto es conseguir representar los datos medidos de manera visual. Para ello se ha diseñado un interfaz de usuario intuitivo. En la figura \ref{fig:interfazinicio} se tiene una captura del interfaz de usuario cuando se acaba de arrancar el programa. En ella se intuyen los pasos enumerados en el segundo hito (\textit{Establecimiento del protocolo de medida}).
+	
+	El interfaz de usuario se puede dividir en varios bloques para comprender mejor su funcionamiento:
+	
+	\begin{itemize} [label=]
+		\item \underline{\textit{Bloque de interacción: }} El bloque de interacción entre el usuario y el software comprende los elementos que permiten al usuario comunicarse con el programa. Entre ellos se encuentra el cuadro de calibración, el cuadro de medición, el área de texto y los botones generales. 
+		
+		Para facilitar más la experiencia del usuario los botones de la aplicación se habilitan y desabilitan según el protocolo de medida. De esta manera aunque el usuario se confunda o se despiste, es el propio programa el que le indica el paso siguiente. Esto sucede en el caso del cuadro de calibración y el de medición, es necesario que antes de comenzar la medición primero se ejecuten todas las calibraciones para que la visualización funcione correctamente. Sin embargo, el nombre del paciente puede introducirse en cualquier momento de la ejecución, ya que este en realidad no se utiliza hasta que se cierra el programa y se guarda el informe. Los botones de \underline{\textit{INICIO}}, \underline{\textit{SALIR}} y \underline{\textit{ARCHIVAR RESULTADOS}} se pueden activar en cualquier momento de la ejecución.
+		
+		\item \underline{\textit{Bloque de visualización: }} El bloque de visualización está compuesto por dos ventanas: los indicadores del movimiento y la gráfica del espectro. Este último se utiliza como visualizador del comportamiento de las FBGs. Permite identificar en un rapido vistazo si el programa está funcionando correctamente. Si no se identifican los picos debido a las FBGs significa que algo no está funcionando bien. El error puede ser que el interrogador no esté funcionando correctamente y haya que volver a ejecutar el software. 
+		
+		Los indicadores del movimiento consisten en seis deslizadores, uno por cada FBG. Estos indicadores están configurados para barrer desde -120\% a 120\%. Cuando se realiza la calibración del guante sobre la mano del paciente se establecen para los valores que los indicadores de cada articulación será cero. Cuando se establecen los máximos de extensión y flexión del paciente, se está determinando la relación con el indicdor del 100\% y el -100\% respectivamente.
+		
+		Cada uno de los dedos tiene su propio rango de movimiento. 
+		
+		
+		
+		\item \underline{\textit{Bloque de elementos decorativos: }} Como elementos decorativos se tiene una barra superior y la huella de la mano. La huella de la mano sirve además como leyenda esquemática de los colores del indicador de movimiento.
+		
+		 	
+	\end{itemize}
 	
 	
 	
+	\item \textbf{Hito 4:} \textit{Generación de informes-Guardado}
 	
-	\item \textbf{Hito 3:} \textit{}
+	raw
 	
-	
-	
-	\item \textbf{Hito 4:} \textit{Representación-Interfaz de usuario}
-	
+	manuel 
 	
 	
-	\item \textbf{Hito 5:} \textit{Generación de informes-Guardado}
+	Save ware -> el q usamos, de refernecia
+	
+	
+
+	\item \textbf{Hito 5:} \textit{Acoplo con el hardware/Interpretación de los datos obtenidos}
 	
 	
 	
-	\item \textbf{Hito 6:} \textit{Acoplo con el hardware/Interpretación de los datos obtenidos}
+	\item \textbf{Hito 6:} \textit{Resultado final. Funcionamiento}
 	
-	
+		
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{./img/interfazSM}
+		\caption{Interfaz del programa de labview.}
+		\label{fig:interfazSM}
+	\end{figure}
 	
 	
 \end{itemize}
@@ -901,12 +990,6 @@ Ver figura \ref{fig:diagramaFBGfuncionamiento}.
 
 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=1\textwidth]{./img/interfazSM}
-	\caption{Interfaz del programa de labview.}
-	\label{fig:interfaz}
-\end{figure}
 
 
 
