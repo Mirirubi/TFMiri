@@ -1052,22 +1052,7 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 \subsection{Funcionamiento}
 \label{sec:funcionamiento3}
 
-
-Este apartado expone como se coordina la configuración del soporte físico con el software programado, es decir, como funciona el prototipo en su plenitud.
-
-En cuanto al funcionamiento físico del prototipo, la fuente  (alimentada por una red de corriente alterna, de $\sim$230V a 50Hz) el interrogador emite un pulso de luz. 
-
-
-
-En este, en un sentido de la propagación la señal se multiplexa de una a ocho fibras y en el otro combina los pulsos de retorno de las seis fibras de FBG (dos fibras del multiplexor no se utilizan). 
-
-La fuente se configura con el software 
-El interrogador
-
-
-APARTADO ANTERIOR: 	Como se representa en la figura \ref{fig:diagramaFBG}, el guante que se coloca en la mano a medir está compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El PDMS tiene la forma de la huella de una mano, hasta la muñeca. Desde dónde salen las seis fibras de Bragg hasta empalmarse con fibra óptica monomodo (en amarillo), estas fibras se unen mediante conectores al multiplexor (dejando dos fibras del multiplexor sin darle uso). El multiplexor va conectado a la fuente alimentada por la red eléctrica. La fuente está a su vez conectada mediante fibra óptica al interrogador, conectado al ordenador por cable eléctrico.
-
-Ver figura \ref{fig:diagramaFBGfuncionamiento}.
+Este apartado expone como se coordina la configuración del soporte físico con el software programado, es decir, como funciona el prototipo en su plenitud. Para ello se referencia la figura \ref{fig:diagramaFBGfuncionamiento}, dónde cada cambio en la señal se encuentra dibujado y referenciado con un número.
 
 \begin{figure}[H]
 	\centering
@@ -1075,13 +1060,22 @@ Ver figura \ref{fig:diagramaFBGfuncionamiento}.
 	\caption{Diagrama de funcionamiento del prototipo.} \label{fig:diagramaFBGfuncionamiento}
 \end{figure}
 
+La fuente, alimentada por una red de corriente alterna de $\sim$230V a 50Hz, emite un pulso de luz [1]. En el splitter este la señal se multiplexa de una a ocho fibras [2]. En el diagrama se representa lo que sucede en el caso del dedo corazón para simplificarlo, pero en las demás articulaciones el funcionamiento es análogo en diferentes longitudes de onda. Cuando el pulso de luz llega a la rejilla de Bragg, parte de este sigue su propagación hasta la punta del dedo dónde se termina por dispersar en el PDMS [3] y se refleja la otra parte [4]. La parte del pulso que se refleja se encuentra centrada a la longitud de onda característica del FBG. Este pulso se combina junto los otros pulsos de retorno de las otras cinco FBGs [5] llegando a la fuente. La señal óptica se transmite desde la fuente al interrogador por la fibra óptica [6]. En el interrogador la señal se convierte a señal eléctrica y se transmite a través del puerto USB al ordenador [7]. Siendo en este dónde será la señal procesada.
 
+En el ordenador, dónde se es está ejecutando en el programa se visualizaría el espectro de la señal, los seis pulsos en sus diferentes longitudes de onda. Y con la información de estos pulsos es con la que el programa utiliza. 
 
-
-
-
+\textcolor{rositaoscuro}{Aquí debería explicar como funciona el programa internamente? El problema que tengo es que no he llegado a cerrar el programa. Ya que cuando por fin tuvimos el guante hecho bien bien, lo conectamos y no funcionaban algunas fibras, y fue como, no merece la pena seguir invirtiendo más tiempo en hacer que funcione algo que nunca va a estar 100 por 100 y que no tiene la funcionalidad que queremos blablabla}
 
 \section{Resultados y análisis}
 \label{sec:resultados3}
 
-ESTO ES UNA MIERDA 
+\textcolor{rositaoscuro}{Deberia cambiar este título yo creo o igual no}
+
+El prototipo se ha finalizado. Han sido necesarios varios intentos para la manufacturación del guante. Lo cual ha ralentizado mucho el procedimiento, ya que se han llegado a tener que pasar por hasta cuatro modelados del PDMS. Probablemente esto sea debido a las posibilidades limitadas que brinda e laboratorio de la universidad y la falta de experiencia. Las fibras de Bragg son muy delicadas. El proceso de soldado también fue un punto problemático, ya que las fibras desnudas eran demasiado finas y el pelado se complicó. 
+
+Además, la fisionomía del guante no es lo más adecuado para el tipo de función que va a cumplir. Pero con las herramientas de las que se dispone en la universidad era lo más adecuado para su manufacturación. 
+
+Por otro lado, el software ha evolucionado desde la idea inicial hasta lo que ha terminado siendo. Esta evolución ha servido para que a pesar de las limitaciones existentes por la parte hardware el prototipo pudiera seguir teniendo utilidad.
+
+En conclusión, a pesar de que el prototipo no cumple con todas las expectativas se ha conseguido mejorar el prototipo físico de partida y diseñar un software intuitivo.
+

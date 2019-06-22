@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.25)  22 JUN 2019 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.25)  22 JUN 2019 21:48
 entering extended mode
 **./main.tex
 (main.tex
@@ -1116,8 +1116,8 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 
 ("C:\Users\Miriam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
 .cfg"))
-Package hyperref Info: Option `pageanchor' set `true' on input line 73.
-Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+Package hyperref Info: Option `pageanchor' set `true' on input line 76.
+Package hyperref Info: Option `colorlinks' set `true' on input line 76.
 
 ("C:\Users\Miriam\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.
 sty"
@@ -2422,56 +2422,61 @@ LaTeX Info: Redefining \sptext on input line 1047.
 LaTeX Info: Redefining \. on input line 1047.
 LaTeX Info: Redefining \% on input line 1047.
  [66]
-LaTeX Info: Redefining \sptext on input line 1069.
-LaTeX Info: Redefining \. on input line 1069.
-LaTeX Info: Redefining \% on input line 1069.
-
-[67 <./img/interfazSM.jpeg>]
-<./img/diagramaFBGfuncionamiento.png, id=943, 787.14075pt x 519.1395pt>
+<./img/diagramaFBGfuncionamiento.png, id=937, 787.14075pt x 519.1395pt>
 File: ./img/diagramaFBGfuncionamiento.png Graphic file (type png)
 <use ./img/diagramaFBGfuncionamiento.png>
 Package pdftex.def Info: ./img/diagramaFBGfuncionamiento.png  used on input lin
-e 1074.
+e 1059.
 (pdftex.def)             Requested size: 452.96826pt x 298.74844pt.
-)
-LaTeX Info: Redefining \sptext on input line 114.
-LaTeX Info: Redefining \. on input line 114.
-LaTeX Info: Redefining \% on input line 114.
- [68 <./img/diagramaFBGfuncionamiento.png>]
-\openout2 = `src/solucionIMU.aux'.
-
-
-(src/solucionIMU.tex
-Cap\'{\i }tulo 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69
+LaTeX Info: Redefining \sptext on input line 1062.
+LaTeX Info: Redefining \. on input line 1062.
+LaTeX Info: Redefining \% on input line 1062.
+ [67 <./img/interfazSM.jpeg>]
+LaTeX Info: Redefining \sptext on input line 1067.
+LaTeX Info: Redefining \. on input line 1067.
+LaTeX Info: Redefining \% on input line 1067.
+ [68 <./img/diagramaFBGfuncionamiento.png>])
+LaTeX Info: Redefining \sptext on input line 114.
+LaTeX Info: Redefining \. on input line 114.
+LaTeX Info: Redefining \% on input line 114.
+ [69]
+\openout2 = `src/solucionIMU.aux'.
+
+
+(src/solucionIMU.tex [70
 
 
 
 ]
+Cap\'{\i }tulo 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
 LaTeX Info: Redefining \sptext on input line 58.
 LaTeX Info: Redefining \. on input line 58.
 LaTeX Info: Redefining \% on input line 58.
 
-[70]
+[72]
 
-LaTeX Warning: Reference `fig:Imu' on page 71 undefined on input line 58.
+LaTeX Warning: Reference `fig:Imu' on page 73 undefined on input line 58.
 
 
-LaTeX Warning: Reference `fig:sensor_XSENS' on page 71 undefined on input line 
+LaTeX Warning: Reference `fig:sensor_XSENS' on page 73 undefined on input line 
 66.
 
 
-LaTeX Warning: Reference `fig:protocolo' on page 71 undefined on input line 72.
+LaTeX Warning: Reference `fig:protocolo' on page 73 undefined on input line 72.
 
 
 LaTeX Info: Redefining \sptext on input line 80.
 LaTeX Info: Redefining \. on input line 80.
 LaTeX Info: Redefining \% on input line 80.
-[71]
-<./graphics/sep.png, id=964, 381.67593pt x 400.49625pt>
+[73]
+<./graphics/sep.png, id=972, 381.67593pt x 400.49625pt>
 File: ./graphics/sep.png Graphic file (type png)
 <use ./graphics/sep.png>
 Package pdftex.def Info: ./graphics/sep.png  used on input line 84.
@@ -2482,14 +2487,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \sptext on input line 91.
 LaTeX Info: Redefining \. on input line 91.
 LaTeX Info: Redefining \% on input line 91.
- [72 <./graphics/sep.png>])
+ [74 <./graphics/sep.png>])
 LaTeX Info: Redefining \sptext on input line 120.
 LaTeX Info: Redefining \. on input line 120.
 LaTeX Info: Redefining \% on input line 120.
- [73]
+ [75]
 \openout2 = `src/conclusiones.aux'.
 
- (src/conclusiones.tex [74
+ (src/conclusiones.tex [76
 
 
 
@@ -2498,17 +2503,17 @@ Cap\'{\i }tulo 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75])
+ [77])
 LaTeX Info: Redefining \sptext on input line 135.
 LaTeX Info: Redefining \. on input line 135.
 LaTeX Info: Redefining \% on input line 135.
 
-[76]pdfTeX warning (ext4): destination with the same identifier (name{page.76})
+[78]pdfTeX warning (ext4): destination with the same identifier (name{page.78})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.145 \printbibliography[heading=bibintoc]
-                                           [76
+                                           [78
 
 
 ]
@@ -2544,7 +2549,7 @@ Package biblatex Warning: No driver for entry type 'standard'.
 Package biblatex Warning: No driver for entry type 'standard'.
 (biblatex)                Using fallback driver on input line 145.
 
-[77]
+[79]
 
 Package biblatex Warning: No driver for entry type 'standard'.
 (biblatex)                Using fallback driver on input line 145.
@@ -2571,7 +2576,7 @@ Package biblatex Warning: No driver for entry type 'standard'.
 LaTeX Info: Redefining \sptext on input line 145.
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
-[78]
+[80]
 Underfull \hbox (badness 1275) in paragraph at lines 145--145
 []\T1/ptm/m/it/12 Tipos de conectores y usos\T1/ptm/m/n/12 . \T1/ptm/m/sc/12 ur
 l\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 https : / / sites . google . com / site /
@@ -2587,18 +2592,18 @@ Underfull \hbox (badness 1845) in paragraph at lines 145--145
 LaTeX Info: Redefining \sptext on input line 145.
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
-[79]
+[81]
 LaTeX Info: Redefining \sptext on input line 157.
 LaTeX Info: Redefining \. on input line 157.
 LaTeX Info: Redefining \% on input line 157.
- [80]
+ [82]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
-[81]
+[83]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
  (main.aux (portada.aux)
 LaTeX Info: Redefining \sptext on input line 36.
@@ -2627,9 +2632,9 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 164.
 ### semi simple group (level 1) entered at line 50 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26713 strings out of 492946
- 454934 string characters out of 3125822
- 963639 words of memory out of 3000000
+ 26715 strings out of 492946
+ 454948 string characters out of 3125822
+ 963663 words of memory out of 3000000
  29708 multiletter control sequences out of 15000+200000
  83310 words of font info for 123 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2650,9 +2655,9 @@ Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Miriam/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Miriam/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Miria
 m/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (100 pages, 14062798 bytes).
+Output written on main.pdf (102 pages, 14065470 bytes).
 PDF statistics:
- 1359 PDF objects out of 1440 (max. 8388607)
- 295 named destinations out of 1000 (max. 500000)
+ 1366 PDF objects out of 1440 (max. 8388607)
+ 297 named destinations out of 1000 (max. 500000)
  800 words of extra memory for PDF output out of 10000 (max. 10000000)
 
