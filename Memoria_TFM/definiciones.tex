@@ -69,8 +69,16 @@
 %Poner margenes al documento
 \usepackage[centering, margin={2.54cm,2.54cm}, includeheadfoot]{geometry}
 
+
+
+
 % Enlaces
 \hypersetup{hidelinks,pageanchor=true,colorlinks,citecolor=Fuchsia,urlcolor=black,linkcolor=Cerulean}
+
+%Capacidades matemáticas extra
+\usepackage{amsmath} 
+%librería de símbolos
+\usepackage{amssymb}
 
 % Euro (€)
 \DeclareUnicodeCharacter{20AC}{\euro}
@@ -116,7 +124,7 @@
 \fancypagestyle{plain}{
 \fancyhf{}
 \fancyfoot[CO]{\footnotesize\emph{\nombretrabajo}}
-\fancyfoot[RO]{\thepage}
+\fancyfoot[RO]{\vspace{0.4cm}\thepage}
 \renewcommand{\footrulewidth}{.6pt}
 \renewcommand{\headrulewidth}{0.0pt}
 }
@@ -126,7 +134,7 @@
 
 % Estilo páginas impares
 \fancyfoot[CO]{\footnotesize\emph{\nombretrabajo}}
-\fancyfoot[RO]{\thepage}
+\fancyfoot[RO]{\vspace{0.4cm}\thepage}
 %\fancyfoot[LO]{\includegraphics[width=.08\textwidth]{escudo}}
 
 \rhead[]{\leftmark}
@@ -134,7 +142,7 @@
 
 % Estilo páginas pares
 \fancyfoot[CE]{\emph{\pieparcen}}
-\fancyfoot[LE]{\thepage}
+\fancyfoot[LE]{\vspace{0.4cm}\thepage}
 %\fancyfoot[RE]{\includegraphics[width=.08\textwidth]{escudo}}
 \lhead[\leftmark]{}
 

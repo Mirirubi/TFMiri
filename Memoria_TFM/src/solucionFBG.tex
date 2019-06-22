@@ -888,7 +888,7 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 		\item Elegir en la pestaña emergente el nombre de archivo y carpeta para el informe de la sesión.
 	\end{enumerate}
 
-	\textit{\underline{Nota:}} Otro contratiempo encontrado en este prototipo son los problemas que da el software del interrogador, saltando alertas que no permiten seguir con la ejecución o tomando mal la señal óptica. Durante el desarrollo del proyecto se ha conseguido intuir el procedimiento en el que dichas alertas saltan con menos frecuencia y de ello surgen ciertos pasos del protocolo de medida. Por ejemplo, cuando se conecta el splitter a la fuente una vez que ya está en funcionamiento el software se reduce el número de veces en el que emergen las alertas.
+	\textit{\underline{Nota:}} Otro contratiempo encontrado en este prototipo son los problemas que da el software del interrogador, saltando alertas de error en la señal que no permiten seguir con la ejecución. Durante el desarrollo del proyecto se ha conseguido intuir el procedimiento en el que dichas alertas saltan con menos frecuencia y de ello surgen ciertos pasos del protocolo de medida. Por ejemplo, cuando se conecta el splitter a la fuente una vez que ya está en funcionamiento el software se reduce el número de veces en el que emergen las alertas.
 	
 	\textcolor{rositaoscuro}{Esto me parece importante comentarlo, el problema que da el software al iniciarlo. Tengo apuntadas las descripciones de los fallos, pero creo que igual es demasiado }
 	
@@ -912,10 +912,10 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 		
 		\item \underline{\textit{Bloque de visualización: }} El bloque de visualización está compuesto por dos ventanas: los indicadores del movimiento y la gráfica del espectro. Este último se utiliza como visualizador del comportamiento de las FBGs. Permite identificar en un rapido vistazo si el programa está funcionando correctamente. Si no se identifican los picos debido a las FBGs significa que algo no está funcionando bien. El error puede ser que el interrogador no esté funcionando correctamente y haya que volver a ejecutar el software. 
 		
-		Los indicadores del movimiento consisten en seis deslizadores, uno por cada FBG. Estos indicadores están configurados para barrer desde -120\% a 120\%. Cuando se realiza la calibración del guante sobre la mano del paciente se establecen para los valores que los indicadores de cada articulación será cero. Cuando se establecen los máximos de extensión y flexión del paciente, se está determinando la relación con el indicdor del 100\% y el -100\% respectivamente.
+		Los indicadores del movimiento consisten en seis deslizadores, uno por cada FBG. Los indicadores están programados para que durante el paso de medición muestren entre el valor de reposo y el de los máximos de extensión y flexión en que posición se encuentra cada dedo (y muñeca). Cada uno de los dedos tiene su propio rango de movimiento.  
 		
-		Cada uno de los dedos tiene su propio rango de movimiento. 
-		
+		Como se observa en la figura \ref{fig:interfazinicio} cada indicador tiene un rango que va desde el porcentaje de -120 hasta 120. Las lineas horizontales cortan los valores de -100, 0 y 100. Estos valores están relacionados proporcionalmente con el máximo de extensión (100), flexión (-100) y reposo (0).
+		Por lo tanto, cuando se establecen los máximos de extensión y flexión del paciente, se está determinando la relación con la posición de reposo del 100\% y -100\% respectivamente.
 		
 		
 		\item \underline{\textit{Bloque de elementos decorativos: }} Como elementos decorativos se tiene una barra superior y la huella de la mano. La huella de la mano sirve además como leyenda esquemática de los colores del indicador de movimiento.
@@ -923,64 +923,136 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 		 	
 	\end{itemize}
 	
-	
-	
+		
 	\item \textbf{Hito 4:} \textit{Generación de informes-Guardado}
 	
-	raw
+	Después de la sesión de rehabilitación, cuando el fisioterapeuta pulse \underline{\textit{ARCHIVAR RESULTADOS}} el software genera un archivo de texto dónde se plasman los resultados del ejercicio. El documento de texto generado contiene los siguientes datos, distribuidos en 6 columnas, uno por cada articulación medida:
 	
-	manuel 
-	
-	
-	Save ware -> el q usamos, de refernecia
-	
-	
+	\begin{itemize} [label=$ \rhd $] \addtolength{\itemsep}{-4mm} %
+		\item \textit{Hora - Fecha}
+		\item \textit{Nombre del paciente (o identificación)}
+		\item \textit{RESULTADOS:}\vspace{-6mm}
+			\begin{table}[H]
+				%\centering
+				\hspace{1cm} %\vspace{-5mm}
+				\renewcommand{\arraystretch}{2}
+				\begin{tabular}{ccccccccc}
+					$ \divideontimes $ & \underline{Segs.} & \underline{Pulgar} & \underline{Índice} & \underline{Corazón} & \underline{Anular} & \underline{Meñique} & \underline{Muñeca} & $ \divideontimes $  \\
+				\end{tabular} 
+			\end{table}
+		\vspace{-6mm}
+		\item \textit{\underline{Valores iniciales}}
+		\begin{itemize} [label= $  \triangleright $] \addtolength{\itemsep}{-5mm} %
+			\item \textit{Valor aislado sobre superficie plana}	\vspace{-6mm}
+				\begin{table}[H]
+					%\centering
+					\hspace{2cm}
+					\renewcommand{\arraystretch}{2}
+					\begin{tabular}{ccccccc}
+						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+					\end{tabular} 
+				\end{table}			
+			\item \textit{Valor en reposo sobre la mano de paciente} \vspace{-6mm}
+				\begin{table}[H]
+					%\centering
+					\hspace{2cm}
+					\renewcommand{\arraystretch}{2}
+					\begin{tabular}{ccccccc}
+						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+					\end{tabular} 
+				\end{table}	
+			\item \textit{Máximo valor de extensión inicial} \vspace{-6mm}
+				\begin{table}[H]
+					%\centering
+					\hspace{2cm}
+					\renewcommand{\arraystretch}{2}
+					\begin{tabular}{ccccccc}
+						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+					\end{tabular} 
+				\end{table}	
+			\item \textit{Máximo valor de flexión inicial} \vspace{-6mm}
+				\begin{table}[H]
+					%\centering
+					\hspace{2cm}
+					\renewcommand{\arraystretch}{2}
+					\begin{tabular}{ccccccc}
+						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+					\end{tabular} 
+				\end{table}	
+		\end{itemize}
+		
+		\item \textit{\underline{Valores característicos obtenidos en la medición}}
+		\begin{itemize} [label= $  \triangleright $] \addtolength{\itemsep}{-5mm} %
+			\item \textit{Máximo valor de extensión medido} \vspace{-6mm}
+			\begin{table}[H]
+				%\centering
+				\hspace{2cm}
+				\renewcommand{\arraystretch}{2}
+				\begin{tabular}{ccccccc}
+					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+				\end{tabular} 
+			\end{table}	
+			\item \textit{Máximo valor de flexión medido} \vspace{-6mm}
+			\begin{table}[H]
+				%\centering
+				\hspace{2cm}
+				\renewcommand{\arraystretch}{2}
+				\begin{tabular}{ccccccc}
+					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+				\end{tabular} 
+			\end{table}	
+			\item \textit{Otros valores característicos...} \vspace{-6mm}	
+			\begin{table}[H]
+				%\centering
+				\hspace{2cm}
+				\renewcommand{\arraystretch}{2}
+				\begin{tabular}{ccccccc}
+					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+				\end{tabular} 
+			\end{table}	
+		\end{itemize}
+		
+		\item \textit{\underline{Valores medidos}}  
+		\begin{itemize} [label=]  \addtolength{\itemsep}{-5mm} %
+			\item  \vspace{-6mm}	
+			\begin{table}[H]
+				%\centering
+				\hspace{2cm}
+				\renewcommand{\arraystretch}{2}
+				\begin{tabular}{ccccccc}
+					\underline{Segs.} & \underline{Pulgar} & \underline{Índice} & \underline{Corazón} & \underline{Anular} & \underline{Meñique} & \underline{Muñeca}  \\
+					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+					$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$  \\
+					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
+				\end{tabular} 
+			\end{table}			
+		\end{itemize}
+	\end{itemize}
 
-	\item \textbf{Hito 5:} \textit{Acoplo con el hardware/Interpretación de los datos obtenidos}
+	Anteriormente se hace referencia al programa en LabVIEW que trae el interrogador. Este incluye tres opciones diferentes de guardado: ``\textit{Save Wave (Sample Buffer)}'', ``\textit{Save raw (Sample Buffer)}'' y ``\textit{Manual save in data log}''. Para la solución sel software diseñado se emplea como referencia este último, aunque aún y todo necesita de bastantes modificaciones ya que ``\textit{Manual save in data log}'' guarda únicamente la información de una ventana.
 	
+	\item \textbf{Hito 5:} \textit{Resultado final del software}
+
+	El software diseñado ha de ser utilizado junto con el guante. Teóricamente los datos obtenidos servirían al fisioterapeuta para llevar un seguimiento del avance del paciente. Pero la realidad es que debido a los cambios que sufre la señal cuando el guante se coloca un poco diferente entre sesiones esto no es posible. Por lo tanto esta tecnología sirve para evaluar únicamente los resultados intersesiones.
 	
-	
-	\item \textbf{Hito 6:} \textit{Resultado final. Funcionamiento}
-	
+	El desarrollo del software se ha llevado a cabo en paralelo al desarollo del hardware. El primero ha sido el que en muchos casos a limitado al desarrollo del segundo. En la figura \ref{fig:interfazSM} se puede ver en la gráfica cómo dos de las seis FBGs no están funcionando, lo que hace que el software no vaya a funcionar en su plenitud. 
 		
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\textwidth]{./img/interfazSM}
 		\caption{Interfaz del programa de labview.}
 		\label{fig:interfazSM}
-	\end{figure}
+	\end{figure}	
 	
-	
+	En aspectos generales el software se ha diseñado según lo esperado. Obteniendo un resultado que se ajusta a las posibilidades del entorno.
 \end{itemize}
-
-
-
-
-
-
-
-dependencia de otros programas
 
 
 \subsection{Funcionamiento}
 \label{sec:funcionamiento3}
 
-
-Este apartado expone como se coordina la configuración del soporte físico con el software programado, es decir, como funciona el prototipo en su plenitud.
-
-En cuanto al funcionamiento físico del prototipo, la fuente  (alimentada por una red de corriente alterna, de $\sim$230V a 50Hz) el interrogador emite un pulso de luz. 
-
-
-
-En este, en un sentido de la propagación la señal se multiplexa de una a ocho fibras y en el otro combina los pulsos de retorno de las seis fibras de FBG (dos fibras del multiplexor no se utilizan). 
-
-La fuente se configura con el software 
-El interrogador
-
-
-APARTADO ANTERIOR: 	Como se representa en la figura \ref{fig:diagramaFBG}, el guante que se coloca en la mano a medir está compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El PDMS tiene la forma de la huella de una mano, hasta la muñeca. Desde dónde salen las seis fibras de Bragg hasta empalmarse con fibra óptica monomodo (en amarillo), estas fibras se unen mediante conectores al multiplexor (dejando dos fibras del multiplexor sin darle uso). El multiplexor va conectado a la fuente alimentada por la red eléctrica. La fuente está a su vez conectada mediante fibra óptica al interrogador, conectado al ordenador por cable eléctrico.
-
-Ver figura \ref{fig:diagramaFBGfuncionamiento}.
+Este apartado expone como se coordina la configuración del soporte físico con el software programado, es decir, como funciona el prototipo en su plenitud. Para ello se referencia la figura \ref{fig:diagramaFBGfuncionamiento}, dónde cada cambio en la señal se encuentra dibujado y referenciado con un número.
 
 \begin{figure}[H]
 	\centering
@@ -988,12 +1060,22 @@ Ver figura \ref{fig:diagramaFBGfuncionamiento}.
 	\caption{Diagrama de funcionamiento del prototipo.} \label{fig:diagramaFBGfuncionamiento}
 \end{figure}
 
+La fuente, alimentada por una red de corriente alterna de $\sim$230V a 50Hz, emite un pulso de luz [1]. En el splitter este la señal se multiplexa de una a ocho fibras [2]. En el diagrama se representa lo que sucede en el caso del dedo corazón para simplificarlo, pero en las demás articulaciones el funcionamiento es análogo en diferentes longitudes de onda. Cuando el pulso de luz llega a la rejilla de Bragg, parte de este sigue su propagación hasta la punta del dedo dónde se termina por dispersar en el PDMS [3] y se refleja la otra parte [4]. La parte del pulso que se refleja se encuentra centrada a la longitud de onda característica del FBG. Este pulso se combina junto los otros pulsos de retorno de las otras cinco FBGs [5] llegando a la fuente. La señal óptica se transmite desde la fuente al interrogador por la fibra óptica [6]. En el interrogador la señal se convierte a señal eléctrica y se transmite a través del puerto USB al ordenador [7]. Siendo en este dónde será la señal procesada.
 
+En el ordenador, dónde se es está ejecutando en el programa se visualizaría el espectro de la señal, los seis pulsos en sus diferentes longitudes de onda. Y con la información de estos pulsos es con la que el programa utiliza. 
 
-
-
-
+\textcolor{rositaoscuro}{Aquí debería explicar como funciona el programa internamente? El problema que tengo es que no he llegado a cerrar el programa. Ya que cuando por fin tuvimos el guante hecho bien bien, lo conectamos y no funcionaban algunas fibras, y fue como, no merece la pena seguir invirtiendo más tiempo en hacer que funcione algo que nunca va a estar 100 por 100 y que no tiene la funcionalidad que queremos blablabla}
 
 \section{Resultados y análisis}
 \label{sec:resultados3}
+
+\textcolor{rositaoscuro}{Deberia cambiar este título yo creo o igual no}
+
+El prototipo se ha finalizado. Han sido necesarios varios intentos para la manufacturación del guante. Lo cual ha ralentizado mucho el procedimiento, ya que se han llegado a tener que pasar por hasta cuatro modelados del PDMS. Probablemente esto sea debido a las posibilidades limitadas que brinda e laboratorio de la universidad y la falta de experiencia. Las fibras de Bragg son muy delicadas. El proceso de soldado también fue un punto problemático, ya que las fibras desnudas eran demasiado finas y el pelado se complicó. 
+
+Además, la fisionomía del guante no es lo más adecuado para el tipo de función que va a cumplir. Pero con las herramientas de las que se dispone en la universidad era lo más adecuado para su manufacturación. 
+
+Por otro lado, el software ha evolucionado desde la idea inicial hasta lo que ha terminado siendo. Esta evolución ha servido para que a pesar de las limitaciones existentes por la parte hardware el prototipo pudiera seguir teniendo utilidad.
+
+En conclusión, a pesar de que el prototipo no cumple con todas las expectativas se ha conseguido mejorar el prototipo físico de partida y diseñar un software intuitivo.
 
