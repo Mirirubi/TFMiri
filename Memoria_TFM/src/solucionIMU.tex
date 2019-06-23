@@ -151,7 +151,7 @@ A continuación se explica brevemente cada uno de los tres tipos de sensores. \c
 	\label{tabla:ESP32}
 \end{table}
 
-Se ha elegido el módulo ESP32 (figura \ref{fig:esp32}) frente a otros módulos existentes por sus competentes prestaciones. En la tabla \ref{tabla:ESP32} se resumen sus características más notables. De entre ellas, las que más hacen destacar al ESP32 son la frecuencia de la CPU, el número de cores y la cantidad de capacidad de conectividad de la que dispone sin necesidad de agragarle dispositivos extra (ver figura \ref{fig:esp32tabla}).
+Se ha elegido el módulo ESP32 (figura \ref{fig:esp32}) frente a otros módulos existentes por sus competentes prestaciones. En la tabla \ref{tabla:ESP32} se resumen sus características más notables. De entre ellas, las que más hacen destacar al ESP32 son la frecuencia de la CPU, el número de cores y la cantidad de capacidad de conectividad de la que dispone sin necesidad de agregarle dispositivos extra (ver figura \ref{fig:esp32tabla}).
 
 
 	\begin{figure}[H]
@@ -186,12 +186,70 @@ Lo importante en esta propuesta es que los sensores estén colocados en cada fal
 
 Además, gracias al reducido tamaño del módulo ESP32, este se puede colocar sobre el dorso de la mano o en la muñeca. 
 
-Se ha estudiado también que sensores se van a emplear. A la hora de elegir los sensores, la característica limitante ha sido el número de direcciones de los puertos I2C de estos.  
+Se ha estudiado también que sensores se van a emplear. A la hora de elegir los sensores, la característica limitante ha sido el número de direcciones de los puertos I2C de estos. Puesto que por simplificar el cableado se utilizan los puertos I2C, que permiten conectar en paralelo varios dispositivos al mismo puerto. Para ello cada dispositivo tiene que tener asignada una dirección de lectura. 
+
+Buscando los sensores IMU de nueve grados de libertad (9DOF) se encuentra que sólo se pueden configurar en dos direcciones, la dirección 68 y la 69. Por lo tanto se ha decidido emplear también los IMUs de seis grados de libertad. Este tipo de IMUs (6DOF) no cuentan con la información que da el magnetómetro, teniendo únicamente giroscopio y acelerómetro. Dentro de este tipo de IMUs pasa lo mismo que con los 9DOF, únicamente se encuentran dos direcciones: la 1C-6A y la 1E-6B (dir.acelerómtetro-dir.giroscopio). Hasta este punto se tienen cuatro direcciones diferentes, pero se necesitan más sensores, uno por cada falange más dos por la muñeca y el dorso de la mano. 
+
+\textcolor{rositaoscuro}{INSERTAR ESQUEMA DE 6DOF Y 9DOF Y MUX CON ESP32}
+
+La solución adoptada ante la falta de disposición de direcciones en los sensores ha sido la utilización de un multiplexor de puertos I2C 1:8. De esta forma se pueden tener 16 IMUs del tipo 6DOF y 16 IMUs del tipo 9DOF.
+
+En el prototipo propuesto se ha decidido utilizar los IMUs 9DOF en la muñeca, el dorso de la mano, la falange distal y medial del pulgar y las falanges proximales del dedo índice, corazón, anular y meñique. Contando con que todas estos puntos consideran la referencia global, los sensores 6DOF se reservan para los puntos en los que la referencia global que aporta el magnetómetro es prescindible por la fisionomía de la mano. Siendo estos puntos las falanges distales y mediales de los dedos índice, corazón, anular y meñique. Ver figura \ref{fig:anatomiaMano}
 
 
 \subsection{Funcionamiento}
 \label{sec:funcionamiento4}
-asdf
+
+Este prototipo funcionará con un software que se espera que pueda ser utilizado tanto desde la tableta como el ordenador. 
+
+El módulo ESP32 es el encargado de procesar los datos obtenidos por los sensores y estos datos serían transmitidos (vía cable o wireless) al software en la tableta o PC. Con estos datos sería posible hacer una representación en 3D de la disposición de la mano. 
+
+Hay tres pantallas clave que darían una experiencia de uso óptima al fisioterapeuta y el paciente:
+
+\textcolor{rositaoscuro}{EN ESTE PUNTO QUIZÁS MEJOR CAMBIO EL LOGO DE LAS APP? O LO DEJO ASÍ?}
+
+\begin{itemize}
+	\item \textbf{Pantalla de medición}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/softwareIMU1}
+		\caption{Pantalla de medición de la rehabilitación. } 
+		\label{fig:softIMU1}
+	\end{figure} 
+	 
+	 Esta parte del software sirve para las mediciones en los ejercicios de rehabilitación. El esbozo ideado en la figura \ref{fig:softIMU1} se han utilizado elementos del software del prototipo de FBG. En verdad la idea es la misma que en el otro prototipo, pero en este caso los datos serán más fiables. Además, en el caso de los IMUs también es necesaria realizar calibración, pero sólo será necesaria una antes de comenzar la medición (equivalente a la de "\textit{sobre superficie plana}").
+	 
+	 La visualización en pantalla del movimiento mejoraría la experiencia de usuario. El sistema permite la visualización de los datos en tiempo real.
+	
+	\item \textit{Pantalla de análisis de datos}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/softwareIMU2}
+		\caption{Pantalla de análisis de resultados de las sesiones. } 
+		\label{fig:softIMU2}
+	\end{figure} 
+	
+	Esta parte del software permite visualizar los resultados de las sesiones realizadas y comparar los resultados entre ellas. Esto permite tener un conocimiento real del avance de la rehabilitación y fijar nuevos objetivos en el proceso de recuperación del paciente. El poder disponer de estos datos de esta manera hace además que el paciente se sienta motivado a seguir haciendo los ejercicios de recuperación con ganas, porque sería consciente de su evolución.
+	
+	
+	\item \textbf{Pantalla de minijuegos}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/softwareIMU3}
+		\caption{Pantalla de medición de la rehabilitación. } 
+		\label{fig:softIMU3}
+	\end{figure} 
+	
+	Esta última ventana consistiría en una colección ampliable de minijuegos controlados por el movimiento de los sensores de la mano. Puesto que no todos los pacientes tienen el mismo rango de movimiento, habría además una ventana previa donde habría que ajustar el rango del juego al rango articular del usuario.
+	
+	Esta funcionalidad del software, a parte de ser la más divertida, es la que sirve como entrenamiento para los pacientes. Al tratarse de minijuegos hace de los ejercicios de rehabilitación una tarea menos tediosa.
+	 
+	
+\end{itemize}
+
 
 
 
@@ -203,5 +261,7 @@ asdf
 	Además, conviene realizar una comparativa económica para entender la diferencia de precio entre ambas propuestas. En la siguiente tabla se presentan los precios aproximados de los componentes fundamentales de cada prototipo:
 	
 	
+	\textcolor{rositaoscuro}{TABLA DE PRECIOS COMPARATIVOS}
 	
+	Además el desarrollo del software tiene mayor versatilidad al no realizarlo con LabVIEW.
 
