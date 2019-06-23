@@ -123,8 +123,8 @@
 % Estilo páginas de capítulos
 \fancypagestyle{plain}{
 \fancyhf{}
-\fancyfoot[CO]{\footnotesize\emph{\nombretrabajo}}
-\fancyfoot[RO]{\vspace{0.4cm}\thepage}
+\fancyfoot[CO]{\footnotesize\emph{\nombretrabajo}\\\emph{\subnombretrabajo\phantom{.} \subsubnombretrabajo}}
+\fancyfoot[RO]{\thepage}
 \renewcommand{\footrulewidth}{.6pt}
 \renewcommand{\headrulewidth}{0.0pt}
 }
@@ -133,8 +133,8 @@
 \pagestyle{fancy}
 
 % Estilo páginas impares
-\fancyfoot[CO]{\footnotesize\emph{\nombretrabajo}}
-\fancyfoot[RO]{\vspace{0.4cm}\thepage}
+\fancyfoot[CO]{\footnotesize\emph{\nombretrabajo}\\\emph{\subnombretrabajo\phantom{.} \subsubnombretrabajo}}
+\fancyfoot[RO]{\thepage}
 %\fancyfoot[LO]{\includegraphics[width=.08\textwidth]{escudo}}
 
 \rhead[]{\leftmark}
@@ -142,7 +142,7 @@
 
 % Estilo páginas pares
 \fancyfoot[CE]{\emph{\pieparcen}}
-\fancyfoot[LE]{\vspace{0.4cm}\thepage}
+\fancyfoot[LE]{\thepage}
 %\fancyfoot[RE]{\includegraphics[width=.08\textwidth]{escudo}}
 \lhead[\leftmark]{}
 
