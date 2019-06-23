@@ -8,90 +8,260 @@
 
 \label{sec:IMU4}
 
+Durante la realización del prototipo expuesto en el capítulo precedente se advierte la necesidad de modificar la tecnología utilizada para diseñar un prototipo que cubra con todas las necesidades del escenario. En este capítulo se propone una solución sensores inerciales. 
+
+Esta propuesta se sustenta en la bibliografía encontrada en la que se emplea esta solución en este tipo de escenarios. La referencia que más ha inspirado esta solución ha sido el trabajo de Henk Kortier en su tesis. \cite{Kortier} 
+
+Al final del capítulo se realiza la comparativa frente al prototipo de FBG, para comprender mejor la ventajas que aporta esta propuesta frente al prototipo desarrollado. 
+
 %--Marco conceptual
 \section{Marco conceptual}
 \label{sec:marco4}
 
-Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño llevado a cabo. 
+Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño llevado a cabo. Se exponen conceptos básicos de los sensores inerciales y el microcontrolador ESP32.  
 
 
 %--asdf
-\subsection{asdf}
+\subsection{Sensores inerciales}
 \label{sec:asdf4}
+
+Los sensores inerciales se rigen por las leyes de movimiento de Newton. Son sensores capaces de medir la variación del movimiento respecto estas leyes. Estos sensores también se conocen como IMU \textit{(Inertial Magnetic Unit}).
+Dentro de este tipo de sensores se encuentra el acelerómetro, el giroscopio y el magnetómetro.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{./img/movimientoAcelera}
+	\caption{Movimientos básicos asociados con la aceleración de un objeto. \cite{juanDiego}} 
+	\label{fig:movimientosAcelera}
+\end{figure} 
+
+
+La combinación de estos tres sensores (junto con la referencia temporal) hace posible detectar cinco movimientos diferentes: aceleración, vibración, golpe (choque, shock), inclinación (tilt) y rotación (pan).
+
+A continuación se explica brevemente cada uno de los tres tipos de sensores. \cite{juanDiego}
+
+%\newpage %Salto de pagina
+	\begin{itemize}
+		%-Acelerómetro
+		\item \textit{\textbf{Acelerómetro}}	
+		% \hspace{0.2cm} 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.25\textwidth]{./img/IMUacelerometro}
+			\caption{Lectura de aceleración lineal en los ejes del acelerómetro. \cite{juanDiego}} 
+			\label{fig:IMUacelerometro}
+		\end{figure} 
+		
+		El acelerómetro mide la aceleración de un objeto al que va unido gracias a la referencia respecto de una masa inercial interna. Más en concreto, mide la segunda derivada de la posición, la fuerza de inercia que se genera cuando a una masa le afecta un cambio de velocidad.
+		
+		A la hora de utilizar estos sensores hay que tener en cuenta el valor de la temperatura y frecuencia de funcionamiento, además de la desviación estándar que tenga el sensor específico.
+		
+		El modelo matemático de un acelerómetro es el siguiente:
+		\begin{equation}
+			\label{eq:modeloAcelera}
+			a = G_{a}\; a_{0} + b_{a} + n_{a}
+		\end{equation}
+		dónde, $ G_{a} $ es el factor de escala que da el fabricante, $ a_{0} $ es el valor de aceleración medido por el sensor inercial,  $ b_{a} $ es el bias o error sistemático que lo da el fabricante y $ n_{a} $ que es ruido blanco gaussiano.
+		
+	
+		%-Giroscopio
+		\item \textit{\textbf{Giroscopio}}	
+		% \hspace{0.2cm} 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.35\textwidth]{./img/IMUgiroscopo}
+			\caption{Esquema típico de un giroscopio. \cite{juanDiego}} 
+			\label{fig:IMUgiroscopo}
+		\end{figure} 
+		
+		Este tipo de sensor sirve para medir la orientación. El principio de funcionamiento de un giroscopio reside en la conservación del momento angular. 
+		
+		En la fígura \ref{fig:IMUgiroscopo} se observan los cuatro elementos que compone un giroscopio típico. Tratándose  de un dispositivo con forma esférica que tiene en su centro un disco que puede rotar libremente en cualquier dirección sobre su eje de simetría. 
+				
+		Mientras que en el caso de los acelerómetros se mide la aceleración lineal, en los giróscopos se mide la aceleración angular.
+		
+		El modelo matemático de un giroscopio es el siguiente:
+		\begin{equation}
+			\label{eq:modelogiroscopo}
+			\omega = G_{g}\; \omega_{0} + b_{g} + n_{g}
+		\end{equation}
+		dónde, $ G_{g} $ es el factor de escala que da el fabricante, $\omega_{0} $ es el valor de aceleración angular medido por el sensor inercial,  $ b_{g} $ es el bias o error sistemático que lo da el fabricante y $ n_{g} $ que es ruido blanco gaussiano.
+		
+		
+		%-Magnetómetro
+		\item \textit{\textbf{Magnetómetro}}	
+		% \hspace{0.2cm} 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.55\textwidth]{./img/IMUmagnetometro}
+			\caption{Esquema típico de un magnetómetro. \cite{juanDiego}} 
+			\label{fig:IMUmagneto}
+		\end{figure} 
+		
+		Mide la intensidad de un campo magnético en tres ejes. De ello se obtiene un vector de campo que da información del ángulo de azimut o de su altitud. Podría decirse que es la función d euna brujula en tres dimensiones, con la capacidad de distinguir giros en el eje de roll y pitch. Entender cómo funciona el campo magnético terrestre facilita la comprensión del funcionamiento de este tipo de sensores (\ref{fig:campoMag}).
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.55\textwidth]{./img/IMUmagneto}
+			\caption{Líneas de campo magnético terrestre referencia Norte-Sur. \cite{juanDiego}} 
+			\label{fig:campoMag}
+		\end{figure} 
+		
+		El modelo matemático de un magnetómetro (ecuación \ref{eq:modeloMagneto}) es similar al del acelerómetro y el giroscopio con la diferencia de lo que se mide es intensidad de campo magnético en vez de aceleración. 
+		\begin{equation}
+			\label{eq:modeloMagneto}
+			m = G_{m}\; m_{0} + b_{m} + n_{m}
+		\end{equation}
+		dónde, $ G_{m} $ es el factor de escala que da el fabricante, $m_{0} $ es el valor de intensidad de campo magnético medido por el sensor inercial,  $ b_{m} $ es el bias o error sistemático que lo da el fabricante y $ n_{m} $ que es ruido blanco gaussiano.
+		
+		
+	\end{itemize}
+	
+
+
+\subsection{Microcontrolador basado en ESP32}
+\label{sec:esp324}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\textwidth]{./img/esp32}
+		\caption{Módulo ESP32. } 
+		\label{fig:esp32}
+	\end{figure} 
+
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|c|}
+		\hline
+		{\cellcolor[HTML]{EFEFEF}Cores}                                      & 2                             	\\ \hline
+		{\cellcolor[HTML]{EFEFEF}Arquitectura}                               & 32 bit                         	\\ \hline
+		{\cellcolor[HTML]{EFEFEF}Frecuencia de reloj} 						 & 160 MHz 							\\ \hline
+		{\cellcolor[HTML]{EFEFEF}Wifi}                                       & Sí                             \\ \hline
+		{\cellcolor[HTML]{EFEFEF}Bluetooth}                                  & Sí                             \\ \hline
+		{\cellcolor[HTML]{EFEFEF}RAM}                                        & 512 KB                         \\ \hline
+		{\cellcolor[HTML]{EFEFEF}FLASH}                                      & 16 MB                          \\ \hline
+		{\cellcolor[HTML]{EFEFEF}Pines GPIO}                                 & 36                             \\ \hline
+		{\cellcolor[HTML]{EFEFEF}Buses}                                      & SPI, I2C, UART, I2S, CAN       \\ \hline
+		{\cellcolor[HTML]{EFEFEF}Pines ADC}                                  & 18                             \\ \hline
+		
+	\end{tabular}
+	\caption{Tabla de propiedades características ESP32}
+	\label{tabla:ESP32}
+\end{table}
+
+Se ha elegido el módulo ESP32 (figura \ref{fig:esp32}) frente a otros módulos existentes por sus competentes prestaciones. En la tabla \ref{tabla:ESP32} se resumen sus características más notables. De entre ellas, las que más hacen destacar al ESP32 son la frecuencia de la CPU, el número de cores y la cantidad de capacidad de conectividad de la que dispone sin necesidad de agregarle dispositivos extra (ver figura \ref{fig:esp32tabla}).
+
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{./img/esp32diagrama}
+		\caption{Diagrama de bloques de ESP32. } 
+		\label{fig:esp32tabla}
+	\end{figure} 
+
+Todo esto sin recurrir a un aumento del tamaño frente a otros ódulos de este tipo. El módulo ESP32 mide en torno a los $12\;cm^{2}$ ($ 51 \times 23 mm $) de área.
 
 
 %--Desarrollo del prototipo
-\section{Desarrollo del prototipo}
+\section{Prototipo propuesto}
 \label{sec:prototipo4}
 
-\subsection{Materiales}
+En esta sección se presenta el concepto del prototipo basado en IMUs propuesto. Aunque no se ha podido realizar como prototipo por tiempo, se ha experimentado con este tipo de sensores.
+
+\subsection{Disposición}
 \label{sec:materiales4}
 
+Los elementos fundamentales en esta propuesta son los sensores IMU y el módulo ES32. La base de este prototipo es que se pretende conocer el movimiento de cada una de las falanges de los dedos, el dorso y la muñeca. Para ello se propone colocar los elementos como se esboza en la figura \ref{fig:disposicionIMU}. Una ventaja de emplear esta distribución junto con esta tecnología es que no influye tanto al resultado medido la colocación exacta de los sensores. 
 
-\subsection{Proceso de fabricación del soporte físico}
-\label{sec:proceso4}
-%Elaboración
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{./img/IMU2}
+	\caption{Disposición de los elementos del prototipo sobe la mano. } 
+	\label{fig:disposicionIMU}
+\end{figure} 
+
+Lo importante en esta propuesta es que los sensores estén colocados en cada falange que le corresponda. Si este sensor se encuentra colocado a una distancia diferente de la articulación entre una sesión y otra no alterará el resultado de la medición.
+
+Además, gracias al reducido tamaño del módulo ESP32, este se puede colocar sobre el dorso de la mano o en la muñeca. 
+
+Se ha estudiado también que sensores se van a emplear. A la hora de elegir los sensores, la característica limitante ha sido el número de direcciones de los puertos I2C de estos. Puesto que por simplificar el cableado se utilizan los puertos I2C, que permiten conectar en paralelo varios dispositivos al mismo puerto. Para ello cada dispositivo tiene que tener asignada una dirección de lectura. 
+
+Buscando los sensores IMU de nueve grados de libertad (9DOF) se encuentra que sólo se pueden configurar en dos direcciones, la dirección 68 y la 69. Por lo tanto se ha decidido emplear también los IMUs de seis grados de libertad. Este tipo de IMUs (6DOF) no cuentan con la información que da el magnetómetro, teniendo únicamente giroscopio y acelerómetro. Dentro de este tipo de IMUs pasa lo mismo que con los 9DOF, únicamente se encuentran dos direcciones: la 1C-6A y la 1E-6B (dir.acelerómtetro-dir.giroscopio). Hasta este punto se tienen cuatro direcciones diferentes, pero se necesitan más sensores, uno por cada falange más dos por la muñeca y el dorso de la mano. 
+
+\textcolor{rositaoscuro}{INSERTAR ESQUEMA DE 6DOF Y 9DOF Y MUX CON ESP32}
+
+La solución adoptada ante la falta de disposición de direcciones en los sensores ha sido la utilización de un multiplexor de puertos I2C 1:8. De esta forma se pueden tener 16 IMUs del tipo 6DOF y 16 IMUs del tipo 9DOF.
+
+En el prototipo propuesto se ha decidido utilizar los IMUs 9DOF en la muñeca, el dorso de la mano, la falange distal y medial del pulgar y las falanges proximales del dedo índice, corazón, anular y meñique. Contando con que todas estos puntos consideran la referencia global, los sensores 6DOF se reservan para los puntos en los que la referencia global que aporta el magnetómetro es prescindible por la fisionomía de la mano. Siendo estos puntos las falanges distales y mediales de los dedos índice, corazón, anular y meñique. Ver figura \ref{fig:anatomiaMano}
+
 
 \subsection{Funcionamiento}
 \label{sec:funcionamiento4}
-asdf
+
+Este prototipo funcionará con un software que se espera que pueda ser utilizado tanto desde la tableta como el ordenador. 
+
+El módulo ESP32 es el encargado de procesar los datos obtenidos por los sensores y estos datos serían transmitidos (vía cable o wireless) al software en la tableta o PC. Con estos datos sería posible hacer una representación en 3D de la disposición de la mano. 
+
+Hay tres pantallas clave que darían una experiencia de uso óptima al fisioterapeuta y el paciente:
+
+\textcolor{rositaoscuro}{EN ESTE PUNTO QUIZÁS MEJOR CAMBIO EL LOGO DE LAS APP? O LO DEJO ASÍ?}
+
+\begin{itemize}
+	\item \textbf{Pantalla de medición}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/softwareIMU1}
+		\caption{Pantalla de medición de la rehabilitación. } 
+		\label{fig:softIMU1}
+	\end{figure} 
+	 
+	 Esta parte del software sirve para las mediciones en los ejercicios de rehabilitación. El esbozo ideado en la figura \ref{fig:softIMU1} se han utilizado elementos del software del prototipo de FBG. En verdad la idea es la misma que en el otro prototipo, pero en este caso los datos serán más fiables. Además, en el caso de los IMUs también es necesaria realizar calibración, pero sólo será necesaria una antes de comenzar la medición (equivalente a la de "\textit{sobre superficie plana}").
+	 
+	 La visualización en pantalla del movimiento mejoraría la experiencia de usuario. El sistema permite la visualización de los datos en tiempo real.
+	
+	\item \textit{Pantalla de análisis de datos}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/softwareIMU2}
+		\caption{Pantalla de análisis de resultados de las sesiones. } 
+		\label{fig:softIMU2}
+	\end{figure} 
+	
+	Esta parte del software permite visualizar los resultados de las sesiones realizadas y comparar los resultados entre ellas. Esto permite tener un conocimiento real del avance de la rehabilitación y fijar nuevos objetivos en el proceso de recuperación del paciente. El poder disponer de estos datos de esta manera hace además que el paciente se sienta motivado a seguir haciendo los ejercicios de recuperación con ganas, porque sería consciente de su evolución.
+	
+	
+	\item \textbf{Pantalla de minijuegos}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{./img/softwareIMU3}
+		\caption{Pantalla de medición de la rehabilitación. } 
+		\label{fig:softIMU3}
+	\end{figure} 
+	
+	Esta última ventana consistiría en una colección ampliable de minijuegos controlados por el movimiento de los sensores de la mano. Puesto que no todos los pacientes tienen el mismo rango de movimiento, habría además una ventana previa donde habría que ajustar el rango del juego al rango articular del usuario.
+	
+	Esta funcionalidad del software, a parte de ser la más divertida, es la que sirve como entrenamiento para los pacientes. Al tratarse de minijuegos hace de los ejercicios de rehabilitación una tarea menos tediosa.
+	 
+	
+\end{itemize}
+
 
 
 
 \section{Resultados y análisis}
 \label{sec:resultados4}
 
-
-
-
-
-\section{---------------}
-
-
-\section{Sensores inerciales}
-\subsection{Principio de funcionamiento}
-
-Un sistema de referencia inercial se trata de un sistema de referencia regido por las leyes de movimiento de Newton. Por tanto, un sensor capaz de medir valores respecto a dicho sistema de referencia es lo que se conoce como un sensor inercial.
-
-Una unidad inercial o IMU (Inertial Magnetic Unit) es un dispositivo que se compone de tres giróscopos (para determinar la orientación), tres acelerómetros y un reloj que permite asignar tiempo a los valores medidos por los sensores inerciales. Dichas unidades inerciales presentan tres ejes y cada uno de ellos presenta un acelerómetro y un giróscopo.
-
-Por tanto, la información que se recoge de las unidades inerciales son aceleraciones lineales, velocidades angulares y tiempo común para los tres ejes que llevan dicha información de aceleración y velocidad angular (ver Figura \ref{fig:Imu}). 
-
-
-El tiempo requerido para la implementación del sistema de medida puede influir en la marcha de los pacientes y por tanto en la obtención de los parámetros \cite{begona}. Los sensores inerciales utilizados permiten realizar las mediciones de una manera sencilla y rápida lo cual resulta beneficioso en el contexto ambulatorio tanto para los pacientes como para el personal sanitario
-
-
-
-\subsection{Sensores inerciales propuestos}
-Los sensores inerciales utilizados para el sistema son el modelo MTw Awinda (Xsens Technologies B.V, The Netherlands) pueden verse representados en la Figura \ref{fig:sensor_XSENS}
-
-
-
-Su tamaño es de 47 x 30 x 13mm y 16g de peso por lo que puede definirse como un sistema compacto y ergonómico que será de utilidad para el sistema propuesto en este trabajo. Dispone de unas bandas de sujeción que permiten colocar el sensor en el lugar necesario y por tanto dota de versatilidad al diseño. 
-
-Además, se incluye un software de captura que resultará útil para obtener las señales para su posterior procesado. La comunicación de los sensores con el software emplea un protocolo propietario que aparece representado en la Figura \ref{fig:protocolo}.
-
-\subsubsection{Sensores inerciales}
-
+	Con esta propuesta soluciona la principal dificultad en el soporte físico del prototipo de FBG: la repercusión que tienen los cambios en la colocación del guante en la comparación entre diferentes sesiones de rehabilitación. 
 	
-	Para la obtención del dato de distancia a partir de las señales proporcionados por los sensores inerciales es necesario tener en cuenta que la distancia se recorre en el plano en el que se produce el avance, que es este caso es el plano XY.
+	Además, conviene realizar una comparativa económica para entender la diferencia de precio entre ambas propuestas. En la siguiente tabla se presentan los precios aproximados de los componentes fundamentales de cada prototipo:
+	
+	
+	\textcolor{rositaoscuro}{TABLA DE PRECIOS COMPARATIVOS}
+	
+	Además el desarrollo del software tiene mayor versatilidad al no realizarlo con LabVIEW.
 
-Para obtener la posición en este plano a partir de la aceleración en los tres ejes XYZ proporcionada por los sensores inerciales, es necesaria una doble integración.Posteriormente se elimina la deriva existente en las señales debido a esta integración. A continuación se describen los cálculos realizados
-
-Una vez calculadas las distancias necesarias, se procede al cálculo de la distancia de separación entre pasos. En la Figura \ref{fig:sep} se representa dicho cálculo. La distancia D2 es la correspondiente al cálculo de la distancia con el sensor inercial izquierdo en este caso, la distancia D1 es la distancia calculada mediante el sensor de ultrasonido.
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{./graphics/sep}
-	\caption{Cálculo final de distancia de separación entre pasos} \label{fig:sep}
-\end{figure}
-
-Por tanto, para obtener X se utiliza la ecuación \ref{eq:x}
-\begin{equation}\label{eq:x}
-x = D2 - DistanciaDerecho
-\end{equation}
-En el caso de que el primero de los pasos se comenzase con el izquierdo la ecuación es la relativa a la DistanciaIzquierdo.
-
-Para determinar la distancia, se utiliza por tanto, la ecuación \ref{eq:d}
-\begin{equation}\label{eq:d}
-d = \sqrt{x^{2}+D1^{2}}
-\end{equation}
