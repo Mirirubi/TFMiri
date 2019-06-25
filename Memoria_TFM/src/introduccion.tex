@@ -1,130 +1,63 @@
 \chapter{Introducción}
 
-asdf
+Un accidente cerebrovascular (ACV), también conocido como ictus, es una emergencia médica que se debe o bien a una interrupción del suministro sanguíneo en el cerebro o, bien, a una hemorragia cerebral.
+%justificación
+El accidente cerebrovascular (ACV) es la enfermedad neurológica adquirida más común en la población adulta de todo el mundo. El ACV, también conocido como ictus, es una emergencia médica que se debe o bien a una interrupción del suministro sanguíneo en el cerebro o, bien, a una hemorragia cerebral. Gracias a los avances médicos, la mortalidad en torno a esta dolencia se ha visto mermada significativamente. Lo que conlleva un incremento en el número de discapacitados por esta afección. \cite{miradaRehab}
 
-Introducimos un poco, con algún dato relevante la capacidad de medir el movimiento de las manos. 
-O la bondad de esta capacidad aplicándola en rehabilitación.
+Según el estudio IBERICTUS (del Proyecto de Apoplejía del Grupo de Estudio de Enfermedades Cerebrovasculares) realizado en 2012 motivado por la falta de datos en España sobre los accidentes cerebrovasculares se tienen 187 casos de ictus por cada 100.000 habitantes al año. De este estudio se obtiene que de entre las personas que sufren un ictus un 14\% fallecen y los otros 86\% sobreviven.  De entre los que sobreviven un 8\% son causa de un ataque isquémico transitorio (AIT), un 15\% de hemorragias y un 77\% de infartos. De entre os dos últimos casos (ictus consecuencia de hemorragias e infartos) un 44\% de las personas quedan con secuelas, es decir, necesitan rehabilitación. Este porcentaje se divide en un 23\% de casos de discapacidad leve-moderada y un 21\% de discapacidad grave. Las personas con discapacidad grave además de rehabilitación necesitan también atención constante.  \cite{iberIctus}
+
+La rehabilitación en este tipo de pacientes de ACV debe iniciarse temprano. Cuánto antes se inicie más probable será conseguir mejores resultados. Incluso será necesario un seguimiento posterior a la fase de recuperación. Mediante la rehabilitación se pretende minimizar el déficit neurológico y sus complicaciones, fomentar la reintegración familiar y social del individuo y mejorar su
+calidad de vida. Con este fin, el equipo de rehabilitación debe usar todas las técnicas y tecnologías que han demostrado ser útiles para el manejo de estos pacientes en diferentes etapas de rehabilitación. \cite{miradaRehab}
+
+En este marco se sitúa el prototipo desarrollado en este trabajo, dentro de este tipo de tecnologías que ayudan al equipo de rehabilitador en los ejercicios de rehabilitación. Favoreciendo la recuperación del paciente, que es lo que se persigue en esta situación.
 
 
-\section{Justificación}
-\label{sec:justificacion1}
 
-\section{Planteamiento del problema}
-\label{sec:planteamiento1}
 
 \section{Objetivos}
 \label{sec:objetivos1}
-Se pretende realizar...
+ 
 
 \subsection{Objetivo principal}
 \label{sec:objPrinc1}
 
+El objetivo principal de este proyecto es diseñar un prototipo técnico y funcional de una guante destinado a cuantificar los ejercicios de rehabilitación en pacientes que han sido afectados por ACV. Un guante que junto al software correspondiente sea capaz de monitorizar los movimientos de las articulaciones de las manos. El prototipo deberá ser diseñado con la finalidad de evaluar la rehabilitación del rango articular de la mano en pacientes con movilidad reducida.
+
+Para ello serán importantes carácterísticas como la ergonomía, precisión y fiabilidad del guante, y la usabilidad y funcionalidad del software. 
+
+Puesto que se engloba el proyecto dentro de un marco de producto, también será importante buscar un precio moderado de componentes.
+
+
 \subsection{Objetivos específicos}
 \label{sec:objEspec1}
 
+Este proyecto parte de un proyecto propuesto con sensores FBG ya comenzado en la Universidad, por lo tanto antes de idear una nueva solución, será necesario cerrar el desarrollo de la otra. Además este ejercicio servirá para comprender en plenitud el problema que resuelve el proyecto y las necesidades que conlleva.
 
-\section{Descripción de los apartados del trabajo}
-\label{sec:disposicion1}
+A continuación se enumeran ciertos objetivos específicos en los que se puede dividir el trabajo para comprender su magnitud: 
 
-estructura del documento...
-
-\textbf{Desarrollo del proyecto}
-Para la realización de este trabajo se han tomado dos de las tecnologías expuestas en el capítulo \ref{sec:estado_del_arte} y se han llevado a la práctica. De esta manera se puede trabajar empíricamente con dos tecnologías diferentes planteadas como solución para un mismo problema. Una vez realizado todo el trabajo experimental se puede proceder a evaluar las características prácticas de cada tecnología y compararlas entre ellas. 
-
-En función de la tecnología en que la se apoya cada uno de las soluciones, %por un lado se estudian los sensores de fibra FBG, capítulo \ref{sec:FBG3}, y por otro lado, los sensores IMU, capítulo \ref{sec:IMU3}.  
-este capítulo se estructura de la siguiente manera: 
-\begin{itemize}
-	\item {\textbf{\ref{sec:FBG3}}    .- Solución con sensores de fibra FBG} 
-	\item {\textbf{\ref{sec:IMU4}}    .- Solución con sensores IMU}
-\end{itemize}
-Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales empleados, el proceso de fabricación y el funcionamiento. 
-
-
-
-\section{---------------}
-
----------------------------------------------------------------
-
-Según datos del Grupo de Estudio de Enfermedades Cerebrovasculares de la Sociedad Española de Neurología, el ictus es la primera causa de mortalidad entre las mujeres españolas y la segunda en hombres \cite{ictuss}. jrjr
-
-Se conoce como ictus al conjunto de enfermedades que afectan a los vasos sanguíneos encargados de suministrar la sangre al cerebro. Este grupo de patologías, conocidas popularmente como embolias, también se denominan accidentes cerebrovasculares (ACV) y se manifiestan súbitamente. Según la causa del accidente cerebrovascular, pueden clasificarse en dos tipos: los hemorrágicos (o hemorragias cerebrales) y los isquémicos (o infartos cerebrales). Los ictus hemorrágicos se producen cuando un vaso sanguíneo se rompe y los ictus isquémicos ocurren cuando una arteria se obstruye por la presencia de un coágulo de sangre que a menudo se origina en el corazón y se desplaza hasta el cerebro interrumpiendo el flujo sanguíneo. Tras un ictus, el daño cerebral adquirido puede ser irreparable y dejar secuelas graves que repercutan de forma notable en la calidad de vida de los afectados \cite{ictus_def}.
-
-Las secuelas que sufren los pacientes tras padecer un ictus se reflejan en múltiples aspectos como \cite{secuelas} :
-\begin{itemize}
-	\item Secuelas y complicaciones físicas: hemiplejia, hemiparesia...
-	\item Alteraciones del humor: depresión.
-	\item Alteraciones cognitivas: percepción, memoria y atención.
-	\item Alteraciones para las actividades de la vida diaria.
-\end{itemize}
-
-Para poder lograr minimizar las discapacidades que experimentan estos pacientes al sufrir un ictus y poder así facilitar la integración social de estas personas, la rehabilitación juega un papel fundamental. Una de las funciones que se intenta recuperar con dicha rehabilitación es la marcha ya que en el 80 \% de los casos se ve limitada. Por ello, disponer de sistemas de medida que permitan obtener datos objetivos de parámetros relativos a la marcha permite una caracterización más detallada de la misma. Así, el personal sanitario encargado de su rehabilitación podrá implementar protocolos clínicos más efectivos y personalizados a cada paciente. Además, el poder optimizar la rehabilitación permite un ahorro en el gasto sanitario el cual supone entre un 7 \% y 10 \% en el caso de España \cite{gasto}.
-
-Para determinar de la evolución de la rehabilitación de la marcha uno de los parámetros considerados relevantes es el de la distancia de separación entre pasos. Conociendo dicho dato se puede obtener una valoración objetiva de la estabilidad y ajustar la rehabilitación a las condiciones del paciente.
-
-Dado que el traslado de pacientes con movilidad reducida a laboratorios de biomecánica es costoso y complicado \cite{gasto}, diseñar sistemas de medida portables y de alta precisión supone un gran reto. Estos sistemas permitirían realizar una rehabilitación más personalizada, y por tanto, más eficaz, ,mejorando la calidad de vida de los pacientes y también reducir la inversión que estas personas necesitan
-
-
-
-
-
-\section{Objetivo}\label{sec:objetivos}
-Se pretende realizar el diseño de un sistema inalámbrico de medida que permita obtener datos de la distancia entre pasos en pacientes de neuro-rehabilitación que han sufrido un ictus. El objetivo final es obtener una valoración objetiva de la evolución de su recuperación.
-
-En su diseño, se tendrá en cuenta: La ergonomía del mismo, la autonomía y el coste. Asimismo deberá cumplir con unas especificaciones de resolución óptimas para poder obtener datos fiables.
+\begin{enumerate}
+	\item Familiarización con el prototipo diseñado (Hardware y software)
+	\item Propuesta de mejora frente al viejo prototipo (Hardware y software)
+	\item Desarrollo final del prototipo con la tecnología de FBGs (Hardware y software)
+	\item Ideación de una solución alternativa que sea capaz de mejorar el resultado obtenido en el desarrollo: solución con sensores inerciales.
+	
+\end{enumerate}
 
 
 \section{Estructura del documento}
+\label{sec:disposicion1}
 
 El documento consta de los siguientes capítulos: 
 
-\begin{itemize}
-	\item {CAPÍTULO 1: Introducción.}
-	\item {CAPÍTULO 2: Estado del arte.}
-	\item {CAPÍTULO 3: Metodología.}
-	\item {CAPÍTULO 4: Resultados.}
-	\item {CAPÍTULO 5: Conclusiones.}
+\begin{itemize}[label=]
+	\item {\textbf{CAPÍTULO 1:} Introducción.}
+	\item {\textbf{CAPÍTULO 2:} Estado del arte.}
+	\item {\textbf{CAPÍTULO 3:} Solución con sensores de fibra FBG.}
+	\item {\textbf{CAPÍTULO 4:} Solución con sensores IMU.}
+	\item {\textbf{CAPÍTULO 5:} Conclusiones y líneas futuras.}
 \end{itemize}
 
-------------------
 
-BORRAR
-
-
-Para la realización de este trabajo se han tomado dos de las tecnologías expuestas en el capítulo \ref{sec:estado_del_arte} y se han llevado a la práctica. De esta manera se puede trabajar empíricamente con dos tecnologías diferentes planteadas como solución para un mismo problema. Una vez realizado todo el trabajo experimental se puede proceder a evaluar las características prácticas de cada tecnología y compararlas entre ellas. 
-
-En función de la tecnología en que la se apoya cada uno de las soluciones,
-Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales empleados, el proceso de fabricación y el funcionamiento. 
-Según datos del Grupo de Estudio de Enfermedades Cerebrovasculares de la Sociedad Española de Neurología, el ictus es la primera causa de mortalidad entre las mujeres españolas y la segunda en hombres \cite{ictuss}. jrjr
-Se conoce como ictus al conjunto de enfermedades que afectan a los vasos sanguíneos encargados de suministrar la sangre al cerebro. Este grupo de patologías, conocidas popularmente como embolias, también se denominan accidentes cerebrovasculares (ACV) y se manifiestan súbitamente. Según la causa del accidente cerebrovascular, pueden clasificarse en dos tipos: los hemorrágicos (o hemorragias cerebrales) y los isquémicos (o infartos cerebrales). Los ictus hemorrágicos se producen cuando un vaso sanguíneo se rompe y los ictus isquémicos ocurren cuando una arteria se obstruye por la presencia de un coágulo de sangre que a menudo se origina en el corazón y se desplaza hasta el cerebro interrumpiendo el flujo sanguíneo. Tras un ictus, el daño cerebral adquirido puede ser irreparable y dejar secuelas graves que repercutan de forma notable en la calidad de vida de los afectados \cite{ictus_def}.
-nimizar las discapacidades que experimentan estos pacientes al sufrir un ictus y poder así facilitar la integración social de estas personas, la rehabilitación juega un papel fundamental. Una de las funciones que se intenta recuperar con dicha rehabilitación es la marcha ya que en el 80 \% de los casos se ve limitada. Por ello, disponer de sistemas de medida que permitan obtener datos objetivos de parámetros relativos a la marcha permite una caracterización más detallada de la misma. Así, el personal sanitario encargado de su rehabilitación podrá implementar protocolos clínicos más efectivos y personalizados a cada paciente. Además, el poder optimizar la rehabilitación permite un ahorro en el gasto sanitario el cual supone entre un 7 \% y 10 \% en el caso de España \cite{gasto}.
-
-Para determinar de la evolución de la rehabilitación de la marcha uno de los parámetros considerados relevantes es el de la distancia de separación entre pasos. Conociendo dicho dato se puede obtener una valoración objetiva de la estabilidad y ajustar la rehabilitación a las condiciones del paciente.
-
-Dado que el traslado de pacientes con movilidad reducida a laboratorios de biomecánica es costoso y complicado \cite{gasto}, diseñar sistemas de medida portables y de alta precisión supone un gran reto. Estos sistemas permitirían realizar una rehabilitación más personalizada, y por tanto, más eficaz, ,mejorando la calidad de vida de los pacientes y también reducir la inversión que estas personas necesitan
-
-n función de la tecnología en que la se apoya cada uno de las soluciones,
-Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales empleados, el proceso de fabricación y el funcionamiento. 
-Según datos del Grupo de Estudio de Enfermedades Cerebrovasculares de la Sociedad Española de Neurología, el ictus es la primera causa de mortalidad entre las mujeres españolas y la segunda en hombres \cite{ictuss}. jrjr
-Se conoce como ictus al conjunto de enfermedades que afectan a los vasos sanguíneos encargados de suministrar la sangre al cerebro. Este grupo de patologías, conocidas popularmente como embolias, también se denominan accidentes cerebrovasculares (ACV) y se manifiestan súbitamente. Según la causa del accidente cerebrovascular, pueden clasificarse en dos tipos: los hemorrágicos (o hemorragias cerebrales) y los isquémicos (o infartos cerebrales). Los ictus hemorrágicos se producen cuando un vaso sanguíneo se rompe y los ictus isquémicos ocurren cuando una arteria se obstruye por la presencia de un coágulo de sangre que a menudo se origina en el corazón y se desplaza hasta el cerebro interrumpiendo el flujo sanguíneo. Tras un ictus, el daño cerebral adquirido puede ser irreparable y dejar secuelas graves que repercutan de forma notable en la calidad de vida de los afectados \cite{ictus_def}.
-nimizar las discapacidades que experimentan estos pacientes al sufrir un ictus y poder así facilitar la integración social de estas personas, la rehabilitación juega un papel fundamental. Una de las funciones que se intenta recuperar con dicha rehabilitación es la marcha ya que en el 80 \% de los casos se ve limitada. Por ello, disponer de sistemas de medida que permitan obtener datos objetivos de parámetros relativos a la marcha permite una caracterización más detallada de la misma. Así, el personal sanitario encargado de su rehabilitación podrá implementar protocolos clínicos más efectivos y personalizados a cada paciente. Además, el poder optimizar la rehabilitación permite un ahorro en el gasto sanitario el cual supone entre un 7 \% y 10 \% en el caso de España \cite{gasto}.
-
-Para determinar de la evolución de la rehabilitación de la marcha uno de los parámetros considerados relevantes es el de la distancia de separación entre pasos. Conociendo dicho dato se puede obtener una valoración objetiva de la estabilidad y ajustar la rehabilitación a las condiciones del paciente.
-
-Dado que el traslado de pacientes con movilidad reducida a laboratorios de biomecánica es costoso y complicado \cite{gasto}, diseñar sistemas de medida portables y de alta precisión supone un gran reto. Estos sistemas permitirían realizar una rehabilitación más personalizada, y por tanto, más eficaz, ,mejorando la calidad de vida de los pacientes y también reducir la inversión que estas personas necesitan
-
-
-Se pretende realizar el diseño de un sistema inalámbrico de medida que permita obtener datos de la distancia entre pasos en pacientes de neuro-rehabilitación que han sufrido un ictus. El objetivo final es obtener una valoración objetiva de la evolución de su recuperación.
-
-En su diseño, se tendrá en cuenta: La ergonomía del mismo, la autonomía y el coste. Asimismo deberá cumplir con unas especificaciones de resolución óptimas para poder obtener datos fiables.Para la realización de este trabajo se han tomado dos de las tecnologías expuestas en el capítulo \ref{sec:estado_del_arte} y se han llevado a la práctica. De esta manera se puede trabajar empíricamente con dos tecnologías diferentes planteadas como solución para un mismo problema. Una vez realizado todo el trabajo experimental se puede proceder a evaluar las características prácticas de cada tecnología y compararlas entre ellas. 
-
-En función de la tecnología en que la se apoya cada uno de las soluciones,
-Dentro de cada punto se detalla toda la información necesaria para la implementación de cada uno de los sistemas. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales empleados, el proceso de fabricación y el funcionamiento. 
-Según datos del Grupo de Estudio de Enfermedades Cerebrovasculares de la Sociedad Española de Neurología, el ictus es la primera causa de mortalidad entre las mujeres españolas y la segunda en hombres \cite{ictuss}. jrjr
-Se conoce como ictus al conjunto de enfermedades que afectan a los vasos sanguíneos encargados de suministrar la sangre al cerebro. Este grupo de patologías, conocidas popularmente como embolias, también se denominan accidentes cerebrovasculares (ACV) y se manifiestan súbitamente. Según la causa del accidente cerebrovascular, pueden clasificarse en dos tipos: los hemorrágicos (o hemorragias cerebrales) y los isquémicos (o infartos cerebrales). Los ictus hemorrágicos se producen cuando un vaso sanguíneo se rompe y los ictus isquémicos ocurren cuando una arteria se obstruye por la presencia de un coágulo de sangre que a menudo se origina en el corazón y se desplaza hasta el cerebro interrumpiendo el flujo sanguíneo. Tras un ictus, el daño cerebral adquirido puede ser irreparable y dejar secuelas graves que repercutan de forma notable en la calidad de vida de los afectados \cite{ictus_def}.
-nimizar las discapacidades que experimentan estos pacientes al sufrir un ictus y poder así facilitar la integración social de estas personas, la rehabilitación juega un papel fundamental. Una de las funciones que se intenta recuperar con dicha rehabilitación es la marcha ya que en el 80 \% de los casos se ve limitada. Por ello, disponer de sistemas de medida que permitan obtener datos objetivos de parámetros relativos a la marcha permite una caracterización más detallada de la misma. Así, el personal sanitario encargado de su rehabilitación podrá implementar protocolos clínicos más efectivos y personalizados a cada paciente. Además, el poder optimizar la rehabilitación permite un ahorro en el gasto sanitario el cual supone entre un 7 \% y 10 \% en el caso de España \cite{gasto}.
-
-Para determinar de la evolución de la rehabilitación de la marcha uno de los parámetros considerados relevantes es el de la distancia de separación entre pasos. Conociendo dicho dato se puede obtener una valoración objetiva de la estabilidad y ajustar la rehabilitación a las condiciones del paciente.
-
-Dado que el traslado de pacientes con movilidad reducida a laboratorios de biomecánica es costoso y complicado \cite{gasto}, diseñar sistemas de medida portables y de alta precisión supone un gran reto. Estos sistemas permitirían realizar una rehabilitación más personalizada, y por tanto, más eficaz, ,mejorando la calidad de vida de los pacientes y también reducir la inversión que estas personas necesitan
+En el desarrollo del proyecto se ha llevado a cabo la solución con sensores de fibra FBG y propuesto (tras su estudio) una segunda solución basada en sensores IMU. En ambos casos, la exposición de la solución tomada se divide en la explicación teórica en el \textit{Marco conceptual} y el ensayo práctico en el \textit{Desarrollo del prototipo}. El desarrollo del prototipo estudia los materiales y componentes necesarios, el proceso de fabricación y el funcionamiento. 
 
 
