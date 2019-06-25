@@ -8,7 +8,7 @@
 
 \label{sec:IMU4}
 
-Durante la realización del prototipo expuesto en el capítulo precedente se advierte la necesidad de modificar la tecnología utilizada para diseñar un prototipo que cubra con todas las necesidades del escenario. En este capítulo se propone una solución sensores inerciales. 
+Durante la realización del prototipo expuesto en el capítulo precedente se advierte la necesidad de modificar la tecnología utilizada para diseñar un prototipo que cubra con todas las necesidades del escenario. En este capítulo se propone una solución basada en sensores inerciales. 
 
 Esta propuesta se sustenta en la bibliografía encontrada en la que se emplea esta solución en este tipo de escenarios. La referencia que más ha inspirado esta solución ha sido el trabajo de Henk Kortier en su tesis. \cite{Kortier} 
 
@@ -18,7 +18,7 @@ Al final del capítulo se realiza la comparativa frente al prototipo de FBG, par
 \section{Marco conceptual}
 \label{sec:marco4}
 
-Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño llevado a cabo. Se exponen conceptos básicos de los sensores inerciales y el microcontrolador ESP32.  
+Este apartado tiene por finalidad realizar una clara exposición de los conceptos teóricos fundamentales para la comprensión del diseño propuesto. Se exponen conceptos básicos de los sensores inerciales y el módulo ESP32.  
 
 
 %--asdf
@@ -213,7 +213,7 @@ Hay tres pantallas clave que darían una experiencia de uso óptima al fisiotera
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{./img/softwareIMU1}
+		\includegraphics[width=0.65\textwidth]{./img/softwareIMU1}
 		\caption{Pantalla de medición de la rehabilitación. } 
 		\label{fig:softIMU1}
 	\end{figure} 
@@ -226,7 +226,7 @@ Hay tres pantallas clave que darían una experiencia de uso óptima al fisiotera
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{./img/softwareIMU2}
+		\includegraphics[width=0.65\textwidth]{./img/softwareIMU2}
 		\caption{Pantalla de análisis de resultados de las sesiones. } 
 		\label{fig:softIMU2}
 	\end{figure} 
@@ -238,7 +238,7 @@ Hay tres pantallas clave que darían una experiencia de uso óptima al fisiotera
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{./img/softwareIMU3}
+		\includegraphics[width=0.65\textwidth]{./img/softwareIMU3}
 		\caption{Pantalla de medición de la rehabilitación. } 
 		\label{fig:softIMU3}
 	\end{figure} 
@@ -258,10 +258,14 @@ Hay tres pantallas clave que darían una experiencia de uso óptima al fisiotera
 
 	Con esta propuesta soluciona la principal dificultad en el soporte físico del prototipo de FBG: la repercusión que tienen los cambios en la colocación del guante en la comparación entre diferentes sesiones de rehabilitación. 
 	
-	Además, conviene realizar una comparativa económica para entender la diferencia de precio entre ambas propuestas. En la siguiente tabla se presentan los precios aproximados de los componentes fundamentales de cada prototipo:
+	Conviene realizar una comparativa económica para entender la diferencia de precio entre ambas propuestas. En la figura \ref{fig:precioCompara} se presentan los precios aproximados de los componentes fundamentales de cada prototipo. En ninguno se ha tenido en cuenta el precio de la estructura del guante ni el cableado. Lo que se pretende es reparar en la gran diferencia de precios entre un prototipo y el otro.
 	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{./img/precios2}
+		\caption{Precios orientativos de los componentes en el prototipo basado en FBG y en el basado en IMUs. } 
+		\label{fig:precioCompara}
+	\end{figure} 
 	
-	\textcolor{rositaoscuro}{TABLA DE PRECIOS COMPARATIVOS}
-	
-	Además el desarrollo del software tiene mayor versatilidad al no realizarlo con LabVIEW.
+	Además, el desarrollo del software tiene mayor versatilidad al no realizarlo con LabVIEW.
 

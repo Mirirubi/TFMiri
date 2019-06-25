@@ -37,43 +37,94 @@
     \field{year}{2014}
   \endentry
 
-  \entry{ictuss}{standard}{}
-    \list{organization}{1}{%
-      {Federación espñola de Ictus}%
+  \entry{miradaRehab}{article}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={Moyano},
+         familyi={M\bibinitperiod},
+         given={Á.},
+         giveni={\bibinitperiod},
+      }}%
     }
+    \strng{namehash}{M2}
+    \strng{fullhash}{M2}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Ictus Datos}
-    \verb{url}
-    \verb https://ictusfederacion.es/infoictus
-    \endverb
+    \field{pages}{348\bibrangedash 55}
+    \field{title}{El accidente cerebrovascular desde la mirada del
+  rehabilitador}
+    \list{location}{1}{%
+      {Univ. Chile}%
+    }
+    \field{year}{2010}
   \endentry
 
-  \entry{ictus_def}{standard}{}
-    \list{organization}{1}{%
-      {Observatorio del ictus}%
+  \entry{iberIctus}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JDG}{%
+         family={J},
+         familyi={J},
+         given={Díaz-Guzmán},
+         giveni={D\bibinithyphendelim G\bibinitperiod},
+      }}%
     }
+    \strng{namehash}{JDG1}
+    \strng{fullhash}{JDG1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Ictus}
-    \verb{url}
-    \verb http://www.observatoriodelictus.com/index.php/que-es-un-ictus
-    \endverb
+    \field{title}{Tasa de incidencia de ictus y ataque isquémico transitorio
+  en España: el estudio IBERICTUS}
+    \field{year}{2012}
   \endentry
 
-  \entry{secuelas}{standard}{}
+  \entry{tipoIctus}{misc}{}
     \field{labeltitlesource}{title}
-    \field{title}{Secuelas y complicaciones tras ictus}
+    \field{title}{Clasificación etiológica del ictus}
+    \verb{url}
+    \verb http://www.guiasalud.es/egpc/ictus/resumida/apartado03/clasificacion0
+    \verb 2.html
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{pentienII}{article}{}
+    \name{author}{1}{}{%
+      {{hash=dNSSE}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Neurología\bibnamedelima (SEN)},
+         familyi={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Sociedad\bibnamedelima Española},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NSSEd1}
+    \strng{fullhash}{NSSEd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Plan estratégico nacional para el tratamiento integral de
+  las enfermedades neurológicas}
+    \field{year}{2017}
+  \endentry
+
+  \entry{secuelasIctus}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{title}{Manejo del ictus tras el alta hospitalaria}
     \verb{url}
     \verb http://www.guiasalud.es/egpc/ictus_ap/resumida/apartado06/manejo_alta
     \verb 03.html
     \endverb
+    \field{year}{2010}
   \endentry
 
-  \entry{gasto}{standard}{}
+  \entry{movimientoMano}{misc}{}
     \field{labeltitlesource}{title}
-    \field{title}{Gasto asociado al cuidado de un enfermo}
+    \field{title}{Movimientos de la mano}
     \verb{url}
-    \verb http://www.elmundo.es/suplementos/salud/2007/733/1196463608.html
+    \verb https://amarantoterapiaocupacional.com/2015/07/22/movimientos-de-la-m
+    \verb ano/
     \endverb
+    \field{year}{2015}
   \endentry
 
   \entry{imgAnatomiaMano}{misc}{}
@@ -85,16 +136,6 @@
     \verb -de-falange-en-el-baloncesto-2542/
     \endverb
     \field{year}{2014}
-  \endentry
-
-  \entry{movimientoMano}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{title}{Movimientos de la mano}
-    \verb{url}
-    \verb https://amarantoterapiaocupacional.com/2015/07/22/movimientos-de-la-m
-    \verb ano/
-    \endverb
-    \field{year}{2015}
   \endentry
 
   \entry{techniques2}{standard}{}
