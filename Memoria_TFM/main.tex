@@ -138,9 +138,11 @@
 
 %
 % Página en blanco
-%
-\afterpage{\blankpage}
-\thispagestyle{empty}
+%%\afterpage{\blankpage}
+%\thispagestyle{empty}
+
+
+
 %
 % Bibliografía
 %
@@ -149,18 +151,30 @@
 % No expandir elementos para llenar toda la página
 \raggedbottom
 
+%\newpage\null\thispagestyle{empty}
+
+
+
 %
 % Apéndices
 %
-%\appendix
-%\cleardoublepage
-%\addappheadtotoc
-%\appendixpage
-\newpage\null\thispagestyle{empty}
+\appendix
+\cleardoublepage
+\addappheadtotoc
+\appendixpage
+
+\include{src/anexo1}
+
+
+\include{src/anexo2}
+
+
 %
 % TODO: Apéndices del TFM
 %
 %\include{src/apendiceEjemplos}
+
+\newpage\null\thispagestyle{empty}
 
 % Fin del documento
 \end{document}

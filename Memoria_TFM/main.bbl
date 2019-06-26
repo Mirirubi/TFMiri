@@ -352,7 +352,7 @@
   \entry{sensoresOpticos}{misc}{}
     \name{author}{1}{}{%
       {{hash=CCP}{%
-         family={COnde},
+         family={Conde},
          familyi={C\bibinitperiod},
          given={Concepción\bibnamedelima Pérez},
          giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
@@ -580,7 +580,7 @@
 
   \entry{liquidoPDMS}{misc}{}
     \field{labeltitlesource}{title}
-    \field{title}{HOW TO DO PDMS LITHOGRAPHY REPLICATION FROM A SU-8 MOLD}
+    \field{title}{How to do PDMS lithography replication from as SU-8 mold}
     \verb{url}
     \verb https://www.elveflow.com/microfluidic-tutorials/soft-lithography-revi
     \verb ews-and-tutorials/introduction-in-soft-lithography/pdms-softlithograp
@@ -715,25 +715,6 @@
     \verb https://www.youtube.com/watch?v=YhKzN65oryI
     \endverb
     \field{year}{2016}
-  \endentry
-
-  \entry{Kortier}{article}{}
-    \name{author}{1}{}{%
-      {{hash=KH}{%
-         family={Kortier},
-         familyi={K\bibinitperiod},
-         given={Henk},
-         giveni={H\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KH1}
-    \strng{fullhash}{KH1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{pages}{1}
-    \field{title}{Assessment of hand kinematics and interactions with the
-  environment}
-    \field{year}{2018}
   \endentry
 
   \entry{juanDiego}{article}{}

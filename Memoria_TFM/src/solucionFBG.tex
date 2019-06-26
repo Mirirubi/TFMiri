@@ -144,7 +144,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 		\hat{i}\textsubscript{c} =  \sin^{-1}\left(\dfrac{n\textsubscript{r}}{n\textsubscript{i}}\right)
 	\end{equation}
 
- La reflexión interna total atrapa la luz hasta cierto ángulo en el núcleo, definiendo la apertura numérica a la que hay que asegurarse de penetrar la luz para que se de el fenómeno de reflexión interna total. Así se fuerza a que la mayoría de los rayos de luz incidan sobre el interfaz y se reflejen, permitiendo la transmisión de la señal lumínica. 
+ La reflexión interna total atrapa la luz hasta cierto ángulo en el núcleo, definiendo la apertura numérica a la que hay que asegurarse de penetrar la luz para que se de el fenómeno de reflexión interna total. Así se fuerza a que la mayoría de los rayos de luz incidan sobre la interfaz y se reflejen, permitiendo la transmisión de la señal lumínica. 
  
  %-- TRANSMISIÓN EN LA FIBRA ÓPTICA	
  \subsection{Transmisión de señales a través de la fibra óptica} %Tipos de sensores ópticos
@@ -380,7 +380,7 @@ La realización del primer desarrollo se origina a partir de un trabajo comenzad
 El prototipo consiste en un prototipo técnico y funcional de un guante sensorizado para medir los ángulos de flexión de los nudillos y la muñeca.
 
 Se aprovecha del prototipo anterior el cableado, la fuente y el interrogador. El guante anterior es un grosor demasiado fino, tiene una forma un poco deforme de mano y están los cables sin agrupar (siendo muy complicado su transporte)
-Se mejora el soporte físico (hardware) volviendo a fabricar el guante y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo. 
+Se mejora el soporte físico (hardware) volviendo a fabricar el guante y se desarrolla un nuevo programa con una interfaz de usuario simple e intuitivo. 
 
 
 	\begin{figure}[H]
@@ -433,7 +433,8 @@ Las fibras de rejilla de Bragg (FBG) empleadas son de la empresa Micron Optics (
 \end{table}
 
 Puesto que las fibras de Bragg resultan muy sensibles ante roturas y la aplicación del prototipo precisamente consiste en contorsionar las fibras es necesario embeber las fibras en un material moldeable pero rígido. Para ello se emplea PMDS.
-
+ 
+ \clearpage
 
 	\item \textbf{Polidimetilsiloxano (\textit{PDMS})}
 	
@@ -483,12 +484,12 @@ La fuente es un emisor de luz de banda ancha que puede provenir de un diodo supe
 \item \textbf{Interrogador}
 
 
-El interrogador es el dispositivo que detecta la señal de luz proveniente de la fibra y, en este escenario, la transmite al ordenador. En este proyecto se trabaja con el interrogador USB I–MON 256/512 del proveedor Ibsen Photonics, al igual que la fuente (ver figura \ref{fig:FuenteInterrogador}). Este interrogador incluye un software implementado en LabView que sirve de herramienta para el usuario para visualizar la detección de luz desde el ordenador a través del puerto USB en tiempo real.  Este software sirve de base para la realización del interfaz de este proyecto. 
+El interrogador es el dispositivo que detecta la señal de luz proveniente de la fibra y, en este escenario, la transmite al ordenador. En este proyecto se trabaja con el interrogador USB I–MON 256/512 del proveedor Ibsen Photonics, al igual que la fuente (ver figura \ref{fig:FuenteInterrogador}). Este interrogador incluye un software implementado en LabView que sirve de herramienta para el usuario para visualizar la detección de luz desde el ordenador a través del puerto USB en tiempo real.  Este software sirve de base para la realización de la interfaz de este proyecto. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.49\textwidth]{./img/fuente}
-	\includegraphics[width=0.49\textwidth]{./img/interrogador} 
+	\includegraphics[width=0.45\textwidth]{./img/fuente}
+	\includegraphics[width=0.45\textwidth]{./img/interrogador} 
 	\\(a)\hspace{7cm}(b)
 	\caption{(a) Fuente \cite{fuente} (b) Interrogador \cite{interrogador}} 
 	\label{fig:FuenteInterrogador}
@@ -547,10 +548,10 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\caption{Diseño 3D de la caja} \label{fig:caja}
 	\end{figure}
  	
- 	El diseño se ha dividido en cuatro partes, ya que no cabía todo el diseño en las impresoras 3D disponibles. Las medidas completas son de $31.5\times15.5\times9$ cm. Tres de estas partes forman la base de la caja y una cuarta parte sirve de tapa protectora del compartimento de los conectores. La base de se divide en el compartimento para los cables de fibra procedentes del guante, el compartimento para los conectores  y el del splitter. Las cuatro partes se encajan entre ellas gracias a unas ranuras incluidas en el diseño para este fin. Todo esto se puede observar en la figura \ref{fig:caja}.
+ 	El diseño se ha dividido en cuatro partes, ya que no cabía todo el diseño en las impresoras 3D disponibles. Las medidas completas son de $31.5\times15.5\times9$ cm. Tres de estas partes forman la base de la caja y una cuarta parte sirve de tapa protectora del compartimento de los conectores. La base se divide en el compartimento para los cables de fibra procedentes del guante, el compartimento para los conectores  y el del splitter. Las cuatro partes se encajan entre ellas gracias a unas ranuras incluidas en el diseño para este fin. Todo esto se puede observar en la figura \ref{fig:caja}.
  
 
- 	Para la manufacturación del molde y del armazón se ha empleado tecnología de impresión 3D en material plástico PLA. Se han utilizado dos modelos de impresora debido a la disponibilidad de estas en la universidad, la impresora Hephestos de BQ y Witwox de BQ también (ver figura \ref{fig:impresoras3D}). Son muchos los materiales con los que se pueden realizar impresiones en 3D a partir de un diseño. En este caso ambos diseños se imprimen en PLA por ser biodegrable. Se trata e un polímero constituido por moléculas de ácido láctico, obtenido generalmente de tratar almidón de maíz, yuca o caña de azúcar. Además tiene precio y características adecuadas para las necesidades del proyecto. \cite{bioPLA}
+ 	Para la manufacturación del molde y del armazón se ha empleado tecnología de impresión 3D en material plástico PLA. Se han utilizado dos modelos de impresora debido a la disponibilidad de estas en la universidad, la impresora Hephestos de BQ y Witwox de BQ también (ver figura \ref{fig:impresoras3D}). Son muchos los materiales con los que se pueden realizar impresiones en 3D a partir de un diseño. En este caso ambos diseños se imprimen en PLA por ser biodegrable. Se trata de un polímero constituido por moléculas de ácido láctico, obtenido generalmente de tratar almidón de maíz, yuca o caña de azúcar. Además tiene precio y características adecuadas para las necesidades del proyecto. \cite{bioPLA}
  	
 	 \begin{figure}[H]
 	 	\centering
@@ -588,7 +589,6 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		La base de la fabricación del guante es la mezcla a realizar para la obtención de la densidad del PDMS requerida. Si se tomase una disolución muy diluida el guante no sería lo suficientemente consistente. 
 		
 		
-		En la figura \ref{fig:fabricacionGuante} que acompaña al paso de modelado PDMS está referenciada cada foto por una letra A-D que se utiliza en el parágrafo contiguo.
 		
 		\begin{figure}[H]
 			\centering
@@ -596,17 +596,16 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 			\caption{Proceso de manufactura del guante.} \label{fig:fabricacionGuante}
 		\end{figure}
 		
-		La mezcla de PDMS realiza tiene una relación agente-polímero de 1:10. Se coloca capsula petri sobre la báscula y se vierte en ella desde el vaso de precipitados 55g de elastómero [A]. Una vez se tiene la cantidad necesaria de polímero, se tabula la báscula y se toma el agente de curación desde el bote con ayuda de una pipeta de plástico [B]. Se añade al elastómero 5.5g de agente de curación. Una vez se tienen las cantidades expuestas, se mezclan durante cuatro minutos con la ayuda de la espátula [C]. Después de este paso en algunas ocasiones se generan burbujas de aire, que se pueden eliminar en un horno de vacío en pasos posteriores. En esta ocasión no ha sido necesario. Cuando se tiene una mezcla homogénea (se ha removido durante cuatro minutos correctamente) se vierte el PDMS en el molde del guante [D].  	
+		La mezcla de PDMS realiza tiene una relación agente-polímero de 1:10. Se coloca capsula petri sobre la báscula y se vierte en ella desde el vaso de precipitados 55g de elastómero, figura \ref{fig:fabricacionGuante}  [A]. Una vez se tiene la cantidad necesaria de polímero, se tabula la báscula y se toma el agente de curación desde el bote con ayuda de una pipeta de plástico, figura \ref{fig:fabricacionGuante} [B]. Se añade al elastómero 5.5g de agente de curación. Una vez se tienen las cantidades expuestas, se mezclan durante cuatro minutos con la ayuda de la espátula, figura \ref{fig:fabricacionGuante} [C]. Después de este paso en algunas ocasiones se generan burbujas de aire, que se pueden eliminar en un horno de vacío en pasos posteriores. En esta ocasión no ha sido necesario. Cuando se tiene una mezcla homogénea (se ha removido durante cuatro minutos correctamente) se vierte el PDMS en el molde del guante, figura \ref{fig:fabricacionGuante} [D].  	
 		
 		
-		Conviene recordar que tras este proceso es importante limpiar todas las herramientas utilizadas, siendo el PDMS un compuesto engorroso de limpiar. 
-	
 		
+
 		\item \underline{Colocación de los sensores FBG}
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.65\textwidth]{./img/diagramaMano2}
+			\includegraphics[width=0.8\textwidth]{./img/diagramaMano2}
 			\caption{Disposición del guante sensorizado.} \label{fig:manoFBG}
 		\end{figure}
 		
@@ -615,34 +614,37 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 		\item \underline{Curación PDMS} 
 		
-		Si fuera necesario quitar burbujas de aire al PDMS (como se hace refenrecia en el paso primero), sería antes de este paso cuando debería hacerse.
+	
+		Para que el PDMS se cure una opción es dejarlo al aire libre durante un par de días. La segunda opción y a más aconsejable para que la curación sea más rápida y completa se realice en el horno. 
+		%Esta afirmación se solventa en la experiencia ya que durante la realización del proyecto ha habido que dejar el PDMS curándose al aire libre, y después de tres días aún estaba el PDMS sin curar del todo. Además, cuando el PDMS estuvo curado tenía una textura más pegajosa que al utilizar el horno. 
+		Es por ello que se ha metido el molde con el PDMS y las fibras de Bragg en el horno durante cinco horas y media a $-55\,^{\circ}\mathrm{C}$). Una vez pasado ese tiempo se deja reposar una hora dentro del horno apagado. 
 		
+		\clearpage
 		
-		Para que el PDMS se cure una opción es dejarlo al aire libre durante un par de días. Aunque es aconsejable que para que la curación sea más rápida y completa se realice en el horno. Esta afirmación se solventa en la experiencia ya que durante la realización del proyecto ha habido que dejar el PDMS curándose al aire libre, y después de tres días aún estaba el PDMS sin curar del todo. Además, cuando el PDMS estuvo curado tenía una textura más pegajosa que al utilizar el horno. Es por ello que se ha metido el molde con el PDMS y las fibras de Bragg en el horno durante cinco horas y media a $-55\,^{\circ}\mathrm{C}$). Una vez pasado ese tiempo se deja reposar una hora dentro del horno apagado. 
-		
-		
+ 
 		\item \underline{Desmoldar}
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=0.75\textwidth]{./img/fabricacionGuante2}
+			\includegraphics[width=0.95\textwidth]{./img/fabricacionGuante2}
 			\caption{Desmoldado del guante.} \label{fig:fabricacionGuante2}
 		\end{figure}
 	
-		Para finalizar el proceso de moldeado del PDMS, hace falta retirar del molde el PDMS con los sensores embebidos. Este paso hay que realizarlo con mucha paciencia y cuidado, ya que el PDMS está adherido al molde y las fibras de FBG son muy delicadas. Para ello se ha empleado la ayuda de la espátula. En la figura \ref{fig:fabricacionGuante2} se puede representa este paso.
+		Para finalizar el proceso de moldeado del PDMS, hace falta retirar del molde el PDMS con los sensores embebidos. Este paso hay que realizarlo con mucha paciencia y cuidado, ya que el PDMS está adherido al molde y las fibras de FBG son muy delicadas. Para ello se ha empleado la ayuda de la espátula. En la figura \ref{fig:fabricacionGuante2} se representa este paso.
 		
 
 	\end{enumerate}
 	
-\underline{\textit{Nota:}} Cabe mencionar que durante la realización del proyecto este proceso ha sido necesario realizarse varias veces debido a los errores que han sucedido. Se detalla mejor en el apartado de resultados y conclusiones.
+%\underline{\textit{Nota:}} Cabe mencionar que durante la realización del proyecto este proceso ha sido necesario realizarse varias veces debido a los errores que han sucedido. Se detalla mejor en el apartado de resultados y conclusiones.
 		
 
 
 % _ Montaje completo:	
+
 	
 	\item \textbf{Montaje completo}
 	
-	En este punto se tiene la estructura del guante fabricada. Hace falta proceder al acoplo de este al sistema completo. 
+	Una vez se tiene la estructura del guante fabricada, hace falta proceder al acoplo de este al sistema completo. 
 	
 	En este apartado se utilizan varias herramientas del laboratorio: cortadora de precisión, alcohol, servilletas específicas para limpiar fibra, empalmadora, mechero y empalmes por fusión.
 	
@@ -654,11 +656,12 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\caption{Diagrama de conexiones de elementos del prototipo.} \label{fig:diagramaFBG}
 	\end{figure}
 	
-	La figura \ref{fig:diagramaFBG} representa la distribución del montaje completo del prototipo. 
+	La figura \ref{fig:diagramaFBG} representa la distribución del montaje completo del prototipo. El guante compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El guante realizado en el apartado anterior tiene la forma de huella de mano hasta la muñeca. De donde salen las seis fibras de Bragg hasta su empalme con la fibra óptica monomodo (en amarillo). Estas sirven de enlace con el multiplexor, teniendo un extremo empalmado a los sensores y el otro terminado en conectores FC. Gracias a ello, el multiplexor se conecta en el extremo de ocho fibras a la parte del sensor (dejando dos fibras en desuso) y del extremo de una única salida a la fuente. Las fibras del multiplexor están representadas en color azul. La fuente, alimentada además por la red eléctrica, está conectada al interrogador (representado en color amarillo). Siendo este último el que se conecte al ordenador por USB para poder obtener finalmente los datos medidos. Además, notese que en la figura \ref{fig:diagramaFBG} también se representa que parte de las fibras monomodo más cercanas a los sensores y el splitter se encuentra dentro de la caja impresa en 3D. 
 	
-	El guante compuesto por seis fibras de Bragg (una por cada dedo y la muñeca) embebidas en PDMS. El guante realizado en el apartado anterior tiene la forma de huella de mano hasta la muñeca. De donde salen las seis fibras de Bragg hasta su empalme con la fibra óptica monomodo (en amarillo). Estas sirven de enlace con el multiplexor, teniendo un extremo empalmado a los sensores y el otro terminado en conectores FC. Gracias a ello, el multiplexor se conecta en el extremo de ocho fibras a la parte del sensor (dejando dos fibras en desuso) y del extremo de una única salida a la fuente. Las fibras del multiplexor están representadas en color azul. La fuente, alimentada además por la red eléctrica, está conectada al interrogador (representado en color amarillo). Siendo este último el que se conecte al ordenador por USB para poder obtener finalmente los datos medidos. Además, notese que en la figura \ref{fig:diagramaFBG} también se representa que parte de las fibras monomodo más cercanas a los sensores y el splitter se encuentra dentro de la caja impresa en 3D. 
+			\clearpage
 	
-	Partiendo del punto práctico en el que se queda el desarrollo del apartado anterior se toman las fibras monomodo y el splitter y se procede a la unión de estas tres partes. 
+	 
+	Posteriormente se toman las fibras monomodo y el splitter y se procede a la unión de estas tres partes. 
 	
 	El proceso de fusión (Figura \ref{fig:procFusion}) consiste en primero pelar, limpiar y cortar los extremos de las fibras que se desee unir. Una vez se dispone en los extremos de la fibra desnuda, cortada con la cortadora de precisión y limpia con un paño adecuado y alcohol, se deben colocar cada una en las guías de la fusionadora. Después se ejecuta el programa de fusión adecuado, según sea la fibra. Por último, se le coloca a la fusión un manguito protector termocontraible o una protección tipo mordaza para que la fusión no se desprenda ante alguna adversidad. 
 	
@@ -680,7 +683,8 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\label{fig:union1}
 	\end{figure}  
 	
-	Esta unión se realiza mediante fusionado de fibra, ya explicado. Merece mención el paso de pelar la fibra de Bragg, ya que debido a lo fina que es ha sido necesaria la ayuda del mechero para pelarla. Además, para las demás herramientas de las que se disponía, la fibra desnuda también ha resultado más fina de para lo que estaban preparadas. En cual quier caso, tras varios intentos fallidos, se ha conseguido soldar las fibras debidamente. Por último, es necesario colocar los protectores termocontraibles introducidos en la fibra antes de soldarla.
+	Esta unión se realiza mediante fusionado de fibra, ya explicado. %Merece mención el paso de pelar la fibra de Bragg, ya que debido a lo fina que es ha sido necesaria la ayuda del mechero para pelarla. Además, para las demás herramientas de las que se disponía, la fibra desnuda también ha resultado más fina de para lo que estaban preparadas. En cual quier caso, tras varios intentos fallidos, se ha conseguido soldar las fibras debidamente. 
+	Por último, es necesario colocar los protectores termocontraibles introducidos en la fibra antes de soldarla.
 	
 	\begin{figure}[H]
 		\centering
@@ -689,7 +693,8 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\label{fig:fusionadora}
 	\end{figure}  
 	
-	En la figura \ref{fig:fusionadora} se pueden observar dentro del proceso de empalme el paso de la colocación de la fibra en la fusionadora y su representación en la pantalla. Sobre el proceso en pantalla, cuando la fibra está colocada en la fusionadora y cerrada la tapa, en la pantalla se ven aumentados los extremos de la fibra. La empalmadora se encarga de alinear las fibras para que los núcleos coincidan. Cuando la fusión se ha realizado por la pantalla se muestra las pérdidas que tiene el enlace.  
+	En la figura \ref{fig:fusionadora} se pueden observar dentro del proceso de empalme el paso de la colocación de la fibra en la fusionadora y su representación en la pantalla. %Sobre el proceso en pantalla, 
+	Cuando la fibra está colocada en la fusionadora y cerrada la tapa, en la pantalla se ven aumentados los extremos de la fibra. La empalmadora se encarga de alinear las fibras para que los núcleos coincidan. Cuando la fusión se ha realizado, en la pantalla se muestra las pérdidas que tiene el enlace.  
 	
 
 	
@@ -698,7 +703,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\textwidth]{./img/union2}
-		\caption{Unión fibras FBG - Fibra monomodo.} 
+		\caption{Fibra monomodo - Splitter.} 
 		\label{fig:union2}
 	\end{figure}  
 	
@@ -711,19 +716,19 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\label{fig:CajaOrden}
 	\end{figure}  
 	
-	Estas uniones se colocan en la caja (ver figura \ref{fig:CajaOrden}. Por un extremo de la caja se insertan las seis fibras monomodo al primer apartamento, almacena el cableado sobrante y en el segundo apartamento se colocan las conexiones al splitter. Además, estas conexiones están protegidas por la tapa de dicho apartamento. Por último, en el tercer apartamento se recogen las ocho fibras del splitter salientes de las conexiones hasta llegar al mecanismo del splitter que reposa sobre la sección diseñada para ello. Desde este se accede a la perforación establecida en la pared, dando salida a la fibra aislada del splitter.
+	Estas uniones se colocan en la caja (ver figura \ref{fig:CajaOrden}). Por un extremo de la caja se insertan las seis fibras monomodo al primer apartamento, almacena el cableado sobrante y en el segundo departamento se colocan las conexiones al splitter. Además, estas conexiones están protegidas por la tapa de dicho departamento. Por último, en el tercer departamento se recogen las ocho fibras del splitter salientes de las conexiones hasta llegar al mecanismo del splitter que reposa sobre la sección diseñada para ello. Desde este se accede a la perforación establecida en la pared, dando salida a la fibra aislada del splitter.
 
 	
-	Para una mejor organización, se han etiquetado debidamente todas las fibras. Lo que facilita posibles modificaciones futuras que vaya a ser necesario realizar al conexionado. De esta manera es más inmediato el reconocimiento de la relación entre la parte a medir y la fibra que contiene la información de esta.
+	Para una mejor organización, se han etiquetado debidamente todas las fibras. Lo que facilita posibles modificaciones futuras que vaya a ser necesario realizar al conexionado. 
 		
 	
 	\item \underline{Conexión de la fuente y del interrogador}
 	
-	Completando el conexionado del prototipo la fibra aislada del splitter es conectada a la fuente, conectada a su vez a la red de corriente alterna. Además, la fuente se une al interrogador a través de una fibra monomodo y el interrogador al ordenador. 
+	Completando el conexionado del prototipo la fibra aislada del splitter es conectada a la fuente. La fuente se une al interrogador a través de una fibra monomodo y el interrogador al ordenador. 
 	
 	En este apartado se tienen dos conexiones ópticas y dos eléctricas. Las conexiones eléctricas sirven en este escenario para alimentar la fuente y como medio de conexión entre el sistema óptico y el usuario a través del ordenador. 
 	
-	Tanto el interrogador como la fuente disponen de un software en LabVIEW$^{\textregistered}$. El software de la fuente tiene como funcionalidad configurar la señal óptica que ha de emitir la fuente. Basta con configurar una vez la fuente cargándole el software y configurando los parámetros deseados. Cuando la fuente se apaga y se vuelve a encender mantiene los últimos valores configurados. Por otro lado, el software del interrogador sirve para interpretar la señal recibida en este.
+	Tanto el interrogador como la fuente disponen de un software en LabVIEW$^{\textregistered}$. El software de la fuente tiene como funcionalidad configurar la señal óptica que ha de emitir la fuente. Por otro lado, el software del interrogador sirve para interpretar la señal recibida en este.
 	
 		
 	\end{enumerate}
@@ -731,14 +736,14 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 \end{itemize}
 
-En este punto de la memoria se encuentran todos los elementos del prototipo dispuestos para su funcionamiento. Cabe mencionar que en la práctica, este proceso a tomado mucho más tiempo del esperado. Por ello dentro de la línea temporal el desarrollo hardware del prototipo se ha coordinado con el desarrollo software de este. Este aspecto se valora en más extensión en puntos posteriores del documento. 
+En este punto de la memoria se encuentran todos los elementos del prototipo dispuestos para su funcionamiento.
 
 
 
 \subsection{Programación del software}
 \label{sec:programacion}
 
-En este apartado se presentan el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$ ya que el software parte del programa del interrogador como base de programación, y este está desarrollado en este lenguaje. 
+En este apartado se presenta el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$ ya que el software parte del programa del interrogador como base de programación. 
 
 \begin{itemize}		
 %-- LABVIEW 	
@@ -771,29 +776,35 @@ En este apartado se presentan el desarrollo del software para la obtención de l
 
 El desarrollo del software se divide en los hitos de ``Familiarización con el programa'', ``Establecimiento del protocolo de medida'', ``Interfaz de usuario'', ``Generación de informes-Guardado'' y ``Resultado final del software''. Todos estos hitos se exponen a continuación:
 
+		\clearpage
+
+
 \begin{itemize} [label=]
 	\item \textbf{Hito 1:} \textit{\textbf{Familiarización con el programa}}
 	
 	Puesto que se tiene el programa del interrogador que sirve para analizar la respuesta del sistema se ha de partir por entender el funcionamiento del software. De esta manera se identifican los puntos de la programación en los que se han de realizar los cambios o añadidos. 
 	
-	El programa de tiene una considerable complejidad si se tiene en cuenta la cantidad de archivos VI dependientes entre ellos que lo componen, un total de cuarenta y cinco. Una vez identificado el archivo VI a modificar, se muestra en la figura \ref{fig:hierarchy} los VIs con los que tienen dependencia (el circulo rojo rodea el VI de la interfaz del software y las lineas azules corresponden a las dependencias directas).
+	Una vez identificado el archivo VI a modificar, se muestra en la figura \ref{fig:hierarchy} los VIs con los que tienen dependencia (el circulo rojo rodea el VI de la interfaz del software y las lineas azules corresponden a las dependencias directas).
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.75\textwidth]{./img/hierarchyLV}
+		\includegraphics[width=0.85\textwidth]{./img/hierarchyLV}
 		\caption{Árbol jerárquico de VI del proyecto.} 
 		\label{fig:hierarchy}
 	\end{figure}  
 	
-	Partiendo de este programa se han a tomado los necesarios en el software de este proyecto y se han añadido los convenientes. Pero la cuestión es que hace falta determinar, una vez se comprenden las posibilidades del software, el protocolo que se va a seguir en la toma de medidas para desarrollar el software del prototipo. 
+	Partiendo de este programa se han realizado los cambios necesarios para desarrollar el software de este proyecto.
+	
+	%y se han añadido los convenientes. Pero la cuestión es que hace falta determinar, una vez se comprenden las posibilidades del software, el protocolo que se va a seguir en la toma de medidas para desarrollar el software del prototipo. 
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.85\textwidth]{./img/softwareInterrogador2}
+		\includegraphics[width=1\textwidth]{./img/softwareInterrogador2}
 		\caption{Interfaz del programa del interrogador.} 
 		\label{fig:interrogadorPantalla}
 	\end{figure}
-	La figura \ref{fig:interrogadorPantalla} muestra las cuatro ventanas que compone el VI sobre el que se ha trabajado (previa a su manipulación). Estas cuatro ventanas corresponden a las ventanas de: gráfica de espectro, gráfica de longitud de onda, gráfica de FFT y configruación. Además, ofrece la posibilidad de guardar las medidas en tres formatos de guardado diferentes. Se puede observar como este tipo de interfaz es muy útil para analizar cualquier escenario que se desee desde el interrogador. Pero no resulta una buena opción para el tipo de escenario en el que se pretende utilizar este prototipo ya que se trata de un escenario muy concreto, con unos parámetros a medir específicos y para un usuario con nulo conocimiento técnico de este tipo de tecnologías.
+
+	La figura \ref{fig:interrogadorPantalla} muestra las cuatro ventanas que compone el VI sobre el que se ha trabajado (previa a su manipulación). Estas cuatro ventanas corresponden a las ventanas de: gráfica de espectro, gráfica de longitud de onda, gráfica de FFT y configuración. Además, ofrece la posibilidad de guardar las medidas en tres formatos diferentes. Se puede observar como este tipo de interfaz es muy útil para analizar cualquier escenario que se desee desde el interrogador. Pero no resulta una buena opción para el tipo de escenario en el que se pretende utilizar el prototipo ya que se trata de un escenario muy concreto, con unos parámetros a medir específicos.
 	
 		Después de probar con diferentes valores, se ha tomado la decisión de mantener los parámetros de configuración del interrogador constantes con los siguientes valores:
 	
@@ -817,53 +828,17 @@ El desarrollo del software se divide en los hitos de ``Familiarización con el p
 		\label{tabla:configuracionInterrogador}
 	\end{table}	
 	
-	De esta manera se simplifica el ejercicio de configuración al usuario final. Pero no es suficiente con fijar la configuración del interrogador. Es necesario generar un nuevo interfaz de usuario dónde se plasmen de manera intuitiva el significado físico de los valores obtenidos gracias al prototipo. Es por esta razón que ha sido necesario establecer un protocolo de medida.
+	De esta manera se simplifica el ejercicio de configuración al usuario final. Es necesario generar una nuevo interfaz de usuario dónde se plasmen de manera intuitiva el significado físico de los valores obtenidos gracias al prototipo. Es por esta razón que ha sido necesario establecer un protocolo de medida.
 	
 	\item \textbf{Hito 2:} \textit{\textbf{Establecimiento del protocolo de medida}}
 		
-	El protocolo de medida está limitado por varias cuestiones. Ha sido necesario realizar un interfaz de usuario debidamente intuitivo para un profesional fisioterapeuta, cuyo conocimiento sobre la tecnología empleada y su funcionamiento es limitado. 
+	El protocolo de medida está limitado por varias cuestiones. Ha sido necesario realizar una interfaz de usuario intuitivo para el usuario final, el fisioterapeuta o profesional sanitario. % un profesional fisioterapeuta, cuyo conocimiento sobre la tecnología empleada y su funcionamiento es limitado. 
 	
-	Un condicionamiento importante es la fisionomía del guante. Por ejemplo, para conseguir caracterizar el comportamiento de las FBGs con los ángulos de apertura es necesario que siempre se coloque el guante de tal forma que el vértice del ángulo coincida en el mismo punto. Esto no va a suceder, ya que aunque la forma de huella de mano marque donde están los nudillos, la forma de las diferentes manos de las personas hace que no sea posible una caracterización cómo la citada. La decisión tomada para solucionar esta dificultad encontrada es realizar las mediciones con la finalidad de evaluar el rango de movimiento y velocidad dentro de una misma sesión de rehabilitación. Con esta decisión se pierde la información frente a una referencia global del movimiento, pero se sigue ofreciendo al usuario una experiencia satisfactoria pese a no cumplir con la plenitud de los objetivos marcados.
 	
-	A partir de estas restricciones se refleja en el software el procedimiento de medida que permitirá que el software se ajuste a las necesidades físicas del guante. Se decide generar el siguiente protocolo de medida que será reflejado en el software:
 	
-		\hspace{1cm}\textbf{INICIALIZACIÓN:}
-	\begin{enumerate}
-		\item Iniciar el programa de SensMov.
-		\item Pulsar el botón \textit{\underline{INICIAR}}
-	\end{enumerate}	 
-		\hspace{1cm}\textbf{CALIBRACIÓN:} 
-	\begin{enumerate}
-		\setcounter{enumi}{2}
-		\item Colocar el guante sobre una superficie plana para que le software pueda tomar la referencia global del guante cuando está en plano.
-		\item Pulsar el botón \underline{\textit{MEDIR - Sobre la superficie plana}}
-		\item Colocar el guante sobre la mano del paciente. Posicionar esta en posición de reposo, esta será referencia de partida que tome el software de la mano del paciente. 
-		\item Pulsar el botón \underline{\textit{MEDIR - Sobre la mano del paciente}}
-		\item Acompañar la mano del paciente hasta la posición de extensión que se vaya a tomar en la sesión como máximo de movimiento y mantenerla en este punto mientras se realiza el siguiente paso. 
-		\item Pulsar el botón \underline{\textit{MEDIR - Extensión}}
-		\item Repetir el paso nº7 con el movimiento de flexión.
-		\item Pulsar el botón \underline{\textit{MEDIR - Flexión}}
-		\item Dejar la mano del paciente en posición de reposo.
-	\end{enumerate}
-		\hspace{1cm}\textbf{MEDICIÓN DEL MOVIMIENTO:}
-	\begin{enumerate}
-		\setcounter{enumi}{11}
-		\item Pulsar el botón \underline{\textit{MEDIR - Medición del movimiento}}
-		\item Mover el interruptor a \underline{\textit{GUARDAR}} para almacenar los datos de los movimientos que se realicen a partir de la activación del interruptor. Se puede mover e interruptor entre \underline{\textit{GUARDAR}} y \underline{\textit{DESCARTAR}} siempre que se desee mientras la medición del movimiento este activa.  	
-		\item Realizar los ejercicio de rehabilitación con normalidad
-		\item Pulsar el botón \underline{\textit{PAUSAR}}
-	\end{enumerate}
-		\hspace{1cm}\textbf{FINALIZACIÓN:}
-	\begin{enumerate}
-		\setcounter{enumi}{16}
-		\item Pulsar el botón \underline{\textit{ARCHIVAR RESULTADOS}}
-		\item Pulsar el botón \underline{\textit{SALIR}}
-		\item Elegir en la pestaña emergente el nombre de archivo y carpeta para el informe de la sesión.
-	\end{enumerate}
+	A partir de estas restricciones se refleja en el software el procedimiento de medida que permitirá que el software se ajuste a las necesidades físicas del guante. Se decide generar el siguiente protocolo de medida que aparece en el anexo \ref{sec:anexo1}.
 
-	\textit{\underline{Nota:}} Otro contratiempo encontrado en este prototipo son los problemas que da el software del interrogador, saltando alertas de error en la señal que no permiten seguir con la ejecución. Durante el desarrollo del proyecto se ha conseguido intuir el procedimiento en el que dichas alertas saltan con menos frecuencia y de ello surgen ciertos pasos del protocolo de medida. Por ejemplo, cuando se conecta el splitter a la fuente una vez que ya está en funcionamiento el software se reduce el número de veces en el que emergen las alertas.
-	
-	\textcolor{rositaoscuro}{Esto me parece importante comentarlo, el problema que da el software al iniciarlo. Tengo apuntadas las descripciones de los fallos, pero creo que igual es demasiado }
+	 
 	
 	\item \textbf{Hito 3:} \textit{Interfaz de usuario}
 	
@@ -874,16 +849,17 @@ El desarrollo del software se divide en los hitos de ``Familiarización con el p
 		\label{fig:interfazinicio}
 	\end{figure}
 	 
-	Uno de los retos de este proyecto es conseguir representar los datos medidos de manera visual. Para ello se ha diseñado un interfaz de usuario intuitivo. En la figura \ref{fig:interfazinicio} se tiene una captura del interfaz de usuario cuando se acaba de arrancar el programa. En ella se intuyen los pasos enumerados en el segundo hito (\textit{Establecimiento del protocolo de medida}).
+	Uno de los retos de este proyecto es conseguir representar los datos medidos de manera visual. Para ello se ha diseñado una interfaz de usuario intuitivo. En la figura \ref{fig:interfazinicio} se muestra una captura de la interfaz de usuario cuando inicia el programa. En ella se pueden observar los pasos enumerados en el segundo hito (\textit{Establecimiento del protocolo de medida}).
 	
-	El interfaz de usuario se puede dividir en varios bloques para comprender mejor su funcionamiento:
+	La interfaz de usuario se puede dividir en varios bloques para comprender mejor su funcionamiento:
 	
 	\begin{itemize} [label=]
 		\item \underline{\textit{Bloque de interacción: }} El bloque de interacción entre el usuario y el software comprende los elementos que permiten al usuario comunicarse con el programa. Entre ellos se encuentra el cuadro de calibración, el cuadro de medición, el área de texto y los botones generales. 
 		
-		Para facilitar más la experiencia del usuario los botones de la aplicación se habilitan y desabilitan según el protocolo de medida. De esta manera aunque el usuario se confunda o se despiste, es el propio programa el que le indica el paso siguiente. Esto sucede en el caso del cuadro de calibración y el de medición, es necesario que antes de comenzar la medición primero se ejecuten todas las calibraciones para que la visualización funcione correctamente. Sin embargo, el nombre del paciente puede introducirse en cualquier momento de la ejecución, ya que este en realidad no se utiliza hasta que se cierra el programa y se guarda el informe. Los botones de \underline{\textit{INICIO}}, \underline{\textit{SALIR}} y \underline{\textit{ARCHIVAR RESULTADOS}} se pueden activar en cualquier momento de la ejecución.
+		Para facilitar la experiencia del usuario, los botones de la aplicación se habilitan y desabilitan según el protocolo de medida. %De esta manera aunque el usuario se confunda o se despiste, es el propio programa el que le indica el paso siguiente. Esto sucede en el caso del cuadro de calibración y el de medición, es necesario que antes de comenzar la medición primero se ejecuten todas las calibraciones para que la visualización funcione correctamente. Sin embargo, el nombre del paciente puede introducirse en cualquier momento de la ejecución, ya que este en realidad no se utiliza hasta que se cierra el programa y se guarda el informe. 
+		Los botones de \underline{\textit{INICIO}}, \underline{\textit{SALIR}} y \underline{\textit{ARCHIVAR RESULTADOS}} se pueden activar en cualquier momento de la ejecución.
 		
-		\item \underline{\textit{Bloque de visualización: }} El bloque de visualización está compuesto por dos ventanas: los indicadores del movimiento y la gráfica del espectro. Este último se utiliza como visualizador del comportamiento de las FBGs. Permite identificar en un rapido vistazo si el programa está funcionando correctamente. Si no se identifican los picos debido a las FBGs significa que algo no está funcionando bien. El error puede ser que el interrogador no esté funcionando correctamente y haya que volver a ejecutar el software. 
+		\item \underline{\textit{Bloque de visualización: }} El bloque de visualización está compuesto por dos ventanas: los indicadores del movimiento y la gráfica del espectro. Este último se utiliza como visualizador del comportamiento de las FBGs. Permite identificar en un rapido vistazo si el programa está funcionando correctamente. %Si no se identifican los picos debido a las FBGs significa que algo no está funcionando bien. El error puede ser que el interrogador no esté funcionando correctamente y haya que volver a ejecutar el software. 
 		
 		Los indicadores del movimiento consisten en seis deslizadores, uno por cada FBG. Los indicadores están programados para que durante el paso de medición muestren entre el valor de reposo y el de los máximos de extensión y flexión en que posición se encuentra cada dedo (y muñeca). Cada uno de los dedos tiene su propio rango de movimiento.  
 		
@@ -891,7 +867,7 @@ El desarrollo del software se divide en los hitos de ``Familiarización con el p
 		Por lo tanto, cuando se establecen los máximos de extensión y flexión del paciente, se está determinando la relación con la posición de reposo del 100\% y -100\% respectivamente.
 		
 		
-		\item \underline{\textit{Bloque de elementos decorativos: }} Como elementos decorativos se tiene una barra superior y la huella de la mano. La huella de la mano sirve además como leyenda esquemática de los colores del indicador de movimiento.
+		%\item \underline{\textit{Bloque de elementos decorativos: }} Como elementos decorativos se tiene una barra superior y la huella de la mano. La huella de la mano sirve además como leyenda esquemática de los colores del indicador de movimiento.
 		
 		 	
 	\end{itemize}
@@ -899,109 +875,8 @@ El desarrollo del software se divide en los hitos de ``Familiarización con el p
 		
 	\item \textbf{Hito 4:} \textit{Generación de informes-Guardado}
 	
-	Después de la sesión de rehabilitación, cuando el fisioterapeuta pulse \underline{\textit{ARCHIVAR RESULTADOS}} el software genera un archivo de texto dónde se plasman los resultados del ejercicio. El documento de texto generado contiene los siguientes datos, distribuidos en 6 columnas, uno por cada articulación medida:
+	Después de la sesión de rehabilitación, cuando el fisioterapeuta pulse \underline{\textit{ARCHIVAR RESULTADOS}} el software genera un archivo de texto dónde se plasman los resultados del ejercicio. El documento de texto generado se muestra en el anexo \ref{anexo2} que contiene los siguientes datos, distribuidos en 6 columnas, uno por cada articulación medida:
 	
-	\begin{itemize} [label=$ \rhd $] \addtolength{\itemsep}{-4mm} %
-		\item \textit{Hora - Fecha}
-		\item \textit{Nombre del paciente (o identificación)}
-		\item \textit{RESULTADOS:}\vspace{-6mm}
-			\begin{table}[H]
-				%\centering
-				\hspace{1cm} %\vspace{-5mm}
-				\renewcommand{\arraystretch}{2}
-				\begin{tabular}{ccccccccc}
-					$ \divideontimes $ & \underline{Segs.} & \underline{Pulgar} & \underline{Índice} & \underline{Corazón} & \underline{Anular} & \underline{Meñique} & \underline{Muñeca} & $ \divideontimes $  \\
-				\end{tabular} 
-			\end{table}
-		\vspace{-6mm}
-		\item \textit{\underline{Valores iniciales}}
-		\begin{itemize} [label= $  \triangleright $] \addtolength{\itemsep}{-5mm} %
-			\item \textit{Valor aislado sobre superficie plana}	\vspace{-6mm}
-				\begin{table}[H]
-					%\centering
-					\hspace{2cm}
-					\renewcommand{\arraystretch}{2}
-					\begin{tabular}{ccccccc}
-						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-					\end{tabular} 
-				\end{table}			
-			\item \textit{Valor en reposo sobre la mano de paciente} \vspace{-6mm}
-				\begin{table}[H]
-					%\centering
-					\hspace{2cm}
-					\renewcommand{\arraystretch}{2}
-					\begin{tabular}{ccccccc}
-						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-					\end{tabular} 
-				\end{table}	
-			\item \textit{Máximo valor de extensión inicial} \vspace{-6mm}
-				\begin{table}[H]
-					%\centering
-					\hspace{2cm}
-					\renewcommand{\arraystretch}{2}
-					\begin{tabular}{ccccccc}
-						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-					\end{tabular} 
-				\end{table}	
-			\item \textit{Máximo valor de flexión inicial} \vspace{-6mm}
-				\begin{table}[H]
-					%\centering
-					\hspace{2cm}
-					\renewcommand{\arraystretch}{2}
-					\begin{tabular}{ccccccc}
-						segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-					\end{tabular} 
-				\end{table}	
-		\end{itemize}
-		
-		\item \textit{\underline{Valores característicos obtenidos en la medición}}
-		\begin{itemize} [label= $  \triangleright $] \addtolength{\itemsep}{-5mm} %
-			\item \textit{Máximo valor de extensión medido} \vspace{-6mm}
-			\begin{table}[H]
-				%\centering
-				\hspace{2cm}
-				\renewcommand{\arraystretch}{2}
-				\begin{tabular}{ccccccc}
-					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-				\end{tabular} 
-			\end{table}	
-			\item \textit{Máximo valor de flexión medido} \vspace{-6mm}
-			\begin{table}[H]
-				%\centering
-				\hspace{2cm}
-				\renewcommand{\arraystretch}{2}
-				\begin{tabular}{ccccccc}
-					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-				\end{tabular} 
-			\end{table}	
-			\item \textit{Otros valores característicos...} \vspace{-6mm}	
-			\begin{table}[H]
-				%\centering
-				\hspace{2cm}
-				\renewcommand{\arraystretch}{2}
-				\begin{tabular}{ccccccc}
-					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-				\end{tabular} 
-			\end{table}	
-		\end{itemize}
-		
-		\item \textit{\underline{Valores medidos}}  
-		\begin{itemize} [label=]  \addtolength{\itemsep}{-5mm} %
-			\item  \vspace{-6mm}	
-			\begin{table}[H]
-				%\centering
-				\hspace{2cm}
-				\renewcommand{\arraystretch}{2}
-				\begin{tabular}{ccccccc}
-					\underline{Segs.} & \underline{Pulgar} & \underline{Índice} & \underline{Corazón} & \underline{Anular} & \underline{Meñique} & \underline{Muñeca}  \\
-					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-					$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$  \\
-					segs.& valor 1 & valor 2 & valor 3 & valor 4 & valor 5 & valor 6  \\
-				\end{tabular} 
-			\end{table}			
-		\end{itemize}
-	\end{itemize}
 
 	Anteriormente se hace referencia al programa en LabVIEW que trae el interrogador. Este incluye tres opciones diferentes de guardado: ``\textit{Save Wave (Sample Buffer)}'', ``\textit{Save raw (Sample Buffer)}'' y ``\textit{Manual save in data log}''. Para la solución sel software diseñado se emplea como referencia este último, aunque aún y todo necesita de bastantes modificaciones ya que ``\textit{Manual save in data log}'' guarda únicamente la información de una ventana.
 	
@@ -1029,7 +904,7 @@ Este apartado expone como se coordina la configuración del soporte físico con 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{./img/diagramaFBGfuncionamiento}
+	\includegraphics[width=0.95\textwidth]{./img/diagramaFBGfuncionamiento}
 	\caption{Diagrama de funcionamiento del prototipo.} \label{fig:diagramaFBGfuncionamiento}
 \end{figure}
 
@@ -1039,16 +914,15 @@ En el ordenador, dónde se es está ejecutando en el programa se visualizaría e
 
 
 
-\section{Resultados y análisis}
-\label{sec:resultados3}
+%\section{Discusións}
+%\label{sec:resultados3}
 
-\textcolor{rositaoscuro}{Deberia cambiar este título yo creo o igual no}
 
-El prototipo se ha finalizado. Han sido necesarios varios intentos para la manufacturación del guante. Lo cual ha ralentizado mucho el procedimiento, ya que se han llegado a tener que pasar por hasta cuatro modelados del PDMS. Probablemente esto sea debido a las posibilidades limitadas que brinda e laboratorio de la universidad y la falta de experiencia. Las fibras de Bragg son muy delicadas. El proceso de soldado también fue un punto problemático, ya que las fibras desnudas eran demasiado finas y el pelado se complicó. 
+%El prototipo se ha finalizado. Han sido necesarios varios intentos para la manufacturación del guante. Lo cual ha ralentizado mucho el procedimiento, ya que se han llegado a tener que pasar por hasta cuatro modelados del PDMS. Probablemente esto sea debido a las posibilidades limitadas que brinda e laboratorio de la universidad y la falta de experiencia. Las fibras de Bragg son muy delicadas. El proceso de soldado también fue un punto problemático, ya que las fibras desnudas eran demasiado finas y el pelado se complicó. 
 
-Además, la fisionomía del guante no es lo más adecuado para el tipo de función que va a cumplir. Pero con las herramientas de las que se dispone en la universidad era lo más adecuado para su manufacturación. 
+%Además, la fisionomía del guante no es lo más adecuado para el tipo de función que va a cumplir. Pero con las herramientas de las que se dispone en la universidad era lo más adecuado para su manufacturación. 
 
-Por otro lado, el software ha evolucionado desde la idea inicial hasta lo que ha terminado siendo. Esta evolución ha servido para que a pesar de las limitaciones existentes por la parte hardware el prototipo pudiera seguir teniendo utilidad.
+%Por otro lado, el software ha evolucionado desde la idea inicial hasta lo que ha terminado siendo. Esta evolución ha servido para que a pesar de las limitaciones existentes por la parte hardware el prototipo pudiera seguir teniendo utilidad.
 
-En conclusión, a pesar de que el prototipo no cumple con todas las expectativas se ha conseguido mejorar el prototipo físico de partida y diseñar un software intuitivo.
+%En conclusión, a pesar de que el prototipo no cumple con todas las expectativas se ha conseguido mejorar el prototipo físico de partida y diseñar un software intuitivo.
 

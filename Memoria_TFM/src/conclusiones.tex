@@ -1,29 +1,72 @@
 \chapter{Conclusiones y líneas futuras\label{sec:conclusiones}}
 
 
-Este ejercicio resulta verdaderamente beneficioso en el aprendizaje. El comparar dos tecnologías diferentes para una misma aplicación permite entender en mayor magnitud las posibilidades de cada una de las tecnologías. 
+%Este ejercicio resulta verdaderamente beneficioso en el aprendizaje. 
 
-\textcolor{rositaoscuro}{Los resultados de este trabajo han sido útiles para determinar la viabilidad al realizar un primer prototipo como solución al problema planteado.}
 
-Este ha sido un trabajo muy completo al tomar tanto en cuenta ejercicio de desarrollo software como hardware. 
+Los resultados de este trabajo han sido útiles para determinar la viabilidad al realizar un primer prototipo como solución al problema planteado. El comparar dos tecnologías diferentes para una misma aplicación permite entender en mayor magnitud las posibilidades de cada una de las tecnologías. 
+
+
+%Este ha sido un trabajo muy completo al tomar tanto en cuenta ejercicio de desarrollo software como hardware. 
+
+Durante la realización del prototipo basado en redes de difracción de Bragg se han encontrado diversas dificultades:
+
+\begin{itemize}
+	\item \textbf{Tecnología muy delicada.} La fibra del sensor FBG es muy delicada para el proceso de fabricación del guante y las herramientas disponibles en el laboratorio. 
+	Tanto en el proceso de fabricación como en la posterior manipulación la fragilidad de las fibras hace prácticamente imposible su futuro uso como sensor de movimiento para esta aplicación.
+	%Pese haber tenido mucho cuidado a la hora de manipularla ha sido imposible evitar que se rompiera en múltiples ocasiones. Además una vez el prototipo ha sido fabricado con éxito, sin que se rompa ninguna fibra, estas siguen siendo susceptibles de romperse. Por ello no es la mejor tecnología para medir movimientos continuados, que rompen la fibra pese a estar embebida en PDMS. 
+	 
+	\item \textbf{Diseño del guante no apto para todas las manos.} El diseño del guante no es apropiado para la finalidad inicial del prototito. %Al no ser posible colocar siempre el guante en la misma posición sobre la mano, las medidas obtenidas de una misma posición en diferentes ocasiones son diferentes. Mucho más aún cuando se colocan en manos con diferente fisionomía. 
+	%, lo que dificulta la caracterización del movimiento respecto al comportamiento de los sensores. 
+	Se trata de un condicionamiento importante. Para conseguir caracterizar el comportamiento de las FBGs con los ángulos de apertura es necesario que siempre se coloque el guante de tal forma que el vértice del ángulo coincida en el mismo punto. La forma de las diferentes manos de las personas hace que no sea posible una caracterización como la citada. Unicamente puede ser útil para evaluar el rango de movimiento y velocidad dentro de una misma sesión de rehabilitación. Aunque se pierda la información frente a una referencia global del movimiento, sigue ofreciendo al usuario una experiencia satisfactoria pese a no cumplir con la plenitud de los objetivos marcados.
+	
+	Para medir en cualquier tipo de mano con una referencia global, el diseño sería mucho más complejo. Haría falta buscar la manera de se pudiera colocar cada dedo independientemente para ajustar la posición del vértice del ángulo a medir y reforzar el recubrimiento de los sensores impidiendo que se dieran las deformaciones que la fibra no sea capaz de soportar.
+	
+	
+	
+	\item \textbf{Software no escalable.} Pese a ser LabVIEW un lenguaje cuya programación es muy visual, cuando se trata de partir de un proyecto desarrollado, como es el caso del software del interrrogador, resulta bastante tedioso adaptar el nuevo programa.
+	
+	Además la experiencia de usuario se ve muy limitada ya que LabVIEW no es muy configurable en la parte de front-end.
+	
+	Otro contratiempo importante del software son los problemas que da al iniciarlo. Al iniciar el software del interrogador saltan alertas de error en la señal que no permiten seguir con la ejecución. Durante el desarrollo del proyecto se ha conseguido intuir el procedimiento en el que dichas alertas saltan con menos frecuencia y de ello surgen ciertos pasos del protocolo de medida.  %-viene de fbg- 
+	 
+	
+	 
+\end{itemize}
+
+\clearpage
 
 Se concluye el trabajo descartando la tecnología de sensores de FBG para la evaluación de la rehabilitación de las manos. Siendo esto motivado por no cumplir con las expectativas funcionales requeridas, además de por la complejidad de su manufacturación y su delicadeza. 
 
-Se ha propuesto un diseño que sí que cumpliría con las espectativas de medir el movimiento de las manos, obteniendo datos comparables entre sesiones. Esta solución está planteada prestando especial atención a que vaya a cumplir con las expectativas que el otro prototipo no ha cumplido. Ofreciendo además mayor versatilidad y capacidad de evolución. Con los sensores inerciales es posible dotar al prototipo de características como la comunicación inalámbrica. Otras ventajas de la solución de sensores inerciales son la rosbusted del diseño y el bajo precio de este.
+Se ha propuesto un diseño que cumplirá con las expectativas de medir el movimiento de las manos, obteniendo datos comparables entre sesiones. La solución planteada presta especial atención las especificaciones que el prototipo de FBG no ha cumplido. Ofrecerá mayor versatilidad y capacidad para añadir nuevas funcionalidades. Los sensores inerciales permitirán comunicación inalámbrica, robustez del diseño y bajo precio.
 
-El software empleado en el desarrollo ha realentizado el desarrollo del prototipo (junto con los problemas de manufacturación encontrados). Y hace que pese a estar el prototipo dentro del marco de producto, no es este muy vistoso al usuario, y la experiencia de usuario se ve muy limitada. Por ello para el nuevo dispositivo la propuesta es programar la aplicación sobre C++, dejándole al desarrollador una mayor versatilidad en la programación.
+
+
+
+
+
+
 
 \section{Líneas futuras}
 
-Para poder desarrollar el prototipo con un mejor concepto ergonómico se aconseja en un futuro la colaboración con un profesional en el diseño de producto. 
+A partir de la experiencia del desarrollo de este proyecto se realizará el guante basado en sensores inerciales propuesto en la memoria.
 
-Se plantea comenzar el desarrollo del guante con sensores inerciales propuesto por el desarrollo exclusivo del dedo pulgar junto con el índice. De esta manera se divide el escenario en varios escenarios, simplificando su resolución. Comenzando por tener dos dedos funcionales, se puede llegar a tener todas las articulaciones en funcionamiento y finalmente añadir la capacidad de comunicación inalámbrica. En paralelo a este desarrollo se realaizará el desarrollo del software por su dependencia, dejando para el final el desarrollo grueso de las funcionalidades más allá de la interpretación de las medidas de los sensores.
-
-Una posibilidad más que ofrece el guante es añadirle funcionalidad actuadora para acompañar a los pacientes en el movimiento de las manos durante sus ejercicios de rehabilitación. 
-
-
-
-
-
-
- 
+\begin{itemize}
+	\item El desarrollo del guante sensorizado se realizará siguiendo un proceso modular. Se dividirá el escenario global en varios escenarios, simplificando así su realización. Añadiendo las funcionalidades de cada dedo progresivamente, comenzando por el pulgar y el índice. 
+	 
+	\item En paralelo a este desarrollo se realizará el desarrollo del software por su dependencia, dejando para el final el desarrollo grueso de las funcionalidades más allá de la interpretación de las medidas de los sensores. 
+	
+	%La aplicación se programará en C++, siendo más adaptable a las necesidades de programación. Así el desarrollador tiene más facultad a la hora de programar. 
+	 
+	\item La aplicación se programará en C++, debido a que tiene una extensa documentación y es mas moldeable segun nuestras necesidades.
+	
+	\item Debido al contexto en el que se aplica el sistema, se debe tener en cuenta la ergonomía del mismo, la autonomía y el coste.
+	Asimismo deberá cumplir con unas especificaciones óptimas para poder obtener resultados fiables. Sería recomendable contar con la experiencia de in ingeniero de diseño que paralelamente, con el desarrollo electrónico, procesado de señal y comunicaciones, se centre en el ámbito del diseño y la ergonomía del dispositivo.
+	
+	
+	%Este diseño tiene capacidad para abarcar más funcionalidades de las propuestas. El desarrollo de estas no corresponde a esta memoria, pero merecen mención en este apartado para comprender mejor el alcance de esta tecnología. 
+	
+	\item El guante contará con capacidad inalámbrica, haciendo su uso mucho más cómodo al aportarle portabilidad.
+	
+	\item Una posibilidad más que ofrece el guante es añadirle funcionalidad actuadora para acompañar a los pacientes en el movimiento de las manos durante sus ejercicios de rehabilitación. 
+\end{itemize}

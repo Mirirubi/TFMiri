@@ -38,32 +38,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.1}Materiales}{33}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Fabricaci\IeC {\'o}n del prototipo}{37}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.2}Fabricaci\IeC {\'o}n del prototipo}{36}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Programaci\IeC {\'o}n del software}{48}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.3}Programaci\IeC {\'o}n del software}{47}{subsection.3.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Funcionamiento}{59}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {3.2.4}Funcionamiento}{54}{subsection.3.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Resultados y an\IeC {\'a}lisis}{61}{section.3.3}% 
+\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{57}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Soluci\IeC {\'o}n con sensores IMU}{63}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Marco conceptual}{58}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Marco conceptual}{64}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Sensores inerciales}{58}{subsection.4.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Sensores inerciales}{64}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Microcontrolador basado en ESP32}{62}{subsection.4.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Microcontrolador basado en ESP32}{68}{subsection.4.1.2}% 
+\contentsline {section}{\numberline {4.2}Prototipo propuesto}{63}{section.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Prototipo propuesto}{69}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Disposici\IeC {\'o}n}{64}{subsection.4.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Disposici\IeC {\'o}n}{69}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Funcionamiento}{66}{subsection.4.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Funcionamiento}{72}{subsection.4.2.2}% 
+\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{68}{section.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Resultados y an\IeC {\'a}lisis}{74}{section.4.3}% 
+\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{71}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusiones y l\IeC {\'\i }neas futuras}{75}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}L\IeC {\'\i }neas futuras}{73}{section.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}L\IeC {\'\i }neas futuras}{76}{section.5.1}% 
+\contentsline {chapter}{Bibliograf\'{\i }a}{75}{chapter*.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'{\i }a}{79}{chapter*.8}% 
+\contentsline {chapter}{Anexos}{79}{section*.9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Protocolo de medida}{81}{appendix.Alph1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Resultados}{83}{appendix.Alph2}% 

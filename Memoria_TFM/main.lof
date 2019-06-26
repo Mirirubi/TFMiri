@@ -6,13 +6,13 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Anatom\IeC {\'\i }a de las manos. \cite {imgAnatomiaMano}}}{11}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Anatom\IeC {\'\i }a de las manos. \cite {imgAnatomiaMano}}}{10}{figure.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Movimientos de las manos \cite {movimientoMano}}}{12}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Movimientos de las manos \cite {movimientoMano}}}{11}{figure.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Modelo CyberGlove III de CyverGloveSystems. }}{13}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Modelo CyberGlove III de CyverGloveSystems. }}{12}{figure.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelo de guante Rapael }}{14}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Modelo de guante Rapael }}{13}{figure.2.4}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -60,86 +60,90 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.22}{\ignorespaces FBG embebida en un material flexible. \cite {nedomaPDMS}}}{31}{figure.3.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Prototipo con Sensores de fibra FBG.}}{33}{figure.3.23}% 
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Prototipo con Sensores de fibra FBG.}}{32}{figure.3.23}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces FBG de longitud de onda de 1536nm en su envoltura de compra.}}{34}{figure.3.24}% 
+\contentsline {figure}{\numberline {3.24}{\ignorespaces FBG de longitud de onda de 1536nm en su envoltura de compra.}}{33}{figure.3.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Composici\IeC {\'o}n qu\IeC {\'\i }mica del PDMS. \cite {nedomaPDMS}}}{35}{figure.3.25}% 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Composici\IeC {\'o}n qu\IeC {\'\i }mica del PDMS. \cite {nedomaPDMS}}}{34}{figure.3.25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces PDMS en estado l\IeC {\'\i }quido(a) \cite {liquidoPDMS} y s\IeC {\'o}lido(b) tr\IeC {\'a}s la curaci\IeC {\'o}n \cite {solidoPDMS}}}{35}{figure.3.26}% 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces PDMS en estado l\IeC {\'\i }quido(a) \cite {liquidoPDMS} y s\IeC {\'o}lido(b) tr\IeC {\'a}s la curaci\IeC {\'o}n \cite {solidoPDMS}}}{34}{figure.3.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Splitter de PLC de 1:8}}{36}{figure.3.27}% 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Splitter de PLC de 1:8}}{35}{figure.3.27}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces (a) Fuente \cite {fuente} (b) Interrogador \cite {interrogador}}}{37}{figure.3.28}% 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces (a) Fuente \cite {fuente} (b) Interrogador \cite {interrogador}}}{36}{figure.3.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Molde}}{38}{figure.3.29}% 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Molde}}{37}{figure.3.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Antes y despu\IeC {\'e}s de tener la caja}}{38}{figure.3.30}% 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Antes y despu\IeC {\'e}s de tener la caja}}{37}{figure.3.30}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.31}{\ignorespaces Dise\IeC {\~n}o 3D de la caja}}{39}{figure.3.31}% 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Dise\IeC {\~n}o 3D de la caja}}{38}{figure.3.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.32}{\ignorespaces (a) Hephestos (b) Witbox}}{40}{figure.3.32}% 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces (a) Hephestos (b) Witbox}}{39}{figure.3.32}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.33}{\ignorespaces PDMS: Elast\IeC {\'o}mero y agente de cura.}}{40}{figure.3.33}% 
+\contentsline {figure}{\numberline {3.33}{\ignorespaces PDMS: Elast\IeC {\'o}mero y agente de cura.}}{39}{figure.3.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Proceso de manufactura del guante.}}{41}{figure.3.34}% 
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Proceso de manufactura del guante.}}{40}{figure.3.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Disposici\IeC {\'o}n del guante sensorizado.}}{42}{figure.3.35}% 
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Disposici\IeC {\'o}n del guante sensorizado.}}{41}{figure.3.35}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Desmoldado del guante.}}{43}{figure.3.36}% 
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Desmoldado del guante.}}{42}{figure.3.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.37}{\ignorespaces Diagrama de conexiones de elementos del prototipo.}}{44}{figure.3.37}% 
+\contentsline {figure}{\numberline {3.37}{\ignorespaces Diagrama de conexiones de elementos del prototipo.}}{43}{figure.3.37}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Proceso de empalme por fusi\IeC {\'o}n. \cite {FOAconect}}}{45}{figure.3.38}% 
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Proceso de empalme por fusi\IeC {\'o}n. \cite {FOAconect}}}{44}{figure.3.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.39}{\ignorespaces Uni\IeC {\'o}n fibras FBG - Fibra monomodo.}}{45}{figure.3.39}% 
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Uni\IeC {\'o}n fibras FBG - Fibra monomodo.}}{44}{figure.3.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.40}{\ignorespaces Colocaci\IeC {\'o}n de la fibra en la fusionadora y proceso por pantalla.}}{46}{figure.3.40}% 
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Colocaci\IeC {\'o}n de la fibra en la fusionadora y proceso por pantalla.}}{45}{figure.3.40}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.41}{\ignorespaces Uni\IeC {\'o}n fibras FBG - Fibra monomodo.}}{46}{figure.3.41}% 
+\contentsline {figure}{\numberline {3.41}{\ignorespaces Fibra monomodo - Splitter.}}{45}{figure.3.41}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.42}{\ignorespaces Organizaci\IeC {\'o}n de las fibras dentro de la caja.}}{47}{figure.3.42}% 
+\contentsline {figure}{\numberline {3.42}{\ignorespaces Organizaci\IeC {\'o}n de las fibras dentro de la caja.}}{46}{figure.3.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.43}{\ignorespaces Logo LabVIEW. }}{48}{figure.3.43}% 
+\contentsline {figure}{\numberline {3.43}{\ignorespaces Logo LabVIEW. }}{47}{figure.3.43}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.44}{\ignorespaces (Ejemplo sencillo de LabVIEW: (a) Frontend; (b) Backend}}{49}{figure.3.44}% 
+\contentsline {figure}{\numberline {3.44}{\ignorespaces (Ejemplo sencillo de LabVIEW: (a) Frontend; (b) Backend}}{48}{figure.3.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.45}{\ignorespaces \IeC {\'A}rbol jer\IeC {\'a}rquico de VI del proyecto.}}{50}{figure.3.45}% 
+\contentsline {figure}{\numberline {3.45}{\ignorespaces \IeC {\'A}rbol jer\IeC {\'a}rquico de VI del proyecto.}}{49}{figure.3.45}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.46}{\ignorespaces Interfaz del programa del interrogador.}}{51}{figure.3.46}% 
+\contentsline {figure}{\numberline {3.46}{\ignorespaces Interfaz del programa del interrogador.}}{50}{figure.3.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.47}{\ignorespaces Interfaz del programa SENSMOV en LabVIEW.}}{55}{figure.3.47}% 
+\contentsline {figure}{\numberline {3.47}{\ignorespaces Interfaz del programa SENSMOV en LabVIEW.}}{52}{figure.3.47}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.48}{\ignorespaces Interfaz del programa de labview.}}{59}{figure.3.48}% 
+\contentsline {figure}{\numberline {3.48}{\ignorespaces Interfaz del programa de labview.}}{54}{figure.3.48}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.49}{\ignorespaces Diagrama de funcionamiento del prototipo.}}{60}{figure.3.49}% 
+\contentsline {figure}{\numberline {3.49}{\ignorespaces Diagrama de funcionamiento del prototipo.}}{55}{figure.3.49}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Movimientos b\IeC {\'a}sicos asociados con la aceleraci\IeC {\'o}n de un objeto. \cite {juanDiego}}}{64}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Movimientos b\IeC {\'a}sicos asociados con la aceleraci\IeC {\'o}n de un objeto. \cite {juanDiego}}}{58}{figure.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Lectura de aceleraci\IeC {\'o}n lineal en los ejes del aceler\IeC {\'o}metro. \cite {juanDiego}}}{64}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Lectura de aceleraci\IeC {\'o}n lineal en los ejes del aceler\IeC {\'o}metro. \cite {juanDiego}}}{59}{figure.4.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Esquema t\IeC {\'\i }pico de un giroscopio. \cite {juanDiego}}}{65}{figure.4.3}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Esquema t\IeC {\'\i }pico de un giroscopio. \cite {juanDiego}}}{60}{figure.4.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Esquema t\IeC {\'\i }pico de un magnet\IeC {\'o}metro. \cite {juanDiego}}}{66}{figure.4.4}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Esquema t\IeC {\'\i }pico de un magnet\IeC {\'o}metro. \cite {juanDiego}}}{61}{figure.4.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces L\IeC {\'\i }neas de campo magn\IeC {\'e}tico terrestre referencia Norte-Sur. \cite {juanDiego}}}{67}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces L\IeC {\'\i }neas de campo magn\IeC {\'e}tico terrestre referencia Norte-Sur. \cite {juanDiego}}}{61}{figure.4.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces M\IeC {\'o}dulo ESP32. }}{68}{figure.4.6}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces M\IeC {\'o}dulo ESP32. }}{62}{figure.4.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de bloques de ESP32. }}{69}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diagrama de bloques de ESP32. }}{63}{figure.4.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Disposici\IeC {\'o}n de los elementos del prototipo sobe la mano. }}{70}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Disposici\IeC {\'o}n de los elementos del prototipo sobe la mano. }}{64}{figure.4.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Conexi\IeC {\'o}n I2C de una de las salidas del multiplexor. }}{71}{figure.4.9}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Conexi\IeC {\'o}n I2C de una de las salidas del multiplexor. }}{65}{figure.4.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Pantalla de medici\IeC {\'o}n de la rehabilitaci\IeC {\'o}n. }}{72}{figure.4.10}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Pantalla de medici\IeC {\'o}n de la rehabilitaci\IeC {\'o}n. }}{66}{figure.4.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Pantalla de an\IeC {\'a}lisis de resultados de las sesiones. }}{73}{figure.4.11}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Pantalla de an\IeC {\'a}lisis de resultados de las sesiones. }}{67}{figure.4.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Pantalla de medici\IeC {\'o}n de la rehabilitaci\IeC {\'o}n. }}{73}{figure.4.12}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Pantalla de medici\IeC {\'o}n de la rehabilitaci\IeC {\'o}n. }}{68}{figure.4.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Precios orientativos de los componentes en el prototipo basado en FBG y en el basado en IMUs. }}{74}{figure.4.13}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Precios orientativos de los componentes en el prototipo basado en FBG y en el basado en IMUs. }}{69}{figure.4.13}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
