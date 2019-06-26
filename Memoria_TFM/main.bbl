@@ -117,16 +117,6 @@
     \field{year}{2010}
   \endentry
 
-  \entry{movimientoMano}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{title}{Movimientos de la mano}
-    \verb{url}
-    \verb https://amarantoterapiaocupacional.com/2015/07/22/movimientos-de-la-m
-    \verb ano/
-    \endverb
-    \field{year}{2015}
-  \endentry
-
   \entry{imgAnatomiaMano}{misc}{}
     \field{labeltitlesource}{title}
     \field{title}{La consulta del fisio: Las fracturas de falange en el
@@ -138,153 +128,21 @@
     \field{year}{2014}
   \endentry
 
-  \entry{techniques2}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=RMSEML}{%
-         family={R.G.\bibnamedelima Morris},
-         familyi={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-         given={S.\bibnamedelima E. M.\bibnamedelima Lawson},
-         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  M\bibinitperiod\bibinitdelim L\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {Newcastle University}%
-    }
-    \strng{namehash}{RMSEML1}
-    \strng{fullhash}{RMSEML1}
-    \field{labelnamesource}{author}
+  \entry{movimientoMano}{misc}{}
     \field{labeltitlesource}{title}
-    \field{title}{A review and evaluation of available gait analysis
-  technologies, and their potential for the measurement of impact transmission}
-  \endentry
-
-  \entry{prueba}{standard}{}
-    \list{organization}{1}{%
-      {prueba}%
-    }
-    \field{labeltitlesource}{title}
-    \field{title}{Ictus}
+    \field{title}{Movimientos de la mano}
     \verb{url}
-    \verb http://www.observatoriodelictus.com/index.php/que-es-un-ictus
+    \verb https://amarantoterapiaocupacional.com/2015/07/22/movimientos-de-la-m
+    \verb ano/
     \endverb
+    \field{year}{2015}
   \endentry
 
-  \entry{techniques}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=HMCHCS}{%
-         family={Hilary M.\bibnamedelima Clayton},
-         familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
-  C\bibinitperiod},
-         given={Henk C.\bibnamedelima Schamhardt},
-         giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{HMCHCS1}
-    \strng{fullhash}{HMCHCS1}
-    \field{labelnamesource}{author}
+  \entry{CGS}{misc}{}
     \field{labeltitlesource}{title}
-    \field{title}{Measurement Techniques for Gait Analysis.}
+    \field{title}{CyverGloveSystems}
     \verb{url}
-    \verb http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.475.1447&rep
-    \verb =rep1&type=pdf
-    \endverb
-  \endentry
-
-  \entry{begona}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=RLB}{%
-         family={Rodero\bibnamedelima Lasheras},
-         familyi={R\bibinitperiod\bibinitdelim L\bibinitperiod},
-         given={Begoña},
-         giveni={B\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{RLB1}
-    \strng{fullhash}{RLB1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Procesado de señales proporcionadas por sensores inerciales:
-  Evaluación de la marcha post-ictus.}
-    \verb{url}
-    \verb http://academica-e.unavarra.es/bitstream/handle/2454/21879/TFG_MB_Rod
-    \verb ero_Lasheras.pdf?sequence=1&isAllowed=y
-    \endverb
-  \endentry
-
-  \entry{opt}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=RDMFPPCSR}{%
-         family={R\bibnamedelima Di\bibnamedelima Marco},
-         familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  M\bibinitperiod},
-         suffix={S\bibnamedelima Rossi},
-         suffixi={S\bibinitperiod\bibinitdelim R\bibinitperiod},
-         given={F\bibnamedelima Patanè P\bibnamedelima Cappa},
-         giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  P\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \list{organization}{1}{%
-      {University of Tuscia,Viterbo, Italy.}%
-    }
-    \strng{namehash}{RDMSRFPPC1}
-    \strng{fullhash}{RDMSRFPPC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Technical quality assessment of an optoelectronic system for
-  movement analysis}
-  \endentry
-
-  \entry{gaitrite}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=KEWjAFJEW}{%
-         family={Kate E.\bibnamedelima Webster},
-         familyi={K\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  W\bibinitperiod},
-         suffix={Joanne E.\bibnamedelima Wittwer},
-         suffixi={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim
-  W\bibinitperiod},
-         given={julian A.\bibnamedelima Feller},
-         giveni={j\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
-  F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{KEWJEWjAF1}
-    \strng{fullhash}{KEWJEWjAF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Validity of the GAITRite1 walkway system for the measurement
-  of averaged and individual step parameters of gait.}
-  \endentry
-
-  \entry{shoes}{standard}{}
-    \name{author}{1}{}{%
-      {{hash=FBVMJHBBJFVBPHVDW}{%
-         family={Fokke B. Van\bibnamedelima Meulen},
-         familyi={F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
-  V\bibinitperiod\bibinitdelim M\bibinitperiod},
-         suffix={Dirk\bibnamedelima Weenk},
-         suffixi={D\bibinitperiod\bibinitdelim W\bibinitperiod},
-         given={Jaap H-Buurke Bert-Jan F. Van Baijnum Peter H.\bibnamedelima
-  Veltnik},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinithyphendelim
-  B\bibinitperiod\bibinitdelim B\bibinithyphendelim
-  J\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
-  V\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
-  P\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{FBVMDWJHBBJFVBPHV1}
-    \strng{fullhash}{FBVMDWJHBBJFVBPHV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Ambulatory assessment of walking balance after stroke using
-  instrumented shoes.}
-    \verb{url}
-    \verb http://jneuroengrehab.biomedcentral.com/articles/10.1186/s12984-016-0
-    \verb 146-5
+    \verb http://www.cyberglovesystems.com/
     \endverb
   \endentry
 
@@ -670,6 +528,25 @@
     \field{year}{2016}
   \endentry
 
+  \entry{SilviaTFM}{unpublished}{}
+    \name{author}{1}{}{%
+      {{hash=SSC}{%
+         family={Sagasta},
+         familyi={S\bibinitperiod},
+         given={Silvia\bibnamedelima Castillo},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SSC1}
+    \strng{fullhash}{SSC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Prototipo de guante de fibra óptica para monitorización de
+  personas con movilidad reducida}
+    \field{year}{2018}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{propPDMS}{article}{}
     \name{author}{2}{}{%
       {{hash=SAA}{%
@@ -702,115 +579,22 @@
   \endentry
 
   \entry{liquidoPDMS}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=BF}{%
-         family={Burgoyne},
-         familyi={B\bibinitperiod},
-         given={Francesca},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BF1}
-    \strng{fullhash}{BF1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Degas PDMS in two minutes}
+    \field{title}{HOW TO DO PDMS LITHOGRAPHY REPLICATION FROM A SU-8 MOLD}
     \verb{url}
-    \verb http://blogs.rsc.org/chipsandtips/2010/08/17/degas-pdms-in-two-minute
-    \verb s/?doing_wp_cron=1520125055.0960030555725097656250
+    \verb https://www.elveflow.com/microfluidic-tutorials/soft-lithography-revi
+    \verb ews-and-tutorials/introduction-in-soft-lithography/pdms-softlithograp
+    \verb hy-replication/
     \endverb
   \endentry
 
   \entry{solidoPDMS}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=BF}{%
-         family={Burgoyne},
-         familyi={B\bibinitperiod},
-         given={Francesca},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BF1}
-    \strng{fullhash}{BF1}
-    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{A simple and economical holder for casting PDMS chips}
+    \field{title}{Making a PDMS Microfluidic Device With Maskless Molds}
     \verb{url}
-    \verb http://blogs.rsc.org/chipsandtips/2009/11/20/a-simple-and-economical-
-    \verb holder-for-casting-pdms-chips/
+    \verb https://www.instructables.com/id/Making-a-PDMS-Microfluidic-Device-Wi
+    \verb th-Maskless-Mo/
     \endverb
-  \endentry
-
-  \entry{LabVIEWpage}{online}{}
-    \field{labeltitlesource}{title}
-    \field{title}{¿Qué es LabVIEW?}
-    \verb{url}
-    \verb LabVIEWyt
-    \endverb
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
-  \endentry
-
-  \entry{LabVIEWbook}{book}{}
-    \name{author}{1}{}{%
-      {{hash=JRLVJPS}{%
-         family={José Rafel Lajara\bibnamedelima Vizcaíno},
-         familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
-  L\bibinitperiod\bibinitdelim V\bibinitperiod},
-         given={José Pelegrí\bibnamedelima Sebastiá},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{JRLVJPS1}
-    \strng{fullhash}{JRLVJPS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{isbn}{9788426716965}
-    \field{title}{LabVIEW - Entorno gráfico de programación}
-    \list{location}{1}{%
-      {The Pennsylvania State University}%
-    }
-    \field{year}{2011}
-  \endentry
-
-  \entry{LabVIEWyt}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=BJ}{%
-         family={Barreiro},
-         familyi={B\bibinitperiod},
-         given={Jhon},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BJ1}
-    \strng{fullhash}{BJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Ejemplo Básico en LabVIEW}
-    \verb{url}
-    \verb https://www.youtube.com/watch?v=YhKzN65oryI
-    \endverb
-    \field{year}{2016}
-  \endentry
-
-  \entry{SilviaTFM}{unpublished}{}
-    \name{author}{1}{}{%
-      {{hash=SSC}{%
-         family={Sagasta},
-         familyi={S\bibinitperiod},
-         given={Silvia\bibnamedelima Castillo},
-         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SSC1}
-    \strng{fullhash}{SSC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Prototipo de guante de fibra óptica para monitorización de
-  personas con movilidad reducida}
-    \field{year}{2018}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{fuente}{misc}{}
@@ -878,6 +662,59 @@
     \verb https://www.hwlibre.com/filamento-biodegradable-mejor-filamento-ecofr
     \verb iendly/
     \endverb
+  \endentry
+
+  \entry{LabVIEWpage}{online}{}
+    \field{labeltitlesource}{title}
+    \field{title}{¿Qué es LabVIEW?}
+    \verb{url}
+    \verb LabVIEWyt
+    \endverb
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{LabVIEWbook}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JRLVJPS}{%
+         family={José Rafel Lajara\bibnamedelima Vizcaíno},
+         familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  L\bibinitperiod\bibinitdelim V\bibinitperiod},
+         given={José Pelegrí\bibnamedelima Sebastiá},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRLVJPS1}
+    \strng{fullhash}{JRLVJPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9788426716965}
+    \field{title}{LabVIEW - Entorno gráfico de programación}
+    \list{location}{1}{%
+      {The Pennsylvania State University}%
+    }
+    \field{year}{2011}
+  \endentry
+
+  \entry{LabVIEWyt}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Barreiro},
+         familyi={B\bibinitperiod},
+         given={Jhon},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Ejemplo Básico en LabVIEW}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=YhKzN65oryI
+    \endverb
+    \field{year}{2016}
   \endentry
 
   \entry{Kortier}{article}{}
