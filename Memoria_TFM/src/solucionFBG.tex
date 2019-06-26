@@ -5,17 +5,6 @@
 
 \label{sec:FBG3}
 
-\textcolor{rositaoscuro}{
-	\textit{
-		\colorbox{yellow}{Introducción} breve del guante, que tecnologias implica.
-		Resumen fibras de Bragg 
-		¿Qué es una fibra FBG?
-		¿Porque se utilizan?
-		El procesado de las señales resultantes se realiza mediante Labview.
-	}
-}
-
-
  Como primer prototipo se ha estudiado y llevado a cabo un guante cuyo funcionamiento se basa en los sensores de fibra FBG. 
  
  El prototipo consiste en una sección de PDMS con forma de huella de mano que tiene embebida una red en fibra de Bragg. Para la obtención, procesado y visualización de los resultados medidos se emplea el entorno de desarrollo LabVIEW.
@@ -32,17 +21,6 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 %--FIBRA ÓPTICA
 \subsection{Fibra óptica}
 \label{sec:fibra3}
-	\textcolor{rositaoscuro}{
-		\textit{
-			- -Cómo se propaga la luz en ella.\\
-	 		- -Partes de la fibra.\\
-			Tipos de emisores (LED Laser).\\
-			Receptores.\\
-			Conectores y soldaduras.\\
-			- -Fabricación.\\
-			- -Tipos de fibra.\\
-		}
-	}
 
 	%-- ¿Qué es la fibra óptica y la comunicación óptica?
 	La fibra óptica es una hebra de material dieléctrico, así cómo el vidrio (sílice) o el polímero acrílico. 
@@ -147,7 +125,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
   	
  %-- PROPAGACIÓN DE LA LUZ	
  %-- Diferenci de indices de refracción
- La diferencia de índices de refracción entre las capas centrales de la fibra son las que permiten la propagación de la luz a través de esta. El núcleo tiene un mayor indice de refracción que el revestimiento, lo que genera que los rayos de luz se curven a medida que pasan del núcleo al revestimiento, generando una "reflexión interna total" en la fibra. La siguiente imagen (figura \ref{fig:TIR}) sirve para explicar claramente este concepto:
+ La diferencia de índices de refracción entre las capas centrales de la fibra son las que permiten la propagación de la luz a través de esta. El núcleo tiene un mayor indice de refracción que el revestimiento, lo que genera que los rayos de luz se curven a medida que pasan del núcleo al revestimiento, generando una ``reflexión interna total'' en la fibra.% La siguiente imagen (figura \ref{fig:TIR}) sirve para explicar claramente este concepto:
  
  \begin{figure}[H]
  	\centering
@@ -157,7 +135,9 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  \end{figure}
  
  %Reflexión interna total
- En la figura \ref{fig:TIR} se ilustran cuatro rayos que se originan en el puno 0, lo que sería el núcleo de la fibra óptica (dónde el indice de refracción \textit{n\textsubscript{i}} es mayor). Entre los cuatro rayos varía el ángulo con el que estos inciden sobre el revestimiento (de menor índice de refracción\textit{n\textsubscript{r}}). Se observa cómo en el rayo número 1 incide con $90\,^{\circ}$ (incidencia normal), no habiendo reflexión y siguiendo el rayo en la misma dirección. En el rayo número 2 incide con un ángulo \textit{i}, y se refracta con \textit{r}. El rayo número 3 incide con el ángulo crítico \textit{i\textsubscript{c}}, suficientemente grande para que el rayo reflejado se propague a lo largo de la interfaz entre los dos medios, quedando atrapado. Por último, el rayo número 4 incide con un ángulo \textit{i} superior al ángulo crítico (ecuación \ref{eq:angCritico}), \textit{i\textsubscript{c}}, consiguiendo que se refleje totalmente en el mismo medio del que incide. Este rayo obedece a la ley de reflexión, siendo su ángulo de reflexión exactamente igual a su ángulo de incidencia. Este fenómeno se denomina \textit{"Reflexión interna total"}, necesario para que suceda la transmisión de señales lumínicas en la fibra óptica. 
+ En la figura \ref{fig:TIR} se ilustran cuatro rayos que se originan en el puno 0, lo que sería el núcleo de la fibra óptica (dónde el indice de refracción \textit{n\textsubscript{i}} es mayor). 
+ %Entre los cuatro rayos varía el ángulo con el que estos inciden sobre el revestimiento. En el caso del rayo 1 la incidencia es normal, no existe reflexión, mientras que en el rayo 2 sí que existe reflexión. Sin embargo, en el caso del rayo 3 se tiene el ángulo crítico \textit{i\textsubscript{c}} que es lo suficientemente grande como para que el rayo reflejado se propague a lo largo de la interfaz entre los dos medios, quedando atrapado.
+ El rayo número 4 incide con un ángulo \textit{i} superior al ángulo crítico (ecuación \ref{eq:angCritico}), \textit{i\textsubscript{c}}, consiguiendo que se refleje totalmente en el mismo medio del que incide. Este rayo obedece a la ley de reflexión, siendo su ángulo de reflexión exactamente igual a su ángulo de incidencia. La figura representa el denominado efecto de \textit{``Reflexión interna total''}, necesario para que suceda la transmisión de señales lumínicas en la fibra óptica. 
 
 	\begin{equation}
 		\label{eq:angCritico}
@@ -166,12 +146,9 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 
  La reflexión interna total atrapa la luz hasta cierto ángulo en el núcleo, definiendo la apertura numérica a la que hay que asegurarse de penetrar la luz para que se de el fenómeno de reflexión interna total. Así se fuerza a que la mayoría de los rayos de luz incidan sobre el interfaz y se reflejen, permitiendo la transmisión de la señal lumínica. 
  
- 
- \textcolor{rositaoscuro}{//----------------------------------------------------------------------- }\\ 
- %No vamos a hablar más de multimodo
- \textcolor{teal}{(\\Puesto que en la solución llevada a cabo en este trabajo se utilizan fibras monomodo no se va a extender el texto en explicar más conceptos sobre la transmisión en fibras multimodo.\\)\\
- \textcolor{rositaoscuro}{-------------------------------------------------------------------------//}\\}
- 
+ %-- TRANSMISIÓN EN LA FIBRA ÓPTICA	
+ \subsection{Transmisión de señales a través de la fibra óptica} %Tipos de sensores ópticos
+ \label{sec:transmision3}
  
  %Sistemas de propagación
    \begin{figure}[H]
@@ -181,7 +158,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  	\label{fig:TxFOp2p}
  \end{figure} 
  
- Los sistemas de propagación de señales luminosas a través de la fibra óptica componen un medio de transmisión de datos rápido y fiable. En la figura \ref{fig:TxFOp2p} se plasma el procedimiento que sigue la transmisión de datos en un sistema óptico y los elementos que lo componen. Previa a la propagación a través de un medio óptico de una señal eléctrica (analógica o digital) es necesario realizar una conversión de esta a señal óptica. Esto genera una señal óptica a partir de una señal eléctrica en el emisor o fuente de luz situado en el extremo inicial de la comunicación. Realizada la conversión, la señal es transmitida a lo largo de la fibra óptica. Según las características del escenario puede haber una o varias uniones entre fibras a lo largo del canal. Estás pueden realizarse empalmando o utilizando conectores. Una vez la señal óptica atraviesa todo el canal, llega al detector, dónde sucede el proceso inverso al ocurrido en el emisor y a la salida del sistema completo se tiene la señal eléctrica. Esta corresponde a la señal introducida al sistema con una pequeña posibilidad de haber sufrido pérdidas o atenuación debido a la impureza de la fibra, la distancia, las conexiones entre elementos del sistema o cualquier otro evento ajeno al este. Estas modificaciones de la señal de entrada pueden ser contrarrestadas o solventadas en recepción sin suponer un impedimento a una comunicación exitosa.    
+ Los sistemas de propagación de señales luminosas a través de la fibra óptica componen un medio de transmisión de datos rápido y fiable. En la figura \ref{fig:TxFOp2p} se plasma el procedimiento que sigue la transmisión de datos en un sistema óptico y los elementos que lo componen. Previa a la propagación a través de un medio óptico de una señal eléctrica (analógica o digital) es necesario realizar una conversión de esta a señal óptica. Esto genera una señal óptica a partir de una señal eléctrica en el emisor o fuente de luz situado en el extremo inicial de la comunicación. Realizada la conversión, la señal es transmitida a lo largo de la fibra óptica. Según las características del escenario puede haber una o varias uniones entre fibras a lo largo del canal. Estás pueden realizarse empalmando o utilizando conectores. Una vez la señal óptica atraviesa todo el canal, llega al detector, dónde sucede el proceso inverso al ocurrido en el emisor y a la salida del sistema completo se tiene la señal eléctrica. Esta corresponde a la señal introducida al sistema con una pequeña posibilidad de haber sufrido pérdidas o atenuación debido a la impureza de la fibra, la distancia, las conexiones entre elementos del sistema, etc. Estas modificaciones de la señal de entrada pueden ser contrarrestadas o solventadas en recepción sin suponer un impedimento a una comunicación exitosa.    
   
  Veamos por separado los elementos dibujados en la figura \ref{fig:TxFOp2p}:
  	\begin{itemize}
@@ -205,19 +182,25 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  		
  		\begin{itemize}
  			\item \textbf{LED} - \textit{Light Emitting Diodes}\\
- 			Consiste en una fuente de luz incoherente. Es una fuente de luz de mayor ancho de banda de operación que en el caso de los diodos láser (véase figura \ref{fig:ledVsLaser} y \ref{fig:corteledVsLaser}). Tiene un espectro de emisión entre los 30-100 nm. En función del material semiconductor con el que se fabrique se pueden emitir desde luz ultravioleta hasta infrarrojos. Para conseguir emitir en un espectro reducido, es necesario polarizarlo y hacerle circular corriente eléctrica. Pueden ser modulados sin dificultad hasta velocidades de 100-200 Mb/s y en algunos casos hasta velocidades de 1 Gb/s. 
+ 			Consiste en una fuente de luz incoherente. Es una fuente de luz de mayor ancho de banda de operación que en el caso de los diodos láser (véase figura \ref{fig:ledVsLaser} y \ref{fig:corteledVsLaser}). Tiene un espectro de emisión entre los 30-100 nm. En función del material semiconductor con el que se fabrique se pueden emitir desde luz ultravioleta hasta infrarrojos.
+ 			%Para conseguir emitir en un espectro reducido, es necesario polarizarlo y hacerle circular corriente eléctrica. Pueden ser modulados sin dificultad hasta velocidades de 100-200 Mb/s y en algunos casos hasta velocidades de 1 Gb/s. 
  			
- 			Además, tienen un comportamiento simple, de fácil fabricación y tienen un coste bajo en comparación a otras fuentes. Su circuitería de alimentación y control es muy sencilla, debido a los bajos niveles de corriente que son necesarios para que funcione el dispositivo y a su relativa inmunidad frente a variaciones de la temperatura. Necesitan baja potencia de alimentación. Su geometría y patrón de radiación es de alta divergencia, el acoplo de luz a la fibra óptica monomodo es difícil, especialmente en los LED de emisión superficial. Son dispositivos fiables, ya que no sufren la degradación de tipo catastrófico y son menos sensibles que los diodos láser a la degradación por envejecimiento. \\
+ 			%Además, tienen un comportamiento simple, de fácil fabricación y tienen un coste bajo en comparación a otras fuentes. Su circuitería de alimentación y control es muy sencilla, debido a los bajos niveles de corriente que son necesarios para que funcione el dispositivo y a su relativa inmunidad frente a variaciones de la temperatura. Necesitan baja potencia de alimentación. Su geometría y patrón de radiación es de alta divergencia, el acoplo de luz a la fibra óptica monomodo es difícil, especialmente en los LED de emisión superficial. Son dispositivos fiables, ya que no sufren la degradación de tipo catastrófico y son menos sensibles que los diodos láser a la degradación por envejecimiento. \\
  			
- 					\textcolor{rositaoscuro}{//-Resumen: Los LED se basan en emisión espontánea. Por sus características (baja coherencia, divergencia alta, baja potencia óptica de salida, circuitos electrónicos sencillos,...) se emplean habitualmente en combinación con fibras multimodo para enlaces de distancias cortas y velocidades bajas.}
+
  			
  			\item \textbf{Láser} - \textit{Light Amplification by Stimulated Emission of Radiation}\\
- 			Consiste en un tipo de fuente de luz coherente. Tienen mayor capacidad de transmisión de luz, concentran la luz en forma de haces estrechos pero potentes, es decir, emiten de manera direccional e intensa. Es por ello que se suele advertir que mirar con los ojos directamente a este tipo de emisiones es peligroso para la vista. (Véanse figuras \ref{fig:ledVsLaser} y \ref{fig:corteledVsLaser}). Pueden ser modulados en frecuencia y a gran velocidad. Su geometría y patrón de radiación es de relativamente baja divergencia, el acoplo de luz a la fibra óptica monomodo es bastante eficiente. Su composición es más compleja que la del diodo LED. Para conseguir dicha directividad y potencia, internamente la fuente tiene cavidades que combinan medio activo y espejos. Por ejemplo, necesita tener un circuito de realimentación para su control, debido a que se ve afectado por las variaciones de temperaturay a las reflexiones que pueda provocar la potencia óptica incidente en su salida. Debido a ello, son complejos y costosos de fabricar. 
+ 			Consiste en un tipo de fuente de luz coherente. Tienen mayor capacidad de transmisión de luz, concentran la luz en forma de haces estrechos pero potentes, es decir, emiten de manera direccional e intensa. %Es por ello que se suele advertir que mirar con los ojos directamente a este tipo de emisiones es peligroso para la vista.
+ 			(Véanse figuras \ref{fig:ledVsLaser} y \ref{fig:corteledVsLaser}).
+ 			% Pueden ser modulados en frecuencia y a gran velocidad. Su geometría y patrón de radiación es de relativamente baja divergencia, el acoplo de luz a la fibra óptica monomodo es bastante eficiente. Su composición es más compleja que la del diodo LED. Para conseguir dicha directividad y potencia, internamente la fuente tiene cavidades que combinan medio activo y espejos. Por ejemplo, necesita tener un circuito de realimentación para su control, debido a que se ve afectado por las variaciones de temperaturay a las reflexiones que pueda provocar la potencia óptica incidente en su salida. Debido a ello, son complejos y costosos de fabricar. 
  			
- 					\textcolor{rositaoscuro}{//- Resumen Los láseres se basan en emisión estimulada, conseguida formando cavidades que combinan medio activo y espejos para la realimentación. Son de mayores prestaciones que los LED (mayor coherencia, más directivos, mayor potencia de salida,...), pero más complejos y caros. Se pueden usar en fibras monomodo. Los hay de dos tipos, básicamente:\\
- 					--Láseres multimodo (Fabry-Perot) que se usan en enlaces de velocidades medias/bajas para distancias medias/cortas\\
- 					-- Láseres monomodo (DFB,DBR) que se usan en enlaces de alta capacidad –alta velocidad, distancias largas- y en sistemas WDM}
- 			
+ 				%	\textcolor{rositaoscuro}{//- Resumen Los láseres se basan en emisión estimulada, conseguida formando cavidades que combinan medio activo y espejos para la realimentación. Son de mayores prestaciones que los LED (mayor coherencia, más directivos, mayor potencia de salida,...), pero más complejos y caros. Se pueden usar en fibras monomodo. 
+ 				
+ 			Los hay de dos tipos:	
+ 			\begin{itemize}
+ 				\item Láseres multimodo (Fabry-Perot) 
+ 				\item Láseres monomodo (DFB, DBR)
+ 			\end{itemize}
  			
  		\end{itemize}
   		
@@ -248,7 +231,11 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
    	%-Detectores (Recepción)		
  		\item \textit{\textbf{Detectores (Recepción)}}
  			
- 		En cuanto al proceso de recepción, consiste en que la señal llega al final del canal y se tiene que dar el proceso inverso que en transmisión. Los detectores tienen la función de convertir las señales ópticas a señales eléctricas para recuperar la información. Son diodos semiconductores encargados de polarizar inversamente la polarización realizada en el diodo emisor.  Al igual que pasaba en la transmisión, existe detección coherente o incoherente(detección directa). El componente del receptor que realiza la conversión óptico-eléctrica es el fotodetector. Se distinguen varios tipos, los más comunes son: los fotodidos PIN y los fotodiodos de efecto de avalancha (\textit{APD}). Aunque merece la pena mencionar los fotoespectrómetros, formados por células CCD integradas y una estructurá optica tan precisa que es capaz de detectar la potencia que la luz recibida proporciona en cada longitud de onda. Volviendo a los receptores PIN y APD, además del fotodetector, el detector puede estar compuesto por un pre-amplificador óptico, pero casi siempre tendrá un pre-amplificador eléctrico para amplificar la señal eléctrica obtenida del fotodiodo, de muy baja corriente. El receptor lo podrá formar también (figura \ref{fig:diagRX}) un filtro óptico, para tomar solo en cuenta las frecuencias de interés. Posterior a la pre-amplificación eléctrica, los elementos de procesado de la señal que se incluyan dependerán del si las señales empleadas por el sistema eléctrico son analógicas o digitales.
+ 	%En cuanto al proceso de recepción, consiste en que la señal llega al final del canal y se tiene que dar el proceso inverso que en transmisión. 
+ 	Los detectores tienen la función de convertir las señales ópticas a señales eléctricas para recuperar la información. Son diodos semiconductores encargados de polarizar inversamente la polarización realizada en el diodo emisor.  Al igual que pasaba en la transmisión, existe detección coherente o incoherente. 
+ 	
+ 	El componente del receptor que realiza la conversión óptico-eléctrica es el fotodetector. Se distinguen varios tipos, los más comunes son: los fotodiodos PIN y los fotodiodos de efecto de avalancha (\textit{APD}).
+ 	La figura \ref{fig:diagRX} representa un diagrama de bloques típico de un receptor. %Aunque merece la pena mencionar los fotoespectrómetros, formados por células CCD integradas y una estructurá optica tan precisa que es capaz de detectar la potencia que la luz recibida proporciona en cada longitud de onda. Volviendo a los receptores PIN y APD, además del fotodetector, el detector puede estar compuesto por un pre-amplificador óptico, pero casi siempre tendrá un pre-amplificador eléctrico para amplificar la señal eléctrica obtenida del fotodiodo, de muy baja corriente. El receptor lo podrá formar también (figura \ref{fig:diagRX}) un filtro óptico, para tomar solo en cuenta las frecuencias de interés. Posterior a la pre-amplificación eléctrica, los elementos de procesado de la señal que se incluyan dependerán del si las señales empleadas por el sistema eléctrico son analógicas o digitales.
  		
 	 	\begin{figure}[H]
 	 		\centering
@@ -257,15 +244,14 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 	 		\label{fig:diagRX}
 	 	\end{figure} 
  	
- 		Idealmente los fotodetectores deberián ser altamente sensibles, con alta velocidad de respuesta, poco ruidosos, compactos, robustos y de respuesta lineal. En la práctica es complicado conseguir todos estos atributos en conjunto. Por ejemplo, los APD requieren menor potencia óptica para funcionar que los diodos PIN, pero cuatro veces mayor voltaje de alimentación.
+ 		%Idealmente los fotodetectores deberián ser altamente sensibles, con alta velocidad de respuesta, poco ruidosos, compactos, robustos y de respuesta lineal. En la práctica es complicado conseguir todos estos atributos en conjunto. Por ejemplo, los APD requieren menor potencia óptica para funcionar que los diodos PIN, pero cuatro veces mayor voltaje de alimentación.
  		
- 		\textcolor{rositaoscuro}{//---------------------------------------------------Puedo añadir si eso lo que pone en el siguiente link:}
- 		\url{http://www.thefoa.org/tech/ref/appln/transceiver.html}
  	
  	%-Conectores y empalmes
  		\item \textit{\textbf{Conectores y empalmes}}\\
 
- 		Cabe hablar también de los conectores ópticos y empalmes utilizados para unir fibra óptica a fibra óptica u otros elementos del sistema. Teniendo una fibra óptica terminada en algún tipo de conector esta se puede unir a elementos como emisores, receptores, multiplexores y otros elementos, incluso se puede unir a otra fibra terminada en conector con un adaptador macho a macho. Además, para unir dos trozos de fibra es posible realizar una fusión que empalme ambas terminaciones de la fibra. La principal diferencia entre estos dos tipos de uniones es que los conectores unen de manera no permanente, mientras que los empalmes son uniones permanentes. 
+ 		%Cabe hablar también de los conectores ópticos y empalmes utilizados para unir fibra óptica a fibra óptica u otros elementos del sistema. Teniendo una fibra óptica terminada en algún tipo de conector esta se puede unir a elementos como emisores, receptores, multiplexores y otros elementos, incluso se puede unir a otra fibra terminada en conector con un adaptador macho a macho. Además, para unir dos trozos de fibra es posible realizar una fusión que empalme ambas terminaciones de la fibra. 
+ 		La principal diferencia entre estos dos tipos de uniones es que los conectores unen de manera no permanente, mientras que los empalmes son uniones permanentes. 
  		
  		\begin{figure}[H]
  			\centering
@@ -274,14 +260,17 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  			\label{fig:tiposConect}
  		\end{figure} 
  		
- 		Es importante que las uniones no afecten a la calidad de la transmisión, es decir, deben garantizar bajas pérdidas de conectividad. En la figura \ref{fig:tiposConect} se muestra algunos de los conectores más empleados, cada uno de ellos suelen utilizarse en diferentes aplicaciones según sus características. Por ejemplo los utilizados en este trabajo, los conectores FC (\textit{Ferule Connector}) se suelen utiliza tanto en montaje de laboratorio como de campo y sirven en fibras monomodo y multimodo. Además tienen unas pérdidas de inserción IL < 0.34 dB en fibras multimodo y IL < 0.15 dB en fibras monomodo. \cite{TipConectoresFO}\\
+ 		Es importante que las uniones no afecten a la calidad de la transmisión, es decir, deben garantizar bajas pérdidas de conectividad. En la figura \ref{fig:tiposConect} se muestra algunos de los conectores más empleados, cada uno de ellos suelen utilizarse en diferentes aplicaciones según sus características. %Por ejemplo los utilizados en este trabajo, los conectores FC (\textit{Ferule Connector}) se suelen utiliza tanto en montaje de laboratorio como de campo y sirven en fibras monomodo y multimodo. Además tienen unas pérdidas de inserción IL < 0.34 dB en fibras multimodo y IL < 0.15 dB en fibras monomodo. \cite{TipConectoresFO}\\
  		\begin{figure}[H]
 	 		\centering
 	 		\includegraphics[width=0.85\textwidth]{./img/perdidasOpticas}
 	 		\caption{Causas de pérdida óptica en las uniones. \cite{FOAconect}} 
 	 		\label{fig:conectLoss}
- 		\end{figure}
- 		Las pérdidas se pueden reducir cuando los núcleos de las dos fibras son idénticos, están alineados de manera perfecta y se tocan entre sí, los conectores y los empalmes se realizaron adecuadamente y no hay suciedad en la unión. En la figura \ref{fig:conectLoss} se pueden observar diferentes causas de pérdidas en las conexiones de fibra óptica. Además, los conectores pueden tener diferentes formas de férulas (o terminaciones), diferentes tipos de pulidos en el extremo de la fibra donde se realiza la unión (figura \ref{fig:tiposPulidos}), lo que afecta también a las pérdidas resultantes. El extermo de la fibra tiene que estar debidamente limpio y pulido para reducir al máximo ñas pérdidas, ya que una superficie aspera puede dispersar o absorber luz.		
+		\end{figure}
+ 		%Las pérdidas se pueden reducir cuando los núcleos de las dos fibras son idénticos, están alineados de manera perfecta y se tocan entre sí.%, los conectores y los empalmes se realizaron adecuadamente y no hay suciedad en la unión. 
+ 		En la figura \ref{fig:conectLoss} se pueden observar diferentes causas de pérdidas en las conexiones de fibra óptica. Además, los conectores pueden tener diferentes formas de terminaciones, lo que afecta también a las pérdidas resultantes (figura \ref{fig:tiposPulidos}).
+ 		
+ 		El extremo de la fibra tiene que estar debidamente limpio y pulido para reducir al máximo las pérdidas, ya que una superficie aspera puede dispersar o absorber luz.		
    		\begin{figure}[H]
    			\centering
    			\includegraphics[width=0.55\textwidth]{./img/conectoresPulido}
@@ -289,7 +278,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
    			\label{fig:tiposPulidos}
    		\end{figure}
 
- 		En cuanto a los empalmes, que crean una unión permanente entre dos fibras, hay dos tipos: por fusión y mecánicos. En la figura \ref{fig:empalmeTipo} se observa en primer lugar un empalme por fusión y los demás son mecánicos. Los más realizados son los empalmes por fusión por la fiabilidad y la robustez de la unión, así como por brindar pérdidas y reflectancias menores.
+ 		Los empalmes crean una unión permanente entre dos fibras. Hay dos tipos: por fusión y mecánicos. En la figura \ref{fig:empalmeTipo} se observa en primer lugar un empalme por fusión y los demás son mecánicos. Los más realizados son los empalmes por fusión por la fiabilidad y la robustez de la unión, así como por brindar pérdidas y reflectancias menores.
  		
  		\begin{figure}[H]
  			\centering
@@ -298,16 +287,8 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
  			\label{fig:empalmeTipo}
  		\end{figure} 
  	
- 		 
- 		
- 		El proceso de fusión (Figura \ref{fig:procFusion}) consiste en primero pelar, limpiar y cortar los extremos de las fibras que se desee unir. Una vez se dispone en los extremos de la fibra desnuda, cortada con la cortadora de precisión y limpia con un paño adecuado y alcohol, se deben colocar cada una en las guías de la fusionadora. Después se ejecuta el programa de fusión adecuado, según sea la fibra. Por último, se le coloca a la fusión un manguito protector termocontraible o una protección tipo mordaza para que la fusión no se desprenda ante alguna adversidad.
- 		
- 		\begin{figure}[H]
- 			\centering
- 			\includegraphics[width=0.85\textwidth]{./img/procesoFusion}
- 			\caption{Proceso de empalme por fusión. \cite{FOAconect}} 
- 			\label{fig:procFusion}
- 		\end{figure}
+		
+ 
 
  	 \end{itemize}					
 
@@ -326,7 +307,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 				\end{itemize}
 				\item[$\cdot$] \underline{En función de la naturaleza de la propiedad óptica medida}
 				\begin{itemize}
-					\item Sensores de absorbancia
+					\item Sensores de absorbencia
 					\item Sensores de reflectancia
 					\item Sensores se luminiscencia (fluorescencia, quimioluminiscencia y bioluminiscencia)
 					\item Sensores de dispersión Raman
@@ -348,7 +329,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 			\label{fig:funcionamientoFBG}
 		\end{figure}		
 		
-		Los sensores de fibra óptica basados en redes de difracción de Bragg (\textit{Fibre Brag Gratings}), también denominadas FBGs, están diseñados para reflejar longitudes de onda determinadas (según el diseño) de la luz y transmitir el resto (Figura \ref{fig:funcionamientoFBG}). Para ello se crea en el núcleo de la fibra una variación periódica del índice de refracción, conocido cómo rejilla tipo Bragg. Esta variación sólo afecta a la transmisión de cierta longitud de onda, la que refleja. Este tipo de fenómeno se puede utilizar cómo filtro bloqueador de una longitud de onda, además de para medir parámetros físicos cómo la deformación o la temperatura. Por ejemplo, es muy común su uso para la monitorización de estructuras como puentes \cite{FOSensorFrancis}. 
+		Los sensores de fibra óptica basados en redes de difracción de Bragg (\textit{Fibre Brag Gratings}), también denominadas FBGs, se diseñan para reflejar determinadas longitudes de onda de la luz y transmitir el resto (Figura \ref{fig:funcionamientoFBG}). Para ello en el núcleo de la fibra se crea una variación periódica del índice de refracción, conocido cómo rejilla tipo Bragg. Esta variación sólo afecta a la transmisión de cierta longitud de onda, la que refleja. Este tipo de fenómeno se puede utilizar cómo filtro bloqueador de una longitud de onda, además de para medir parámetros físicos cómo la deformación o la temperatura. Por ejemplo, es muy común su uso para la monitorización de estructuras como puentes \cite{FOSensorFrancis}. 
 		
 		\begin{figure}[H]
 			\centering
@@ -376,7 +357,7 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 			\label{fig:medicBragg}
 		\end{figure}
 		
-		Para utilizar las FBGs cómo sensores se puede construir una distribución como la de la figura \ref{fig:medicBragg}. En primer lugar, se manda un pulso a través de la fibra, y se pone un analizador de espectros para anotar las variaciones en la longitud de onda de Bragg ($\lambda\textsubscript{B}$). Según sea el escenario a sensar pueden ser necesarias más de una FBG. Para ello se puede realizar una configuración en serie (empalmando FBGs) o en paralelo (utilizando multiplexores). 
+		Para utilizar las FBGs cómo sensores se puede construir una distribución como la de la figura \ref{fig:medicBragg}. En primer lugar, se manda un pulso a través de la fibra, y se pone un analizador de espectros para anotar las variaciones en la longitud de onda de Bragg ($\lambda\textsubscript{B}$). Según sea el escenario pueden ser necesarias más de una FBG. Para ello se puede realizar una configuración en serie (empalmando FBGs) o en paralelo (utilizando multiplexores). 
 		
 		\begin{figure}[H]
 			\centering
@@ -385,99 +366,23 @@ Este apartado tiene por finalidad realizar una clara exposición de los concepto
 			\label{fig:flexibleFBG}
 		\end{figure}
 	
-		Además, para proteger la FBG es conveniente cubrirla con un material flexible (figura \ref{fig:flexibleFBG}), como por ejemplo el policloruro de vinilo (PVC) o el polidimetilsiloxano (PDMS). En este trabajo se utiliza como material protector y estructura del guante el PDMS, expuetso en el siguiente punto.
+		Además, para proteger la FBG es conveniente cubrirla con un material flexible (figura \ref{fig:flexibleFBG}), como por ejemplo el policloruro de vinilo (PVC) o el polidimetilsiloxano (PDMS). En este trabajo se utiliza como material protector y estructura del guante el PDMS, expuesto en el siguiente punto.
 	
 \end{itemize}
 
 
-%-- POLIDIMETILSILOXANO - PDMS	
-\subsection{Polidimetilsiloxano (\textit{PDMS})}
-\label{sec:pdms3}
-	
-	Dentro de la familia de los polímeros orgánicos basados en silicio se encuentra el polidimetilsiloxano, también conocido como PDMS. Otro término por el que se le conoce es dimeticona, un tipo de aceite de silicona. Para abreviar, a partir de este punto en el documento se referirá a él como PDMS. El polidimetilsiloxano es un material cristalino, flexible y fácil de modelar \cite{propPDMS}.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.45\textwidth]{./img/compPDMS}
-		\caption{Composición química del PDMS. \cite{nedomaPDMS}} 
-		\label{fig:compFBG}
-	\end{figure}
-	
-	Su formulación química es $(H_{3}C)_{3}SiO[Si(CH_{3})_{2}O]_{n}Si(CH_{3})_{3}$ (figura \ref{fig:compFBG}), siendo $[Si(CH_{3})_{2}O]_{n}$ el monómero presente n veces en la molécula del PDMS según la proporción de este con el agente de curación \cite{propPDMS}.  	
- 
- 	Para su fabricación se mezcla el monómero con el agente de curación siguiendo una proporción n:1, en función de la consistencia con la que se desee el elastómero resultante. Cuanto mayor sea la n, mayor será la solidez del PDMS. Una vez hecha la mezcla es necesario que esta cure, ya sea a temperatura ambiente o aplicándole calor para que cure más rápidamente.
-  
- 	\begin{figure}[H]
-	 	\centering
-	 	\includegraphics[width=0.49\textwidth]{./img/liquidoPDMS}
-	 	\includegraphics[width=0.49\textwidth]{./img/solidoPDMS} 
-	 	\\(a)\hspace{7cm}(b)
-	 	\caption{(a) PDMS en estado líquido \cite{liquidoPDMS} (b) PDMS en estado sólido, trás la curación \cite{solidoPDMS}} 
-	 	\label{fig:slPDSM}
-	 \end{figure}
-  \textcolor{teal}{TENGO QUE ELEGIR ENTRE UNA PAREJA DE IMAGENES U OTRA, O UNA DE CADA. Debajo dejo los links de las de abajo por si necesito ponerlos en la bibliografia.\\}
-  	\begin{figure}[H]
-	 	\centering
-	 	\includegraphics[width=0.49\textwidth]{./img/liquidPDMS}
-	 	\includegraphics[width=0.49\textwidth]{./img/solidPDMS} 
-	 	\\(a)\hspace{7cm}(b)
-	 	\caption{(a) PDMS en estado líquido \cite{liquidoPDMS} (b) PDMS en estado sólido, trás la curación \cite{solidoPDMS}} 
-	 	\label{fig:slPDSM2}
-	 \end{figure}
- 
- 	\url{https://www.elveflow.com/microfluidic-tutorials/soft-lithography-reviews-and-tutorials/introduction-in-soft-lithography/pdms-softlithography-replication/}
- 
-	\url{https://www.instructables.com/id/Making-a-PDMS-Microfluidic-Device-With-Maskless-Mo/}
-	
-  	 La utilización de este elastómero en el ámbito de este trabajo es una buena opción ya que es inofensivo, no tóxico, no inflamable y eléctricamente no conductor.\cite{nedomaPDMS}
-
-	% Material empleado para embeber las FBGs.
-
-
-		
-%-- LABVIEW 	
-\subsection{LabVIEW (\textit{\underline{Lab}oratory \underline{V}irtual \underline{I}nstrument \underline{E}ngineering \underline{W}orkbech})}
-
-\label{sec:labview3}
-
-
-
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.45\textwidth]{./img/LabVIEWicon}
-		\caption{Logo LabVIEW. }
-		\label{fig:LabVIEWicon}
-	\end{figure}
-
-	LabVIEW es un software de National Instruments de ingeniería que pretende simplificar el diseño de sistemas software distribuidos de pruebas, medidas y control \cite{LabVIEWpage}. Es un lenguaje y un entorno de programación gráfica desarrollado por National Instruments. 
-	
-	En sus inicios LabVIEW estaba orientado únicamente a aplicaciones de control de equipos electrónicos utilizados para el desarrollo de sistemas de instrumentación. Tiene dos ventanas principales: el \textbf{Panel frontal} y el \textbf{Diagrama de bloques}, como se ve en la figura \ref{fig:ejLabVIEW}. El panel frontal alberga los botones, pantallas, etc. con el que el usuario interactúa una vez está desarrollado el software, interfaz de usuario. Mientras que el diagrama de bloques corresponde a la circuitería interna del programa, dónde se interconectan los elementos del panel frontal para operar con ellos, dando lugar a la programación del backend del software \cite{LabVIEWbook}. 
-	
-  	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.95\textwidth]{./img/LabVIEWej}
-		\\\hspace{2.5cm}(a)\hspace{6.5cm}(b)
-		\caption{(Ejemplo sencillo de LabVIEW: (a) Frontend; (b) Backend}\cite{LabVIEWyt} 
-		\label{fig:ejLabVIEW}
-	\end{figure}
-
-	En LabVIEW la programación se realiza en el Diagrama de bloques. Los programas están compuestos por los siguientes elementos: controles, funciones e indicadores. Estos elementos se conectan mediante ``cables''. De esta manera se genera el programa, definiendo la ``circulación'' de los datos.  
-	
-
- \textcolor{rositaoscuro}{asdf}
- \textcolor{teal}{sdffsd}
 %--Desarrollo del prototipo
-
-
-
 \section{Desarrollo del prototipo}
 \label{sec:prototipo3}
 %[Esta parte de desarrollo del proyecto parte de otro trabajo. Aquí mencionar algo que diga el trabajo de Silvia y mencionarla en la bibliografía.]
 
-La realización del primer desarrollo se origina a partir de un trabajo realizado con anterioridad en el grupo de investigación de la universidad\cite{SilviaTFM}. Se mejora el soporte físico (hardware) y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo.
+La realización del primer desarrollo se origina a partir de un trabajo comenzado con anterioridad en el grupo de investigación de algebra y aplicaciones del departamento de matemáticas de la universidad \cite{SilviaTFM}. 
 El prototipo consiste en un prototipo técnico y funcional de un guante sensorizado para medir los ángulos de flexión de los nudillos y la muñeca.
 
- \textcolor{rositaoscuro}{Tengo que sacar una foto mejor que esta donde se vean además el interrogador y la fuente.!!!}
+Se aprovecha del prototipo anterior el cableado, la fuente y el interrogador. El guante anterior es un grosor demasiado fino, tiene una forma un poco deforme de mano y están los cables sin agrupar (siendo muy complicado su transporte)
+Se mejora el soporte físico (hardware) volviendo a fabricar el guante y se desarrolla un nuevo programa con un interfaz de usuario simple e intuitivo. 
+
+
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.85\textwidth]{./img/prototipo}
@@ -490,6 +395,11 @@ El prototipo consiste en un prototipo técnico y funcional de un guante sensoriz
 \label{sec:materiales3}
 En este apartado se disponen brevemente los componentes utilizados para el desarrollo del prototipo. 
 
+
+\begin{itemize}
+
+
+\item \textbf{Fibras de Bragg}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.60\textwidth]{./img/fibraBraggpaquete2}
@@ -522,9 +432,38 @@ Las fibras de rejilla de Bragg (FBG) empleadas son de la empresa Micron Optics (
 	\label{tabla:mmedidas 80 cm}
 \end{table}
 
-Puesto que las fibras de Bragg resultan muy sensibles ante roturas y la aplicación del prototipo precisamente consiste en contorsionar las fibras es necesario embeber las fibras en un material moldeable pero rígido. Para ello se emplea PMDS, cuyas características ya se citan con anterioridad en este documento. En los siguientes apartados se expone con más detalle la fabricación del guante en PDMS. 
+Puesto que las fibras de Bragg resultan muy sensibles ante roturas y la aplicación del prototipo precisamente consiste en contorsionar las fibras es necesario embeber las fibras en un material moldeable pero rígido. Para ello se emplea PMDS.
 
-El conexionado entre el guante y los demás elementos que componen el prototipo se realiza con cables de fibra óptica monomodo unidos a través de conectores o empalmes. Los empalmes se han realizado mediante fusión con protección termocontraible. Los conectores utilizados para la fibra son los de Férula (\textit{Ferule Connector - FC}).
+
+	\item \textbf{Polidimetilsiloxano (\textit{PDMS})}
+	
+	Dentro de la familia de los polímeros orgánicos basados en silicio se encuentra el polidimetilsiloxano, también conocido como PDMS. Otro término por el que se le conoce es dimeticona, un tipo de aceite de silicona. Para abreviar, a partir de este punto en el documento se referirá a él como PDMS. El polidimetilsiloxano es un material cristalino, flexible y fácil de modelar \cite{propPDMS}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\textwidth]{./img/compPDMS}
+		\caption{Composición química del PDMS. \cite{nedomaPDMS}} 
+		\label{fig:compFBG}
+	\end{figure}
+	
+	Su formulación química es $(H_{3}C)_{3}SiO[Si(CH_{3})_{2}O]_{n}Si(CH_{3})_{3}$ (figura \ref{fig:compFBG}), siendo $[Si(CH_{3})_{2}O]_{n}$ el monómero presente n veces en la molécula del PDMS según la proporción de este con el agente de curación \cite{propPDMS}. \\ 
+	Para su fabricación se mezcla el monómero con el agente de curación siguiendo una proporción n:1, en función de la consistencia con la que se desee el elastómero resultante. Cuanto mayor sea la n, mayor será la solidez del PDMS. Una vez hecha la mezcla es necesario que esta cure, ya sea a temperatura ambiente o aplicándole calor para que cure más rápidamente.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.49\textwidth]{./img/liquidPDMS}
+		\includegraphics[width=0.49\textwidth]{./img/solidPDMS} 
+		\\(a)\hspace{7cm}(b)
+		\caption{PDMS en estado líquido(a) \cite{liquidoPDMS} y sólido(b) trás la curación \cite{solidoPDMS}} 
+		\label{fig:slPDSM2}
+	\end{figure}
+	
+	La utilización de este elastómero en el ámbito de este trabajo es una buena opción ya que es inofensivo, no tóxico, no inflamable y eléctricamente no conductor.\cite{nedomaPDMS}
+	
+
+
+
+\item \textbf{Divisor de fibra óptica}
 
 Para que llegue el pulso transmitido a cada una de las fibras de Bragg hace falta un dispositivo que se capaz de dejar pasar la luz de una sola fibra a varias y combinar en el sentido inverso los pulsos de luz que retornen. Esta función la cumple un divisor de fibra óptica. Se ha empleado un splitter de PLC de una entrada y ocho salidas terminadas en conectores de férula, de las cuales sólo serán necesarias seis (ver figura \ref{fig:splitter}).
 
@@ -536,7 +475,13 @@ Para que llegue el pulso transmitido a cada una de las fibras de Bragg hace falt
 
 En cuanto a la transmisión de la luz y su posterior recepción se necesita una fuente y un interrogador. 
 
+\item \textbf{Fuente}
+
 La fuente es un emisor de luz de banda ancha que puede provenir de un diodo superluminiscente (SLED) o de emisión espontánea amplificada (ASE).  La fuente integrada en el prototipo es la fuente de diodo superluminiscente (SLED) DL-BP1-1501A de Ibsen Photonics (ver figura \ref{fig:FuenteInterrogador}). Esta fuente es comunmente utilizada para sistemas que utilizan FBGs. Emite pulsos de 70nm de ancho de banda en el rango de los 1550nm. La versión empleada dispone de una interfaz de LabView que permite configurar sus parámetros de emisión cuando fuera necesario. La fuente necesita ser configurada una vez y funciona según su última configuración la próxima vez que se encienda. 
+
+
+\item \textbf{Interrogador}
+
 
 El interrogador es el dispositivo que detecta la señal de luz proveniente de la fibra y, en este escenario, la transmite al ordenador. En este proyecto se trabaja con el interrogador USB I–MON 256/512 del proveedor Ibsen Photonics, al igual que la fuente (ver figura \ref{fig:FuenteInterrogador}). Este interrogador incluye un software implementado en LabView que sirve de herramienta para el usuario para visualizar la detección de luz desde el ordenador a través del puerto USB en tiempo real.  Este software sirve de base para la realización del interfaz de este proyecto. 
 
@@ -550,52 +495,19 @@ El interrogador es el dispositivo que detecta la señal de luz proveniente de la
 \end{figure}
 
 
+ 
+\end{itemize}
 
-Para el desarrollo del software se utiliza un portátil Asus GL502VSK con 32,0 GB de memoria física (RAM) y un procesador Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz.  
-
-Además se han diseñado y fabricado el molde para fabricar el molde y  un armazón para almacenar de manera organizada y segura el cableado de las fibras junto con el splitter.
-
-\subsection{Instrumental}
-\label{sec:instrumental3}
-Este prototipo conlleva el uso de una variada instrumentación. A continuación se mencionan algunos de los instrumentos físicos más notables empleados.  
-
-Para la manufacturación del molde y del armazón se ha empleado tecnología de impresión 3D en material plástico PLA. Se han utilizado dos modelos de impresora debido a la disponibilidad de estas en la universidad, la impresora Hephestos de BQ y Witwox de BQ también (ver figura \ref{fig:impresoras3D}). Son muchos los materiales con los que se pueden realizar impresiones en 3D a partir de un diseño, en este caso se ha escogido el PLA por ser barato y suficiente para las características necesarias en el prototipo.
-    
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.49\textwidth]{./img/hephestos}
-	\includegraphics[width=0.49\textwidth]{./img/witbox} 
-	\\(a)\hspace{7cm}(b)
-	\caption{(a) Hephestos (b) Witbox} 
-	\label{fig:impresoras3D}
-\end{figure}
-
-Para la fabricación del guante de PDMS se han empleado herramientas que ha simple vista pueden parecer de aplicación tan dispares como una báscula, un horno y una empalmadora de fibra (ver figura \ref{fig:herramientas}; \ref{fig:empalmadora}). La báscula utilizada es la disponible en el laboratorio de la universidad tiene ua precisión de miligramos y en este proyecto se utiliza para utilizar con exactitud la proporción del monómero y el agente de cura en la disolución de PDMS. El horno se emplea para conseguir que el PDMS se cure con la ayuda del calor en menos tiempo.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{./img/bascula}
-	\includegraphics[width=0.3\textwidth]{./img/horno} 
-	\\(a)\hspace{4cm}(b)
-	\caption{(a) Báscula (b) Horno } 
-	\label{fig:herramientas}
-\end{figure}
-
-Para empalmar los sensores de FBG con el resto del prototipo se emplea una empalmadora de fibra. La empalmadora utilizada tiene la ventaja de incluir un apartado para fundir los protectores termocontraibles de empalmes. 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.3\textwidth]{./img/empalmadora}
-	\caption{Empalmadora de fibra} \label{fig:empalmadora}
-\end{figure}
+Además se han diseñado y fabricado el molde para fabricar el guante y  un armazón para almacenar de manera organizada y segura el cableado de las fibras junto con el splitter.
 
 
-\subsection{Proceso de fabricación del soporte físico}
+
+
+\subsection{Fabricación del prototipo}
 \label{sec:proceso3}
 %Elaboración
-
- \textcolor{rositaoscuro}{Elaboración/Proceso de fabricación}
-
+ 
+ 
 Para que sea más cómoda la explicación del proceso de elaboración del prototipo se divide este en tres partes: modelado 3D, fabricación del guante y montaje del prototipo completo.
 
 \begin{itemize}
@@ -625,16 +537,31 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	 	\includegraphics[width=1\textwidth]{./img/ordenCaja}
 	 	\caption{Antes y después de tener la caja} \label{fig:ordenCaja}
 	\end{figure}
-	 	
- 	El diseño se ha dividido en cuatro partes, ya que no cabía todo el diseño en las impresoras 3D disponibles. Las medidas completas son de $31.5\times15.5\times9$ cm. Tres de estas partes forman la base de la caja y una cuarta parte sirve de tapa protectora del compartimento de los conectores. La base de se divide en el compartimento para los cables de fibra procedentes del guante, el compartimento para los conectores  y el del splitter. Las cuatro partes se encajan entre ellas gracias a unas ranuras incluidas en el diseño para este fin. Todo esto se puede observar en la figura \ref{fig:caja}.
- 
+
+
+
+
   	\begin{figure}[H]
 		\centering
-	 	\includegraphics[width=0.8\textwidth]{./img/caja}
-	 	\caption{Diseño 3D de la caja} \label{fig:caja}
+		\includegraphics[width=0.8\textwidth]{./img/caja}
+		\caption{Diseño 3D de la caja} \label{fig:caja}
 	\end{figure}
+ 	
+ 	El diseño se ha dividido en cuatro partes, ya que no cabía todo el diseño en las impresoras 3D disponibles. Las medidas completas son de $31.5\times15.5\times9$ cm. Tres de estas partes forman la base de la caja y una cuarta parte sirve de tapa protectora del compartimento de los conectores. La base de se divide en el compartimento para los cables de fibra procedentes del guante, el compartimento para los conectores  y el del splitter. Las cuatro partes se encajan entre ellas gracias a unas ranuras incluidas en el diseño para este fin. Todo esto se puede observar en la figura \ref{fig:caja}.
  
- 	Ambos diseños se imprimen en PLA por ser biodegrable. Se trata e un polímero constituido por moléculas de ácido láctico, obtenido generalmente de tratar almidón de maíz, yuca o caña de azúcar. Además tiene precio y características adecuadas para las necesidades del proyecto. \cite{bioPLA}
+
+ 	Para la manufacturación del molde y del armazón se ha empleado tecnología de impresión 3D en material plástico PLA. Se han utilizado dos modelos de impresora debido a la disponibilidad de estas en la universidad, la impresora Hephestos de BQ y Witwox de BQ también (ver figura \ref{fig:impresoras3D}). Son muchos los materiales con los que se pueden realizar impresiones en 3D a partir de un diseño. En este caso ambos diseños se imprimen en PLA por ser biodegrable. Se trata e un polímero constituido por moléculas de ácido láctico, obtenido generalmente de tratar almidón de maíz, yuca o caña de azúcar. Además tiene precio y características adecuadas para las necesidades del proyecto. \cite{bioPLA}
+ 	
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[width=0.49\textwidth]{./img/hephestos}
+	 	\includegraphics[width=0.49\textwidth]{./img/witbox} 
+	 	\\(a)\hspace{7cm}(b)
+	 	\caption{(a) Hephestos (b) Witbox} 
+	 	\label{fig:impresoras3D}
+	 \end{figure}
+	
+	 	
  	
 
 % _ Fabricación del guante:
@@ -648,6 +575,8 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\includegraphics[width=0.5\textwidth]{./img/PDMS}
 		\caption{PDMS: Elastómero y agente de cura.} \label{fig:pdms}
 	\end{figure}	
+
+	
 
 	Además es necesario el molde presentado en el apartado anterior y las fibras de Bragg. En este apartado se utilizan diversas herramientas del laboratorio: capsula petri, báscula, vaso de precipitados, pipeta de plástico, espátula y  horno. 
 	
@@ -717,6 +646,8 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	En este apartado se utilizan varias herramientas del laboratorio: cortadora de precisión, alcohol, servilletas específicas para limpiar fibra, empalmadora, mechero y empalmes por fusión.
 	
+	%El conexionado entre el guante y los demás elementos que componen el prototipo se realiza con cables de fibra óptica monomodo unidos a través de conectores o empalmes. Los empalmes se han realizado mediante fusión con protección termocontraible. Los conectores utilizados para la fibra son los de Férula (\textit{Ferule Connector - FC}).
+	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\textwidth]{./img/diagramaFBG}
@@ -729,6 +660,16 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	Partiendo del punto práctico en el que se queda el desarrollo del apartado anterior se toman las fibras monomodo y el splitter y se procede a la unión de estas tres partes. 
 	
+	El proceso de fusión (Figura \ref{fig:procFusion}) consiste en primero pelar, limpiar y cortar los extremos de las fibras que se desee unir. Una vez se dispone en los extremos de la fibra desnuda, cortada con la cortadora de precisión y limpia con un paño adecuado y alcohol, se deben colocar cada una en las guías de la fusionadora. Después se ejecuta el programa de fusión adecuado, según sea la fibra. Por último, se le coloca a la fusión un manguito protector termocontraible o una protección tipo mordaza para que la fusión no se desprenda ante alguna adversidad. 
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.85\textwidth]{./img/procesoFusion}
+		\caption{Proceso de empalme por fusión. \cite{FOAconect}} 
+		\label{fig:procFusion}
+	\end{figure}
+	
+	
 	\begin{enumerate}
 		\item \underline{Unión fibras FBG - Fibra monomodo}
 		
@@ -739,7 +680,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 		\label{fig:union1}
 	\end{figure}  
 	
-	Esta unión se realiza mediante fusionado de fibra. El proceso de fusionar se encuentra explicado en el apartado del \textit{``Marco Conceptual''} dedicado a los \textit{``Conectores y empalmes''}. De todas formas merece mención el paso de pelar la fibra de Bragg, ya que debido a lo fina que es ha sido necesaria la ayuda del mechero para pelarla. Además, para las demás herramientas de las que se disponía, la fibra desnuda también ha resultado más fina de para lo que estaban preparadas. En cual quier caso, tras varios intentos fallidos, se ha conseguido soldar las fibras debidamente. Por último, es necesario colocar los protectores termocontraibles introducidos en la fibra antes de soldarla.
+	Esta unión se realiza mediante fusionado de fibra, ya explicado. Merece mención el paso de pelar la fibra de Bragg, ya que debido a lo fina que es ha sido necesaria la ayuda del mechero para pelarla. Además, para las demás herramientas de las que se disponía, la fibra desnuda también ha resultado más fina de para lo que estaban preparadas. En cual quier caso, tras varios intentos fallidos, se ha conseguido soldar las fibras debidamente. Por último, es necesario colocar los protectores termocontraibles introducidos en la fibra antes de soldarla.
 	
 	\begin{figure}[H]
 		\centering
@@ -750,6 +691,7 @@ Para que sea más cómoda la explicación del proceso de elaboración del protot
 	
 	En la figura \ref{fig:fusionadora} se pueden observar dentro del proceso de empalme el paso de la colocación de la fibra en la fusionadora y su representación en la pantalla. Sobre el proceso en pantalla, cuando la fibra está colocada en la fusionadora y cerrada la tapa, en la pantalla se ven aumentados los extremos de la fibra. La empalmadora se encarga de alinear las fibras para que los núcleos coincidan. Cuando la fusión se ha realizado por la pantalla se muestra las pérdidas que tiene el enlace.  
 	
+
 	
 	\item \underline{Fibra monomodo - Splitter}
 	
@@ -796,7 +738,38 @@ En este punto de la memoria se encuentran todos los elementos del prototipo disp
 \subsection{Programación del software}
 \label{sec:programacion}
 
-En este apartado se presentan el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$ ya que el software parte del programa del interrogador como base de programación, y este está desarrollado en este lenguaje. Por lo tanto se divide el desarrollo del software en diversos hitos:
+En este apartado se presentan el desarrollo del software para la obtención de los datos. Toda la programación software se ha realizado en LabVIEW$^{\textregistered}$ ya que el software parte del programa del interrogador como base de programación, y este está desarrollado en este lenguaje. 
+
+\begin{itemize}		
+%-- LABVIEW 	
+	
+	\item \textbf{LabVIEW (\textit{\underline{Lab}oratory \underline{V}irtual \underline{I}nstrument \underline{E}ngineering \underline{W}orkbech})}
+
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\textwidth]{./img/LabVIEWicon}
+		\caption{Logo LabVIEW. }
+		\label{fig:LabVIEWicon}
+	\end{figure}
+
+
+	LabVIEW es un software de National Instruments de ingeniería que pretende simplificar el diseño de sistemas software distribuidos de pruebas, medidas y control \cite{LabVIEWpage}. Es un lenguaje y un entorno de programación gráfica desarrollado por National Instruments. \\	
+	En sus inicios LabVIEW estaba orientado únicamente a aplicaciones de control de equipos electrónicos utilizados para el desarrollo de sistemas de instrumentación. Tiene dos ventanas principales: el \textbf{Panel frontal} y el \textbf{Diagrama de bloques}, como se ve en la figura \ref{fig:ejLabVIEW}. El panel frontal alberga los botones, pantallas, etc. con el que el usuario interactúa una vez está desarrollado el software, interfaz de usuario. Mientras que el diagrama de bloques corresponde a la circuitería interna del programa, dónde se interconectan los elementos del panel frontal para operar con ellos, dando lugar a la programación del backend del software \cite{LabVIEWbook}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{./img/LabVIEWej}
+	\\\hspace{2.5cm}(a)\hspace{6.5cm}(b)
+	\caption{(Ejemplo sencillo de LabVIEW: (a) Frontend; (b) Backend}\cite{LabVIEWyt} 
+	\label{fig:ejLabVIEW}
+\end{figure}
+
+	En LabVIEW la programación se realiza en el Diagrama de bloques. Los programas están compuestos por los siguientes elementos: controles, funciones e indicadores. Estos elementos se conectan mediante ``cables''. De esta manera se genera el programa, definiendo la ``circulación'' de los datos.  
+
+\end{itemize}
+
+El desarrollo del software se divide en los hitos de ``Familiarización con el programa'', ``Establecimiento del protocolo de medida'', ``Interfaz de usuario'', ``Generación de informes-Guardado'' y ``Resultado final del software''. Todos estos hitos se exponen a continuación:
 
 \begin{itemize} [label=]
 	\item \textbf{Hito 1:} \textit{\textbf{Familiarización con el programa}}
@@ -1064,7 +1037,7 @@ La fuente, alimentada por una red de corriente alterna de $\sim$230V a 50Hz, emi
 
 En el ordenador, dónde se es está ejecutando en el programa se visualizaría el espectro de la señal, los seis pulsos en sus diferentes longitudes de onda. Y con la información de estos pulsos es con la que el programa utiliza. 
 
-\textcolor{rositaoscuro}{Aquí debería explicar como funciona el programa internamente? El problema que tengo es que no he llegado a cerrar el programa. Ya que cuando por fin tuvimos el guante hecho bien bien, lo conectamos y no funcionaban algunas fibras, y fue como, no merece la pena seguir invirtiendo más tiempo en hacer que funcione algo que nunca va a estar 100 por 100 y que no tiene la funcionalidad que queremos blablabla}
+
 
 \section{Resultados y análisis}
 \label{sec:resultados3}
